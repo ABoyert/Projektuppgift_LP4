@@ -12,7 +12,7 @@ public class iMat extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("imat_main.fxml"));
         primaryStage.setTitle("iMat");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 1600, 900));
         primaryStage.show();
     }
 
