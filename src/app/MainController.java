@@ -32,7 +32,7 @@ public class MainController implements Initializable{
             testLabel.setText(db.getProduct(result).getName());
             testImage.setImage(db.getFXImage(db.getProduct(result)));
         }
-        catch (NumberFormatException err) {
+        catch (NumberFormatException | NullPointerException err) {
             testLabel.setText("Inget resultat");
             testImage.setImage(null);
         }
