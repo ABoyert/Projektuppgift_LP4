@@ -13,19 +13,12 @@ import java.util.ResourceBundle;
 public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
 
-    @FXML
-    Label testLabel;
-    @FXML
-    TextField testTextField;
-    @FXML
-    ImageView testImage;
-
     @Override
     public void initialize(URL url, ResourceBundle rb) {
 
     }
 
-    @FXML
+    /*@FXML
     public void getTestSearchResult() {
         try {
             int result = Integer.parseInt(testTextField.getCharacters().toString());
@@ -36,7 +29,7 @@ public class MainController implements Initializable{
             testLabel.setText("Inget resultat");
             testImage.setImage(null);
         }
-    }
+    }*/
 
 
 }
