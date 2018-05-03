@@ -12,14 +12,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" style="-fx-background-color: #CBA5A9;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MainController">
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MainController">
    <top>
       <AnchorPane BorderPane.alignment="CENTER">
          <children>
           <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="840.0" prefHeight="78.0" prefWidth="1000.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <TextField layoutX="186.0" layoutY="24.0" prefHeight="32.0" prefWidth="382.0" promptText="Sök här..." AnchorPane.leftAnchor="186.0" AnchorPane.rightAnchor="432.0" AnchorPane.topAnchor="24.0" />
+                  <TextField layoutX="186.0" layoutY="18.0" prefHeight="43.0" prefWidth="882.0" promptText="Sök: Kycklng, Fisk, Nötter m.m" AnchorPane.leftAnchor="186.0" AnchorPane.rightAnchor="432.0" AnchorPane.topAnchor="18.0" />
                   <Label layoutX="59.0" layoutY="14.0" text="iMat" AnchorPane.leftAnchor="59.0" AnchorPane.topAnchor="14.0">
                      <font>
                         <Font size="30.0" />
@@ -53,9 +52,13 @@
    <center>
     <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="300.0" BorderPane.alignment="CENTER">
          <children>
-            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutY="88.0" prefHeight="434.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="88.0">
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutY="88.0" prefHeight="434.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="88.0">
                <content>
-                  <FlowPane fx:id="mainPane" hgap="30.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="30.0" />
+                  <AnchorPane style="-fx-background-color: #E7E0DD;">
+                     <children>
+                        <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
                </content>
             </ScrollPane>
             <AnchorPane prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
@@ -84,7 +87,7 @@
                <children>
                   <VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="333.0">
                      <children>
-                        <Label contentDisplay="RIGHT" graphicTextGap="50.0" prefHeight="40.0" prefWidth="289.0" text="   Varor">
+                        <Label contentDisplay="RIGHT" graphicTextGap="50.0" prefHeight="60.0" prefWidth="334.0" text="   Varor">
                            <graphic>
                               <ImageView fitHeight="60.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
                            </graphic>
@@ -105,19 +108,27 @@
          <children>
             <AnchorPane style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <VBox alignment="TOP_RIGHT" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+                  <Button fx:id="goToKassa" mnemonicParsing="false" prefHeight="68.0" prefWidth="370.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <VBox alignment="TOP_RIGHT" layoutX="2.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="366.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Label prefHeight="70.0" prefWidth="366.0" text="Kundvagn">
-                           <graphic>
-                              <ImageView fx:id="cartImage" fitHeight="60.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-                           </graphic>
                            <font>
                               <Font size="25.0" />
                            </font>
+                           <graphic>
+                              <ImageView fx:id="cartImage" fitHeight="60.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                           </graphic>
                         </Label>
-                        <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="26.0" prefWidth="142.0" text="Töm Kundvagn" textAlignment="RIGHT" />
+                        <ButtonBar prefHeight="46.0" prefWidth="366.0">
+                           <buttons>
+                              <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #d86955;" text="Töm Kundvagn" textAlignment="RIGHT" />
+                           </buttons>
+                        </ButtonBar>
                         <FlowPane fx:id="cartPane" prefHeight="530.0" prefWidth="289.0" />
-                        <Button fx:id="goToKassa" mnemonicParsing="false" prefHeight="68.0" prefWidth="370.0" text="Gå Till Kassa" />
                      </children>
                   </VBox>
                </children>
