@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MainController">
    <children>
       <StackPane prefHeight="523.0" prefWidth="837.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -68,7 +67,7 @@
                                             <items>
                                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="413.0" prefWidth="395.0" SplitPane.resizableWithParent="false">
                                                    <children>
-                                                      <StackPane prefHeight="443.0" prefWidth="469.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                      <StackPane fx:id="mainPane" prefHeight="443.0" prefWidth="469.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <children>
                                                             <AnchorPane prefHeight="200.0" prefWidth="200.0" />
                                                             <AnchorPane prefHeight="200.0" prefWidth="200.0" />
