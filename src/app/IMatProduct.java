@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
@@ -13,10 +14,13 @@ public class IMatProduct extends AnchorPane {
     @FXML
     ImageView productImage;
     @FXML
-    Label productName, productPrice;
+    Label productName, productPrice, numberProduct;
+    @FXML
+    Button addProduct, removeProduct;
 
     private MainController parentController;
     private Product product;
+    private int amount = 0;
 
     public IMatProduct(Product product, MainController mainController) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("imat_product.fxml"));
@@ -29,10 +33,19 @@ public class IMatProduct extends AnchorPane {
             throw new RuntimeException(exception);
         }
 
-        productPrice.setText(product.getPrice() + " kr");
-        productName.setText(product.getName());
-        productImage.setImage(mainController.db.getFXImage(product));
         this.product = product;
         this.parentController = mainController;
+    }
+
+    @FXML
+    private void addItem() {
+        this.amount++;
+        numberProduct.setText(amount + " st");
+    }
+
+    @FXML
+    private void removeItem() {
+        this.amount--;
+        numberProduct.setText(amount + " st");
     }
 }

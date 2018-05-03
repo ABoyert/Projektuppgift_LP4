@@ -7,62 +7,45 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<?import javafx.scene.layout.*?>
+<fx:root prefHeight="300.0" prefWidth="150.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
 
-<fx:root prefHeight="300.0"
-         prefWidth="150.0"
-         type="javafx.scene.layout.AnchorPane"
-         xmlns="http://javafx.com/javafx/9.0.4"
-         xmlns:fx="http://javafx.com/fxml/1">
-
-    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0"
-                prefWidth="265.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
         <children>
             <ImageView fx:id="productImage" fitHeight="145.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../Chalmers/Design%20och%20konstruktion/Lab%203/Lab2/RecipeSearch/src/recipesearch/resources/icon_close_hover.png"/>
+                    <Image url="@../../../Chalmers/Design%20och%20konstruktion/Lab%203/Lab2/RecipeSearch/src/recipesearch/resources/icon_close_hover.png" />
                 </image>
             </ImageView>
-            <Button fx:id="moreInfoButton" layoutX="153.0" layoutY="4.0" mnemonicParsing="false" prefHeight="98.0"
-                    prefWidth="106.0" text="Mer info" wrapText="true"/>
+            <Button fx:id="moreInfoButton" layoutX="153.0" layoutY="4.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="106.0" text="Mer info" wrapText="true" />
             <AnchorPane layoutY="288.0" prefHeight="89.0" prefWidth="266.0">
                 <children>
-                    <Button fx:id="addProduct" layoutX="185.0" layoutY="10.0" mnemonicParsing="false" prefHeight="34.0"
-                            prefWidth="74.0" text="+"/>
-                    <Button fx:id="removeProduct" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" prefHeight="34.0"
-                            prefWidth="73.0" text="-"/>
-                    <Button fx:id="addNumberProductCart" layoutX="7.0" layoutY="49.0" mnemonicParsing="false"
-                            prefHeight="34.0" prefWidth="252.0" text="Lägg Till i Kundvagn"/>
-                    <Label fx:id="numberProduct" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0"
-                           layoutY="11.0" prefHeight="34.0" prefWidth="98.0" text="99999999 st"/>
+                    <Button fx:id="addProduct" layoutX="185.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="34.0" prefWidth="74.0" text="+" />
+                    <Button fx:id="removeProduct" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="34.0" prefWidth="73.0" text="-" />
+                    <Button fx:id="addNumberProductCart" layoutX="7.0" layoutY="49.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="252.0" text="Lägg Till i Kundvagn" />
+                    <Label fx:id="numberProduct" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="11.0" prefHeight="34.0" prefWidth="98.0" text="99999999 st" />
                 </children>
             </AnchorPane>
-            <Label fx:id="productName" layoutX="6.0" layoutY="160.0" prefHeight="34.0" prefWidth="252.0"
-                   text="VattenMelon">
+            <Label fx:id="productName" layoutX="6.0" layoutY="160.0" prefHeight="34.0" prefWidth="252.0" text="VattenMelon">
                 <font>
-                    <Font size="20.0"/>
+                    <Font size="20.0" />
                 </font>
             </Label>
             <Label fx:id="productPrice" layoutX="7.0" layoutY="243.0" prefHeight="46.0" prefWidth="126.0" text="200 kr">
                 <font>
-                    <Font size="29.0"/>
+                    <Font size="29.0" />
                 </font>
             </Label>
-            <Label fx:id="productWeight" layoutX="6.0" layoutY="194.0" prefHeight="22.0" prefWidth="182.0"
-                   text="700 g ">
+            <Label fx:id="productWeight" layoutX="6.0" layoutY="194.0" prefHeight="22.0" prefWidth="182.0" text="700 g ">
                 <font>
-                    <Font size="15.0"/>
+                    <Font size="15.0" />
                 </font>
             </Label>
-            <Label fx:id="productComparePrice" layoutX="7.0" layoutY="216.0" prefHeight="20.0" prefWidth="182.0"
-                   text="400 kr/kg">
+            <Label fx:id="productComparePrice" layoutX="7.0" layoutY="216.0" prefHeight="20.0" prefWidth="182.0" text="400 kr/kg">
                 <font>
-                    <Font size="14.0"/>
+                    <Font size="14.0" />
                 </font>
             </Label>
         </children>
     </AnchorPane>
 
 </fx:root>
-
-
