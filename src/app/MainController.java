@@ -15,7 +15,7 @@ public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
 
     @FXML
-    FlowPane mainPane;
+    FlowPane mainPane, cartPane;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -27,8 +27,19 @@ public class MainController implements Initializable{
 
         for (Product p : allProducts) {
             IMatProduct item = new IMatProduct(p, this);
+            item.numberProduct.setText("0 st");
+            item.productPrice.setText(p.getPrice() + " kr");
+            item.productName.setText(p.getName());
+            item.productImage.setImage(db.getFXImage(p));
             mainPane.getChildren().add(item);
         }
+    }
+
+    private void addToCart(Product p, int amount) {
+        IMatCartProduct item = new IMatCartProduct(p, this);
+        item.cartElementTotalProduct.setText(amount + " st");
+        item.cartElementImage.setImage(db.getFXImage(p));
+        cartPane.getChildren().add(item);
     }
 
     /*@FXML
