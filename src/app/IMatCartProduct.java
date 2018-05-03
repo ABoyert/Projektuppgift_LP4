@@ -12,7 +12,7 @@ public class IMatCartProduct extends AnchorPane {
     @FXML
     ImageView cartElementImage;
     @FXML
-    Label cartElementTotalProduct;
+    Label cartElementTotalProduct, cartElementName, cartElementTotalPrice;
 
     private MainController parentController;
     private Product product;

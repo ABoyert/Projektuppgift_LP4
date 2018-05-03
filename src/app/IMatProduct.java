@@ -38,6 +38,11 @@ public class IMatProduct extends AnchorPane {
     }
 
     @FXML
+    private void addToCart() {
+        parentController.addToCart(product, amount);
+    }
+
+    @FXML
     private void addItem() {
         this.amount++;
         numberProduct.setText(amount + " st");

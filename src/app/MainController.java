@@ -35,8 +35,10 @@ public class MainController implements Initializable{
         }
     }
 
-    private void addToCart(Product p, int amount) {
+    public void addToCart(Product p, int amount) {
         IMatCartProduct item = new IMatCartProduct(p, this);
+        item.cartElementName.setText(p.getName());
+        item.cartElementTotalPrice.setText(p.getPrice() * amount + " kr");
         item.cartElementTotalProduct.setText(amount + " st");
         item.cartElementImage.setImage(db.getFXImage(p));
         cartPane.getChildren().add(item);
