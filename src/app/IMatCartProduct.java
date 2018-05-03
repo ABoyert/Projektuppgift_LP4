@@ -7,15 +7,15 @@ import javafx.scene.layout.AnchorPane;
 import se.chalmers.cse.dat216.project.Product;
 import java.io.IOException;
 
-public class IMatProduct extends AnchorPane {
+public class IMatCartProduct extends AnchorPane {
     @FXML
     ImageView cartElementImage;
 
     private MainController parentController;
     private Product product;
 
-    public IMatProduct(Product product, MainController mainController) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("imat_product.fxml"));
+    public IMatCartProduct(Product product, MainController mainController) {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("imat_cart_product.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

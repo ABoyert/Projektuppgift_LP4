@@ -2,9 +2,6 @@ package app;
 
 import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.IMatDataHandler;
 import se.chalmers.cse.dat216.project.Product;
@@ -28,7 +25,7 @@ public class MainController implements Initializable{
         List<Product> allProducts = db.getProducts();
 
         for (Product p : allProducts) {
-            IMatProduct item = new IMatProduct(p, this);
+            IMatCartProduct item = new IMatCartProduct(p, this);
             mainPane.getChildren().add(item);
         }
     }
