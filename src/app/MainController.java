@@ -6,6 +6,7 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.IMatDataHandler;
 import se.chalmers.cse.dat216.project.Product;
+import se.chalmers.cse.dat216.project.ShoppingItem;
 
 import java.net.URL;
 import java.util.List;
@@ -13,16 +14,19 @@ import java.util.ResourceBundle;
 
 public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
+    ShoppingCart shoppingCart;
 
     @FXML
     FlowPane mainPane, cartPane;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        shoppingCart = new ShoppingCart();
         updateProducts();
     }
 
     private void updateProducts() {
+        mainPane.getChildren().clear();
         List<Product> allProducts = db.getProducts();
 
         for (Product p : allProducts) {
@@ -35,13 +39,13 @@ public class MainController implements Initializable{
         }
     }
 
-    public void addToCart(Product p, int amount) {
-        IMatCartProduct item = new IMatCartProduct(p, this);
-        item.cartElementName.setText(p.getName());
-        item.cartElementTotalPrice.setText(p.getPrice() * amount + " kr");
-        item.cartElementTotalProduct.setText(amount + " st");
-        item.cartElementImage.setImage(db.getFXImage(p));
-        cartPane.getChildren().add(item);
+    public void updateCart() {
+        cartPane.getChildren().clear();
+
+        for (ShoppingItem shopItem : shoppingCart.getItems()) {
+            IMatCartProduct cartItem = new IMatCartProduct(shopItem, this);
+            cartPane.getChildren().add(cartItem);
+        }
     }
 
     /*@FXML

@@ -7,6 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import se.chalmers.cse.dat216.project.Product;
+import se.chalmers.cse.dat216.project.ShoppingItem;
 
 import java.io.IOException;
 
@@ -39,7 +40,10 @@ public class IMatProduct extends AnchorPane {
 
     @FXML
     private void addToCart() {
-        parentController.addToCart(product, amount);
+        ShoppingItem shopItem = new ShoppingItem(product);
+        shopItem.setAmount(amount);
+        parentController.shoppingCart.addItem(shopItem);
+        parentController.updateCart();
     }
 
     @FXML
