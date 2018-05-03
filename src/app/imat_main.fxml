@@ -69,14 +69,15 @@
       </VBox>
    </left>
    <right>
-      <VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="290.0" BorderPane.alignment="CENTER">
+      <VBox alignment="TOP_RIGHT" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="290.0" BorderPane.alignment="CENTER">
          <children>
-            <Label prefHeight="88.0" prefWidth="254.0" text="Kundvagn">
+            <Label prefHeight="66.0" prefWidth="254.0" text="Kundvagn">
                <graphic>
-                  <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="cartImage" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Label>
-            <FlowPane fx:id="cartPane" prefHeight="441.0" prefWidth="290.0" />
+            <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="26.0" prefWidth="142.0" text="Töm Kundvagn" textAlignment="RIGHT" />
+            <FlowPane fx:id="cartPane" prefHeight="434.0" prefWidth="290.0" />
          </children>
       </VBox>
    </right>
