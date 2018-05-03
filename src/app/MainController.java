@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
+import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.IMatDataHandler;
 import se.chalmers.cse.dat216.project.Product;
@@ -14,7 +15,7 @@ public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
 
     @FXML
-    StackPane mainPane;
+    FlowPane mainPane;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -25,7 +26,7 @@ public class MainController implements Initializable{
         List<Product> allProducts = db.getProducts();
 
         for (Product p : allProducts) {
-            IMatCartProduct item = new IMatCartProduct(p, this);
+            IMatProduct item = new IMatProduct(p, this);
             mainPane.getChildren().add(item);
         }
     }
