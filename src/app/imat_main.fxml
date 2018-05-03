@@ -56,7 +56,7 @@
                <content>
                   <AnchorPane style="-fx-background-color: #E7E0DD;">
                      <children>
-                        <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                        <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
                      </children>
                   </AnchorPane>
                </content>
