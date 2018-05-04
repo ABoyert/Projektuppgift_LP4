@@ -25,11 +25,17 @@
             </AnchorPane>
             <Label fx:id="cartElementName" layoutX="151.0" prefHeight="35.0" prefWidth="143.0" text="Name" AnchorPane.rightAnchor="70.0">
                 <font>
-                    <Font size="17.0" />
+                    <Font size="20.0" />
                 </font>
             </Label>
-            <Label fx:id="cartElementWeight" layoutX="151.0" layoutY="41.0" prefHeight="35.0" prefWidth="98.0" text="Varans vikt: XX" AnchorPane.rightAnchor="90.0" />
-            <Label fx:id="cartElementTotalPrice" layoutX="267.0" layoutY="41.0" prefHeight="35.0" prefWidth="88.0" text="Totalt Pris: XX" AnchorPane.rightAnchor="0.0" />
+            <Label fx:id="cartElementWeight" layoutX="147.0" layoutY="26.0" prefHeight="26.0" prefWidth="98.0" text="Varans vikt: XX" AnchorPane.rightAnchor="120.99999999999997">
+            <font>
+               <Font size="15.0" />
+            </font></Label>
+            <Label fx:id="cartElementTotalPrice" layoutX="153.0" layoutY="54.0" prefHeight="26.0" prefWidth="98.0" text="Totalt Pris: XX" AnchorPane.rightAnchor="116.0">
+            <font>
+               <Font size="15.0" />
+            </font></Label>
          <Button layoutX="303.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
         </children>
     </AnchorPane>
