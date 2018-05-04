@@ -2,11 +2,10 @@ package app;
 
 import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.*;
-
-import java.awt.*;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -29,14 +28,13 @@ public class MainController implements Initializable{
                 updateCart();
             }
         });
-        updateProducts();
+        updateProducts(db.getProducts());
     }
 
-    private void updateProducts() {
+    private void updateProducts(List<Product> productList) {
         mainPane.getChildren().clear();
-        List<Product> allProducts = db.getProducts();
 
-        for (Product p : allProducts) {
+        for (Product p : productList) {
             IMatProduct item = new IMatProduct(p, this);
             item.numberProduct.setText("0 st");
             item.productPrice.setText(p.getPrice() + " kr");
@@ -60,11 +58,10 @@ public class MainController implements Initializable{
         try {
             String result = searchBar.getText();
             List<Product> searchResult = db.findProducts(result);
+            updateProducts(searchResult);
         }
         catch (NumberFormatException | NullPointerException err) {
-
+            System.out.println("Error with search!");
         }
     }
-
-
 }
