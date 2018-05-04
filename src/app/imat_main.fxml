@@ -182,7 +182,7 @@
                   </AnchorPane>
                   <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
                      <children>
-                        <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" vbarPolicy="NEVER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <content>
                               <AnchorPane style="-fx-background-color: #E7E0DD;">
                                  <children>
