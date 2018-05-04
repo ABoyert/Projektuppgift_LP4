@@ -63,7 +63,7 @@ public class IMatProduct extends AnchorPane {
         numberProduct.setText(amount + " st");
     }
 
-    private Boolean isInCart(Product p) {
+    private boolean isInCart(Product p) {
         for(ShoppingItem shopItem : parentController.shoppingCart.getItems()) {
             if(shopItem.getProduct().equals(p)) {
                 return true;
