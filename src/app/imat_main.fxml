@@ -20,7 +20,7 @@
          <children>
           <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="840.0" prefHeight="78.0" prefWidth="1000.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <TextField fx:id="searchBar" layoutX="186.0" layoutY="18.0" prefHeight="44.0" prefWidth="581.0" promptText="Sök: Kycklng, Fisk, Nötter m.m" AnchorPane.leftAnchor="186.0" AnchorPane.rightAnchor="733.0" AnchorPane.topAnchor="18.0">
+                  <TextField fx:id="searchBar" layoutX="186.0" layoutY="18.0" onKeyPressed="#getSearchResult" prefHeight="44.0" prefWidth="581.0" promptText="Sök: Kycklng, Fisk, Nötter m.m" AnchorPane.leftAnchor="186.0" AnchorPane.rightAnchor="733.0" AnchorPane.topAnchor="18.0">
                      <font>
                         <Font size="20.0" />
                      </font></TextField>
