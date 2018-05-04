@@ -15,10 +15,11 @@ public class IMatProduct extends AnchorPane {
     @FXML
     ImageView productImage;
     @FXML
-    Label productName, productPrice, numberProduct;
+    Label productName, productPrice, numberProduct, productWeight, productComparePrice;
     @FXML
     Button addProduct, removeProduct;
 
+    private UtilityMethods um = new UtilityMethods();
     private MainController parentController;
     private Product product;
     private int amount = 0;
@@ -34,6 +35,12 @@ public class IMatProduct extends AnchorPane {
             throw new RuntimeException(exception);
         }
 
+        productWeight.setText("");
+        productComparePrice.setText("");
+        numberProduct.setText("0 st");
+        productPrice.setText(product.getPrice() + " " + product.getUnit());
+        productName.setText(product.getName());
+        productImage.setImage(mainController.db.getFXImage(product));
         this.product = product;
         this.parentController = mainController;
     }
