@@ -6,6 +6,7 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.*;
 
+import java.awt.*;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -16,6 +17,8 @@ public class MainController implements Initializable{
 
     @FXML
     FlowPane mainPane, cartPane;
+    @FXML
+    TextField searchBar;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -52,18 +55,16 @@ public class MainController implements Initializable{
         }
     }
 
-    /*@FXML
-    public void getTestSearchResult() {
+    @FXML
+    public void getSearchResult() {
         try {
-            int result = Integer.parseInt(testTextField.getCharacters().toString());
-            testLabel.setText(db.getProduct(result).getName());
-            testImage.setImage(db.getFXImage(db.getProduct(result)));
+            String result = searchBar.getText();
+            List<Product> searchResult = db.findProducts(result);
         }
         catch (NumberFormatException | NullPointerException err) {
-            testLabel.setText("Inget resultat");
-            testImage.setImage(null);
+
         }
-    }*/
+    }
 
 
 }
