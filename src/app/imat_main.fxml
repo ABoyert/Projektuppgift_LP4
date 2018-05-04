@@ -111,7 +111,7 @@
                <children>
                   <VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="334.0">
                      <children>
-                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="boarder">
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="border" stylesheets="@main_style.css">
                            <children>
                               <ImageView fitHeight="60.0" fitWidth="100.0" layoutX="260.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="263.6" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
                                  <image>
@@ -143,9 +143,9 @@
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <VBox alignment="TOP_RIGHT" layoutX="2.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="366.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+                  <VBox alignment="TOP_RIGHT" layoutX="2.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="366.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <AnchorPane prefHeight="76.0" prefWidth="387.0">
+                        <AnchorPane prefHeight="81.0" prefWidth="374.0" styleClass="border">
                            <children>
                               <Label layoutX="133.0" layoutY="5.0" prefHeight="70.0" prefWidth="214.0" text="Kundvagn">
                                  <font>
@@ -159,29 +159,38 @@
                               </ImageView>
                            </children>
                         </AnchorPane>
-                        <ButtonBar prefHeight="46.0" prefWidth="366.0">
-                           <buttons>
-                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
-                                 <children>
-                                    <Label alignment="TOP_RIGHT" layoutY="-1.0" prefHeight="30.0" prefWidth="145.0" text="Antal Varoro: XX" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane styleClass="borderBottom">
+                           <children>
+                              <ButtonBar layoutX="0.800000011920929" prefHeight="46.0" prefWidth="366.0" styleClass="borderBottom" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+                                 <buttons>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="TOP_RIGHT" layoutY="-1.0" prefHeight="30.0" prefWidth="145.0" text="Antal Varoro: XX" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="BOTTOM_RIGHT" layoutY="24.0" prefHeight="30.0" prefWidth="145.0" text="Total Pris: XX" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                    <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="171.0" style="-fx-background-color: #d86955;" text="Töm Kundvagn" textAlignment="RIGHT">
                                        <font>
                                           <Font size="20.0" />
                                        </font>
-                                    </Label>
-                                    <Label alignment="BOTTOM_RIGHT" layoutY="24.0" prefHeight="30.0" prefWidth="145.0" text="Total Pris: XX" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0">
-                                       <font>
-                                          <Font size="20.0" />
-                                       </font>
-                                    </Label>
-                                 </children>
-                              </AnchorPane>
-                              <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="171.0" style="-fx-background-color: #d86955;" text="Töm Kundvagn" textAlignment="RIGHT">
-                                 <font>
-                                    <Font size="20.0" />
-                                 </font></Button>
-                           </buttons>
-                        </ButtonBar>
-                        <FlowPane fx:id="cartPane" prefHeight="530.0" prefWidth="289.0" />
+                                    </Button>
+                                 </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="486.0" prefWidth="367.0">
+                           <children>
+                              <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="480.0" prefWidth="366.0" vgap="0.1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0" />
+                           </children>
+                        </AnchorPane>
                      </children>
                   </VBox>
                </children>

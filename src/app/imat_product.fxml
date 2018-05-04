@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root prefHeight="300.0" prefWidth="150.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="300.0" prefWidth="150.0" styleClass="border" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
 
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="265.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
         <children>
@@ -17,12 +17,15 @@
                 </image>
             </ImageView>
             <Button fx:id="moreInfoButton" layoutX="153.0" layoutY="4.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="106.0" text="Mer info" wrapText="true" />
-            <AnchorPane layoutY="288.0" prefHeight="89.0" prefWidth="266.0">
+            <AnchorPane layoutY="288.0" prefHeight="89.0" prefWidth="266.0" styleClass="border" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="288.0">
                 <children>
-                    <Button fx:id="addProduct" layoutX="185.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="34.0" prefWidth="74.0" text="+" />
-                    <Button fx:id="removeProduct" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="34.0" prefWidth="73.0" text="-" />
-                    <Button fx:id="addNumberProductCart" layoutX="7.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#addToCart" prefHeight="34.0" prefWidth="252.0" text="Lägg Till i Kundvagn" />
-                    <Label fx:id="numberProduct" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="11.0" prefHeight="34.0" prefWidth="98.0" text="99999999 st" />
+                    <Button fx:id="addProduct" layoutX="185.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="54.0" prefWidth="82.0" text="+" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="170.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    <Button fx:id="removeProduct" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="53.0" prefWidth="82.0" text="-" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="170.0" AnchorPane.topAnchor="0.0" />
+                    <Button fx:id="addNumberProductCart" layoutX="-7.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#addToCart" prefHeight="34.0" prefWidth="266.0" style="-fx-background-color: #7aba7a;" text="Lägg Till i Kundvagn" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="48.79999999999999" />
+                    <Label fx:id="numberProduct" alignment="CENTER" contentDisplay="CENTER" layoutX="96.0" layoutY="-1.0" prefHeight="50.0" prefWidth="74.0" text="900 st" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="0.0">
+                  <font>
+                     <Font size="20.0" />
+                  </font></Label>
                 </children>
             </AnchorPane>
             <Label fx:id="productName" layoutX="6.0" layoutY="160.0" prefHeight="34.0" prefWidth="252.0" text="VattenMelon">
