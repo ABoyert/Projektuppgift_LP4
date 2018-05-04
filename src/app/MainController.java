@@ -4,9 +4,7 @@ import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
-import se.chalmers.cse.dat216.project.IMatDataHandler;
-import se.chalmers.cse.dat216.project.Product;
-import se.chalmers.cse.dat216.project.ShoppingItem;
+import se.chalmers.cse.dat216.project.*;
 
 import java.net.URL;
 import java.util.List;
@@ -21,7 +19,13 @@ public class MainController implements Initializable{
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        shoppingCart = new ShoppingCart();
+        shoppingCart = db.getShoppingCart();
+        shoppingCart.addShoppingCartListener(new ShoppingCartListener() {
+            @Override
+            public void shoppingCartChanged(CartEvent cartEvent) {
+                updateCart();
+            }
+        });
         updateProducts();
     }
 

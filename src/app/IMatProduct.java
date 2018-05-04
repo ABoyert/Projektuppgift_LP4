@@ -40,10 +40,15 @@ public class IMatProduct extends AnchorPane {
 
     @FXML
     private void addToCart() {
-        ShoppingItem shopItem = new ShoppingItem(product);
-        shopItem.setAmount(amount);
-        parentController.shoppingCart.addItem(shopItem);
-        parentController.updateCart();
+        if (!isInCart(product)) {
+            ShoppingItem shopItem = new ShoppingItem(product);
+            shopItem.setAmount(amount);
+            parentController.shoppingCart.addItem(shopItem);
+        } else {
+            ShoppingItem item = getProductsShoppingItem(product);
+            item.setAmount(item.getAmount() + amount);
+            parentController.updateCart();
+        }
     }
 
     @FXML
@@ -56,5 +61,25 @@ public class IMatProduct extends AnchorPane {
     private void removeItem() {
         this.amount--;
         numberProduct.setText(amount + " st");
+    }
+
+    private Boolean isInCart(Product p) {
+        for(ShoppingItem shopItem : parentController.shoppingCart.getItems()) {
+            if(shopItem.getProduct().equals(p)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private ShoppingItem getProductsShoppingItem(Product p) {
+        for(ShoppingItem shopItem : parentController.shoppingCart.getItems()) {
+            if(shopItem.getProduct().equals(p)) {
+                return shopItem;
+            }
+        }
+
+        return null;
     }
 }
