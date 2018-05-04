@@ -2,8 +2,6 @@
     -fx-border-radius: 10px;
 }
 .border {
-    -fx-border-style:sollid;
-    -fx-border-colour:black;
-    -fx-border-radius:10px;
-    -fx-border-width: 1;
+    -fx-border-width:0.5px;
+    -fx-border-style:solid;
 }
