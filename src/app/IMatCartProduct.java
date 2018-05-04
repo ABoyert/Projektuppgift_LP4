@@ -14,7 +14,7 @@ public class IMatCartProduct extends AnchorPane {
     @FXML
     ImageView cartElementImage;
     @FXML
-    Label cartElementTotalProduct, cartElementName, cartElementTotalPrice;
+    Label cartElementTotalProduct, cartElementName, cartElementTotalPrice, cartElementWeight;
 
     private MainController parentController;
     private ShoppingItem shoppingItem;
@@ -30,6 +30,7 @@ public class IMatCartProduct extends AnchorPane {
             throw new RuntimeException(exception);
         }
 
+        cartElementWeight.setText(shoppingItem.getProduct().getPrice() + " " + shoppingItem.getProduct().getUnit());
         cartElementName.setText(shoppingItem.getProduct().getName());
         cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
         cartElementTotalPrice.setText(shoppingItem.getTotal() + " kr");

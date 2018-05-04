@@ -33,20 +33,14 @@ public class MainController implements Initializable{
             }
         });
 
-        updateProducts(db.getProducts(), true); //Show all products on start
+        updateProducts(db.getProducts()); //Show all products on start
     }
 
-    private void updateProducts(List<Product> productList, boolean setInfo) {
+    private void updateProducts(List<Product> productList) {
         mainPane.getChildren().clear();
 
         for (Product p : productList) {
             IMatProduct item = productItemMap.get(p.getName());
-            if (setInfo) {
-                item.numberProduct.setText("0 st");
-                item.productPrice.setText(p.getPrice() + " kr");
-                item.productName.setText(p.getName());
-                item.productImage.setImage(db.getFXImage(p));
-            }
             mainPane.getChildren().add(item);
         }
     }
@@ -65,7 +59,7 @@ public class MainController implements Initializable{
         try {
             String result = searchBar.getText();
             List<Product> searchResult = db.findProducts(result);
-            updateProducts(searchResult, false);
+            updateProducts(searchResult);
         }
         catch (NumberFormatException | NullPointerException err) {
             System.out.println("Error with search!");
