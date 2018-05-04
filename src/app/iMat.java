@@ -18,8 +18,8 @@ public class iMat extends Application {
         primaryStage.setMinHeight(500);
         primaryStage.show();
 
-        UtilityMethods um = new UtilityMethods();
-        System.out.println(um.getCategory(UtilityMethods.Categories.FRUKT_GRONT).toString());
+        //UtilityMethods um = new UtilityMethods();
+        //System.out.println(um.getCategory(UtilityMethods.Categories.FRUKT_GRONT).toString());
     }
 
 
