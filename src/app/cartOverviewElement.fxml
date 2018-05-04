@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="cartOverviewImage" fitHeight="152.0" fitWidth="194.0" pickOnBounds="true" preserveRatio="true">
@@ -19,7 +18,10 @@
          <children>
             <Button fx:id="cartOverviewRemoveProduct" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" text="-" />
             <Button fx:id="cartOverviewAddProduct" layoutX="244.0" layoutY="11.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" text="+" />
-            <Label fx:id="cartOverviewNumberProduct" alignment="CENTER" layoutX="83.0" layoutY="11.0" prefHeight="43.0" prefWidth="162.0" text="22 st" />
+            <Label fx:id="cartOverviewNumberProduct" alignment="CENTER" layoutX="83.0" layoutY="11.0" prefHeight="43.0" prefWidth="162.0" text="22 st">
+               <font>
+                  <Font size="30.0" />
+               </font></Label>
          </children>
       </AnchorPane>
       <Label fx:id="cartOverviewName" layoutX="164.0" layoutY="14.0" prefHeight="43.0" prefWidth="262.0" text="NameNameName">
