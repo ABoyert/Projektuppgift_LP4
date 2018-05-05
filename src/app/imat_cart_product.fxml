@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root prefHeight="126.0" prefWidth="366.0" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="126.0" prefWidth="366.0" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
 
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="126.0" prefWidth="366.0" styleClass="border" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
         <children>
@@ -18,8 +18,8 @@
             </ImageView>
             <AnchorPane layoutX="111.0" layoutY="84.0" prefHeight="42.0" prefWidth="212.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="133.2" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="84.0">
                 <children>
-                    <Button fx:id="cartRemoveItem" layoutX="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="-" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                    <Button fx:id="cartAddItem" layoutX="154.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="+" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    <Button fx:id="cartRemoveItem" layoutX="10.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="40.0" prefWidth="70.0" text="-" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    <Button fx:id="cartAddItem" layoutX="154.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="40.0" prefWidth="70.0" text="+" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                     <Label fx:id="cartElementTotalProduct" alignment="CENTER" layoutX="84.0" prefHeight="40.0" prefWidth="70.0" text="2 st" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0">
                   <font>
                      <Font size="20.0" />
@@ -39,7 +39,7 @@
             <font>
                <Font size="15.0" />
             </font></Label>
-         <Button layoutX="303.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         <Button fx:id="cartRemoveProduct" layoutX="303.0" mnemonicParsing="false" onMouseClicked="#clearCart" prefHeight="20.0" prefWidth="20.0" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
         </children>
     </AnchorPane>
 </fx:root>

@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
@@ -15,6 +16,8 @@ public class IMatCartProduct extends AnchorPane {
     ImageView cartElementImage;
     @FXML
     Label cartElementTotalProduct, cartElementName, cartElementTotalPrice, cartElementWeight;
+    @FXML
+    Button cartRemoveProduct, cartRemoveItem, cartAddItem;
 
     private MainController parentController;
     private ShoppingItem shoppingItem;
@@ -33,9 +36,30 @@ public class IMatCartProduct extends AnchorPane {
         cartElementWeight.setText(shoppingItem.getProduct().getPrice() + " " + shoppingItem.getProduct().getUnit());
         cartElementName.setText(shoppingItem.getProduct().getName());
         cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
-        cartElementTotalPrice.setText("Totalt: " + shoppingItem.getTotal() + " kr");
+        cartElementTotalPrice.setText("Totalt: " + (double) Math.round(shoppingItem.getTotal() * 100) / 100 + " kr");
         cartElementImage.setImage(mainController.db.getFXImage(shoppingItem.getProduct()));
         this.shoppingItem = shoppingItem;
         this.parentController = mainController;
+    }
+
+    @FXML
+    private void addItem() {
+        shoppingItem.setAmount(shoppingItem.getAmount() + 1);
+        cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
+        parentController.updateCart();
+    }
+
+    @FXML
+    private void removeItem() {
+        if (shoppingItem.getAmount() != 1) {
+            shoppingItem.setAmount(shoppingItem.getAmount() - 1);
+            cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
+            parentController.updateCart();
+        }
+    }
+
+    @FXML
+    private void clearCart() {
+        parentController.shoppingCart.clear();
     }
 }
