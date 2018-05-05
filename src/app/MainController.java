@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
@@ -21,6 +22,8 @@ public class MainController implements Initializable{
     FlowPane mainPane, cartPane;
     @FXML
     TextField searchBar;
+    @FXML
+    Button emptyCart;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -52,6 +55,11 @@ public class MainController implements Initializable{
             IMatCartProduct cartItem = new IMatCartProduct(shopItem, this);
             cartPane.getChildren().add(cartItem);
         }
+    }
+
+    @FXML
+    private void clearCart() {
+        shoppingCart.clear();
     }
 
     @FXML
