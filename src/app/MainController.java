@@ -59,6 +59,7 @@ public class MainController implements Initializable{
                 list = sortPrice(productList);
                 break;
             case ALPHABETICAL:
+                list = sortAlphabetical(productList);
                 break;
         }
 
@@ -145,12 +146,19 @@ public class MainController implements Initializable{
     }
 
     private List<Product> sortAlphabetical(List<Product> productList) {
-        List<Product> sortedList = null;
+        Product[] productArray = new Product[productList.size()];
+        productArray = productList.toArray(productArray);
 
-        for (Product p : productList) {
-
+        for (int i = (productArray.length - 1); i >= 0; i--) {
+            for (int j = 1; j <= i; j++) {
+                if (productArray[j - 1].getName().charAt(0) > productArray[j].getName().charAt(0)) {
+                    Product temp = productArray[j - 1];
+                    productArray[j - 1] = productArray[j];
+                    productArray[j] = temp;
+                }
+            }
         }
 
-        return sortedList;
+        return Arrays.asList(productArray);
     }
 }
