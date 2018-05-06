@@ -80,12 +80,12 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                            <Button layoutX="245.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" text="A-Ö">
+                            <Button layoutX="245.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortAlphabeticalPressed" prefHeight="50.0" prefWidth="120.0" text="A-Ö">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="383.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.leftAnchor="373.2" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
+                              <Button layoutX="383.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortPricePressed" prefHeight="50.0" prefWidth="120.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.leftAnchor="373.2" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -166,12 +166,12 @@
                                     <Font size="20.0" />
                                  </font>
                               </Button>
-                              <Label alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="29.0" prefHeight="30.0" prefWidth="145.0" text="Total Pris: XX" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
+                              <Label fx:id="cartTotal" alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="29.0" prefHeight="30.0" prefWidth="145.0" text="Totalt:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <Label alignment="TOP_RIGHT" layoutX="-6.0" layoutY="5.0" prefHeight="30.0" prefWidth="145.0" text="Antal Varoro: XX" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <Label fx:id="cartProducts" alignment="TOP_RIGHT" layoutX="-6.0" layoutY="5.0" prefHeight="30.0" prefWidth="145.0" text="Antal varor:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <font>
                                     <Font size="20.0" />
                                  </font>

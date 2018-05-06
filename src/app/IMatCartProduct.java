@@ -60,6 +60,6 @@ public class IMatCartProduct extends AnchorPane {
 
     @FXML
     private void clearCart() {
-        parentController.shoppingCart.clear();
+        parentController.shoppingCart.removeItem(shoppingItem);
     }
 }
