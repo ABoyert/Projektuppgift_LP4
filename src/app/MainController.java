@@ -21,6 +21,8 @@ public class MainController implements Initializable{
         PRICE,
         NONE;
     }
+    boolean sortPricePressed = false;
+    boolean sortAlphaPressed = false;
 
     @FXML
     FlowPane mainPane, cartPane;
@@ -130,34 +132,48 @@ public class MainController implements Initializable{
     private List<Product> sortPrice(List<Product> productList) {
         Product[] productArray = new Product[productList.size()];
         productArray = productList.toArray(productArray);
-
+        boolean buttonStatus;
+        
         for (int i = (productArray.length - 1); i >= 0; i--) {
             for (int j = 1; j <= i; j++) {
-                if (productArray[j - 1].getPrice() > productArray[j].getPrice()) {
+                if (!sortPricePressed) {
+                    buttonStatus = (productArray[j - 1].getPrice() > productArray[j].getPrice());
+                } else {
+                    buttonStatus = (productArray[j - 1].getPrice() < productArray[j].getPrice());
+                }
+                if (buttonStatus) {
                     Product temp = productArray[j - 1];
                     productArray[j - 1] = productArray[j];
                     productArray[j] = temp;
                 }
             }
         }
-
+        
+        sortPricePressed = !sortPricePressed;
         return Arrays.asList(productArray);
     }
 
     private List<Product> sortAlphabetical(List<Product> productList) {
         Product[] productArray = new Product[productList.size()];
         productArray = productList.toArray(productArray);
+        boolean buttonStatus;
 
         for (int i = (productArray.length - 1); i >= 0; i--) {
             for (int j = 1; j <= i; j++) {
-                if (productArray[j - 1].getName().charAt(0) > productArray[j].getName().charAt(0)) {
+                if (!sortAlphaPressed) {
+                    buttonStatus = (productArray[j - 1].getName().charAt(0) > productArray[j].getName().charAt(0));
+                } else {
+                    buttonStatus = (productArray[j - 1].getName().charAt(0) < productArray[j].getName().charAt(0));
+                }
+                if (buttonStatus) {
                     Product temp = productArray[j - 1];
                     productArray[j - 1] = productArray[j];
                     productArray[j] = temp;
                 }
             }
         }
-
+        
+        sortAlphaPressed = !sortAlphaPressed;
         return Arrays.asList(productArray);
     }
 }
