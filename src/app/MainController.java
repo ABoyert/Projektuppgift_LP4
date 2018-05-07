@@ -76,10 +76,9 @@ public class MainController implements Initializable{
         cartProducts.setText("Antal varor: " + countCartProducts() + " st");
 
         List<ShoppingItem> cart = shoppingCart.getItems();
-        Collections.reverse(cart); //show most recently added item first
 
-        for (ShoppingItem shopItem : cart) {
-            IMatCartProduct cartItem = new IMatCartProduct(shopItem, this);
+        for (int i = cart.size() - 1; i >= 0; i--) {
+            IMatCartProduct cartItem = new IMatCartProduct(cart.get(i), this);
             cartPane.getChildren().add(cartItem);
         }
     }
