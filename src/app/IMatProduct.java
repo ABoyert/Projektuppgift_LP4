@@ -56,6 +56,9 @@ public class IMatProduct extends AnchorPane {
             item.setAmount(item.getAmount() + amount);
             parentController.updateCart();
         }
+
+        amount = 1;
+        numberProduct.setText(amount + " st");
     }
 
     @FXML
