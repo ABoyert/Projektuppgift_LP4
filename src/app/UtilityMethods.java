@@ -1,5 +1,7 @@
 package app;
 
+import javafx.scene.image.Image;
+import javafx.scene.image.WritableImage;
 import se.chalmers.cse.dat216.project.*;
 
 import java.util.Date;
@@ -8,9 +10,9 @@ import java.util.Locale;
 
 public class UtilityMethods
 {
-    IMatDataHandler db = IMatDataHandler.getInstance();
+    static IMatDataHandler db = IMatDataHandler.getInstance();
 
-    enum Categories {
+    static enum Categories {
         FRUKT_GRONT,
         BROD,
         DRYCKER,
@@ -31,7 +33,7 @@ public class UtilityMethods
         }
     }
 
-    public List<Product> getCategory(Categories c) {
+    public static List<Product> getCategory(Categories c) {
         List<Product> result = null;
 
         switch (c) {
@@ -81,5 +83,31 @@ public class UtilityMethods
         return result;
     }
 
+    /*public static Image getSquareImage(Image image){
 
+        int x = 0;
+        int y = 0;
+        int width = 0;
+        int height = 0;
+
+        if(image.getWidth() > image.getHeight()){
+            width = (int) image.getHeight();
+            height = (int) image.getHeight();
+            x = (int)(image.getWidth() - width)/2;
+            y = 0;
+        }
+
+        else if(image.getHeight() > image.getWidth()){
+            width = (int) image.getWidth();
+            height = (int) image.getWidth();
+            x = 0;
+            y = (int) (image.getHeight() - height)/2;
+        }
+
+        else{
+            //Width equals Height, return original image
+            return image;
+        }
+        return new WritableImage(image.getPixelReader(), x, y, width, height);
+    }*/
 }

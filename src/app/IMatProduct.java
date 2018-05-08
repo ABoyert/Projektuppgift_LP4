@@ -40,7 +40,7 @@ public class IMatProduct extends AnchorPane {
         numberProduct.setText(amount + " st");
         productPrice.setText(product.getPrice() + " " + product.getUnit());
         productName.setText(product.getName());
-        productImage.setImage(mainController.db.getFXImage(product));
+        productImage.setImage(mainController.getSquareImage(mainController.db.getFXImage(product)));
         this.product = product;
         this.parentController = mainController;
     }

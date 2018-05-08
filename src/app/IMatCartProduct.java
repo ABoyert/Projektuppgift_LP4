@@ -37,7 +37,7 @@ public class IMatCartProduct extends AnchorPane {
         cartElementName.setText(shoppingItem.getProduct().getName());
         cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
         cartElementTotalPrice.setText("Totalt: " + (double) Math.round(shoppingItem.getTotal() * 100) / 100 + " kr");
-        cartElementImage.setImage(mainController.db.getFXImage(shoppingItem.getProduct()));
+        cartElementImage.setImage(mainController.getSquareImage(mainController.db.getFXImage(shoppingItem.getProduct())));
         this.shoppingItem = shoppingItem;
         this.parentController = mainController;
     }
