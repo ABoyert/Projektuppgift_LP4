@@ -17,3 +17,6 @@ Fredag 25/5 Inlämning rapport
 Söndag 30/5 Inlämning av kod
 Mån 28/5- Onsdag 30/5 Demo och redovisning av projekt
 
+TODO:
+FXML-fil för: Kategorier, Stegen i kassan, Tidigare köp, Kontouppgifter, Hjälp
+
