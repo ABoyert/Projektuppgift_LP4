@@ -1,0 +1,11 @@
+.button {
+    -fx-border-radius: 10px;
+}
+.border {
+    -fx-border-width:0.3px;
+    -fx-border-style:solid;
+}
+.borderBottom{
+    -fx-border-style:none none solid none;
+    -fx-border-width:0 0 0.3px 0;
+}
