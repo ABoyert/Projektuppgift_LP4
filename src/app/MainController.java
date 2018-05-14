@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.image.WritableImage;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
@@ -25,7 +26,13 @@ public class MainController implements Initializable{
     }
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
-
+    // Sätta programmet i olika states beroende på vilken kategori man är i?
+    enum States{
+        handla,
+        minaUppgifter,
+        hjalp,
+        tidigareKop;
+    }
     @FXML
     FlowPane mainPane, cartPane;
     @FXML
@@ -33,7 +40,9 @@ public class MainController implements Initializable{
     @FXML
     Button emptyCart;
     @FXML
-    Label cartTotal, cartProducts;
+    Label cartTotal, cartProducts, Left_panel_label;
+    @FXML
+    ImageView Left_panel_picture;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
