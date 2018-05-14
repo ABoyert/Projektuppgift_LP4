@@ -9,3 +9,13 @@
     -fx-border-style:none none solid none;
     -fx-border-width:0 0 0.3px 0;
 }
+.borderLeft{
+    -fx-border-style:none solid none none;
+    -fx-border-width:0 0.3px 0 0;
+}
+.forground_colour {
+    -fx-background-color: #F9F9F9;
+}
+.background_colour {
+    -fx-background-color: #FDFDFD;
+}
