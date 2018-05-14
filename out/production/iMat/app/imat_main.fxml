@@ -11,6 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
@@ -60,141 +61,157 @@
    <center>
     <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="300.0" BorderPane.alignment="CENTER">
          <children>
-            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutY="88.0" prefHeight="434.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="88.0">
-               <content>
-                  <AnchorPane style="-fx-background-color: #E7E0DD;" styleClass="border">
-                     <children>
-                        <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
-                     </children>
-                  </AnchorPane>
-               </content>
-            </ScrollPane>
-            <AnchorPane prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+            <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <ButtonBar prefHeight="60.0" prefWidth="298.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
-                    <buttons>
-                        <AnchorPane prefHeight="59.0" prefWidth="503.0">
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="434.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="88.0">
+                           <content>
+                              <AnchorPane style="-fx-background-color: #E7E0DD;" styleClass="border">
+                                 <children>
+                                    <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                        <AnchorPane prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                            <children>
-                              <Label alignment="CENTER_RIGHT" layoutX="139.0" layoutY="-1.0" minWidth="47.0" prefHeight="58.0" prefWidth="98.0" text="Sortera:" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="139.00000000000003" AnchorPane.rightAnchor="265.79999999999995" AnchorPane.topAnchor="0.0">
+                              <ButtonBar prefHeight="60.0" prefWidth="298.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                                <buttons>
+                                    <AnchorPane prefHeight="59.0" prefWidth="503.0">
+                                       <children>
+                                          <Label alignment="CENTER_RIGHT" layoutX="139.0" layoutY="-1.0" minWidth="47.0" prefHeight="58.0" prefWidth="98.0" text="Sortera:" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="139.00000000000003" AnchorPane.rightAnchor="265.79999999999995" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                        <Button layoutX="245.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortAlphabeticalPressed" prefHeight="50.0" prefWidth="120.0" text="A-Ö">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <Button layoutX="383.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortPricePressed" prefHeight="50.0" prefWidth="120.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.leftAnchor="373.2" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                </buttons>
+                              </ButtonBar>
+                              <Label prefHeight="59.0" prefWidth="192.0" text="Varukategori" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="555.0" AnchorPane.topAnchor="0.0">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font size="30.0" />
                                  </font>
                               </Label>
-                            <Button layoutX="245.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortAlphabeticalPressed" prefHeight="50.0" prefWidth="120.0" text="A-Ö">
-                                 <font>
-                                    <Font size="20.0" />
-                                 </font>
-                              </Button>
-                              <Button layoutX="383.0" layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortPricePressed" prefHeight="50.0" prefWidth="120.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.leftAnchor="373.2" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
-                                 <font>
-                                    <Font size="20.0" />
-                                 </font>
-                              </Button>
                            </children>
                         </AnchorPane>
-                    </buttons>
-                  </ButtonBar>
-                  <Label prefHeight="59.0" prefWidth="192.0" text="Varukategori" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="555.0" AnchorPane.topAnchor="0.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
+                     </children>
+                  </AnchorPane>
                </children>
-            </AnchorPane>
+            </StackPane>
          </children>
       </AnchorPane>
    </center>
    <left>
       <AnchorPane prefHeight="538.0" prefWidth="339.0" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane layoutX="2.0" layoutY="10.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="334.0">
+                  <AnchorPane style="-fx-background-color: #E7E0DD;" styleClass="border">
                      <children>
-                        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="border" stylesheets="@main_style.css">
+                        <VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="334.0">
                            <children>
-                              <ImageView fitHeight="60.0" fitWidth="100.0" layoutX="260.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="263.6" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
-                                 <image>
-                                    <Image url="@../resources/cart_small_image.png" />
-                                 </image>
-                              </ImageView>
-                              <Label contentDisplay="RIGHT" graphicTextGap="50.0" prefHeight="60.0" prefWidth="228.0" text="Varor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="0.0">
-                                 <font>
-                                    <Font size="35.0" />
-                                 </font>
-                              </Label>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="border" stylesheets="@main_style.css">
+                                 <children>
+                                    <ImageView fitHeight="60.0" fitWidth="100.0" layoutX="260.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="263.6" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <image>
+                                          <Image url="@../resources/cart_small_image.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label contentDisplay="RIGHT" graphicTextGap="50.0" prefHeight="60.0" prefWidth="228.0" text="Varor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="35.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <FlowPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="334.0" />
                            </children>
-                        </AnchorPane>
-                        <FlowPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="334.0" />
+                        </VBox>
                      </children>
-                  </VBox>
+                  </AnchorPane>
                </children>
-            </AnchorPane>
+            </StackPane>
          </children>
       </AnchorPane>
    </left>
    <right>
       <AnchorPane prefHeight="541.0" prefWidth="381.0" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+            <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <Button fx:id="goToKassa" mnemonicParsing="false" prefHeight="60.0" prefWidth="367.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Button>
-                  <AnchorPane layoutX="-0.5" layoutY="0.30000001192092896" prefHeight="82.0" prefWidth="368.0" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <AnchorPane style="-fx-background-color: #E7E0DD;" styleClass="border">
                      <children>
-                        <Label layoutX="133.0" layoutY="5.0" prefHeight="70.0" prefWidth="214.0" text="Kundvagn" AnchorPane.rightAnchor="19.799999999999983" AnchorPane.topAnchor="5.0">
+                        <Button fx:id="goToKassa" mnemonicParsing="false" prefHeight="60.0" prefWidth="367.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font size="20.0" />
                            </font>
-                        </Label>
-                        <ImageView fx:id="cartImage" fitHeight="60.0" fitWidth="100.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="296.4" AnchorPane.topAnchor="10.0">
-                           <image>
-                              <Image url="@../resources/cart_small_image_2.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane layoutX="1.0" layoutY="82.0" prefHeight="63.0" prefWidth="364.0" styleClass="borderBottom" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="82.0">
-                     <children>
-                        <AnchorPane layoutX="2.0" prefHeight="68.0" prefWidth="365.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        </Button>
+                        <AnchorPane layoutX="-0.5" layoutY="0.30000001192092896" prefHeight="82.0" prefWidth="368.0" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" layoutX="183.0" layoutY="5.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#clearCart" prefHeight="60.0" prefWidth="181.0" style="-fx-background-color: #d86955;" text="Töm Kundvagn" textAlignment="RIGHT" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <Label layoutX="133.0" layoutY="5.0" prefHeight="70.0" prefWidth="214.0" text="Kundvagn" AnchorPane.rightAnchor="19.799999999999983" AnchorPane.topAnchor="5.0">
                                  <font>
-                                    <Font size="20.0" />
-                                 </font>
-                              </Button>
-                              <Label fx:id="cartTotal" alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="29.0" prefHeight="30.0" prefWidth="145.0" text="Totalt:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
-                                 <font>
-                                    <Font size="20.0" />
+                                    <Font size="30.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="cartProducts" alignment="TOP_RIGHT" layoutX="-6.0" layoutY="5.0" prefHeight="30.0" prefWidth="145.0" text="Antal varor:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <font>
-                                    <Font size="20.0" />
-                                 </font>
-                              </Label>
+                              <ImageView fx:id="cartImage" fitHeight="60.0" fitWidth="100.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="296.4" AnchorPane.topAnchor="10.0">
+                                 <image>
+                                    <Image url="@../resources/cart_small_image_2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="1.0" layoutY="82.0" prefHeight="63.0" prefWidth="364.0" styleClass="borderBottom" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="82.0">
+                           <children>
+                              <AnchorPane layoutX="2.0" prefHeight="68.0" prefWidth="365.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Button fx:id="emptyCart" alignment="CENTER" contentDisplay="RIGHT" layoutX="183.0" layoutY="5.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#clearCart" prefHeight="60.0" prefWidth="181.0" style="-fx-background-color: #d86955;" text="Töm Kundvagn" textAlignment="RIGHT" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="cartTotal" alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="29.0" prefHeight="30.0" prefWidth="145.0" text="Totalt:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="cartProducts" alignment="TOP_RIGHT" layoutX="-6.0" layoutY="5.0" prefHeight="30.0" prefWidth="145.0" text="Antal varor:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
+                           <children>
+                              <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <AnchorPane style="-fx-background-color: #E7E0DD;">
+                                       <children>
+                                          <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="494.0" prefWidth="366.0" style="-fx-background-color: #E7E0DD;" vgap="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
                            </children>
                         </AnchorPane>
                      </children>
                   </AnchorPane>
-                  <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
-                     <children>
-                        <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <content>
-                              <AnchorPane style="-fx-background-color: #E7E0DD;">
-                                 <children>
-                                    <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="494.0" prefWidth="366.0" style="-fx-background-color: #E7E0DD;" vgap="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                                 </children>
-                              </AnchorPane>
-                           </content>
-                        </ScrollPane>
-                     </children>
-                  </AnchorPane>
                </children>
-            </AnchorPane>
+            </StackPane>
          </children>
       </AnchorPane>
    </right>
