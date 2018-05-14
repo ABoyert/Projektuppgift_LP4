@@ -61,6 +61,17 @@
    <center>
     <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="524.0" BorderPane.alignment="CENTER">
          <children>
+<<<<<<< HEAD
+            <StackPane prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="434.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="88.0">
+                           <content>
+                              <AnchorPane style="-fx-background-color: #E7E0DD;" styleClass="border">
+                                 <children>
+                                    <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
+=======
             <StackPane layoutX="9.0" prefHeight="702.0" prefWidth="538.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0">
                <children>
                   <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="554.0">
@@ -70,11 +81,16 @@
                               <AnchorPane prefHeight="621.0" prefWidth="553.0" style="-fx-background-color: #E7E0DD;" styleClass="border">
                                  <children>
                                     <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+>>>>>>> a31ba9246b952cfeaf13c235fe555773de93d8e9
                                  </children>
                               </AnchorPane>
                            </content>
                         </ScrollPane>
+<<<<<<< HEAD
+                        <AnchorPane prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+=======
                         <AnchorPane prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #E7E0DD;" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+>>>>>>> a31ba9246b952cfeaf13c235fe555773de93d8e9
                            <children>
                               <ButtonBar prefHeight="60.0" prefWidth="298.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
                                 <buttons>
@@ -99,7 +115,11 @@
                                     </AnchorPane>
                                 </buttons>
                               </ButtonBar>
+<<<<<<< HEAD
+                              <Label prefHeight="59.0" prefWidth="192.0" text="Varukategori" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="555.0" AnchorPane.topAnchor="0.0">
+=======
                               <Label prefHeight="59.0" prefWidth="192.0" text="Varukategori" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="0.0">
+>>>>>>> a31ba9246b952cfeaf13c235fe555773de93d8e9
                                  <font>
                                     <Font size="30.0" />
                                  </font>
