@@ -7,15 +7,16 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import se.chalmers.cse.dat216.project.ProductCategory;
 
-public class iMat extends Application {
+import java.awt.*;
 
+public class iMat extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("imat_main.fxml"));
         primaryStage.setTitle("iMat");
         primaryStage.setScene(new Scene(root));
-        primaryStage.setMinWidth(840);
-        primaryStage.setMinHeight(500);
+        primaryStage.setMinWidth(1300);
+        primaryStage.setMinHeight(800);
         primaryStage.show();
 
         //UtilityMethods um = new UtilityMethods();
