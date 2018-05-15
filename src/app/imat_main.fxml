@@ -49,7 +49,7 @@
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Button layoutX="895.0" layoutY="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="170.0" text="Tidigare Köp" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="14.600000000000023" AnchorPane.topAnchor="15.0">
+                  <Button fx:id="prevPurchasesButton" layoutX="895.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#previousPurchasesButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Tidigare Köp" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="14.600000000000023" AnchorPane.topAnchor="15.0">
                      <font>
                         <Font size="20.0" />
                      </font>

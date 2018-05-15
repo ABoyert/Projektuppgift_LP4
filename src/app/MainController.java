@@ -20,6 +20,7 @@ public class MainController implements Initializable{
     ShoppingCart shoppingCart;
     HelpPage helpPage;
     MyInfoPage infoPage;
+    PreviousPurchasesPage prevPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
     enum Sort {
@@ -65,6 +66,7 @@ public class MainController implements Initializable{
         updateCart();
         helpPage = new HelpPage();
         infoPage = new MyInfoPage();
+        prevPage = new PreviousPurchasesPage();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
     }
 
@@ -226,8 +228,22 @@ public class MainController implements Initializable{
         return new WritableImage(image.getPixelReader(), x, y, width, height);
     }
 
+
+    @FXML
+    public void previousPurchasesButtonPressed() {
+        middleStack.getChildren().clear();
+
+        if (middleStack.getChildren().contains(prevPage)) {
+            prevPage.toFront();
+        } else {
+            middleStack.getChildren().add(prevPage);
+        }
+    }
+
     @FXML
     public void helpButtonPressed() {
+        middleStack.getChildren().clear();
+
             if (middleStack.getChildren().contains(helpPage)) {
                 helpPage.toFront();
             } else {
@@ -237,6 +253,8 @@ public class MainController implements Initializable{
 
     @FXML
     public void myInfoButtonPressed() {
+        middleStack.getChildren().clear();
+
         if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
         } else {
