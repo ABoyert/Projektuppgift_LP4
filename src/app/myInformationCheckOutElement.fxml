@@ -11,7 +11,7 @@
    <children>
       <AnchorPane layoutY="16.0" prefHeight="51.0" prefWidth="524.0" style="-fx-background-color: #E7E0DD;" AnchorPane.topAnchor="20.0">
          <children>
-            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" text="Översikt">
+            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" text="Uppgifter">
                <font>
                   <Font size="27.0" />
                </font>
