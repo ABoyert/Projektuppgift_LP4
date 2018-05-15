@@ -26,9 +26,9 @@
                      <font>
                         <Font size="20.0" />
                      </font></TextField>
-                  <Label layoutX="59.0" layoutY="14.0" text="iMat" AnchorPane.leftAnchor="59.0" AnchorPane.topAnchor="14.0">
+                  <Label layoutX="59.0" layoutY="14.0" styleClass="iMat" text="iMat" AnchorPane.leftAnchor="59.0" AnchorPane.topAnchor="14.0">
                      <font>
-                        <Font size="40.0" />
+                        <Font size="20.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -198,12 +198,12 @@
                                           <Font size="20.0" />
                                        </font>
                                     </Button>
-                                    <Label fx:id="cartTotal" alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="29.0" prefHeight="30.0" prefWidth="145.0" text="Totalt:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                    <Label fx:id="cartTotal" alignment="BOTTOM_LEFT" layoutX="11.0" layoutY="29.0" prefHeight="30.0" prefWidth="180.0" text="Totalt:" AnchorPane.leftAnchor="2.0" AnchorPane.topAnchor="30.0">
                                        <font>
                                           <Font size="20.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="cartProducts" alignment="TOP_RIGHT" layoutX="-6.0" layoutY="5.0" prefHeight="30.0" prefWidth="145.0" text="Antal varor:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <Label fx:id="cartProducts" alignment="TOP_LEFT" layoutX="-6.0" layoutY="5.0" prefHeight="30.0" prefWidth="180.0" text="Antal varor:" AnchorPane.leftAnchor="2.0" AnchorPane.topAnchor="0.0">
                                        <font>
                                           <Font size="20.0" />
                                        </font>
