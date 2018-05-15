@@ -20,6 +20,7 @@ public class MainController implements Initializable{
     ShoppingCart shoppingCart;
     HelpPage helpPage;
     MyInfoPage infoPage;
+    CheckoutOverview checkoutOverview;
     PreviousPurchasesPage prevPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
@@ -42,7 +43,7 @@ public class MainController implements Initializable{
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart, helpButton;
+    Button emptyCart, helpButton, goToKassa;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
@@ -67,6 +68,7 @@ public class MainController implements Initializable{
         helpPage = new HelpPage();
         infoPage = new MyInfoPage();
         prevPage = new PreviousPurchasesPage();
+        checkoutOverview = new CheckoutOverview();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
     }
 
@@ -268,5 +270,18 @@ public class MainController implements Initializable{
         middleStack.getChildren().add(shopPage);
         categoryTab.toFront();
         shopPage.toFront();
+    }
+
+    @FXML
+    public void goToKassaPressed() {
+        if (shoppingCart.getTotal() != 0) {
+            middleStack.getChildren().clear();
+
+            if (middleStack.getChildren().contains(checkoutOverview)) {
+                checkoutOverview.toFront();
+            } else {
+                middleStack.getChildren().add(checkoutOverview);
+            }
+        }
     }
 }
