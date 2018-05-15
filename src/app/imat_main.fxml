@@ -149,7 +149,7 @@
                                     </Label>
                                  </children>
                               </AnchorPane>
-                              <FlowPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="334.0" />
+                              <FlowPane fx:id="leftPane" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="334.0" />
                            </children>
                         </VBox>
                      </children>

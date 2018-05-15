@@ -29,6 +29,10 @@ public class MainController implements Initializable{
     boolean sortAlphaPressed = false;
     boolean helpPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
+
+    List<String> categoryStringList = new ArrayList<String>();
+    List<IMatCategoryElement> categoryElements = new ArrayList<>();
+    
     enum States{
         HANDLA,
         MINA_UPPGIFTER,
@@ -36,7 +40,7 @@ public class MainController implements Initializable{
         TIDIGARE_KÖP;
     }
     @FXML
-    FlowPane mainPane, cartPane;
+    FlowPane mainPane, cartPane, leftPane;
     @FXML
     TextField searchBar;
     @FXML
@@ -61,6 +65,8 @@ public class MainController implements Initializable{
 
         helpPage = new HelpPage();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
+        createCategoryList();
+        loadCategories();
     }
 
     private void updateProducts(List<Product> productList, Sort sort) {
@@ -231,5 +237,49 @@ public class MainController implements Initializable{
         }
 
         helpPressed = !helpPressed;
+    }
+
+    public void createCategoryList(){
+        List<String> tempCatString = new ArrayList<>();
+        List<IMatCategoryElement> tempCategories = new ArrayList<>();
+        for (UtilityMethods.Categories cat: UtilityMethods.Categories.values()
+             ) {
+            tempCatString.add(cat.toString());
+        }
+        setCategoryStringList(tempCatString);
+        
+
+
+        for (String cat:getCategoryStringList()
+             ) {
+            tempCategories.add(new IMatCategoryElement(this, cat));
+
+        }
+        setCategoryElements(tempCategories);
+
+    }
+
+    public void loadCategories(){
+
+        for (IMatCategoryElement c: getCategoryElements()
+             ) {
+            leftPane.getChildren().add(c);
+        }
+    }
+
+    public List<String> getCategoryStringList() {
+        return categoryStringList;
+    }
+
+    public void setCategoryStringList(List<String> categoryStringList) {
+        this.categoryStringList = categoryStringList;
+    }
+
+    public List<IMatCategoryElement> getCategoryElements() {
+        return categoryElements;
+    }
+
+    public void setCategoryElements(List<IMatCategoryElement> categoryElements) {
+        this.categoryElements = categoryElements;
     }
 }
