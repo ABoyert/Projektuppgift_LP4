@@ -20,6 +20,7 @@ public class MainController implements Initializable{
     ShoppingCart shoppingCart;
     HelpPage helpPage;
     MyInfoPage infoPage;
+    CheckoutOverview checkoutOverview;
     PreviousPurchasesPage prevPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
@@ -31,11 +32,6 @@ public class MainController implements Initializable{
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
-
-    List<String> categoryStringList = new ArrayList<String>();
-    List<IMatCategoryElement> categoryElements = new ArrayList<>();
-    int git_suger = 0;
-    
     enum States{
         HANDLA,
         MINA_UPPGIFTER,
@@ -43,11 +39,11 @@ public class MainController implements Initializable{
         TIDIGARE_KÖP;
     }
     @FXML
-    FlowPane mainPane, cartPane, leftPane;
+    FlowPane mainPane, cartPane;
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart, helpButton;
+    Button emptyCart, helpButton, goToKassa;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
@@ -72,9 +68,8 @@ public class MainController implements Initializable{
         helpPage = new HelpPage();
         infoPage = new MyInfoPage();
         prevPage = new PreviousPurchasesPage();
+        checkoutOverview = new CheckoutOverview();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
-        createCategoryList();
-        loadCategories();
     }
 
     private void updateProducts(List<Product> productList, Sort sort) {
@@ -163,7 +158,7 @@ public class MainController implements Initializable{
         Product[] productArray = new Product[productList.size()];
         productArray = productList.toArray(productArray);
         boolean buttonStatus;
-        
+
         for (int i = (productArray.length - 1); i >= 0; i--) {
             for (int j = 1; j <= i; j++) {
                 if (!sortPricePressed) {
@@ -178,7 +173,7 @@ public class MainController implements Initializable{
                 }
             }
         }
-        
+
         sortPricePressed = !sortPricePressed;
         return Arrays.asList(productArray);
     }
@@ -202,7 +197,7 @@ public class MainController implements Initializable{
                 }
             }
         }
-        
+
         sortAlphaPressed = !sortAlphaPressed;
         return Arrays.asList(productArray);
     }
@@ -277,47 +272,16 @@ public class MainController implements Initializable{
         shopPage.toFront();
     }
 
-    public void createCategoryList(){
-        List<String> tempCatString = new ArrayList<>();
-        List<IMatCategoryElement> tempCategories = new ArrayList<>();
-        for (UtilityMethods.Categories cat: UtilityMethods.Categories.values()
-             ) {
-            tempCatString.add(cat.toString());
+    @FXML
+    public void goToKassaPressed() {
+        if (shoppingCart.getTotal() != 0) {
+            middleStack.getChildren().clear();
+
+            if (middleStack.getChildren().contains(checkoutOverview)) {
+                checkoutOverview.toFront();
+            } else {
+                middleStack.getChildren().add(checkoutOverview);
+            }
         }
-        setCategoryStringList(tempCatString);
-        
-
-
-        for (String cat:getCategoryStringList()
-             ) {
-            tempCategories.add(new IMatCategoryElement(this, cat));
-
-        }
-        setCategoryElements(tempCategories);
-
-    }
-
-    public void loadCategories(){
-
-        for (IMatCategoryElement c: getCategoryElements()
-             ) {
-            leftPane.getChildren().add(c);
-        }
-    }
-
-    public List<String> getCategoryStringList() {
-        return categoryStringList;
-    }
-
-    public void setCategoryStringList(List<String> categoryStringList) {
-        this.categoryStringList = categoryStringList;
-    }
-
-    public List<IMatCategoryElement> getCategoryElements() {
-        return categoryElements;
-    }
-
-    public void setCategoryElements(List<IMatCategoryElement> categoryElements) {
-        this.categoryElements = categoryElements;
     }
 }
