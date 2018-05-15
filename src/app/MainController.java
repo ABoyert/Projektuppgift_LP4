@@ -28,21 +28,23 @@ public class MainController implements Initializable{
     boolean sortAlphaPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
     enum States{
-        handla,
-        minaUppgifter,
-        hjalp,
-        tidigareKop;
+        HANDLA,
+        MINA_UPPGIFTER,
+        HJALP,
+        TIDIGARE_KÖP;
     }
     @FXML
     FlowPane mainPane, cartPane;
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart;
+    Button emptyCart, helpButton;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
     ImageView Left_panel_picture;
+    @FXML
+    StackPane middleStack;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -214,5 +216,14 @@ public class MainController implements Initializable{
             return image;
         }
         return new WritableImage(image.getPixelReader(), x, y, width, height);
+    }
+
+    @FXML
+    public void helpButtonPressed() {
+        HelpPage helpPage = new HelpPage();
+
+        middleStack.getChildren().add(helpPage);
+
+        helpPage.toFront();
     }
 }

@@ -44,7 +44,7 @@
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Button layoutX="1136.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="170.0" text="Hjälp" AnchorPane.rightAnchor="193.5999999999999" AnchorPane.topAnchor="14.0">
+                  <Button fx:id="helpButton" layoutX="1136.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#helpButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Hjälp" AnchorPane.rightAnchor="193.5999999999999" AnchorPane.topAnchor="14.0">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -66,7 +66,7 @@
    <center>
     <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="524.0" BorderPane.alignment="CENTER">
          <children>
-            <StackPane layoutX="9.0" prefHeight="702.0" prefWidth="538.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0">
+            <StackPane fx:id="middleStack" layoutX="9.0" prefHeight="702.0" prefWidth="538.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0">
                <children>
                   <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="554.0">
                      <children>
