@@ -8,6 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.WritableImage;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.*;
@@ -28,8 +29,6 @@ public class MainController implements Initializable{
     }
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
-    boolean helpPressed = false;
-    boolean infoPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
     enum States{
         HANDLA,
@@ -49,6 +48,8 @@ public class MainController implements Initializable{
     ImageView Left_panel_picture;
     @FXML
     StackPane middleStack;
+    @FXML
+    AnchorPane categoryTab, shopPage;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -227,25 +228,27 @@ public class MainController implements Initializable{
 
     @FXML
     public void helpButtonPressed() {
-        if (!helpPressed) {
-            middleStack.getChildren().add(helpPage);
-            helpPage.toFront();
-        } else {
-            middleStack.getChildren().remove(helpPage);
-        }
-
-        helpPressed = !helpPressed;
+            if (middleStack.getChildren().contains(helpPage)) {
+                helpPage.toFront();
+            } else {
+                middleStack.getChildren().add(helpPage);
+            }
     }
 
     @FXML
     public void myInfoButtonPressed() {
-        if (!infoPressed) {
-            middleStack.getChildren().add(infoPage);
+        if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
         } else {
-            middleStack.getChildren().remove(infoPage);
+            middleStack.getChildren().add(infoPage);
         }
+    }
 
-        infoPressed = !infoPressed;
+    @FXML
+    public void shopButtonPressed() {
+        middleStack.getChildren().clear();
+        middleStack.getChildren().add(shopPage);
+        categoryTab.toFront();
+        shopPage.toFront();
     }
 }
