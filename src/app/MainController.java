@@ -18,6 +18,7 @@ public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
     ShoppingCart shoppingCart;
     HelpPage helpPage;
+    MyInfoPage infoPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
     enum Sort {
@@ -28,6 +29,7 @@ public class MainController implements Initializable{
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
     boolean helpPressed = false;
+    boolean infoPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
     enum States{
         HANDLA,
@@ -60,6 +62,7 @@ public class MainController implements Initializable{
         });
 
         helpPage = new HelpPage();
+        infoPage = new MyInfoPage();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
     }
 
@@ -231,5 +234,17 @@ public class MainController implements Initializable{
         }
 
         helpPressed = !helpPressed;
+    }
+
+    @FXML
+    public void myInfoButtonPressed() {
+        if (!infoPressed) {
+            middleStack.getChildren().add(infoPage);
+            infoPage.toFront();
+        } else {
+            middleStack.getChildren().remove(infoPage);
+        }
+
+        infoPressed = !infoPressed;
     }
 }

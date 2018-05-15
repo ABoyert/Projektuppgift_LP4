@@ -39,7 +39,7 @@
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Button layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
+                  <Button layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#myInfoButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
                      <font>
                         <Font size="20.0" />
                      </font>
