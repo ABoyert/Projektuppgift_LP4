@@ -34,7 +34,7 @@ public class MainController implements Initializable{
 
     List<String> categoryStringList = new ArrayList<String>();
     List<IMatCategoryElement> categoryElements = new ArrayList<>();
-    int git_suger = 0;
+    int git_suger = 1;
     
     enum States{
         HANDLA,
