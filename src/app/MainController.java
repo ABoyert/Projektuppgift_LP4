@@ -35,6 +35,7 @@ public class MainController implements Initializable{
 
     List<String> categoryStringList = new ArrayList<String>();
     List<IMatCategoryElement> categoryElements = new ArrayList<>();
+    List<IMatCategoryElement> paymentSteps = new ArrayList<>();
     int git_suger = 0;
     
     enum States{
@@ -54,9 +55,11 @@ public class MainController implements Initializable{
     @FXML
     ImageView Left_panel_picture;
     @FXML
-    StackPane middleStack;
+    StackPane middleStack, rightStack;
     @FXML
     AnchorPane categoryTab, shopPage;
+
+    CheckoutCost cc = new CheckoutCost();
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -75,6 +78,8 @@ public class MainController implements Initializable{
         prevPage = new PreviousPurchasesPage();
         checkoutOverview = new CheckoutOverview();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
+        rightStack.getChildren().add(cc);
+        cc.toBack();
         createCategoryList();
         loadCategories();
     }
@@ -258,6 +263,7 @@ public class MainController implements Initializable{
             } else {
                 middleStack.getChildren().add(helpPage);
             }
+
     }
 
     @FXML
@@ -277,6 +283,7 @@ public class MainController implements Initializable{
         middleStack.getChildren().add(shopPage);
         categoryTab.toFront();
         shopPage.toFront();
+        loadCategories();
     }
 
     public void createCategoryList(){
@@ -332,14 +339,37 @@ public class MainController implements Initializable{
 
             if (middleStack.getChildren().contains(checkoutOverview)) {
                 checkoutOverview.toFront();
+                showPaymentSteps();
+                showCost();
             } else {
                 middleStack.getChildren().add(checkoutOverview);
+                showPaymentSteps();
+                showCost();
             }
         }
     }
 
 
     public void showCost(){
-        cartPane.getChildren().add(new CheckoutCost());
+        cc.toFront();
+    }
+
+    public void createPaymentSteps(){
+        paymentSteps.add(new IMatCategoryElement(this, "1. Översikt"));
+        paymentSteps.add(new IMatCategoryElement(this, "2. Uppgifter"));
+        paymentSteps.add(new IMatCategoryElement(this, "3. Betala"));
+        paymentSteps.add(new IMatCategoryElement(this, "4. Klar"));
+
+
+
+    }
+
+    public void showPaymentSteps(){
+        leftPane.getChildren().clear();
+        for (IMatCategoryElement step: paymentSteps
+             ) {
+            leftPane.getChildren().add(step);
+
+        }
     }
 }
