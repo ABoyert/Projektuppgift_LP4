@@ -1,12 +1,20 @@
 package app;
 
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.FlowPane;
+import se.chalmers.cse.dat216.project.ShoppingItem;
 
 import java.io.IOException;
 
 public class CheckoutOverview extends AnchorPane {
-    public CheckoutOverview() {
+    @FXML
+    FlowPane overviewCheckOutFlowPane;
+
+    MainController parentController;
+
+    public CheckoutOverview(MainController parentController) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("overviewCheckoutElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
@@ -16,5 +24,12 @@ public class CheckoutOverview extends AnchorPane {
         } catch (IOException exception) {
             throw new RuntimeException(exception);
         }
+
+        for (ShoppingItem item : parentController.shoppingCart.getItems()) {
+            OverviewCartProduct op = new OverviewCartProduct(item, parentController);
+            overviewCheckOutFlowPane.getChildren().add(op);
+        }
+
+        this.parentController = parentController;
     }
 }

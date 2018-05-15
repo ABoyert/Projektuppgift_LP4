@@ -73,7 +73,7 @@ public class MainController implements Initializable{
         helpPage = new HelpPage();
         infoPage = new MyInfoPage();
         prevPage = new PreviousPurchasesPage();
-        checkoutOverview = new CheckoutOverview();
+        checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
         createCategoryList();
         loadCategories();
@@ -329,12 +329,7 @@ public class MainController implements Initializable{
     public void goToKassaPressed() {
         if (shoppingCart.getTotal() != 0) {
             middleStack.getChildren().clear();
-
-            if (middleStack.getChildren().contains(checkoutOverview)) {
-                checkoutOverview.toFront();
-            } else {
-                middleStack.getChildren().add(checkoutOverview);
-            }
+            middleStack.getChildren().add(new CheckoutOverview(this));
         }
     }
 
