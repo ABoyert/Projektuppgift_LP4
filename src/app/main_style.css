@@ -50,3 +50,6 @@
 .category:hover{
     -fx-background-color: #33CC66;
 }
+.video_LighBox{
+    -fx-background-color: rgba(0, 0, 0, 0.85)
+}
