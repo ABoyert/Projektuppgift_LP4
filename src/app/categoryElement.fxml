@@ -14,7 +14,7 @@
       </Label>
    </children>
    <styleClass>
-      <String fx:value="category_element" />
+      <String fx:value="category" />
       <String fx:value="border" />
    </styleClass>
 </fx:root>
