@@ -82,6 +82,12 @@
                                  </styleClass>
                               </AnchorPane>
                            </content>
+                           <styleClass>
+                              <String fx:value="scroll-bar" />
+                              <String fx:value="increment-button" />
+                              <String fx:value="decrement-button" />
+                              <String fx:value="scroll-pane" />
+                           </styleClass>
                         </ScrollPane>
                         <AnchorPane prefHeight="59.0" prefWidth="298.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
@@ -218,7 +224,7 @@
                         </AnchorPane>
                         <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" styleClass="border" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
                            <children>
-                              <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" styleClass="scroll-bar" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <content>
                                     <AnchorPane>
                                        <children>

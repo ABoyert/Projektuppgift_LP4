@@ -44,3 +44,14 @@
     -fx-border-width: 0.8px;
     -fx-background-color: #F5F5F5;
 }
+.scroll-bar:horizontal .track{
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}

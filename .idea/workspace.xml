@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7183488c-0bf4-4061-94c9-ac07e17d0b34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/iMat/app/MainController$1.class" afterPath="$PROJECT_DIR$/out/production/iMat/app/MainController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/iMat/app/MainController$2.class" afterPath="$PROJECT_DIR$/out/production/iMat/app/MainController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/iMat/app/MainController$Sort.class" afterPath="$PROJECT_DIR$/out/production/iMat/app/MainController$Sort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/iMat/app/MainController.class" afterPath="$PROJECT_DIR$/out/production/iMat/app/MainController.class" />
+    <list default="true" id="7183488c-0bf4-4061-94c9-ac07e17d0b34" name="Default" comment="Fix try">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/imat_main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main_style.css" afterPath="$PROJECT_DIR$/src/app/main_style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,24 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="206">
+              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/main_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="439">
+              <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -86,8 +84,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/app/iMat.java" />
-        <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/main_style.css" />
+        <option value="$PROJECT_DIR$/src/app/MainController.java" />
       </list>
     </option>
   </component>
@@ -422,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526306933988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix try">
+      <created>1526376402443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526376402443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -492,7 +497,8 @@
     <MESSAGE value="Fixed so you can run it in size 1300x800.&#10;&#10;Fixes in ImatMainfxml.&#10;Fixes to min resolution code." />
     <MESSAGE value="Added enum states and gave FXiD to kategory label and picture" />
     <MESSAGE value="Added Css classes for forground and background colors then change colors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Css classes for forground and background colors then change colors." />
+    <MESSAGE value="Fix try" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix try" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -529,7 +535,6 @@
           <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -572,7 +577,6 @@
           <caret line="28" column="76" lean-forward="false" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -667,7 +671,6 @@
           <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -710,7 +713,6 @@
           <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -753,7 +755,6 @@
           <caret line="28" column="76" lean-forward="false" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -830,6 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1258">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,22 +843,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/app/main_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1526376238286" expanded="true" signature="7117:7124" ph="{...}" />
-          </folding>
+        <state relative-caret-position="439">
+          <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main_style.css">
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="206">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
