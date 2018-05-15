@@ -14,7 +14,6 @@ import se.chalmers.cse.dat216.project.*;
 import java.net.URL;
 import java.util.*;
 
-
 public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
     ShoppingCart shoppingCart;
@@ -27,26 +26,25 @@ public class MainController implements Initializable{
     }
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
-
     // Sätta programmet i olika states beroende på vilken kategori man är i?
-    enum appState{
-        handla,
-        minaUppgifter,
-        hjalp,
-        tidigareKop;
+    enum States{
+        HANDLA,
+        MINA_UPPGIFTER,
+        HJALP,
+        TIDIGARE_KÖP;
     }
-    appState currentAppState = appState.handla;
-
     @FXML
     FlowPane mainPane, cartPane;
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart;
+    Button emptyCart, helpButton;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
     ImageView Left_panel_picture;
+    @FXML
+    StackPane middleStack;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -60,7 +58,6 @@ public class MainController implements Initializable{
         });
 
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
-        updateCart();
     }
 
     private void updateProducts(List<Product> productList, Sort sort) {
@@ -219,5 +216,14 @@ public class MainController implements Initializable{
             return image;
         }
         return new WritableImage(image.getPixelReader(), x, y, width, height);
+    }
+
+    @FXML
+    public void helpButtonPressed() {
+        HelpPage helpPage = new HelpPage();
+
+        middleStack.getChildren().add(helpPage);
+
+        helpPage.toFront();
     }
 }
