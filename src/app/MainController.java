@@ -59,8 +59,9 @@ public class MainController implements Initializable{
             public void shoppingCartChanged(CartEvent cartEvent) {
                 updateCart();
             }
-        });
 
+        });
+        updateCart();
         helpPage = new HelpPage();
         infoPage = new MyInfoPage();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
