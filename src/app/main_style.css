@@ -1,5 +1,22 @@
 .button {
-    -fx-border-radius: 10px;
+    -fx-background-color: #FDFDFD;
+    -fx-font-size: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-border-color: #050505;
+    -fx-border-width: 0.3px;
+}
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-border-width: 0.8px;
+    -fx-background-color: #F5F5F5;
+    -fx-font-size:19;
+}
+.iMat{
+    -fx-font-size: 40;
+}
+.iMat:hover{
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
 }
 .border {
     -fx-border-width:0.3px;
@@ -9,13 +26,21 @@
     -fx-border-style:none none solid none;
     -fx-border-width:0 0 0.3px 0;
 }
-.borderLeft{
-    -fx-border-style:none solid none none;
-    -fx-border-width:0 0.3px 0 0;
-}
 .forground_colour {
     -fx-background-color: #F9F9F9;
 }
 .background_colour {
     -fx-background-color: #FDFDFD;
+}
+.plus_minus_button {
+    -fx-background-color: #FDFDFD;
+    -fx-font-size: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-border-color: #050505;
+    -fx-border-width: 0.3px;
+}
+.plus_minus_button:hover {
+    -fx-font-weight: bold;
+    -fx-border-width: 0.8px;
+    -fx-background-color: #F5F5F5;
 }

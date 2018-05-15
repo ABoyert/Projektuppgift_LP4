@@ -14,6 +14,7 @@ import se.chalmers.cse.dat216.project.*;
 import java.net.URL;
 import java.util.*;
 
+
 public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
     ShoppingCart shoppingCart;
@@ -26,13 +27,16 @@ public class MainController implements Initializable{
     }
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
+
     // Sätta programmet i olika states beroende på vilken kategori man är i?
-    enum States{
+    enum appState{
         handla,
         minaUppgifter,
         hjalp,
         tidigareKop;
     }
+    appState currentAppState = appState.handla;
+
     @FXML
     FlowPane mainPane, cartPane;
     @FXML
@@ -56,6 +60,7 @@ public class MainController implements Initializable{
         });
 
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
+        updateCart();
     }
 
     private void updateProducts(List<Product> productList, Sort sort) {

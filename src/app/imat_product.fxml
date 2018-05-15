@@ -16,14 +16,17 @@
                     <Image url="@../../../Chalmers/Design%20och%20konstruktion/Lab%203/Lab2/RecipeSearch/src/recipesearch/resources/icon_close_hover.png" />
                 </image>
             </ImageView>
-            <Button fx:id="moreInfoButton" layoutX="153.0" layoutY="4.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="106.0" text="Mer info" wrapText="true" />
+            <Button fx:id="moreInfoButton" layoutX="153.0" layoutY="4.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="106.0" text="Mer info" wrapText="true">
+            <font>
+               <Font size="10.0" />
+            </font></Button>
             <AnchorPane layoutY="288.0" prefHeight="89.0" prefWidth="266.0" styleClass="border" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="288.0">
                 <children>
-                    <Button fx:id="addProduct" alignment="CENTER" graphicTextGap="0.0" layoutX="185.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="49.0" prefWidth="95.0" style="-fx-background-color: f2f0f0;" text="+" textAlignment="CENTER" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="170.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <Button fx:id="addProduct" alignment="CENTER" graphicTextGap="0.0" layoutX="185.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="49.0" prefWidth="95.0" styleClass="plus_minus_button" text="+" textAlignment="CENTER" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="170.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                   <font>
                      <Font size="20.0" />
                   </font></Button>
-                    <Button fx:id="removeProduct" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="53.0" prefWidth="82.0" style="-fx-background-color: f2f0f0;" text="-" textAlignment="CENTER" textFill="#fa0606" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="170.0" AnchorPane.topAnchor="0.0">
+                    <Button fx:id="removeProduct" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="53.0" prefWidth="82.0" styleClass="plus_minus_button" text="-" textAlignment="CENTER" textFill="#fa0606" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="170.0" AnchorPane.topAnchor="0.0">
                   <font>
                      <Font name="System Bold" size="20.0" />
                   </font></Button>
