@@ -8,6 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.WritableImage;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.*;
@@ -18,6 +19,8 @@ public class MainController implements Initializable{
     IMatDataHandler db = IMatDataHandler.getInstance();
     ShoppingCart shoppingCart;
     HelpPage helpPage;
+    MyInfoPage infoPage;
+    PreviousPurchasesPage prevPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
     enum Sort {
@@ -27,7 +30,6 @@ public class MainController implements Initializable{
     }
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
-    boolean helpPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
 
     List<String> categoryStringList = new ArrayList<String>();
@@ -51,6 +53,8 @@ public class MainController implements Initializable{
     ImageView Left_panel_picture;
     @FXML
     StackPane middleStack;
+    @FXML
+    AnchorPane categoryTab, shopPage;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -61,9 +65,12 @@ public class MainController implements Initializable{
             public void shoppingCartChanged(CartEvent cartEvent) {
                 updateCart();
             }
-        });
 
+        });
+        updateCart();
         helpPage = new HelpPage();
+        infoPage = new MyInfoPage();
+        prevPage = new PreviousPurchasesPage();
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
         createCategoryList();
         loadCategories();
@@ -227,16 +234,46 @@ public class MainController implements Initializable{
         return new WritableImage(image.getPixelReader(), x, y, width, height);
     }
 
+
+    @FXML
+    public void previousPurchasesButtonPressed() {
+        middleStack.getChildren().clear();
+
+        if (middleStack.getChildren().contains(prevPage)) {
+            prevPage.toFront();
+        } else {
+            middleStack.getChildren().add(prevPage);
+        }
+    }
+
     @FXML
     public void helpButtonPressed() {
-        if (!helpPressed) {
-            middleStack.getChildren().add(helpPage);
-            helpPage.toFront();
-        } else {
-            middleStack.getChildren().remove(helpPage);
-        }
+        middleStack.getChildren().clear();
 
-        helpPressed = !helpPressed;
+            if (middleStack.getChildren().contains(helpPage)) {
+                helpPage.toFront();
+            } else {
+                middleStack.getChildren().add(helpPage);
+            }
+    }
+
+    @FXML
+    public void myInfoButtonPressed() {
+        middleStack.getChildren().clear();
+
+        if (middleStack.getChildren().contains(infoPage)) {
+            infoPage.toFront();
+        } else {
+            middleStack.getChildren().add(infoPage);
+        }
+    }
+
+    @FXML
+    public void shopButtonPressed() {
+        middleStack.getChildren().clear();
+        middleStack.getChildren().add(shopPage);
+        categoryTab.toFront();
+        shopPage.toFront();
     }
 
     public void createCategoryList(){

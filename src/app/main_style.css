@@ -44,10 +44,3 @@
     -fx-border-width: 0.8px;
     -fx-background-color: #F5F5F5;
 }
-.category_element{
-    -fx-background-color: #336666;
-
-}
-.category_element:hover {
-    -fx-background-color: #33CC66;
-}
