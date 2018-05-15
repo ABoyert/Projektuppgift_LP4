@@ -320,4 +320,8 @@ public class MainController implements Initializable{
     public void setCategoryElements(List<IMatCategoryElement> categoryElements) {
         this.categoryElements = categoryElements;
     }
+
+    public void showCost(){
+        cartPane.getChildren().add(new CheckoutCost());
+    }
 }
