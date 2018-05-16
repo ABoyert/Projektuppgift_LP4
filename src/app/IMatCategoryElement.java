@@ -30,9 +30,7 @@ public class IMatCategoryElement extends AnchorPane {
 
     @FXML
     public void buttonPressed() {
-        if (textLabelCategory.getText().equals("KOTT")) {
-            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        }
+        controller.categoryPressed(textLabelCategory.toString());
     }
 }
 

@@ -402,5 +402,45 @@ public class MainController implements Initializable {
 
     }
 
+    public void categoryPressed(String label){
+        boolean contains = middleStack.getChildren().contains(shopPage);
+
+        if(contains){
+            switch (label){
+                case "KOTT":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.KOTT), Sort.NONE);
+                    break;
+                case "BROD":
+                updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.BROD), Sort.NONE);
+                break;
+                case "FISK":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.FISK), Sort.NONE);
+                    break;
+                case "SKAFFERI":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.SKAFFERI), Sort.NONE);
+                    break;
+                case "PASTA":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.PASTA), Sort.NONE);
+                    break;
+                case "POTATIS_RIS":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.POTATIS_RIS), Sort.NONE);
+                    break;
+                case "SOTSAKER":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.SOTSAKER), Sort.NONE);
+                    break;
+                case "MJOLKPRODUKTER":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.MJOLKPRODUKTER), Sort.NONE);
+                    break;
+                case "FRUKT_GRONT":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.FRUKT_GRONT), Sort.NONE);
+                    break;
+                case "DRYCKER":
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.DRYCKER), Sort.NONE);
+                    break;
+            }
+        }
+
+    }
+
 
 }
