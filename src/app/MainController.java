@@ -408,6 +408,7 @@ public class MainController implements Initializable {
         if(contains){
             switch (label){
                 case "KOTT":
+                    System.out.println("Kött borde visas");
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.KOTT), Sort.NONE);
                     break;
                 case "BROD":
@@ -438,6 +439,15 @@ public class MainController implements Initializable {
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.DRYCKER), Sort.NONE);
                     break;
             }
+        }
+        else{
+            switch (label){
+                case "Betala":
+                    System.out.println("Betala borde visas");
+                    updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.KOTT), Sort.NONE);
+                    break;
+            }
+
         }
 
     }
