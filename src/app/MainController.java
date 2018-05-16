@@ -82,6 +82,7 @@ public class MainController implements Initializable{
         cc = new CheckoutCost();
         System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
+        createPaymentSteps();
         cc.toBack();
 
         createCategoryList();
@@ -343,6 +344,7 @@ public class MainController implements Initializable{
     public void goToKassaPressed() {
         if (shoppingCart.getTotal() != 0) {
             middleStack.getChildren().clear();
+            Left_panel_label.setText("Betalningssteg");
 
             if (middleStack.getChildren().contains(checkoutOverview)) {
                 checkoutOverview.toFront();
