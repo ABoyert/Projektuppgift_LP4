@@ -250,7 +250,7 @@ public class MainController implements Initializable{
     @FXML
     public void previousPurchasesButtonPressed() {
         middleStack.getChildren().clear();
-        rightStack.getChildren().clear();
+        hideCost();
 
         if (middleStack.getChildren().contains(prevPage)) {
             prevPage.toFront();
@@ -262,7 +262,7 @@ public class MainController implements Initializable{
     @FXML
     public void helpButtonPressed() {
         middleStack.getChildren().clear();
-        rightStack.getChildren().clear();
+        hideCost();
 
             if (middleStack.getChildren().contains(helpPage)) {
                 helpPage.toFront();
@@ -274,7 +274,7 @@ public class MainController implements Initializable{
     @FXML
     public void myInfoButtonPressed() {
         middleStack.getChildren().clear();
-        rightStack.getChildren().clear();
+        hideCost();
 
         if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
@@ -286,7 +286,7 @@ public class MainController implements Initializable{
     @FXML
     public void shopButtonPressed() {
         middleStack.getChildren().clear();
-        rightStack.getChildren().clear();
+        hideCost();
         middleStack.getChildren().add(shopPage);
         categoryTab.toFront();
         shopPage.toFront();
@@ -359,6 +359,10 @@ public class MainController implements Initializable{
 
     public void showCost(){
         cc.toFront();
+    }
+
+    public void hideCost(){
+        cc.toBack();
     }
 
     public void createPaymentSteps(){
