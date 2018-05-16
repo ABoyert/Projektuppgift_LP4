@@ -59,7 +59,8 @@ public class MainController implements Initializable{
     @FXML
     AnchorPane categoryTab, shopPage;
 
-    CheckoutCost cc = new CheckoutCost();
+    CheckoutCost cc;
+
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -78,8 +79,11 @@ public class MainController implements Initializable{
         prevPage = new PreviousPurchasesPage();
         checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
+        cc = new CheckoutCost();
+        System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
         cc.toBack();
+
         createCategoryList();
         loadCategories();
     }
@@ -371,4 +375,7 @@ public class MainController implements Initializable{
 
         }
     }
+
+
+
 }
