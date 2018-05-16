@@ -18,8 +18,8 @@
          </ImageView>
          <AnchorPane layoutX="466.0" layoutY="45.0" prefHeight="62.0" prefWidth="327.0">
             <children>
-               <Button fx:id="cartRemoveProduct" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" text="-" />
-               <Button fx:id="cartAddItem" layoutX="244.0" layoutY="11.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" text="+" />
+               <Button fx:id="cartRemoveItem" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="43.0" prefWidth="76.0" text="-" />
+               <Button fx:id="cartAddItem" layoutX="244.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="43.0" prefWidth="76.0" text="+" />
                <Label fx:id="cartElementTotalProduct" alignment="CENTER" layoutX="83.0" layoutY="11.0" prefHeight="43.0" prefWidth="162.0" text="22 st">
                   <font>
                      <Font size="30.0" />
