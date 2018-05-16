@@ -15,7 +15,7 @@ public class CheckoutOverview extends AnchorPane {
     MainController parentController;
 
     public CheckoutOverview(MainController parentController) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("overviewCheckoutElement.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/overviewCheckoutElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

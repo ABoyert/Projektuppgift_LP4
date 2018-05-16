@@ -299,8 +299,6 @@ public class MainController implements Initializable{
 
     }
 
-
-
     public void loadCategories(){
 
         for (IMatCategoryElement c: getCategoryElements()

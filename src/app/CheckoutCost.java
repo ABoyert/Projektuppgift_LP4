@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class CheckoutCost extends AnchorPane {
     public CheckoutCost() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("imat_betalning_kostnadpane.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_betalning_kostnadpane.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

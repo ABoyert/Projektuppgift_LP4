@@ -22,7 +22,7 @@ public class OverviewCartProduct extends AnchorPane {
     private ShoppingItem shoppingItem;
 
     public OverviewCartProduct(ShoppingItem shoppingItem, MainController mainController) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("cartOverviewElement.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/cartOverviewElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

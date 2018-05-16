@@ -167,7 +167,7 @@
                                        <children>
                                           <ImageView fx:id="Left_panel_picture" fitHeight="60.0" fitWidth="100.0" layoutX="260.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="263.6" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
                                              <image>
-                                                <Image url="@../resources/cart_small_image.png" />
+                                                <Image url="@../../resources/cart_small_image.png" />
                                              </image>
                                           </ImageView>
                                           <Label fx:id="Left_panel_label" contentDisplay="RIGHT" graphicTextGap="50.0" prefHeight="60.0" prefWidth="228.0" text="Varor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="0.0">
@@ -212,7 +212,7 @@
                                     </Label>
                                     <ImageView fx:id="cartImage" fitHeight="60.0" fitWidth="100.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="296.4" AnchorPane.topAnchor="10.0">
                                        <image>
-                                          <Image url="@../resources/cart_small_image_2.png" />
+                                          <Image url="@../../resources/cart_small_image_2.png" />
                                        </image>
                                     </ImageView>
                                  </children>

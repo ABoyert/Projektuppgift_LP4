@@ -9,7 +9,7 @@ public class HelpPage extends AnchorPane {
 
 
     public HelpPage() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("helpPageElement.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/helpPageElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

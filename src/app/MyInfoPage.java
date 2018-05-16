@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class MyInfoPage extends AnchorPane {
     public MyInfoPage() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("mina_uppgifter_element.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/mina_uppgifter_element.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

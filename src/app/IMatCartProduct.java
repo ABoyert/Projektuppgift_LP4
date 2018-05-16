@@ -6,7 +6,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import se.chalmers.cse.dat216.project.Product;
 import se.chalmers.cse.dat216.project.ShoppingItem;
 
 import java.io.IOException;
@@ -23,7 +22,7 @@ public class IMatCartProduct extends AnchorPane {
     private ShoppingItem shoppingItem;
 
     public IMatCartProduct(ShoppingItem shoppingItem, MainController mainController) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("imat_cart_product.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_cart_product.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 
