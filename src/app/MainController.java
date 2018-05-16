@@ -12,10 +12,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import se.chalmers.cse.dat216.project.*;
+
 import java.net.URL;
 import java.util.*;
 
-public class MainController implements Initializable{
+public class MainController implements Initializable {
     IMatDataHandler db = IMatDataHandler.getInstance();
     ShoppingCart shoppingCart;
     HelpPage helpPage;
@@ -24,11 +25,13 @@ public class MainController implements Initializable{
     PreviousPurchasesPage prevPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
+
     enum Sort {
         ALPHABETICAL,
         PRICE,
         NONE;
     }
+
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
@@ -39,13 +42,14 @@ public class MainController implements Initializable{
     List<IMatCategoryElement> orders = new ArrayList<>();
 
     int git_suger = 0;
-    
-    enum States{
+
+    enum States {
         HANDLA,
         MINA_UPPGIFTER,
         HJALP,
         TIDIGARE_KÖP;
     }
+
     @FXML
     FlowPane mainPane, cartPane, leftPane;
     @FXML
@@ -97,7 +101,7 @@ public class MainController implements Initializable{
 
         List<Product> list = null;
 
-        switch(sort) {
+        switch (sort) {
             case NONE:
                 list = productList;
                 break;
@@ -150,8 +154,7 @@ public class MainController implements Initializable{
             String result = searchBar.getText();
             List<Product> searchResult = db.findProducts(result);
             updateProducts(searchResult, Sort.NONE);
-        }
-        catch (NumberFormatException | NullPointerException err) {
+        } catch (NumberFormatException | NullPointerException err) {
             System.out.println("Error with search!");
         }
     }
@@ -177,7 +180,7 @@ public class MainController implements Initializable{
         Product[] productArray = new Product[productList.size()];
         productArray = productList.toArray(productArray);
         boolean buttonStatus;
-        
+
         for (int i = (productArray.length - 1); i >= 0; i--) {
             for (int j = 1; j <= i; j++) {
                 if (!sortPricePressed) {
@@ -192,7 +195,7 @@ public class MainController implements Initializable{
                 }
             }
         }
-        
+
         sortPricePressed = !sortPricePressed;
         return Arrays.asList(productArray);
     }
@@ -216,33 +219,29 @@ public class MainController implements Initializable{
                 }
             }
         }
-        
+
         sortAlphaPressed = !sortAlphaPressed;
         return Arrays.asList(productArray);
     }
 
-    public Image getSquareImage(Image image){
+    public Image getSquareImage(Image image) {
 
         int x = 0;
         int y = 0;
         int width = 0;
         int height = 0;
 
-        if(image.getWidth() > image.getHeight()){
+        if (image.getWidth() > image.getHeight()) {
             width = (int) image.getHeight();
             height = (int) image.getHeight();
-            x = (int)(image.getWidth() - width)/2;
+            x = (int) (image.getWidth() - width) / 2;
             y = 0;
-        }
-
-        else if(image.getHeight() > image.getWidth()){
+        } else if (image.getHeight() > image.getWidth()) {
             width = (int) image.getWidth();
             height = (int) image.getWidth();
             x = 0;
-            y = (int) (image.getHeight() - height)/2;
-        }
-
-        else{
+            y = (int) (image.getHeight() - height) / 2;
+        } else {
             //Width equals Height, return original image
             return image;
         }
@@ -269,11 +268,11 @@ public class MainController implements Initializable{
         hideCost();
         setLeftLabelVaror();
 
-            if (middleStack.getChildren().contains(helpPage)) {
-                helpPage.toFront();
-            } else {
-                middleStack.getChildren().add(helpPage);
-            }
+        if (middleStack.getChildren().contains(helpPage)) {
+            helpPage.toFront();
+        } else {
+            middleStack.getChildren().add(helpPage);
+        }
     }
 
     @FXML
@@ -300,19 +299,18 @@ public class MainController implements Initializable{
         loadCategories();
     }
 
-    public void createCategoryList(){
+    public void createCategoryList() {
         List<String> tempCatString = new ArrayList<>();
         List<IMatCategoryElement> tempCategories = new ArrayList<>();
-        for (UtilityMethods.Categories cat: UtilityMethods.Categories.values()
-             ) {
+        for (UtilityMethods.Categories cat : UtilityMethods.Categories.values()
+                ) {
             tempCatString.add(cat.toString());
         }
         setCategoryStringList(tempCatString);
-        
 
 
-        for (String cat:getCategoryStringList()
-             ) {
+        for (String cat : getCategoryStringList()
+                ) {
             tempCategories.add(new IMatCategoryElement(this, cat));
 
         }
@@ -321,11 +319,10 @@ public class MainController implements Initializable{
     }
 
 
+    public void loadCategories() {
 
-    public void loadCategories(){
-
-        for (IMatCategoryElement c: getCategoryElements()
-             ) {
+        for (IMatCategoryElement c : getCategoryElements()
+                ) {
             leftPane.getChildren().add(c);
         }
     }
@@ -352,65 +349,58 @@ public class MainController implements Initializable{
             middleStack.getChildren().clear();
             Left_panel_label.setText("Betalningssteg");
 
-            if (middleStack.getChildren().contains(checkoutOverview)) {
-                checkoutOverview.toFront();
-                showPaymentSteps();
-                showCost();
-            } else {
-                middleStack.getChildren().add(checkoutOverview);
-                showPaymentSteps();
-                showCost();
-            }
+            middleStack.getChildren().clear();
+            middleStack.getChildren().add(new CheckoutOverview(this));
+            showPaymentSteps();
+            showCost();
         }
     }
 
 
-    public void showCost(){
+    public void showCost() {
         cc.toFront();
     }
 
-    public void hideCost(){
+    public void hideCost() {
         cc.toBack();
     }
 
-    public void createPaymentSteps(){
+    public void createPaymentSteps() {
         paymentSteps.add(new IMatCategoryElement(this, "1. Översikt"));
         paymentSteps.add(new IMatCategoryElement(this, "2. Uppgifter"));
         paymentSteps.add(new IMatCategoryElement(this, "3. Betala"));
         paymentSteps.add(new IMatCategoryElement(this, "4. Klar"));
 
 
-
     }
 
-    public void showPaymentSteps(){
+    public void showPaymentSteps() {
         leftPane.getChildren().clear();
-        for (IMatCategoryElement step: paymentSteps
-             ) {
+        for (IMatCategoryElement step : paymentSteps
+                ) {
             leftPane.getChildren().add(step);
 
         }
     }
 
-    public void setLeftLabelVaror(){
+    public void setLeftLabelVaror() {
         Left_panel_label.setText("Varor");
     }
 
-    public void loadPreviousPurchaseDates(){
-        for (Order order: db.getOrders()
-             ) {
+    public void loadPreviousPurchaseDates() {
+        for (Order order : db.getOrders()
+                ) {
 
             orders.add(new IMatCategoryElement(this, order.getDate().toString()));
         }
 
         leftPane.getChildren().clear();
-        for (IMatCategoryElement order: orders
-             ) {
+        for (IMatCategoryElement order : orders
+                ) {
             leftPane.getChildren().add(order);
         }
 
     }
-
 
 
 }
