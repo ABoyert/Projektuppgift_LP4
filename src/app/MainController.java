@@ -388,18 +388,13 @@ public class MainController implements Initializable {
     }
 
     public void loadPreviousPurchaseDates() {
-        for (Order order : db.getOrders()
-                ) {
-
-            orders.add(new IMatCategoryElement(this, order.getDate().toString()));
-        }
-
         leftPane.getChildren().clear();
-        for (IMatCategoryElement order : orders
-                ) {
-            leftPane.getChildren().add(order);
-        }
 
+        for (Order order : db.getOrders()) {
+            IMatCategoryElement ce = new IMatCategoryElement(this, order.getDate().toString());
+
+            leftPane.getChildren().add(ce);
+        }
     }
 
     public void categoryPressed(String label){

@@ -25,11 +25,26 @@ public class CheckoutOverview extends AnchorPane {
             throw new RuntimeException(exception);
         }
 
+        this.parentController = parentController;
+
+        updateView();
+    }
+
+    @FXML
+    public void placeOrder() {
+        if (parentController.shoppingCart.getTotal() != 0) {
+            parentController.db.placeOrder();
+        }
+        parentController.shoppingCart.clear();
+        updateView();
+    }
+
+    private void updateView() {
+        overviewCheckOutFlowPane.getChildren().clear();
+
         for (ShoppingItem item : parentController.shoppingCart.getItems()) {
             OverviewCartProduct op = new OverviewCartProduct(item, parentController);
             overviewCheckOutFlowPane.getChildren().add(op);
         }
-
-        this.parentController = parentController;
     }
 }
