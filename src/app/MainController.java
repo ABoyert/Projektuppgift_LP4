@@ -116,7 +116,7 @@ public class MainController implements Initializable{
     public void updateCart() {
         cartPane.getChildren().clear();
 
-        cartTotal.setText("Totalt: " + Math.round(shoppingCart.getTotal() * 100) / 100 + " kr");
+        cartTotal.setText("Totalt: " + (double) Math.round(shoppingCart.getTotal() * 100) / 100 + " kr");
         cartProducts.setText("Antal varor: " + countCartProducts() + " st");
 
         List<ShoppingItem> cart = shoppingCart.getItems();

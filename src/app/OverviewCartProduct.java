@@ -46,6 +46,7 @@ public class OverviewCartProduct extends AnchorPane {
         shoppingItem.setAmount(shoppingItem.getAmount() + 1);
         cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
         parentController.updateCart();
+        cartElementTotalPrice.setText("Totalt: " + (double) Math.round(shoppingItem.getTotal() * 100) / 100 + " kr");
     }
 
     @FXML
@@ -54,6 +55,7 @@ public class OverviewCartProduct extends AnchorPane {
             shoppingItem.setAmount(shoppingItem.getAmount() - 1);
             cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
             parentController.updateCart();
+            cartElementTotalPrice.setText("Totalt: " + (double) Math.round(shoppingItem.getTotal() * 100) / 100 + " kr");
         }
     }
 
