@@ -36,6 +36,8 @@ public class MainController implements Initializable{
     List<String> categoryStringList = new ArrayList<String>();
     List<IMatCategoryElement> categoryElements = new ArrayList<>();
     List<IMatCategoryElement> paymentSteps = new ArrayList<>();
+    List<IMatCategoryElement> orders = new ArrayList<>();
+
     int git_suger = 0;
     
     enum States{
@@ -252,6 +254,7 @@ public class MainController implements Initializable{
     public void previousPurchasesButtonPressed() {
         middleStack.getChildren().clear();
         hideCost();
+        loadPreviousPurchaseDates();
 
         if (middleStack.getChildren().contains(prevPage)) {
             prevPage.toFront();
@@ -264,6 +267,7 @@ public class MainController implements Initializable{
     public void helpButtonPressed() {
         middleStack.getChildren().clear();
         hideCost();
+        setLeftLabelVaror();
 
             if (middleStack.getChildren().contains(helpPage)) {
                 helpPage.toFront();
@@ -276,6 +280,7 @@ public class MainController implements Initializable{
     public void myInfoButtonPressed() {
         middleStack.getChildren().clear();
         hideCost();
+        setLeftLabelVaror();
 
         if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
@@ -288,6 +293,7 @@ public class MainController implements Initializable{
     public void shopButtonPressed() {
         middleStack.getChildren().clear();
         hideCost();
+        setLeftLabelVaror();
         middleStack.getChildren().add(shopPage);
         categoryTab.toFront();
         shopPage.toFront();
@@ -384,6 +390,25 @@ public class MainController implements Initializable{
             leftPane.getChildren().add(step);
 
         }
+    }
+
+    public void setLeftLabelVaror(){
+        Left_panel_label.setText("Varor");
+    }
+
+    public void loadPreviousPurchaseDates(){
+        for (Order order: db.getOrders()
+             ) {
+
+            orders.add(new IMatCategoryElement(this, order.getDate().toString()));
+        }
+
+        leftPane.getChildren().clear();
+        for (IMatCategoryElement order: orders
+             ) {
+            leftPane.getChildren().add(order);
+        }
+
     }
 
 
