@@ -76,7 +76,7 @@ public class MainController implements Initializable{
         helpPage = new HelpPage();
         infoPage = new MyInfoPage();
         prevPage = new PreviousPurchasesPage();
-        checkoutOverview = new CheckoutOverview();
+        checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
         rightStack.getChildren().add(cc);
         cc.toBack();
@@ -263,7 +263,6 @@ public class MainController implements Initializable{
             } else {
                 middleStack.getChildren().add(helpPage);
             }
-
     }
 
     @FXML

@@ -15,7 +15,7 @@ public class IMatCategoryElement extends AnchorPane {
     private MainController controller;
 
     public IMatCategoryElement (MainController c, String category){
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("categoryElement.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/categoryElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
         try {

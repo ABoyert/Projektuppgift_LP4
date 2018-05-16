@@ -9,7 +9,7 @@ public class PreviousPurchasesPage extends AnchorPane {
 
 
     public PreviousPurchasesPage() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("imat_tidigare_kop_middle.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_tidigare_kop_middle.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

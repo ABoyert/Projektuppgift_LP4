@@ -10,19 +10,19 @@ import se.chalmers.cse.dat216.project.ShoppingItem;
 
 import java.io.IOException;
 
-public class IMatCartProduct extends AnchorPane {
+public class OverviewCartProduct extends AnchorPane {
     @FXML
     ImageView cartElementImage;
     @FXML
     Label cartElementTotalProduct, cartElementName, cartElementTotalPrice, cartElementWeight;
     @FXML
-    Button cartRemoveProduct, cartRemoveItem, cartAddItem;
+    Button cartRemoveItem, cartAddItem;
 
     private MainController parentController;
     private ShoppingItem shoppingItem;
 
-    public IMatCartProduct(ShoppingItem shoppingItem, MainController mainController) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_cart_product.fxml"));
+    public OverviewCartProduct(ShoppingItem shoppingItem, MainController mainController) {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/cartOverviewElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 
