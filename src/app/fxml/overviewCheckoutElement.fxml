@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 <fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
          <AnchorPane layoutY="34.0" prefHeight="51.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
             <children>
@@ -17,13 +17,13 @@
                      <Font size="27.0" />
                   </font>
                </Label>
-               <Button fx:id="overviewBackButton" layoutX="389.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#placeOrder" prefHeight="29.0" prefWidth="74.0" text="Tillbaka" AnchorPane.rightAnchor="15.0" />
-               <Button fx:id="placeOrderButton" layoutX="149.0" layoutY="13.0" mnemonicParsing="false" text="köp" />
+               <Button fx:id="overviewBackButton" layoutY="11.0" mnemonicParsing="false" prefHeight="29.0" text="Tillbaka" AnchorPane.rightAnchor="15.0" />
+               <Button fx:id="placeOrderButton" layoutX="149.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#placeOrder" text="köp" />
             </children>
          </AnchorPane>
-         <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="80.0">
+         <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
             <children>
-               <ScrollPane hbarPolicy="NEVER" prefHeight="642.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <ScrollPane hbarPolicy="NEVER" prefHeight="642.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                   <content>
                      <FlowPane fx:id="overviewCheckOutFlowPane" prefHeight="642.0" />
                   </content>

@@ -8,6 +8,8 @@ import java.io.IOException;
 public class PreviousPurchasesPage extends AnchorPane {
 
 
+    private MainController controller;
+
     public PreviousPurchasesPage() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_tidigare_kop_middle.fxml"));
         fxmlLoader.setRoot(this);
@@ -19,4 +21,6 @@ public class PreviousPurchasesPage extends AnchorPane {
             throw new RuntimeException(exception);
         }
     }
+
+
 }

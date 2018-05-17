@@ -23,6 +23,7 @@ public class MainController implements Initializable {
     MyInfoPage infoPage;
     CheckoutOverview checkoutOverview;
     PreviousPurchasesPage prevPage;
+
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
     Customer customer;
@@ -52,7 +53,7 @@ public class MainController implements Initializable {
     }
 
     @FXML
-    FlowPane mainPane, cartPane, leftPane;
+    FlowPane mainPane, cartPane, leftPane, recentOrderFlowPane;
     @FXML
     TextField searchBar;
     @FXML
@@ -415,9 +416,8 @@ public class MainController implements Initializable {
     }
 
     public void categoryPressed(String label){
-        boolean contains = middleStack.getChildren().contains(shopPage);
 
-        if(contains){
+        if(middleStack.getChildren().contains(shopPage)){
             switch (label){
                 case "   KOTT":
                     System.out.println("Kött borde visas");
@@ -452,7 +452,7 @@ public class MainController implements Initializable {
                     break;
             }
         }
-        else{
+        else {
             switch (label){
                 case "Betala":
                     System.out.println("Betala borde visas");
@@ -461,6 +461,12 @@ public class MainController implements Initializable {
             }
 
         }
+        if(middleStack.getChildren().contains(prevPage)){
+            System.out.println("Contains prev page");
+            linkOrderToButton(label);
+        }
+
+
 
     }
 
@@ -474,6 +480,9 @@ public class MainController implements Initializable {
                 List<ShoppingItem> tmpItems = order.getItems();
                 for (ShoppingItem item : tmpItems
                         ) {
+                    System.out.println("Adding recent item to flowpane");
+                    recentOrderFlowPane.getChildren().add(new IMatCartProduct(item, this));
+
 
                 }
             }
