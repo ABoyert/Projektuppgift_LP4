@@ -7,16 +7,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.layout.*?>
 
-
-<fx:root
-         type="javafx.scene.layout.AnchorPane"
-         xmlns="http://javafx.com/javafx/9.0.4"
-         xmlns:fx="http://javafx.com/fxml/1">
-   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <AnchorPane layoutY="25.0" prefHeight="59.0" prefWidth="800.0" style="-fx-background-color: #E7E0DD;" AnchorPane.topAnchor="20.0">
+         <AnchorPane layoutY="25.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
             <children>
                <Label layoutX="14.0" layoutY="8.0" prefHeight="44.0" prefWidth="314.0" text="Hjälp">
                   <font>
@@ -25,16 +20,16 @@
                </Label>
             </children>
          </AnchorPane>
-         <AnchorPane layoutY="87.0" prefHeight="613.0" prefWidth="800.0" style="-fx-background-color: #E7E0DD;">
+         <AnchorPane layoutY="87.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
             <children>
-               <TextArea fx:id="helpPageVidoeDescription" layoutX="472.0" layoutY="14.0" prefHeight="244.0" prefWidth="314.0" />
+               <TextArea fx:id="helpPageVidoeDescription" layoutX="457.0" layoutY="14.0" prefHeight="244.0" prefWidth="314.0" AnchorPane.rightAnchor="10.0" />
                <ImageView fx:id="helpPageImageView" fitHeight="244.0" fitWidth="440.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
                <Label layoutX="14.0" layoutY="266.0" prefHeight="59.0" prefWidth="251.0" text="Vanliga frågor:">
                   <font>
                      <Font size="23.0" />
                   </font>
                </Label>
-               <ScrollPane fx:id="helpPageQuestionsScrollPane" layoutX="14.0" layoutY="316.0" prefHeight="286.0" prefWidth="771.0">
+               <ScrollPane fx:id="helpPageQuestionsScrollPane" layoutX="14.0" layoutY="316.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
                   <content>
                      <FlowPane fx:id="helpPageQuestionsFlowPane" prefHeight="287.0" prefWidth="755.0" />
                   </content>
@@ -44,5 +39,3 @@
       </children>
    </AnchorPane>
 </fx:root>
-
-
