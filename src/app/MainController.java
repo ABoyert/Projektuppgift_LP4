@@ -255,7 +255,7 @@ public class MainController implements Initializable {
         middleStack.getChildren().clear();
         hideCost();
         loadPreviousPurchaseDates();
-
+        setLeftLabelPreviousPurchase();
         if (middleStack.getChildren().contains(prevPage)) {
             prevPage.toFront();
         } else {
@@ -265,10 +265,11 @@ public class MainController implements Initializable {
 
     @FXML
     public void helpButtonPressed() {
+
         clearCategories();
         middleStack.getChildren().clear();
         hideCost();
-        setLeftLabelVaror();
+        setLeftLabelHelp();
 
         if (middleStack.getChildren().contains(helpPage)) {
             helpPage.toFront();
@@ -282,7 +283,7 @@ public class MainController implements Initializable {
         clearCategories();
         middleStack.getChildren().clear();
         hideCost();
-        setLeftLabelVaror();
+        setLeftLabelMyInformation();
 
         if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
@@ -293,6 +294,7 @@ public class MainController implements Initializable {
 
     @FXML
     public void shopButtonPressed() {
+        setLeftLabelVaror();
         middleStack.getChildren().clear();
         hideCost();
         setLeftLabelVaror();
@@ -391,6 +393,15 @@ public class MainController implements Initializable {
 
     public void setLeftLabelVaror() {
         Left_panel_label.setText("Varor");
+    }
+    public void setLeftLabelHelp() {
+        Left_panel_label.setText("Hjälp");
+    }
+    public void setLeftLabelMyInformation() {
+        Left_panel_label.setText("Mina Uppgifter");
+    }
+    public void setLeftLabelPreviousPurchase() {
+        Left_panel_label.setText("Tidigare Köp");
     }
 
     public void loadPreviousPurchaseDates() {
