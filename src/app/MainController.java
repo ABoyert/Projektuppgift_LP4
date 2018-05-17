@@ -464,5 +464,17 @@ public class MainController implements Initializable {
 
     }
 
+    public void linkOrderToButton(String label){
+        for (Order order : db.getOrders()) {
+            if(label == order.getDate().toString()){
+                List<ShoppingItem> tmpItems = order.getItems();
+                for (ShoppingItem item : tmpItems
+                     ) {
+
+                }
+            }
+        }
+    }
+
 
 }
