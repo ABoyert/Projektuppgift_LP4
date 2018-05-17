@@ -55,6 +55,7 @@ public class OverviewCartProduct extends AnchorPane {
     private void removeItem() {
         if (shoppingItem.getAmount() == 1) {
             parentController.shoppingCart.removeItem(shoppingItem);
+            parentController.callCheckoutOverviewUpdate();
         } else if (shoppingItem.getAmount() != 1) {
             shoppingItem.setAmount(shoppingItem.getAmount() - 1);
             cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");

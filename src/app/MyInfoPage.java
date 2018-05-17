@@ -41,12 +41,56 @@ public class MyInfoPage extends AnchorPane {
 
     @FXML
     public void saveInfo() {
-        parentController.customer.setFirstName(myDetailsFirstName.getText());
-        parentController.customer.setLastName(myDetailsLastName.getText());
-        parentController.customer.setPhoneNumber(myDetailsPhoneNumber.getText());
+        if (isAlpha(myDetailsFirstName.getText()))
+            parentController.customer.setFirstName(myDetailsFirstName.getText());
+        else
+            myDetailsFirstName.setText("Förnamn får bara innehålla bokstäver!");
+
+        if (isAlpha(myDetailsLastName.getText()))
+            parentController.customer.setLastName(myDetailsLastName.getText());
+        else
+            myDetailsLastName.setText("Efternamn får bara innehålla bokstäver!");
+
+        if (isNumber(myDetailsPhoneNumber.getText()))
+            parentController.customer.setPhoneNumber(myDetailsPhoneNumber.getText());
+        else
+            myDetailsPhoneNumber.setText("Telefonnummer får bara innehålla siffror! (Till exempel 070123456, inte 070-123456)");
+
         parentController.customer.setEmail(myDetailsEmail.getText());
         parentController.customer.setAddress(myDetailsAddress.getText());
-        parentController.customer.setPostCode(myDetailsZIPCode.getText());
-        parentController.customer.setPostAddress(myDetailsCity.getText());
+
+        if (isNumber(myDetailsZIPCode.getText()))
+            parentController.customer.setPostCode(myDetailsZIPCode.getText());
+        else
+            myDetailsZIPCode.setText("Postnummer får bara innehålla siffror!");
+
+        if (isAlpha(myDetailsCity.getText()))
+            parentController.customer.setPostAddress(myDetailsCity.getText());
+        else
+            myDetailsCity.setText("Stad får bara innehålla bokstäver!");
+    }
+
+    private boolean isNumber(String s) {
+        char[] chars = s.toCharArray();
+
+        for (char c : chars) {
+            if(!Character.isDigit(c)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private boolean isAlpha(String s) {
+        char[] chars = s.toCharArray();
+
+        for (char c : chars) {
+            if(!Character.isLetter(c)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
