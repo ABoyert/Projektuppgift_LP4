@@ -17,12 +17,12 @@
                      <Font size="27.0" />
                   </font>
                </Label>
-               <Button fx:id="placeOrderButton" layoutX="389.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#placeOrder" prefHeight="29.0" prefWidth="74.0" text="Köp!" />
+               <Button fx:id="placeOrderButton" layoutX="389.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#placeOrder" prefHeight="29.0" prefWidth="74.0" text="Köp!" AnchorPane.rightAnchor="15.0" />
             </children>
          </AnchorPane>
-         <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+         <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="80.0">
             <children>
-               <ScrollPane prefHeight="642.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <ScrollPane hbarPolicy="NEVER" prefHeight="642.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                   <content>
                      <FlowPane fx:id="overviewCheckOutFlowPane" prefHeight="642.0" />
                   </content>
