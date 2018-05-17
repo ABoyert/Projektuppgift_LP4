@@ -251,6 +251,7 @@ public class MainController implements Initializable {
 
     @FXML
     public void previousPurchasesButtonPressed() {
+        clearCategories();
         middleStack.getChildren().clear();
         hideCost();
         loadPreviousPurchaseDates();
@@ -264,6 +265,7 @@ public class MainController implements Initializable {
 
     @FXML
     public void helpButtonPressed() {
+        clearCategories();
         middleStack.getChildren().clear();
         hideCost();
         setLeftLabelVaror();
@@ -277,6 +279,7 @@ public class MainController implements Initializable {
 
     @FXML
     public void myInfoButtonPressed() {
+        clearCategories();
         middleStack.getChildren().clear();
         hideCost();
         setLeftLabelVaror();
@@ -320,7 +323,7 @@ public class MainController implements Initializable {
 
 
     public void loadCategories() {
-
+        clearCategories();
         for (IMatCategoryElement c : getCategoryElements()
                 ) {
             leftPane.getChildren().add(c);
@@ -375,12 +378,15 @@ public class MainController implements Initializable {
     }
 
     public void showPaymentSteps() {
-        leftPane.getChildren().clear();
+        clearCategories();
         for (IMatCategoryElement step : paymentSteps
                 ) {
             leftPane.getChildren().add(step);
 
         }
+    }
+    public void clearCategories(){
+        leftPane.getChildren().clear();
     }
 
     public void setLeftLabelVaror() {
@@ -388,8 +394,6 @@ public class MainController implements Initializable {
     }
 
     public void loadPreviousPurchaseDates() {
-        leftPane.getChildren().clear();
-
         for (Order order : db.getOrders()) {
             IMatCategoryElement ce = new IMatCategoryElement(this, order.getDate().toString());
 
