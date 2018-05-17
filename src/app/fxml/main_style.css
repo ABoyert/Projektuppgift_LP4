@@ -1,4 +1,4 @@
-.button {
+    .button {
     -fx-background-color: #FDFDFD;
     -fx-font-size: 20;
     -fx-border-radius: 0 0 0 0;
@@ -49,7 +49,7 @@
 }
 .category:hover{
     -fx-background-color: #33CC66;
-    -fx-font-size: 30;
+    -fx-font-size: 29;
     -fx-font-weight: bold;
 }
 .video_LighBox{
