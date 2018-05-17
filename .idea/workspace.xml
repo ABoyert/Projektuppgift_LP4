@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MyInfoPage.java" afterPath="$PROJECT_DIR$/src/app/MyInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/iMat.java" afterPath="$PROJECT_DIR$/src/app/iMat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutOverview.java" afterPath="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/IMatCartProduct.java" afterPath="$PROJECT_DIR$/src/app/IMatCartProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/OverviewCartProduct.java" afterPath="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,12 +50,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iMat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iMat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="288">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <marker date="1526556212408" expanded="false" signature="982:993" ph=" { " />
+                <marker date="1526556212408" expanded="false" signature="1006:1012" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +69,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="162">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -84,10 +85,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1526555516324" expanded="true" signature="2777:3176" ph="..." />
-                <marker date="1526555516324" expanded="true" signature="2777:3199" ph="..." />
-                <marker date="1526555516324" expanded="true" signature="2777:3217" ph="..." />
-                <marker date="1526555516324" expanded="true" signature="2777:3234" ph="..." />
+                <marker date="1526556237724" expanded="true" signature="2804:3203" ph="..." />
+                <marker date="1526556237724" expanded="true" signature="2804:3226" ph="..." />
+                <marker date="1526556237724" expanded="true" signature="2804:3244" ph="..." />
+                <marker date="1526556237724" expanded="true" signature="2804:3261" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,11 +117,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IMatCartProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="54" column="15" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="54" selection-end-column="15" />
+              <folding>
+                <element signature="e#2337#2338#0" expanded="true" />
+                <element signature="e#2407#2408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CheckoutOverview.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="359">
+              <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -139,24 +153,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreviousPurchasesPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OverviewCartProduct.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OverviewCartProduct.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="-324">
               <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1526507424851" expanded="true" signature="2389:2407" ph="{...}" />
+                <marker date="1526557136975" expanded="true" signature="2511:2529" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,13 +189,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/app/CheckoutCost.java" />
         <option value="$PROJECT_DIR$/src/app/cartOverviewElement.fxml" />
-        <option value="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
         <option value="$PROJECT_DIR$/src/app/PreviousPurchasesPage.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" />
         <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/MyInfoPage.java" />
         <option value="$PROJECT_DIR$/src/app/iMat.java" />
+        <option value="$PROJECT_DIR$/src/app/IMatCartProduct.java" />
+        <option value="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
+        <option value="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
       </list>
     </option>
   </component>
@@ -526,7 +531,7 @@
       <workItem from="1526389769468" duration="513000" />
       <workItem from="1526390367984" duration="2354000" />
       <workItem from="1526459267981" duration="6121000" />
-      <workItem from="1526553679687" duration="2407000" />
+      <workItem from="1526553679687" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="added fxml files into separate directory">
       <created>1526459810844</created>
@@ -542,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526512243669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="saving info working">
+      <created>1526556108331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526556108331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11395000" />
+    <option name="totallyTimeSpent" value="12453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -591,7 +603,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added fxml files into separate directory" />
     <MESSAGE value="buy in checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="buy in checkout" />
+    <MESSAGE value="saving info working" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving info working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,7 +673,7 @@
           <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526507424851" expanded="true" signature="2389:2407" ph="{...}" />
+            <marker date="1526557136975" expanded="true" signature="2511:2529" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -779,7 +792,7 @@
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1526507424851" expanded="true" signature="2389:2407" ph="{...}" />
+            <marker date="1526557136975" expanded="true" signature="2511:2529" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -827,33 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1526507424851" expanded="true" signature="2389:2407" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -907,10 +893,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1526555516324" expanded="true" signature="2777:3176" ph="..." />
-            <marker date="1526555516324" expanded="true" signature="2777:3199" ph="..." />
-            <marker date="1526555516324" expanded="true" signature="2777:3217" ph="..." />
-            <marker date="1526555516324" expanded="true" signature="2777:3234" ph="..." />
+            <marker date="1526556237724" expanded="true" signature="2804:3203" ph="..." />
+            <marker date="1526556237724" expanded="true" signature="2804:3226" ph="..." />
+            <marker date="1526556237724" expanded="true" signature="2804:3244" ph="..." />
+            <marker date="1526556237724" expanded="true" signature="2804:3261" ph="..." />
           </folding>
         </state>
       </provider>
@@ -920,8 +906,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -931,6 +917,17 @@
         <state relative-caret-position="774">
           <caret line="49" column="74" lean-forward="false" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <marker date="1526556212408" expanded="false" signature="982:993" ph=" { " />
+            <marker date="1526556212408" expanded="false" signature="1006:1012" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -965,11 +962,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
+    <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="54" column="15" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="54" selection-end-column="15" />
+          <folding>
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526557136975" expanded="true" signature="2511:2529" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

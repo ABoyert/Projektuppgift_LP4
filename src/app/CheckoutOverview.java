@@ -39,7 +39,7 @@ public class CheckoutOverview extends AnchorPane {
         updateView();
     }
 
-    private void updateView() {
+    public void updateView() {
         overviewCheckOutFlowPane.getChildren().clear();
 
         for (ShoppingItem item : parentController.shoppingCart.getItems()) {

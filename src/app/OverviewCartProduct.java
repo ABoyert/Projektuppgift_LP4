@@ -32,6 +32,8 @@ public class OverviewCartProduct extends AnchorPane {
             throw new RuntimeException(exception);
         }
 
+
+
         cartElementWeight.setText(shoppingItem.getProduct().getPrice() + " " + shoppingItem.getProduct().getUnit());
         cartElementName.setText(shoppingItem.getProduct().getName());
         cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
@@ -51,7 +53,9 @@ public class OverviewCartProduct extends AnchorPane {
 
     @FXML
     private void removeItem() {
-        if (shoppingItem.getAmount() != 1) {
+        if (shoppingItem.getAmount() == 1) {
+            parentController.shoppingCart.removeItem(shoppingItem);
+        } else if (shoppingItem.getAmount() != 1) {
             shoppingItem.setAmount(shoppingItem.getAmount() - 1);
             cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
             parentController.updateCart();

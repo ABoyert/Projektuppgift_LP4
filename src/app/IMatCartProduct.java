@@ -50,7 +50,9 @@ public class IMatCartProduct extends AnchorPane {
 
     @FXML
     private void removeItem() {
-        if (shoppingItem.getAmount() != 1) {
+        if (shoppingItem.getAmount() == 1) {
+            parentController.shoppingCart.removeItem(shoppingItem);
+        } else if (shoppingItem.getAmount() != 1) {
             shoppingItem.setAmount(shoppingItem.getAmount() - 1);
             cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
             parentController.updateCart();
