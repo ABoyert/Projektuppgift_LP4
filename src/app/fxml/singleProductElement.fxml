@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="7.0" layoutY="6.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="94.0" text="Tillbaka" />
@@ -18,10 +17,10 @@
          </font>
       </Label>
       <Label layoutX="271.0" layoutY="115.0" prefHeight="178.0" prefWidth="240.0" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
-      <Button layoutX="17.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" text="-" />
-      <Button layoutX="177.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" text="+" />
-      <Label alignment="CENTER" layoutX="112.0" layoutY="308.0" prefHeight="54.0" prefWidth="64.0" text="99 st" />
-      <Button layoutX="270.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="240.0" text="Lägg till i kundvagn" />
+      <Button layoutX="17.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="-" />
+      <Button layoutX="177.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="+" />
+      <Label alignment="CENTER" layoutX="112.0" layoutY="308.0" prefHeight="54.0" prefWidth="65.0" styleClass="border" stylesheets="@main_style.css" text="99 st" />
+      <Button layoutX="270.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="240.0" styleClass="border" stylesheets="@main_style.css" text="Lägg till i kundvagn" />
       <AnchorPane layoutY="418.0" prefHeight="304.0" prefWidth="524.0">
          <children>
             <FlowPane prefHeight="304.0" prefWidth="524.0" />
