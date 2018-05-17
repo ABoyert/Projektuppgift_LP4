@@ -6,22 +6,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 
-<?import javafx.scene.layout.*?>
-
-<fx:root
-        type="javafx.scene.layout.AnchorPane"
-        xmlns="http://javafx.com/javafx/9.0.4"
-        xmlns:fx="http://javafx.com/fxml/1">
-    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
         <children>
-            <AnchorPane prefHeight="59.0" prefWidth="300.0">
+            <AnchorPane prefHeight="59.0" prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                 <children>
                     <ButtonBar layoutX="4.0" layoutY="10.0" prefHeight="40.0" prefWidth="223.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                         <buttons>
                             <Label fx:id="recentCartLabel" text="Kundvagn: XX" />
                             <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                 <children>
-                                    <Button fx:id="addRecentToCart" layoutX="9.0" layoutY="7.0" mnemonicParsing="false" text="Lägg till i varukorg" />
+                                    <Button fx:id="addRecentToCart" layoutY="7.0" mnemonicParsing="false" text="Lägg till i varukorg" AnchorPane.bottomAnchor="7.0000000000000036" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="11.666666666666671" AnchorPane.topAnchor="7.0" />
                                 </children>
                             </AnchorPane>
                         </buttons>
@@ -37,4 +32,3 @@
     </AnchorPane>
 
 </fx:root>
-
