@@ -402,35 +402,35 @@ public class MainController implements Initializable {
 
         if(contains){
             switch (label){
-                case "KOTT":
+                case "   KOTT":
                     System.out.println("Kött borde visas");
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.KOTT), Sort.NONE);
                     break;
-                case "BROD":
+                case "   BROD":
                 updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.BROD), Sort.NONE);
                 break;
-                case "FISK":
+                case "   FISK":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.FISK), Sort.NONE);
                     break;
-                case "SKAFFERI":
+                case "   SKAFFERI":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.SKAFFERI), Sort.NONE);
                     break;
-                case "PASTA":
+                case "   PASTA":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.PASTA), Sort.NONE);
                     break;
-                case "POTATIS_RIS":
+                case "   POTATIS_RIS":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.POTATIS_RIS), Sort.NONE);
                     break;
-                case "SOTSAKER":
+                case "   SOTSAKER":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.SOTSAKER), Sort.NONE);
                     break;
-                case "MJOLKPRODUKTER":
+                case "   MJOLKPRODUKTER":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.MJOLKPRODUKTER), Sort.NONE);
                     break;
-                case "FRUKT_GRONT":
+                case "   FRUKT_GRONT":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.FRUKT_GRONT), Sort.NONE);
                     break;
-                case "DRYCKER":
+                case "   DRYCKER":
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.DRYCKER), Sort.NONE);
                     break;
             }
