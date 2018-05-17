@@ -450,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526554283133</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Removed Hbox in left pannel to make adaption for smaller windows better.">
+      <created>1526555758281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1526555758282</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -505,7 +512,8 @@
     <MESSAGE value="Added methods to change left panel label to correkt category." />
     <MESSAGE value="Fixed label length of leftpanel label" />
     <MESSAGE value="Fixed min width and height" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed min width and height" />
+    <MESSAGE value="Removed Hbox in left pannel to make adaption for smaller windows better." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Hbox in left pannel to make adaption for smaller windows better." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

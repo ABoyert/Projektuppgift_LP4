@@ -162,12 +162,12 @@
                            <children>
                               <AnchorPane prefHeight="81.0" prefWidth="335.0" styleClass="border" stylesheets="@main_style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <children>
-                                    <ImageView fx:id="Left_panel_picture" fitHeight="60.0" fitWidth="100.0" layoutX="260.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="205.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                    <ImageView fx:id="Left_panel_picture" fitHeight="60.0" fitWidth="100.0" layoutX="260.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="224.89999999999998" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
                                        <image>
                                           <Image url="@../resources/cart_small_image.png" />
                                        </image>
                                     </ImageView>
-                                    <Label fx:id="Left_panel_label" contentDisplay="CENTER" graphicTextGap="50.0" prefHeight="81.0" prefWidth="196.0" text="Varor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="112.0" AnchorPane.topAnchor="0.0">
+                                    <Label fx:id="Left_panel_label" contentDisplay="CENTER" graphicTextGap="50.0" prefHeight="81.0" prefWidth="250.0" text="Varor" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="0.0">
                                        <font>
                                           <Font size="35.0" />
                                        </font>
