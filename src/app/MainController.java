@@ -476,12 +476,13 @@ public class MainController implements Initializable {
 
     public void linkOrderToButton(String label){
         for (Order order : db.getOrders()) {
-            if(label == order.getDate().toString()){
+            String orderLabel = "   " + order.getDate().toString();
+            if(label.equals(orderLabel) ){
                 List<ShoppingItem> tmpItems = order.getItems();
                 for (ShoppingItem item : tmpItems
                         ) {
                     System.out.println("Adding recent item to flowpane");
-                    recentOrderFlowPane.getChildren().add(new IMatCartProduct(item, this));
+                    //recentOrderFlowPane.getChildren().add(new IMatCartProduct(item, this));
 
 
                 }

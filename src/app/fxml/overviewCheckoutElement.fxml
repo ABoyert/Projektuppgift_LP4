@@ -19,6 +19,7 @@
                </Label>
                <Button fx:id="overviewBackButton" layoutY="11.0" mnemonicParsing="false" prefHeight="29.0" text="Tillbaka" AnchorPane.rightAnchor="15.0" />
                <Button fx:id="placeOrderButton" layoutX="149.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#placeOrder" text="köp" />
+               <Button fx:id="testButton" layoutX="215.0" layoutY="13.0" mnemonicParsing="false" text="Button" />
             </children>
          </AnchorPane>
          <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
