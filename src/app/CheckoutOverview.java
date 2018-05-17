@@ -40,11 +40,14 @@ public class CheckoutOverview extends AnchorPane {
     }
 
     public void updateView() {
+
         overviewCheckOutFlowPane.getChildren().clear();
 
         for (ShoppingItem item : parentController.shoppingCart.getItems()) {
-            OverviewCartProduct op = new OverviewCartProduct(item, parentController);
-            overviewCheckOutFlowPane.getChildren().add(op);
+            if (item.getAmount() != 0) {
+                OverviewCartProduct op = new OverviewCartProduct(item, parentController);
+                overviewCheckOutFlowPane.getChildren().add(op);
+            }
         }
     }
 }

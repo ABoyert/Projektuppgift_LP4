@@ -464,5 +464,7 @@ public class MainController implements Initializable {
 
     }
 
-
+    public void callCheckoutOverviewUpdate() {
+        checkoutOverview.updateView();
+    }
 }
