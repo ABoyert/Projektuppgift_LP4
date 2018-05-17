@@ -25,6 +25,7 @@ public class MainController implements Initializable {
     PreviousPurchasesPage prevPage;
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;
+    Customer customer;
 
     enum Sort {
         ALPHABETICAL,
@@ -72,6 +73,7 @@ public class MainController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         fillProductMap();
         shoppingCart = db.getShoppingCart();
+        customer = db.getCustomer();
         shoppingCart.addShoppingCartListener(new ShoppingCartListener() {
             @Override
             public void shoppingCartChanged(CartEvent cartEvent) {
@@ -81,7 +83,7 @@ public class MainController implements Initializable {
         });
         updateCart();
         helpPage = new HelpPage();
-        infoPage = new MyInfoPage();
+        infoPage = new MyInfoPage(this);
         prevPage = new PreviousPurchasesPage();
         checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.NONE); //Show all products on start

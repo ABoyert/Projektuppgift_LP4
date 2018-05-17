@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import se.chalmers.cse.dat216.project.IMatDataHandler;
 
 public class iMat extends Application {
     @Override
@@ -14,6 +15,10 @@ public class iMat extends Application {
         primaryStage.setScene(new Scene(root));
         primaryStage.setMinWidth(1300);
         primaryStage.setMinHeight(800);
+        primaryStage.setOnCloseRequest(event -> {
+            System.out.println("iMat CLOSING!");
+            IMatDataHandler.getInstance().shutDown();
+        });
         primaryStage.show();
 
         //UtilityMethods um = new UtilityMethods();
