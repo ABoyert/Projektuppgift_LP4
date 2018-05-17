@@ -8,10 +8,9 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane prefHeight="51.0" prefWidth="524.0" style="-fx-background-color: #E7E0DD;" AnchorPane.topAnchor="20.0">
+      <AnchorPane prefHeight="51.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
          <children>
             <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" text="Betala ">
                <font>
@@ -20,7 +19,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="80.0" prefHeight="641.0" prefWidth="524.0" style="-fx-background-color: #E7E0DD;">
+      <AnchorPane layoutY="80.0" prefHeight="641.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
             <Label layoutX="14.0" layoutY="7.0" prefHeight="39.0" prefWidth="126.0" text="Betalningssätt: ">
                <font>
@@ -29,11 +28,11 @@
             </Label>
             <Button fx:id="paymentMethodCheckOutCardButton" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" text="Kort" />
             <Button fx:id="paymentMethodCheckOutDirectPay" layoutX="14.0" layoutY="78.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" text="Direktbetalning" />
-            <AnchorPane layoutX="14.0" layoutY="174.0" prefHeight="392.0" prefWidth="494.0">
+            <AnchorPane layoutX="14.0" layoutY="174.0" prefHeight="392.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="15.600000000000023">
                <children>
-                  <StackPane fx:id="paymentMethodCheckOutStackPane" prefHeight="392.0" prefWidth="494.0">
+                  <StackPane fx:id="paymentMethodCheckOutStackPane" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <AnchorPane fx:id="paymentMethodCheckOutDirectPayAnchorPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #567567;">
+                        <AnchorPane fx:id="paymentMethodCheckOutDirectPayAnchorPane" style="-fx-background-color: #567567;">
                            <children>
                               <Label layoutX="8.0" prefHeight="51.0" prefWidth="178.0" text="Välj din bank:">
                                  <font>
@@ -46,7 +45,7 @@
                               <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="262.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
                            </children>
                         </AnchorPane>
-                        <AnchorPane fx:id="paymentMethodCheckOutCardAnchorPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E3E000;">
+                        <AnchorPane fx:id="paymentMethodCheckOutCardAnchorPane" style="-fx-background-color: #E3E000;">
                            <children>
                               <Label layoutX="7.0" layoutY="8.0" prefHeight="25.0" prefWidth="70.0" text="Korttyp:">
                                  <font>
@@ -55,8 +54,9 @@
                               </Label>
                               <Button fx:id="paymentMethodCheckOutButtonVisa" layoutX="84.0" layoutY="8.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Visa" />
                               <Button fx:id="paymentMethodCheckOutButtonMastercard" layoutX="195.0" layoutY="8.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Mastercard" />
-                              <TextArea fx:id="paymentMethodCheckOutTextAreaCardNumber" layoutX="104.0" layoutY="76.0" prefHeight="7.0" prefWidth="376.0" />
-                              <TextArea fx:id="paymentMethodCheckOutName" layoutX="104.0" layoutY="128.0" prefHeight="14.0" prefWidth="376.0" />
+                              <TextArea fx:id="paymentMethodCheckOutTextAreaCardNumber" layoutX="104.0" layoutY="76.0" prefHeight="7.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" />
+                              <TextArea fx:id="paymentMethodCheckOutName" layoutX="104.0" layoutY="128.0" prefHeight="14.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" />
+                              <TextArea fx:id="paymentMethodCheckOutCVC" layoutX="104.0" layoutY="183.0" prefHeight="38.0" prefWidth="60.0" />
                               <TextArea fx:id="paymentMethodCheckOutMonth" layoutX="292.0" layoutY="182.0" prefHeight="39.0" prefWidth="38.0" />
                               <TextArea fx:id="paymentMethodCheckOutYear" layoutX="354.0" layoutY="183.0" prefHeight="38.0" prefWidth="41.0" />
                               <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="82.0" prefHeight="26.0" prefWidth="90.0" text="Kortnummer: ">
@@ -69,7 +69,6 @@
                                     <Font size="14.0" />
                                  </font>
                               </Label>
-                              <TextArea fx:id="paymentMethodCheckOutCVC" layoutX="104.0" layoutY="183.0" prefHeight="38.0" prefWidth="60.0" />
                               <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="182.0" prefHeight="39.0" prefWidth="90.0" text="CVC: ">
                                  <font>
                                     <Font size="14.0" />
