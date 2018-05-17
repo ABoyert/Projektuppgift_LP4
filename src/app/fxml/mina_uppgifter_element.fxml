@@ -19,7 +19,7 @@
                <Button fx:id="myDetailsSaveButtonTop" mnemonicParsing="false" prefHeight="46.0" prefWidth="178.0" text="Spara" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="6.0" />
             </children>
          </AnchorPane>
-         <AnchorPane fx:id="myDetails" layoutY="87.0" prefHeight="651.0" prefWidth="658.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
+         <AnchorPane fx:id="myDetails" layoutY="87.0" prefWidth="658.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.20000000000004547" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
             <children>
                <TextArea fx:id="myDetailsFirstName" layoutY="48.0" prefHeight="38.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="150.0" />
                <TextArea fx:id="myDetailsLastName" layoutY="120.0" prefHeight="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="150.0" />
