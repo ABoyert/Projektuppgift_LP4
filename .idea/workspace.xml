@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app/fxml/imat_betalning_kostnadpane.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_betalning_kostnadpane.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/app/fxml/imat_tidigare_kop_middle.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_tidigare_kop_middle.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/app/IMatCategoryElement.java" afterPath="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
+      <change beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
+      <change beforePath="$PROJECT_DIR$/src/app/fxml/categoryElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/categoryElement.fxml" />
       <change beforePath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/app/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/imat_main.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="434" column="35" lean-forward="true" selection-start-line="434" selection-start-column="35" selection-end-line="434" selection-end-column="35" />
+            <state relative-caret-position="470">
+              <caret line="447" column="26" lean-forward="true" selection-start-line="447" selection-start-column="26" selection-end-line="447" selection-end-column="26" />
               <folding>
                 <element signature="e#822#843#0" expanded="true" />
                 <element signature="e#1162#1170#0" expanded="true" />
@@ -454,18 +456,11 @@
       <option name="project" value="LOCAL" />
       <updated>1526480983633</updated>
     </task>
-    <task id="LOCAL-00004" summary="Paymentsteps">
-      <created>1526481904942</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1526481904942</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4878000" />
+    <option name="totallyTimeSpent" value="4322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1102,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="434" column="35" lean-forward="true" selection-start-line="434" selection-start-column="35" selection-end-line="434" selection-end-column="35" />
+        <state relative-caret-position="470">
+          <caret line="447" column="26" lean-forward="true" selection-start-line="447" selection-start-column="26" selection-end-line="447" selection-end-column="26" />
           <folding>
             <element signature="e#822#843#0" expanded="true" />
             <element signature="e#1162#1170#0" expanded="true" />
