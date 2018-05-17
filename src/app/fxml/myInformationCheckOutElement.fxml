@@ -15,7 +15,7 @@
                   <Font size="27.0" />
                </font>
             </Label>
-            <Button fx:id="myInformationCheckOutButton" layoutX="458.0" layoutY="6.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="123.0" text="Spara" AnchorPane.rightAnchor="15.0" />
+            <Button fx:id="myInformationBackButton" layoutX="437.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" text="Tillbaka" AnchorPane.rightAnchor="15.0" />
          </children>
       </AnchorPane>
       <AnchorPane layoutY="79.0" prefHeight="642.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
@@ -36,6 +36,7 @@
             <Label layoutX="15.0" layoutY="378.0" text="Adress: " AnchorPane.leftAnchor="15.0" />
             <Label layoutX="15.0" layoutY="453.0" text="Postnummer: " AnchorPane.leftAnchor="15.0" />
             <Label layoutX="15.0" layoutY="529.0" text="Postort: " AnchorPane.leftAnchor="15.0" />
+            <Button fx:id="myInformationCheckOutButton" layoutX="389.0" layoutY="600.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="123.0" text="Spara" AnchorPane.rightAnchor="15.0" />
          </children>
       </AnchorPane>
    </children>

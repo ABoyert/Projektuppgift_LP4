@@ -17,6 +17,7 @@
                   <Font size="27.0" />
                </font>
             </Label>
+            <Button fx:id="paymentMethodBackButton" layoutX="431.0" layoutY="10.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="70.0" text="Tillbaka" />
          </children>
       </AnchorPane>
       <AnchorPane layoutY="80.0" prefHeight="641.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
