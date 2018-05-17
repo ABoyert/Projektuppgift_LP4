@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.text.Font?>
@@ -21,7 +22,10 @@
          </AnchorPane>
          <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
             <children>
-               <FlowPane fx:id="overviewCheckOutFlowPane" prefHeight="642.0" prefWidth="524.0" />
+               <FlowPane fx:id="overviewCheckOutFlowPane" prefHeight="642.0" prefWidth="524.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                  <children>
+                     <ScrollPane prefHeight="642.0" prefWidth="522.0" />
+                  </children></FlowPane>
             </children>
          </AnchorPane>
       </children>
