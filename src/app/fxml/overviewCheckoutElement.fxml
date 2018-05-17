@@ -17,7 +17,8 @@
                      <Font size="27.0" />
                   </font>
                </Label>
-               <Button fx:id="placeOrderButton" layoutX="389.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#placeOrder" prefHeight="29.0" prefWidth="74.0" text="Köp!" AnchorPane.rightAnchor="15.0" />
+               <Button fx:id="overviewBackButton" layoutX="389.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#placeOrder" prefHeight="29.0" prefWidth="74.0" text="Tillbaka" AnchorPane.rightAnchor="15.0" />
+               <Button fx:id="placeOrderButton" layoutX="149.0" layoutY="13.0" mnemonicParsing="false" text="köp" />
             </children>
          </AnchorPane>
          <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="80.0">
