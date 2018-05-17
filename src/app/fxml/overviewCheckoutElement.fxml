@@ -22,9 +22,9 @@
          </AnchorPane>
          <AnchorPane layoutY="80.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
             <children>
-               <ScrollPane prefHeight="642.0" prefWidth="522.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <ScrollPane prefHeight="642.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                   <content>
-                     <FlowPane fx:id="overviewCheckOutFlowPane" prefHeight="642.0" prefWidth="506.0" />
+                     <FlowPane fx:id="overviewCheckOutFlowPane" prefHeight="642.0" />
                   </content>
                </ScrollPane>
             </children>
