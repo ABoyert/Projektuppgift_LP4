@@ -31,7 +31,7 @@
                </Label>
                <ScrollPane fx:id="helpPageQuestionsScrollPane" layoutX="14.0" layoutY="316.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
                   <content>
-                     <FlowPane fx:id="helpPageQuestionsFlowPane" prefHeight="287.0" prefWidth="755.0" />
+                     <FlowPane fx:id="helpPageQuestionsFlowPane" prefWidth="755.0" />
                   </content>
                </ScrollPane>
             </children>
