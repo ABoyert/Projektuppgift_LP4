@@ -25,7 +25,7 @@ public class IMatCategoryElement extends AnchorPane {
         }
 
         this.controller = c;
-        textLabelCategory.setText(category);
+        textLabelCategory.setText("   " + category);
     }
 
     @FXML

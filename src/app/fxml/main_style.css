@@ -8,7 +8,6 @@
 .button:hover{
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
-    -fx-background-color: #F5F5F5;
     -fx-font-size:19;
 }
 .iMat{
@@ -45,11 +44,20 @@
     -fx-background-color: #F5F5F5;
 }
 .category{
+    -fx-font-size: 30;
     -fx-background-color: #336666;
 }
 .category:hover{
     -fx-background-color: #33CC66;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
 }
 .video_LighBox{
     -fx-background-color: rgba(0, 0, 0, 0.85)
+}
+.green_background{
+    -fx-background-color: #7aba7a;
+}
+.red_background{
+    -fx-background-color: #d86955;
 }
