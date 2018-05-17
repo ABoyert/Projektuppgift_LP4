@@ -177,7 +177,7 @@
                                           </Label>
                                        </children>
                                     </AnchorPane>
-                                    <ScrollPane hbarPolicy="NEVER" prefHeight="635.0" prefWidth="334.0">
+                                    <ScrollPane hbarPolicy="NEVER" prefHeight="621.0" prefWidth="334.0">
                                        <content>
                                           <FlowPane fx:id="leftPane" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="334.0" />
                                        </content>
