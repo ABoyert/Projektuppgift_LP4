@@ -10,6 +10,10 @@
     -fx-border-width: 0.8px;
     -fx-font-size:19;
 }
+.button:pressed {
+    -fx-background-color: #D5D5D5;
+    -fx-font-size: 15;
+}
 .iMat{
     -fx-font-size: 40;
 }
@@ -17,11 +21,15 @@
     -fx-font-size: 40;
     -fx-font-weight: bold;
 }
+.iMat:pressed{
+    -fx-font-color: #D5D5D5;
+    -fx-font-size: 30;
+}
 .border {
     -fx-border-width:0.3px;
     -fx-border-style:solid;
 }
-.borderBottom{
+.borderBottom {
     -fx-border-style:none none solid none;
     -fx-border-width:0 0 0.3px 0;
 }
@@ -41,8 +49,13 @@
 .plus_minus_button:hover {
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
-    -fx-background-color: #F5F5F5;
+    -fx-background-color: #F9F9F9;
 }
+.plus_minus_button:pressed {
+    -fx-background-color: #D5D5D5;
+    -fx-font-size: 15;
+}
+
 .category{
     -fx-font-size: 30;
     -fx-background-color: #336666;
@@ -52,6 +65,10 @@
     -fx-font-size: 29;
     -fx-font-weight: bold;
 }
+.category:pressed{
+    -fx-background-color: #B1B1B1;
+    -fx-font-size: 20px;
+}
 .video_LighBox{
     -fx-background-color: rgba(0, 0, 0, 0.85)
 }
@@ -60,4 +77,19 @@
 }
 .red_background{
     -fx-background-color: #d86955;
+}
+.font_12{
+    -fx-font-size: 12px;
+}
+.font_14{
+    -fx-font-size: 14px;
+}
+.font_18{
+    -fx-font-size: 18px
+}
+.front_20{
+    -fx-font-size: 20px;
+}
+.front_24{
+    -fx-font-size: 24px;
 }

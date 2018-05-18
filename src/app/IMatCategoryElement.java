@@ -13,6 +13,7 @@ public class IMatCategoryElement extends AnchorPane {
     Label textLabelCategory;
 
     private MainController controller;
+    private String category;
 
     public IMatCategoryElement (MainController c, String category){
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/categoryElement.fxml"));
@@ -25,13 +26,41 @@ public class IMatCategoryElement extends AnchorPane {
         }
 
         this.controller = c;
-        textLabelCategory.setText("   " + category);
+        this.category = category;
+        textLabelCategory.setText("   " + toBetterText(category));
     }
 
     @FXML
     public void buttonPressed() {
-        controller.categoryPressed(textLabelCategory.getText().toString());
+        controller.categoryPressed("   " + category);
         //System.out.println(textLabelCategory.getText().toString());
+    }
+
+    private String toBetterText(String s) {
+        switch (s) {
+            case "FRUKT_GRONT":
+                return "Frukt och grönt";
+            case "BROD":
+                return "Bröd";
+            case "DRYCKER":
+                return "Drycker";
+            case "MJOLKPRODUKTER":
+                return "Mjölkprodukter";
+            case "FISK":
+                return "Fisk";
+            case "SKAFFERI":
+                return "Skafferi";
+            case "KOTT":
+                return "Kött";
+            case "PASTA":
+                return "Pasta";
+            case "POTATIS_RIS":
+                return "Potatis och ris";
+            case "SOTSAKER":
+                return "Sötsaker";
+        }
+
+        return s;
     }
 }
 
