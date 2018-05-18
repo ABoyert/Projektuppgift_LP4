@@ -61,3 +61,12 @@
 .red_background{
     -fx-background-color: #d86955;
 }
+.font_12{
+    -fx-font-size: 12px;
+}
+.font_14{
+    -fx-font-size: 14px;
+}
+.front_20{
+    -fx-font-size: 20px;
+}
