@@ -53,7 +53,7 @@ public class MainController implements Initializable {
     }
 
     @FXML
-    FlowPane mainPane, cartPane, leftPane, recentOrderFlowPane;
+    FlowPane mainPane, cartPane, leftPane;
     @FXML
     TextField searchBar;
     @FXML
@@ -478,11 +478,13 @@ public class MainController implements Initializable {
         for (Order order : db.getOrders()) {
             String orderLabel = "   " + order.getDate().toString();
             if(label.equals(orderLabel) ){
+                prevPage.getRecentFlowPane().getChildren().clear();
                 List<ShoppingItem> tmpItems = order.getItems();
                 for (ShoppingItem item : tmpItems
                         ) {
                     System.out.println("Adding recent item to flowpane");
-                    //recentOrderFlowPane.getChildren().add(new IMatCartProduct(item, this));
+                    prevPage.setRecentCartLabel(order.getDate().toString());
+                    prevPage.getRecentFlowPane().getChildren().add(new IMatCartProduct(item, this));
 
 
                 }

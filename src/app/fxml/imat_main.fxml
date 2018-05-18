@@ -75,6 +75,11 @@
                               <Font size="20.0" />
                            </font>
                         </Button>
+                        <Button fx:id="goToKassa" layoutX="647.0" layoutY="39.0" mnemonicParsing="false" onMouseClicked="#goToKassaPressed" prefHeight="60.0" prefWidth="367.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
                      </children>
                      <styleClass>
                         <String fx:value="forground_colour" />
@@ -205,11 +210,6 @@
                      <children>
                         <AnchorPane>
                            <children>
-                              <Button fx:id="goToKassa" mnemonicParsing="false" onMouseClicked="#goToKassaPressed" prefHeight="60.0" prefWidth="367.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-                                 <font>
-                                    <Font size="20.0" />
-                                 </font>
-                              </Button>
                               <AnchorPane layoutX="-0.5" layoutY="0.30000001192092896" prefHeight="82.0" prefWidth="368.0" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <children>
                                     <Label layoutX="133.0" layoutY="5.0" prefHeight="70.0" prefWidth="214.0" text="Kundvagn" AnchorPane.rightAnchor="19.799999999999983" AnchorPane.topAnchor="5.0">
