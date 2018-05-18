@@ -51,7 +51,10 @@ public class CheckoutInfo extends AnchorPane {
         verifyInfo();
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
-            System.out.println("GO TO NEXT STEP!");
+            System.out.println("GO TO PAYMENT!");
+            CheckoutPayment cp = new CheckoutPayment(parentController);
+            parentController.middleStack.getChildren().add(cp);
+            cp.toFront();
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }

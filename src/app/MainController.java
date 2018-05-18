@@ -20,6 +20,7 @@ public class MainController implements Initializable {
     IMatDataHandler db = IMatDataHandler.getInstance();
     ShoppingCart shoppingCart;
     HelpPage helpPage;
+    CreditCard creditCard;
     MyInfoPage infoPage;
     CheckoutOverview checkoutOverview;
     PreviousPurchasesPage prevPage;
@@ -75,6 +76,7 @@ public class MainController implements Initializable {
         fillProductMap();
         shoppingCart = db.getShoppingCart();
         customer = db.getCustomer();
+        creditCard = db.getCreditCard();
         shoppingCart.addShoppingCartListener(new ShoppingCartListener() {
             @Override
             public void shoppingCartChanged(CartEvent cartEvent) {
