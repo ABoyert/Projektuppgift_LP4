@@ -37,7 +37,7 @@
                   </font></Label>
                 </children>
             </AnchorPane>
-            <Label fx:id="productName" alignment="TOP_LEFT" layoutX="6.0" layoutY="160.0" prefHeight="76.0" prefWidth="252.0" styleClass="front_24" stylesheets="@main_style.css" text="VattenMelon" wrapText="true">
+            <Label fx:id="productName" alignment="TOP_LEFT" layoutX="6.0" layoutY="160.0" prefHeight="75.0" prefWidth="252.0" styleClass="front_24" stylesheets="@main_style.css" text="VattenMelon">
                 <font>
                     <Font size="20.0" />
                 </font>
@@ -45,6 +45,16 @@
             <Label fx:id="productPrice" layoutX="7.0" layoutY="243.0" prefHeight="46.0" prefWidth="196.0" styleClass="font_28" stylesheets="@main_style.css" text="200 kr">
                 <font>
                     <Font size="29.0" />
+                </font>
+            </Label>
+            <Label fx:id="productWeight" layoutX="6.0" layoutY="194.0" prefHeight="22.0" prefWidth="182.0" text="700 g ">
+                <font>
+                    <Font size="15.0" />
+                </font>
+            </Label>
+            <Label fx:id="productComparePrice" layoutX="7.0" layoutY="216.0" prefHeight="20.0" prefWidth="182.0" text="400 kr/kg">
+                <font>
+                    <Font size="14.0" />
                 </font>
             </Label>
         </children>
