@@ -103,8 +103,8 @@
           <file leaf-file-name="IMatCategoryElement.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="666">
-                  <caret line="59" column="32" lean-forward="false" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+                <state relative-caret-position="427">
+                  <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -557,7 +557,7 @@
       <workItem from="1526389769468" duration="513000" />
       <workItem from="1526390367984" duration="2941000" />
       <workItem from="1526469538113" duration="7636000" />
-      <workItem from="1526631501592" duration="1406000" />
+      <workItem from="1526631501592" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="checkout showing products from cart">
       <created>1526393280309</created>
@@ -587,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526480394130</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="category button pressed method">
+      <created>1526632924742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526632924742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12496000" />
+    <option name="totallyTimeSpent" value="12648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -969,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="59" column="32" lean-forward="false" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="427">
+          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
           <folding />
         </state>
       </provider>

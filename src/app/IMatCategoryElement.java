@@ -60,7 +60,7 @@ public class IMatCategoryElement extends AnchorPane {
                 return "Sötsaker";
         }
 
-        return "";
+        return s;
     }
 }
 
