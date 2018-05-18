@@ -26,13 +26,13 @@
                   </font></Label>
             </children>
          </AnchorPane>
-         <Label fx:id="cartElementName" layoutX="164.0" layoutY="14.0" prefHeight="43.0" prefWidth="262.0" styleClass="front_24" stylesheets="@main_style.css" text="NameNameName">
+         <Label fx:id="cartElementName" layoutX="164.0" layoutY="14.0" prefHeight="43.0" prefWidth="262.0" styleClass="font_28" stylesheets="@main_style.css" text="NameNameName">
             <font>
                <Font size="22.0" />
             </font>
          </Label>
          <Label fx:id="cartElementWeight" layoutX="164.0" layoutY="57.0" prefHeight="22.0" prefWidth="262.0" text="200 kg " />
-         <Label fx:id="cartElementTotalPrice" layoutX="164.0" layoutY="90.0" prefHeight="54.0" prefWidth="262.0" styleClass="front_24" stylesheets="@main_style.css" text="200 kr ">
+         <Label fx:id="cartElementTotalPrice" layoutX="164.0" layoutY="90.0" prefHeight="54.0" prefWidth="262.0" styleClass="font_30" stylesheets="@main_style.css" text="200 kr ">
             <font>
                <Font size="36.0" />
             </font>
