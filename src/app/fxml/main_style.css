@@ -1,18 +1,18 @@
 /* ---Buttons and pliancy--------------*/
-.button_ordinary {
+.button{
     -fx-background-color: #FDFDFD;
     -fx-font-size: 20;
     -fx-border-radius: 0 0 0 0;
     -fx-border-color: #050505;
     -fx-border-width: 0.3px;
 }
-.button_ordinary:hover{
+.button:hover{
     -fx-background-color: E5E5E5;
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
     -fx-font-size:19;
 }
-.button_ordinary:pressed {
+.button:pressed {
     -fx-background-color: #D5D5D5;
     -fx-font-size: 17;
 }
