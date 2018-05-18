@@ -41,16 +41,16 @@
                   </font></Label>
                 </children>
             </AnchorPane>
-            <Label fx:id="cartElementName" layoutX="122.0" layoutY="-4.0" prefHeight="35.0" prefWidth="174.0" text="Name" AnchorPane.rightAnchor="65.0">
+            <Label fx:id="cartElementName" layoutX="122.0" layoutY="-4.0" prefHeight="35.0" prefWidth="174.0" styleClass="front_20" stylesheets="@main_style.css" text="Name" AnchorPane.rightAnchor="65.0">
                 <font>
                     <Font size="20.0" />
                 </font>
             </Label>
-            <Label fx:id="cartElementWeight" layoutX="122.0" layoutY="26.0" prefHeight="26.0" prefWidth="224.0" text="Varans vikt: XX" AnchorPane.rightAnchor="15.0">
+            <Label fx:id="cartElementWeight" layoutX="122.0" layoutY="26.0" prefHeight="26.0" prefWidth="224.0" styleClass="front_20" stylesheets="@main_style.css" text="Varans vikt: XX" AnchorPane.rightAnchor="15.0">
             <font>
                <Font size="20.0" />
             </font></Label>
-            <Label fx:id="cartElementTotalPrice" layoutX="122.0" layoutY="48.0" prefHeight="26.0" prefWidth="224.0" text="Totalt Pris: XX" AnchorPane.rightAnchor="15.0">
+            <Label fx:id="cartElementTotalPrice" layoutX="122.0" layoutY="48.0" prefHeight="26.0" prefWidth="224.0" styleClass="front_20" stylesheets="@main_style.css" text="Totalt Pris: XX" AnchorPane.rightAnchor="15.0">
             <font>
                <Font size="20.0" />
             </font></Label>

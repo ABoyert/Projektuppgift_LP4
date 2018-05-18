@@ -20,19 +20,19 @@
             <children>
                <Button fx:id="cartRemoveItem" layoutX="7.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="43.0" prefWidth="76.0" text="-" />
                <Button fx:id="cartAddItem" layoutX="244.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="43.0" prefWidth="76.0" text="+" />
-               <Label fx:id="cartElementTotalProduct" alignment="CENTER" layoutX="83.0" layoutY="11.0" prefHeight="43.0" prefWidth="162.0" text="22 st">
+               <Label fx:id="cartElementTotalProduct" alignment="CENTER" layoutX="83.0" layoutY="11.0" prefHeight="43.0" prefWidth="162.0" styleClass="front_24" stylesheets="@main_style.css" text="22 st">
                   <font>
                      <Font size="30.0" />
                   </font></Label>
             </children>
          </AnchorPane>
-         <Label fx:id="cartElementName" layoutX="164.0" layoutY="14.0" prefHeight="43.0" prefWidth="262.0" text="NameNameName">
+         <Label fx:id="cartElementName" layoutX="164.0" layoutY="14.0" prefHeight="43.0" prefWidth="262.0" styleClass="front_24" stylesheets="@main_style.css" text="NameNameName">
             <font>
                <Font size="22.0" />
             </font>
          </Label>
          <Label fx:id="cartElementWeight" layoutX="164.0" layoutY="57.0" prefHeight="22.0" prefWidth="262.0" text="200 kg " />
-         <Label fx:id="cartElementTotalPrice" layoutX="164.0" layoutY="90.0" prefHeight="54.0" prefWidth="262.0" text="200 kr ">
+         <Label fx:id="cartElementTotalPrice" layoutX="164.0" layoutY="90.0" prefHeight="54.0" prefWidth="262.0" styleClass="front_24" stylesheets="@main_style.css" text="200 kr ">
             <font>
                <Font size="36.0" />
             </font>
