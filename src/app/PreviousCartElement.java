@@ -15,15 +15,15 @@ public class PreviousCartElement extends AnchorPane {
     @FXML
     ImageView previousCartsImage;
     @FXML
-    Label previousCartsTotalProduct, previousCartsName, previousElementTotalPrice, previousElementWeight;
+    Label previousCartsTotalProduct, previousCartsName, previousCartsPrice, previousCartsWeight;
     @FXML
-    Button previousRemoveProduct, previousRemoveItem, previousAddItem;
+    Button previousCartsRemoveProduct, previousCartsAddProduct, previousCartsAddToCart;
 
     private MainController parentController;
     private ShoppingItem shoppingItem;
 
-    public PreviousCartElement(){
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/previousCartsElement"));
+    public PreviousCartElement(ShoppingItem item, MainController controller){
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/previousCartsElement.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 
@@ -32,6 +32,14 @@ public class PreviousCartElement extends AnchorPane {
         } catch (IOException exception) {
             throw new RuntimeException(exception);
         }
+
+        previousCartsWeight.setText(item.getProduct().getPrice() + " " + item.getProduct().getUnit());
+        previousCartsName.setText(item.getProduct().getName());
+        //previousCartsTotalProduct.setText(item.getAmount() + " st");
+        previousCartsPrice.setText("Totalt: " + (double) Math.round(item.getTotal() * 100) / 100 + " kr");
+        previousCartsImage.setImage(controller.getSquareImage(controller.db.getFXImage(item.getProduct())));
+        this.shoppingItem = item;
+        this.parentController = controller;
     }
 
 }

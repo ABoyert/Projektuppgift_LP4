@@ -484,7 +484,7 @@ public class MainController implements Initializable {
                         ) {
                     System.out.println("Adding recent item to flowpane");
                     prevPage.setRecentCartLabel(order.getDate().toString());
-                    prevPage.getRecentFlowPane().getChildren().add(new IMatCartProduct(item, this));
+                    prevPage.getRecentFlowPane().getChildren().add(new PreviousCartElement(item, this));
 
 
                 }

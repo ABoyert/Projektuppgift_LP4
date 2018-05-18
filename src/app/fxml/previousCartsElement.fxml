@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="164.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="164.0" prefWidth="742.0" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="previousCartsImage" fitHeight="164.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -28,7 +27,7 @@
                   <AnchorPane layoutY="44.0" prefHeight="117.0" prefWidth="322.0">
                      <children>
                         <Button fx:id="previousCartsRemoveProduct" layoutX="10.0" layoutY="38.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="78.0" text="-" />
-                        <Button fx:id="previousCartsAddNumberToCart" layoutX="10.0" layoutY="76.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="303.0" text="Lägg Till i Kundvagn" />
+                        <Button fx:id="previousCartsAddToCart" layoutX="10.0" layoutY="76.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="303.0" text="Lägg Till i Kundvagn" />
                         <Button fx:id="previousCartsAddProduct" layoutX="231.0" layoutY="38.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="78.0" text="+" />
                         <Label fx:id="previousCartsNumberProduct" alignment="CENTER" layoutX="88.0" layoutY="38.0" prefHeight="34.0" prefWidth="142.0" text="2 st" />
                      </children>
@@ -49,4 +48,4 @@
          </font>
       </Label>
    </children>
-</AnchorPane>
+</fx:root>
