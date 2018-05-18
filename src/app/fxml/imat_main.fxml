@@ -75,11 +75,6 @@
                               <Font size="20.0" />
                            </font>
                         </Button>
-                        <Button fx:id="goToKassa" layoutX="647.0" layoutY="39.0" mnemonicParsing="false" onMouseClicked="#goToKassaPressed" prefHeight="60.0" prefWidth="367.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER">
-                           <font>
-                              <Font size="20.0" />
-                           </font>
-                        </Button>
                      </children>
                      <styleClass>
                         <String fx:value="forground_colour" />
@@ -264,6 +259,11 @@
                                     </ScrollPane>
                                  </children>
                               </AnchorPane>
+                              <Button fx:id="goToKassa" layoutX="49.0" layoutY="651.0" mnemonicParsing="false" onMouseClicked="#goToKassaPressed" prefHeight="60.0" prefWidth="367.0" style="-fx-background-color: #7aba7a;" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Button>
                            </children>
                            <styleClass>
                               <String fx:value="forground_colour" />
