@@ -108,9 +108,9 @@ public class CheckoutPayment extends AnchorPane {
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
             System.out.println("GO TO LAST STEP!");
-            //CheckoutPayment cp = new CheckoutPayment(parentController);
-            //parentController.middleStack.getChildren().add(cp);
-            //cp.toFront();
+            CheckoutDone cd = new CheckoutDone();
+            parentController.middleStack.getChildren().add(cd);
+            cd.toFront();
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }
