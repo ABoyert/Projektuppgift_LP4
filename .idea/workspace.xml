@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_product.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_product.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/main_style.css" afterPath="$PROJECT_DIR$/src/app/fxml/main_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_betalning_kostnadpane.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_betalning_kostnadpane.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -473,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526649402020</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed button classes so pliancy is correkt">
+      <created>1526649958490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1526649958490</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -557,7 +562,8 @@
     <MESSAGE value="Tidigare Köp Element Recent fixad" />
     <MESSAGE value="Tidigare Köp Element Recent fixad fixad igen" />
     <MESSAGE value="Made new classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made new classes" />
+    <MESSAGE value="Fixed button classes so pliancy is correkt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed button classes so pliancy is correkt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
