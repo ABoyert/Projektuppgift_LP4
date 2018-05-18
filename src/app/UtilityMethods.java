@@ -12,7 +12,7 @@ public class UtilityMethods
 {
     static IMatDataHandler db = IMatDataHandler.getInstance();
 
-    static enum Categories {
+    enum Categories {
         FRUKT_GRONT,
         BROD,
         DRYCKER,
@@ -22,7 +22,7 @@ public class UtilityMethods
         KOTT,
         PASTA,
         POTATIS_RIS,
-        SOTSAKER;
+        SOTSAKER
     }
 
     public void listCategory(ProductCategory pc) {

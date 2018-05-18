@@ -32,12 +32,20 @@ public class CheckoutOverview extends AnchorPane {
 
     @FXML
     public void placeOrder() {
+        CheckoutInfo infoPage = new CheckoutInfo(parentController);
+        parentController.middleStack.getChildren().add(infoPage);
+        infoPage.toFront();
+
+    }
+
+    /*@FXML
+    public void placeOrder() {
         if (parentController.shoppingCart.getTotal() != 0) {
             parentController.db.placeOrder();
         }
         parentController.shoppingCart.clear();
         updateView();
-    }
+    }*/
 
     public void updateView() {
 

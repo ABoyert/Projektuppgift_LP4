@@ -31,7 +31,7 @@ public class MainController implements Initializable {
     enum Sort {
         ALPHABETICAL,
         PRICE,
-        NONE;
+        NONE
     }
 
     boolean sortPricePressed = false;
@@ -49,7 +49,7 @@ public class MainController implements Initializable {
         HANDLA,
         MINA_UPPGIFTER,
         HJALP,
-        TIDIGARE_KÖP;
+        TIDIGARE_KÖP
     }
 
     @FXML

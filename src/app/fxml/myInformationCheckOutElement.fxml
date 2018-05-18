@@ -6,38 +6,39 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@main_style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <AnchorPane layoutY="16.0" prefHeight="51.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
-         <children>
-            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="front_24" stylesheets="@main_style.css" text="Uppgifter">
-               <font>
-                  <Font size="27.0" />
-               </font>
-            </Label>
-            <Button fx:id="myInformationBackButton" layoutX="387.0" layoutY="4.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="123.0" stylesheets="@main_style.css" text="Tillbaka" AnchorPane.rightAnchor="14.599999999999966" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutY="79.0" prefHeight="642.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-         <children>
-            <TextArea fx:id="myInformationCheckOutFirstName" layoutX="15.0" layoutY="38.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutPostNumber" layoutX="15.0" layoutY="479.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutAddress" layoutX="15.0" layoutY="405.0" prefHeight="38.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutMail" layoutX="15.0" layoutY="330.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutPhoneNumber" layoutX="15.0" layoutY="256.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutSocialSecurityNumber" layoutX="15.0" layoutY="182.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutPostArea" layoutX="15.0" layoutY="556.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <TextArea fx:id="myInformationCheckOutLastName" layoutX="15.0" layoutY="110.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <Label layoutX="15.0" layoutY="7.0" styleClass="front_20" stylesheets="@main_style.css" text="Förnamn: " AnchorPane.leftAnchor="15.0" />
-            <Label layoutX="12.0" layoutY="79.0" styleClass="front_20" stylesheets="@main_style.css" text="Efternamn:" AnchorPane.leftAnchor="12.0" />
-            <Label layoutX="15.0" layoutY="155.0" styleClass="front_20" stylesheets="@main_style.css" text="Personnummer (DDMMYY-XXXX): " AnchorPane.leftAnchor="15.0" />
-            <Label layoutX="15.0" layoutY="229.0" styleClass="front_20" stylesheets="@main_style.css" text="Telefonnummer: " AnchorPane.leftAnchor="15.0" />
-            <Label layoutX="15.0" layoutY="294.0" prefHeight="38.0" prefWidth="48.0" styleClass="front_20" stylesheets="@main_style.css" text="Mail: " AnchorPane.leftAnchor="15.0" />
-            <Label layoutX="15.0" layoutY="378.0" styleClass="front_20" stylesheets="@main_style.css" text="Adress: " AnchorPane.leftAnchor="15.0" />
-            <Label layoutX="15.0" layoutY="448.0" styleClass="front_20" stylesheets="@main_style.css" text="Postnummer: " AnchorPane.leftAnchor="15.0" />
-            <Label layoutX="13.0" layoutY="525.0" styleClass="front_20" stylesheets="@main_style.css" text="Postort: " AnchorPane.leftAnchor="15.0" />
-            <Button fx:id="myInformationCheckOutButton" layoutX="389.0" layoutY="600.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="123.0" stylesheets="@main_style.css" text="Spara" AnchorPane.rightAnchor="15.0" />
-         </children>
-      </AnchorPane>
-   </children>
-</AnchorPane>
+<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@main_style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <AnchorPane layoutY="16.0" prefHeight="51.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+            <children>
+               <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="front_24" stylesheets="@main_style.css" text="Uppgifter">
+                  <font>
+                     <Font size="27.0" />
+                  </font>
+               </Label>
+               <Button fx:id="myInformationBackButton" layoutX="387.0" layoutY="4.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="123.0" stylesheets="@main_style.css" text="Tillbaka" AnchorPane.rightAnchor="14.599999999999966" />
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutY="79.0" prefHeight="642.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+               <TextArea fx:id="myDetailsFirstName" layoutX="15.0" layoutY="38.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsZIPCode" layoutX="15.0" layoutY="479.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsAddress" layoutX="15.0" layoutY="405.0" prefHeight="38.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsEmail" layoutX="15.0" layoutY="330.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsPhoneNumber" layoutX="15.0" layoutY="256.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsCity" layoutX="15.0" layoutY="556.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsLastName" layoutX="15.0" layoutY="110.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <Label layoutX="15.0" layoutY="7.0" styleClass="front_20" stylesheets="@main_style.css" text="Förnamn: " AnchorPane.leftAnchor="15.0" />
+               <Label layoutX="12.0" layoutY="79.0" styleClass="front_20" stylesheets="@main_style.css" text="Efternamn:" AnchorPane.leftAnchor="12.0" />
+               <Label layoutX="15.0" layoutY="229.0" styleClass="front_20" stylesheets="@main_style.css" text="Telefonnummer: " AnchorPane.leftAnchor="15.0" />
+               <Label layoutX="15.0" layoutY="294.0" prefHeight="38.0" prefWidth="48.0" styleClass="front_20" stylesheets="@main_style.css" text="Mail: " AnchorPane.leftAnchor="15.0" />
+               <Label layoutX="15.0" layoutY="378.0" styleClass="front_20" stylesheets="@main_style.css" text="Adress: " AnchorPane.leftAnchor="15.0" />
+               <Label layoutX="15.0" layoutY="448.0" styleClass="front_20" stylesheets="@main_style.css" text="Postnummer: " AnchorPane.leftAnchor="15.0" />
+               <Label layoutX="13.0" layoutY="525.0" styleClass="front_20" stylesheets="@main_style.css" text="Postort: " AnchorPane.leftAnchor="15.0" />
+               <Button fx:id="myInformationCheckOutButton" layoutX="389.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#saveInfo" prefHeight="38.0" prefWidth="123.0" stylesheets="@main_style.css" text="Spara" AnchorPane.rightAnchor="15.0" />
+            </children>
+         </AnchorPane>
+      </children>
+   </AnchorPane>
+
+</fx:root>
