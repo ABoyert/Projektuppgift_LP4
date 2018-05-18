@@ -9,14 +9,14 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="7.0" layoutY="6.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="94.0" text="Tillbaka" />
+      <Button layoutX="7.0" layoutY="6.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="128.0" stylesheets="@main_style.css" text="Tillbaka" />
       <ImageView fitHeight="240.0" fitWidth="240.0" layoutX="14.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
-      <Label layoutX="271.0" layoutY="51.0" prefHeight="53.0" prefWidth="240.0" text="Name Name Name Name" wrapText="true">
+      <Label layoutX="271.0" layoutY="51.0" prefHeight="53.0" prefWidth="240.0" styleClass="font_18" stylesheets="@main_style.css" text="Name Name Name Name" wrapText="true">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="271.0" layoutY="115.0" prefHeight="178.0" prefWidth="240.0" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
+      <Label layoutX="271.0" layoutY="115.0" prefHeight="178.0" prefWidth="240.0" styleClass="font_14" stylesheets="@main_style.css" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
       <Button layoutX="17.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="-" />
       <Button layoutX="177.0" layoutY="308.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="+" />
       <Label alignment="CENTER" layoutX="112.0" layoutY="308.0" prefHeight="54.0" prefWidth="65.0" styleClass="border" stylesheets="@main_style.css" text="99 st" />
@@ -26,7 +26,7 @@
             <FlowPane prefHeight="304.0" prefWidth="524.0" />
          </children>
       </AnchorPane>
-      <Label layoutX="17.0" layoutY="374.0" prefHeight="33.0" prefWidth="194.0" text="Liknande varor: ">
+      <Label layoutX="17.0" layoutY="374.0" prefHeight="33.0" prefWidth="194.0" styleClass="font_18" stylesheets="@main_style.css" text="Liknande varor: ">
          <font>
             <Font size="14.0" />
          </font>
