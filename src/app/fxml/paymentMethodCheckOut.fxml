@@ -12,7 +12,7 @@
    <children>
       <AnchorPane prefHeight="51.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
          <children>
-            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="front_24" stylesheets="@main_style.css" text="Betala ">
+            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="font_28" stylesheets="@main_style.css" text="Betala ">
                <font>
                   <Font size="27.0" />
                </font>
