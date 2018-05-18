@@ -12,12 +12,12 @@
       <children>
          <AnchorPane layoutY="34.0" prefHeight="51.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
             <children>
-               <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" text="Översikt">
+               <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="front_24" stylesheets="@main_style.css" text="Översikt">
                   <font>
                      <Font size="27.0" />
                   </font>
                </Label>
-               <Button fx:id="overviewBackButton" layoutY="11.0" mnemonicParsing="false" prefHeight="29.0" text="Tillbaka" AnchorPane.rightAnchor="15.0" />
+               <Button fx:id="overviewBackButton" layoutX="292.0" layoutY="4.0" mnemonicParsing="false" prefHeight="29.0" stylesheets="@main_style.css" text="Tillbaka" AnchorPane.rightAnchor="15.199999999999989" />
                <Button fx:id="placeOrderButton" layoutX="149.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#placeOrder" text="köp" />
                <Button fx:id="testButton" layoutX="215.0" layoutY="13.0" mnemonicParsing="false" text="Button" />
             </children>
