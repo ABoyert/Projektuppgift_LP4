@@ -1,19 +1,53 @@
 /* ---Buttons and pliancy--------------*/
-.button {
+.button_ordinary {
     -fx-background-color: #FDFDFD;
     -fx-font-size: 20;
     -fx-border-radius: 0 0 0 0;
     -fx-border-color: #050505;
     -fx-border-width: 0.3px;
 }
-.button:hover{
+.button_ordinary:hover{
     -fx-background-color: E5E5E5;
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
     -fx-font-size:19;
 }
-.button:pressed {
+.button_ordinary:pressed {
     -fx-background-color: #D5D5D5;
+    -fx-font-size: 17;
+}
+.button_Red {
+    -fx-background-color: #d86955;
+    -fx-font-size: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-border-color: #050505;
+    -fx-border-width: 0.3px;
+}
+.button_Red:hover{
+    -fx-background-color: c15e4c;
+    -fx-font-weight: bold;
+    -fx-border-width: 0.8px;
+    -fx-font-size:19;
+}
+.button_Red:pressed {
+    -fx-background-color: #9f4d3e;
+    -fx-font-size: 17;
+}
+.button_Green {
+    -fx-background-color: #7aba7a;
+    -fx-font-size: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-border-color: #050505;
+    -fx-border-width: 0.3px;
+}
+.button_Green:hover{
+    -fx-background-color: #689f68;
+    -fx-font-weight: bold;
+    -fx-border-width: 0.8px;
+    -fx-font-size:19;
+}
+.button_Green:pressed {
+    -fx-background-color: #5b875b;
     -fx-font-size: 17;
 }
 .iMat{
@@ -26,14 +60,6 @@
 .iMat:pressed{
     -fx-font-color: #D5D5D5;
     -fx-font-size: 38;
-}
-.border {
-    -fx-border-width:0.3px;
-    -fx-border-style:solid;
-}
-.borderBottom {
-    -fx-border-style:none none solid none;
-    -fx-border-width:0 0 0.3px 0;
 }
 .plus_minus_button {
     -fx-background-color: #FDFDFD;
@@ -68,7 +94,7 @@
 .video_LighBox{
     -fx-background-color: rgba(0, 0, 0, 0.85)
 }
-/*----------------Colours----------------*/
+/*----------------Colors----------------*/
 .forground_colour {
     -fx-background-color: #F9F9F9;
 }
@@ -84,7 +110,15 @@
 .blue_background{
     -fx-background.color: #97b4c3;
 }
-
+/*-----------Borders---------------*/
+.border {
+    -fx-border-width:0.3px;
+    -fx-border-style:solid;
+}
+.borderBottom {
+    -fx-border-style:none none solid none;
+    -fx-border-width:0 0 0.3px 0;
+}
 /*-----------Fonts-----------------------*/
 .font_12{
     -fx-font-size: 12px;
