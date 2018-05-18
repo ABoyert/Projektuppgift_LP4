@@ -42,4 +42,7 @@ public class PreviousCartElement extends AnchorPane {
         this.parentController = controller;
     }
 
+    public ShoppingItem getShoppingItem() {
+        return shoppingItem;
+    }
 }
