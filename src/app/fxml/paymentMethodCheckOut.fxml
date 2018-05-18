@@ -12,30 +12,30 @@
    <children>
       <AnchorPane prefHeight="51.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
          <children>
-            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" text="Betala ">
+            <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="front_24" stylesheets="@main_style.css" text="Betala ">
                <font>
                   <Font size="27.0" />
                </font>
             </Label>
-            <Button fx:id="paymentMethodBackButton" layoutX="431.0" layoutY="10.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="70.0" text="Tillbaka" />
+            <Button fx:id="paymentMethodBackButton" layoutX="383.0" layoutY="4.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="118.0" stylesheets="@main_style.css" text="Tillbaka" />
          </children>
       </AnchorPane>
       <AnchorPane layoutY="80.0" prefHeight="641.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <Label layoutX="14.0" layoutY="7.0" prefHeight="39.0" prefWidth="126.0" text="Betalningssätt: ">
+            <Label layoutX="14.0" layoutY="7.0" prefHeight="39.0" prefWidth="126.0" styleClass="font_18" stylesheets="@main_style.css" text="Betalningssätt: ">
                <font>
                   <Font size="16.0" />
                </font>
             </Label>
-            <Button fx:id="paymentMethodCheckOutCardButton" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" text="Kort" />
-            <Button fx:id="paymentMethodCheckOutDirectPay" layoutX="14.0" layoutY="78.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" text="Direktbetalning" />
+            <Button fx:id="paymentMethodCheckOutCardButton" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="172.0" stylesheets="@main_style.css" text="Kort" />
+            <Button fx:id="paymentMethodCheckOutDirectPay" layoutX="14.0" layoutY="90.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="172.0" stylesheets="@main_style.css" text="Direktbetalning" />
             <AnchorPane layoutX="14.0" layoutY="174.0" prefHeight="392.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="15.600000000000023">
                <children>
                   <StackPane fx:id="paymentMethodCheckOutStackPane" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <AnchorPane fx:id="paymentMethodCheckOutDirectPayAnchorPane" style="-fx-background-color: #567567;">
                            <children>
-                              <Label layoutX="8.0" prefHeight="51.0" prefWidth="178.0" text="Välj din bank:">
+                              <Label layoutX="8.0" prefHeight="51.0" prefWidth="178.0" styleClass="front_24" stylesheets="@main_style.css" text="Välj din bank:">
                                  <font>
                                     <Font size="26.0" />
                                  </font>
@@ -48,39 +48,39 @@
                         </AnchorPane>
                         <AnchorPane fx:id="paymentMethodCheckOutCardAnchorPane" style="-fx-background-color: #E3E000;">
                            <children>
-                              <Label layoutX="7.0" layoutY="8.0" prefHeight="25.0" prefWidth="70.0" text="Korttyp:">
+                              <Label layoutX="7.0" layoutY="8.0" prefHeight="25.0" prefWidth="70.0" styleClass="font_14" stylesheets="@main_style.css" text="Korttyp:">
                                  <font>
                                     <Font size="14.0" />
                                  </font>
                               </Label>
-                              <Button fx:id="paymentMethodCheckOutButtonVisa" layoutX="84.0" layoutY="8.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Visa" />
-                              <Button fx:id="paymentMethodCheckOutButtonMastercard" layoutX="195.0" layoutY="8.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Mastercard" />
+                              <Button fx:id="paymentMethodCheckOutButtonVisa" layoutX="84.0" layoutY="8.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" stylesheets="@main_style.css" text="Visa" />
+                              <Button fx:id="paymentMethodCheckOutButtonMastercard" layoutX="195.0" layoutY="8.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="136.0" stylesheets="@main_style.css" text="Mastercard" />
                               <TextArea fx:id="paymentMethodCheckOutTextAreaCardNumber" layoutX="104.0" layoutY="76.0" prefHeight="7.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" />
                               <TextArea fx:id="paymentMethodCheckOutName" layoutX="104.0" layoutY="128.0" prefHeight="14.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" />
                               <TextArea fx:id="paymentMethodCheckOutCVC" layoutX="104.0" layoutY="183.0" prefHeight="38.0" prefWidth="60.0" />
                               <TextArea fx:id="paymentMethodCheckOutMonth" layoutX="292.0" layoutY="182.0" prefHeight="39.0" prefWidth="38.0" />
                               <TextArea fx:id="paymentMethodCheckOutYear" layoutX="354.0" layoutY="183.0" prefHeight="38.0" prefWidth="41.0" />
-                              <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="82.0" prefHeight="26.0" prefWidth="90.0" text="Kortnummer: ">
+                              <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="82.0" prefHeight="26.0" prefWidth="90.0" styleClass="font_14" stylesheets="@main_style.css" text="Kortnummer: ">
                                  <font>
                                     <Font size="14.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="132.0" prefHeight="32.0" prefWidth="90.0" text="Namn: ">
+                              <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="132.0" prefHeight="32.0" prefWidth="90.0" styleClass="font_14" stylesheets="@main_style.css" text="Namn: ">
                                  <font>
                                     <Font size="14.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="182.0" prefHeight="39.0" prefWidth="90.0" text="CVC: ">
+                              <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="182.0" prefHeight="39.0" prefWidth="90.0" styleClass="font_14" stylesheets="@main_style.css" text="CVC: ">
                                  <font>
                                     <Font size="14.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER_RIGHT" layoutX="174.0" layoutY="183.0" prefHeight="38.0" prefWidth="106.0" text="Utgångsdatum: ">
+                              <Label alignment="CENTER_RIGHT" layoutX="174.0" layoutY="183.0" prefHeight="38.0" prefWidth="106.0" styleClass="font_14" stylesheets="@main_style.css" text="Utgångsdatum: ">
                                  <font>
                                     <Font size="14.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="339.0" layoutY="182.0" prefHeight="39.0" prefWidth="15.0" text="/">
+                              <Label layoutX="339.0" layoutY="182.0" prefHeight="39.0" prefWidth="15.0" styleClass="front_24" stylesheets="@main_style.css" text="/">
                                  <font>
                                     <Font size="27.0" />
                                  </font>
