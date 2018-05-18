@@ -24,9 +24,9 @@
                     </ButtonBar>
                 </children>
             </AnchorPane>
-            <AnchorPane layoutY="87.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
+            <AnchorPane layoutY="87.0" maxHeight="-Infinity" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
                 <children>
-               <ScrollPane hbarPolicy="NEVER" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
                   <content>
                           <FlowPane fx:id="recentFlowPane" />
                   </content>
