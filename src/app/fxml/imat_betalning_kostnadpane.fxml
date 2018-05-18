@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root minHeight="-Infinity" minWidth="-Infinity" stylesheets="@main_style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root stylesheets="@main_style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
          <children>
@@ -16,7 +16,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+      <AnchorPane minHeight="300.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
          <children>
             <Label layoutY="23.0" styleClass="font_18" stylesheets="@main_style.css" text="Varukostnad:" AnchorPane.leftAnchor="60.0">
                <font>
@@ -44,9 +44,9 @@
             <Label fx:id="totalCostLabel" layoutY="133.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="232.0" stylesheets="@main_style.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <AnchorPane layoutY="232.0" prefHeight="62.0" stylesheets="@main_style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="63.0" prefWidth="302.0" styleClass="green_background" stylesheets="@main_style.css" text="Nästa" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <Button mnemonicParsing="false" prefHeight="63.0" prefWidth="302.0" styleClass="green_background" stylesheets="@main_style.css" text="Nästa" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
          </children>
       </AnchorPane>
    </children>
