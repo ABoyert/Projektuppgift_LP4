@@ -1,5 +1,7 @@
 package app;
 
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Alert;
@@ -14,7 +16,7 @@ public class MyInfoPage extends AnchorPane {
     Button myDetailsSaveButtonTop;
     @FXML
     TextArea myDetailsFirstName, myDetailsLastName, myDetailsPhoneNumber, myDetailsEmail, myDetailsAddress,
-            myDetailsZIPCode, myDetailsCity;
+            myDetailsZIPCode, myDetailsCity, mySocialSecurityNumber;
 
     MainController parentController;
 
@@ -38,6 +40,39 @@ public class MyInfoPage extends AnchorPane {
         myDetailsAddress.setText(parentController.customer.getAddress());
         myDetailsZIPCode.setText(parentController.customer.getPostCode());
         myDetailsCity.setText(parentController.customer.getPostAddress());
+
+
+        takeIntegersOnly(myDetailsPhoneNumber);
+        takeIntegersOnly(myDetailsZIPCode);
+        takeLettersOnly(myDetailsFirstName);
+        takeLettersOnly(myDetailsLastName);
+        takeLettersOnly(myDetailsCity);
+        takeIntegersOnly(mySocialSecurityNumber);
+
+
+
+    }
+
+    public void takeIntegersOnly(TextArea textArea){
+        textArea.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observable, String oldValue,
+                                String newValue) {
+                if (!newValue.matches("\\d*")) {
+                    textArea.setText(newValue.replaceAll("[^\\d]", ""));
+                }
+            }
+        });
+
+
+    }
+
+    public void takeLettersOnly(TextArea textArea){
+        textArea.textProperty().addListener((observable, oldValue, newValue) -> {
+            if (!newValue.matches("\\sa-zA-Z*")) {
+                textArea.setText(newValue.replaceAll("[^\\sa-zA-Z]", ""));
+            }
+        });
     }
 
     @FXML

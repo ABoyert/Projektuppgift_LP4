@@ -34,7 +34,7 @@
                <Label layoutX="30.0" layoutY="421.0" styleClass="front_20" stylesheets="@main_style.css" text="Adress: " AnchorPane.leftAnchor="30.0" />
                <Label layoutX="30.0" layoutY="506.0" styleClass="front_20" stylesheets="@main_style.css" text="Postnummer: " AnchorPane.leftAnchor="30.0" />
                <Label layoutX="28.0" layoutY="589.0" styleClass="front_20" stylesheets="@main_style.css" text="Postort: " AnchorPane.leftAnchor="28.0" />
-               <TextArea fx:id="myDetailsLastName1" layoutX="30.0" layoutY="213.0" prefHeight="0.0" />
+               <TextArea fx:id="mySocialSecurityNumber" layoutX="30.0" layoutY="213.0" prefHeight="0.0" />
                <Label layoutX="30.0" layoutY="174.0" styleClass="front_20" stylesheets="@main_style.css" text="Personnummer (DDMMYY-XXXX): " />
                <TextArea fx:id="myDetailsCity" layoutX="30.0" layoutY="627.0" prefHeight="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="150.0" />
             </children>
