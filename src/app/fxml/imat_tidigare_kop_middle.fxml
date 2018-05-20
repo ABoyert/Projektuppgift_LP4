@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
@@ -7,24 +8,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 
-<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root styleClass="platinum-color-background" stylesheets="@colorscheme_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
         <children>
             <AnchorPane prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                 <children>
-                    <ButtonBar layoutX="4.0" layoutY="10.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+                    <ButtonBar layoutX="4.0" layoutY="10.0" styleClass="grey-color-background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                         <buttons>
                             <Label fx:id="recentCartLabel" styleClass="font_14" stylesheets="@main_style.css" text="Kundvagn: XX" />
                             <AnchorPane>
                                 <children>
-                                    <Button fx:id="addRecentToCart" layoutX="-72.0" layoutY="7.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="195.0" stylesheets="@main_style.css" text="Lägg till i varukorg" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="7.0" />
+                                    <Button fx:id="addRecentToCart" layoutX="-72.0" layoutY="7.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="195.0" stylesheets="@colorscheme_style.css" text="Lägg till i varukorg" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="7.0">
+                              <styleClass>
+                                 <String fx:value="general-button-style" />
+                                 <String fx:value="orange-color-background" />
+                                 <String fx:value="platinum-color-background" />
+                              </styleClass></Button>
                                 </children>
                             </AnchorPane>
                         </buttons>
                     </ButtonBar>
                 </children>
             </AnchorPane>
-            <AnchorPane layoutY="87.0" style="-fx-background-color: #E7E0DD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
+            <AnchorPane layoutY="87.0" styleClass="grey-color-background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
                 <children>
                <ScrollPane hbarPolicy="NEVER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
                   <content>

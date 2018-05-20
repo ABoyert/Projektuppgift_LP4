@@ -3,6 +3,7 @@ package app;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.WritableImage;
 import se.chalmers.cse.dat216.project.*;
@@ -87,18 +88,19 @@ public class UtilityMethods
     }
 
     public static void takeIntegersOnly(TextArea textArea){
-        textArea.textProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue,
-                                String newValue) {
-                if (!newValue.matches("\\d*")) {
-                    textArea.setText(newValue.replaceAll("[^\\d]", ""));
-                }
+    textArea.textProperty().addListener(new ChangeListener<String>() {
+        @Override
+        public void changed(ObservableValue<? extends String> observable, String oldValue,
+                            String newValue) {
+            if (!newValue.matches("\\d*")) {
+                textArea.setText(newValue.replaceAll("[^\\d]", ""));
             }
-        });
+        }
+    });
 
 
-    }
+}
+
 
     public static void takeLettersOnly(TextArea textArea){
         textArea.textProperty().addListener((observable, oldValue, newValue) -> {
@@ -107,6 +109,16 @@ public class UtilityMethods
             }
         });
     }
+
+    public static void takeLettersOnlyField(TextField textArea){
+        textArea.textProperty().addListener((observable, oldValue, newValue) -> {
+            if (!newValue.matches("\\sa-zA-Z*")) {
+                textArea.setText(newValue.replaceAll("[^\\sa-zA-Z]", ""));
+            }
+        });
+    }
+
+
 
     /*public static Image getSquareImage(Image image){
 

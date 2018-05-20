@@ -1,0 +1,31 @@
+.red-color-background{
+    -fx-background-color: #EF5653;
+}
+
+.orange-color-background{
+    -fx-background-color: #F9AF4D;
+}
+
+.platinum-color-background{
+    -fx-background-color: #E8E9EA;
+}
+
+.grey-color-background{
+    -fx-background-color: #E0DFD5;
+}
+
+.black-color-background{
+    -fx-background-color: #313638;
+}
+
+.general-button-style{
+    -fx-border-radius: 4px;
+    -fx-border-color: #313638;
+
+
+}
+
+.general-button-style:hover{
+    -fx-opacity: 0.6;
+}
+
