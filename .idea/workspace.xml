@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
-      <change beforePath="$PROJECT_DIR$/src/app/UtilityMethods.java" afterPath="$PROJECT_DIR$/src/app/UtilityMethods.java" />
-      <change beforePath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/app/fxml/imat_tidigare_kop_middle.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_tidigare_kop_middle.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/app/fxml/main_style.css" afterPath="$PROJECT_DIR$/src/app/fxml/main_style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +67,8 @@
       <file leaf-file-name="colorscheme_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/fxml/colorscheme_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="295">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -557,11 +551,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526825803734</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Only integers or letters, checkout included">
+      <created>1526843338593</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1526843338593</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25990000" />
+    <option name="totallyTimeSpent" value="26028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1002,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fxml/colorscheme_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="295">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>
