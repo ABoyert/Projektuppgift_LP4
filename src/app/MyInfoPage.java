@@ -42,38 +42,17 @@ public class MyInfoPage extends AnchorPane {
         myDetailsCity.setText(parentController.customer.getPostAddress());
 
 
-        takeIntegersOnly(myDetailsPhoneNumber);
-        takeIntegersOnly(myDetailsZIPCode);
-        takeLettersOnly(myDetailsFirstName);
-        takeLettersOnly(myDetailsLastName);
-        takeLettersOnly(myDetailsCity);
-        takeIntegersOnly(mySocialSecurityNumber);
+        UtilityMethods.takeIntegersOnly(myDetailsPhoneNumber);
+        UtilityMethods.takeIntegersOnly(myDetailsZIPCode);
+        UtilityMethods.takeLettersOnly(myDetailsFirstName);
+        UtilityMethods.takeLettersOnly(myDetailsLastName);
+        UtilityMethods.takeLettersOnly(myDetailsCity);
+        UtilityMethods.takeIntegersOnly(mySocialSecurityNumber);
 
 
 
     }
 
-    public void takeIntegersOnly(TextArea textArea){
-        textArea.textProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue,
-                                String newValue) {
-                if (!newValue.matches("\\d*")) {
-                    textArea.setText(newValue.replaceAll("[^\\d]", ""));
-                }
-            }
-        });
-
-
-    }
-
-    public void takeLettersOnly(TextArea textArea){
-        textArea.textProperty().addListener((observable, oldValue, newValue) -> {
-            if (!newValue.matches("\\sa-zA-Z*")) {
-                textArea.setText(newValue.replaceAll("[^\\sa-zA-Z]", ""));
-            }
-        });
-    }
 
     @FXML
     public void saveInfo() {

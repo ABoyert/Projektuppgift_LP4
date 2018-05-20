@@ -43,6 +43,14 @@ public class CheckoutInfo extends AnchorPane {
         myDetailsZIPCode.setText(parentController.customer.getPostCode());
         myDetailsCity.setText(parentController.customer.getPostAddress());
 
+
+        UtilityMethods.takeIntegersOnly(myDetailsPhoneNumber);
+        UtilityMethods.takeIntegersOnly(myDetailsZIPCode);
+        UtilityMethods.takeLettersOnly(myDetailsFirstName);
+        UtilityMethods.takeLettersOnly(myDetailsLastName);
+        UtilityMethods.takeLettersOnly(myDetailsCity);
+        //UtilityMethods.takeIntegersOnly(mySocialSecurityNumber);
+
         fillTextAreaList();
     }
 
