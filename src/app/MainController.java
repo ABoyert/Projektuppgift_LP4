@@ -59,7 +59,7 @@ public class MainController implements Initializable {
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart, helpButton, goToKassa;
+    Button emptyCart, helpButton, goToKassa, sortAlphaButton;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
@@ -215,8 +215,10 @@ public class MainController implements Initializable {
         for (int i = (productArray.length - 1); i >= 0; i--) {
             for (int j = 1; j <= i; j++) {
                 if (!sortAlphaPressed) {
+                    sortAlphaButton.setText("A - Ö");
                     buttonStatus = (productArray[j - 1].getName().charAt(0) > productArray[j].getName().charAt(0));
                 } else {
+                    sortAlphaButton.setText("Ö - A");
                     buttonStatus = (productArray[j - 1].getName().charAt(0) < productArray[j].getName().charAt(0));
                 }
                 if (buttonStatus) {
@@ -291,6 +293,8 @@ public class MainController implements Initializable {
         middleStack.getChildren().clear();
         hideCost();
         setLeftLabelMyInformation();
+
+        infoPage = new MyInfoPage(this);
 
         if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
