@@ -104,6 +104,8 @@ public class MainController implements Initializable {
         topMenuButtons.add(helpButton);
         topMenuButtons.add(prevPurchasesButton);
 
+        topMenuButtonPressed(shopButton);
+
         createCategoryList();
         loadCategories();
     }
