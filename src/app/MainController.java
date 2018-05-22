@@ -90,7 +90,7 @@ public class MainController implements Initializable {
         infoPage = new MyInfoPage(this);
         prevPage = new PreviousPurchasesPage();
         checkoutOverview = new CheckoutOverview(this);
-        updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
+        updateProducts(db.getProducts(), Sort.ALPHABETICAL); //Show all products on start
         cc = new CheckoutCost();
         System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
