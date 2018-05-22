@@ -254,7 +254,7 @@
                                           </Label>
                                        </children>
                                        <styleClass>
-                                          <String fx:value="forground_colour" />
+                                          <String fx:value="background_colour" />
                                           <String fx:value="border" />
                                        </styleClass>
                                     </AnchorPane>
@@ -266,7 +266,7 @@
                                        <content>
                                           <AnchorPane prefHeight="494.0" prefWidth="394.0" styleClass="platinum-color-background">
                                              <children>
-                                                <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="494.0" prefWidth="394.0" styleClass="forground_colour" vgap="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="494.0" prefWidth="394.0" styleClass="background_colour" vgap="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                              </children>
                                           </AnchorPane>
                                        </content>

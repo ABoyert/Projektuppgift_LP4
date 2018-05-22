@@ -111,6 +111,10 @@
     -fx-border-style:none none solid none;
     -fx-border-width:0 0 0.3px 0;
 }
+.border_cart_products{
+    -fx-border-style:solid;
+    -fx-border-width:0 0.3px 0.3px 0.3px;
+}
 /*-----------Font-colors--------------*/
 .font_color_orange{
     -fx-Text-Fill: #313638;

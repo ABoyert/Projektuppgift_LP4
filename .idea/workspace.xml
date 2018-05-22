@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" afterPath="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_product.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_product.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/main_style.css" afterPath="$PROJECT_DIR$/src/app/fxml/main_style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,8 +74,8 @@
       <file leaf-file-name="main_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526843338593</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed color schemes and button fixes">
+      <created>1526981017834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1526981017834</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -449,7 +457,8 @@
     <MESSAGE value="Tidigare Köp Element Recent fixad fixad igen" />
     <MESSAGE value="Only integers or letters" />
     <MESSAGE value="Only integers or letters, checkout included" />
-    <option name="LAST_COMMIT_MESSAGE" value="Only integers or letters, checkout included" />
+    <MESSAGE value="Fixed color schemes and button fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed color schemes and button fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
           <folding />
         </state>
       </provider>
