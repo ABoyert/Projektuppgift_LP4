@@ -429,7 +429,7 @@ public class MainController implements Initializable {
         for (Order order : db.getOrders()) {
             orders.add(new IMatCategoryElement(this, order.getDate().toString()));
 
-            leftPane.getChildren().add(ce);
+
         }
         leftPane.getChildren().addAll(orders);
     }
