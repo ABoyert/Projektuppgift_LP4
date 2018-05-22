@@ -1,6 +1,6 @@
 /* ---Buttons and pliancy--------------*/
 .button{
-    -fx-background-color: #FDFDFD;
+    -fx-background-color: #FDC377;
     -fx-font-size: 20;
     -fx-border-radius: 0 0 0 0;
     -fx-border-color: #050505;
@@ -95,20 +95,12 @@
     -fx-background-color: rgba(0, 0, 0, 0.85)
 }
 /*----------------Colors----------------*/
-.forground_colour {
-    -fx-background-color: #F9F9F9;
-}
+
 .background_colour {
-    -fx-background-color: #F0F0F0;
+    -fx-background-color: #F5F5F2;
 }
-.green_background{
-    -fx-background-color: #7aba7a;
-}
-.red_background{
-    -fx-background-color: #d86955;
-}
-.blue_background{
-    -fx-background-color: #97b4c3;
+.special_color{
+    -fx-background-color: #6E8D71
 }
 /*-----------Borders---------------*/
 .border {
@@ -119,6 +111,11 @@
     -fx-border-style:none none solid none;
     -fx-border-width:0 0 0.3px 0;
 }
+/*-----------Font-colors--------------*/
+.font_color_orange{
+    -fx-Text-Fill: #313638;
+}
+
 /*-----------Fonts-----------------------*/
 .font_12{
     -fx-font-size: 12px;

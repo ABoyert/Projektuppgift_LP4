@@ -37,9 +37,9 @@
             </HBox>
          </children>
       </AnchorPane>
-      <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" stylesheets="@main_style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" styleClass="background_colour" stylesheets="@main_style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <AnchorPane styleClass="platinum-color-background" BorderPane.alignment="CENTER">
+            <AnchorPane BorderPane.alignment="CENTER">
                <children>
                 <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="840.0" prefHeight="78.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
@@ -60,42 +60,25 @@
                            <font>
                               <Font size="20.0" />
                            </font>
-                           <styleClass>
-                              <String fx:value="general-button-style" />
-                              <String fx:value="orange-color-background" />
-                           </styleClass>
                         </Button>
                         <Button layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#myInfoButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
-                           <styleClass>
-                              <String fx:value="general-button-style" />
-                              <String fx:value="orange-color-background" />
-                           </styleClass>
                         </Button>
                         <Button fx:id="helpButton" layoutX="1136.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#helpButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Hjälp" AnchorPane.rightAnchor="193.5999999999999" AnchorPane.topAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
-                           <styleClass>
-                              <String fx:value="general-button-style" />
-                              <String fx:value="orange-color-background" />
-                           </styleClass>
                         </Button>
                         <Button fx:id="prevPurchasesButton" layoutX="895.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#previousPurchasesButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Tidigare Köp" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="14.600000000000023" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
-                           <styleClass>
-                              <String fx:value="general-button-style" />
-                              <String fx:value="orange-color-background" />
-                           </styleClass>
                         </Button>
                      </children>
                      <styleClass>
-                        <String fx:value="forground_colour" />
-                        <String fx:value="platinum-color-background" />
+                        <String fx:value="special_color" />
                         <String fx:value="border" />
                      </styleClass>
                   </AnchorPane>
@@ -107,13 +90,13 @@
                <children>
                   <StackPane fx:id="middleStack" layoutX="9.0" prefHeight="702.0" prefWidth="538.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                      <children>
-                        <AnchorPane fx:id="shopPage" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="554.0" styleClass="platinum-color-background">
+                        <AnchorPane fx:id="shopPage" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="554.0">
                            <children>
                               <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutX="7.0" layoutY="74.0" prefHeight="628.0" prefWidth="554.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
                                  <content>
                                     <AnchorPane prefHeight="621.0" prefWidth="553.0">
                                        <children>
-                                          <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                          <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" styleClass="background_colour" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                                        </children>
                                        <styleClass>
                                           <String fx:value="forground_colour" />
@@ -134,28 +117,20 @@
                                       <buttons>
                                           <AnchorPane prefHeight="60.0" prefWidth="561.0">
                                              <children>
-                                                <Label alignment="CENTER_RIGHT" minWidth="47.0" prefHeight="58.0" text="Sortera:" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.00000000000003" AnchorPane.rightAnchor="304.79999999999995" AnchorPane.topAnchor="0.0">
+                                                <Label alignment="CENTER_RIGHT" minWidth="47.0" prefHeight="58.0" text="Sortera:" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="365.0" AnchorPane.topAnchor="0.0">
                                                    <font>
                                                       <Font size="20.0" />
                                                    </font>
                                                 </Label>
-                                              <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortAlphabeticalPressed" prefHeight="50.0" text="A-Ö" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="179.66666666666663" AnchorPane.topAnchor="4.0">
+                                              <Button layoutX="193.0" layoutY="5.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortAlphabeticalPressed" prefHeight="50.0" prefWidth="170.0" text="A-Ö" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="5.0">
                                                    <font>
                                                       <Font size="20.0" />
                                                    </font>
-                                                   <styleClass>
-                                                      <String fx:value="general-button-style" />
-                                                      <String fx:value="platinum-color-background" />
-                                                   </styleClass>
                                                 </Button>
-                                                <Button layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortPricePressed" prefHeight="50.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.leftAnchor="373.2" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
+                                                <Button layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortPricePressed" prefHeight="50.0" prefWidth="170.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
                                                    <font>
                                                       <Font size="20.0" />
                                                    </font>
-                                                   <styleClass>
-                                                      <String fx:value="general-button-style" />
-                                                      <String fx:value="platinum-color-background" />
-                                                   </styleClass>
                                                 </Button>
                                              </children>
                                           </AnchorPane>
@@ -168,8 +143,7 @@
                                     </Label>
                                  </children>
                                  <styleClass>
-                                    <String fx:value="forground_colour" />
-                                    <String fx:value="grey-color-background" />
+                                    <String fx:value="special_color" />
                                     <String fx:value="border" />
                                  </styleClass>
                               </AnchorPane>
@@ -202,16 +176,16 @@
                                  </children>
                                  <styleClass>
                                     <String fx:value="border" />
-                                    <String fx:value="platinum-color-background" />
+                                    <String fx:value="special_color" />
                                  </styleClass>
                               </AnchorPane>
-                              <AnchorPane layoutY="80.80000305175781" styleClass="platinum-color-background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="81.0">
+                              <AnchorPane layoutY="80.80000305175781" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="81.0">
                                  <children>
                                     <ScrollPane hbarPolicy="NEVER" layoutY="0.600006103515625" prefHeight="621.0" prefWidth="334.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <content>
-                                          <AnchorPane prefHeight="619.0" prefWidth="346.0" styleClass="platinum-color-background">
+                                          <AnchorPane prefHeight="619.0" prefWidth="346.0">
                                              <children>
-                                                <FlowPane fx:id="leftPane" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="345.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <FlowPane fx:id="leftPane" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="345.0" styleClass="forground_colour" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                              </children>
                                           </AnchorPane>
                                        </content>
@@ -221,7 +195,6 @@
                            </children>
                            <styleClass>
                               <String fx:value="forground_colour" />
-                              <String fx:value="platinum-color-background" />
                               <String fx:value="border" />
                            </styleClass>
                         </AnchorPane>
@@ -237,7 +210,7 @@
                      <children>
                         <AnchorPane>
                            <children>
-                              <AnchorPane layoutX="-0.5" layoutY="0.30000001192092896" prefHeight="82.0" prefWidth="368.0" styleClass="border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <AnchorPane layoutX="-0.5" layoutY="0.30000001192092896" prefHeight="82.0" prefWidth="368.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <children>
                                     <Label layoutX="133.0" layoutY="5.0" prefHeight="70.0" prefWidth="214.0" text="Kundvagn" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="19.799999999999983" AnchorPane.topAnchor="5.0">
                                        <font>
@@ -250,8 +223,12 @@
                                        </image>
                                     </ImageView>
                                  </children>
+                                 <styleClass>
+                                    <String fx:value="border" />
+                                    <String fx:value="special_color" />
+                                 </styleClass>
                               </AnchorPane>
-                              <AnchorPane layoutX="1.0" layoutY="82.0" prefHeight="64.0" prefWidth="363.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="82.0">
+                              <AnchorPane layoutX="1.0" layoutY="82.0" prefHeight="64.0" prefWidth="363.0" styleClass="borderBottom" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="82.0">
                                  <children>
                                     <AnchorPane layoutX="2.0" prefHeight="68.0" prefWidth="365.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <children>
@@ -278,32 +255,23 @@
                                        </children>
                                        <styleClass>
                                           <String fx:value="forground_colour" />
-                                          <String fx:value="grey-color-background" />
                                           <String fx:value="border" />
                                        </styleClass>
                                     </AnchorPane>
                                  </children>
-                                 <styleClass>
-                                    <String fx:value="borderBottom" />
-                                    <String fx:value="grey-color-background" />
-                                 </styleClass>
                               </AnchorPane>
-                              <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
+                              <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" styleClass="border" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
                                  <children>
                                     <ScrollPane hbarPolicy="NEVER" layoutY="0.3" prefHeight="495.0" prefWidth="367.0" styleClass="scroll-bar" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <content>
                                           <AnchorPane prefHeight="494.0" prefWidth="394.0" styleClass="platinum-color-background">
                                              <children>
-                                                <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="494.0" prefWidth="394.0" vgap="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <FlowPane fx:id="cartPane" alignment="TOP_RIGHT" columnHalignment="RIGHT" prefHeight="494.0" prefWidth="394.0" styleClass="forground_colour" vgap="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                              </children>
                                           </AnchorPane>
                                        </content>
                                     </ScrollPane>
                                  </children>
-                                 <styleClass>
-                                    <String fx:value="border" />
-                                    <String fx:value="platinum-color-background" />
-                                 </styleClass>
                               </AnchorPane>
                               <Button fx:id="goToKassa" layoutX="49.0" layoutY="651.0" mnemonicParsing="false" onMouseClicked="#goToKassaPressed" prefHeight="60.0" prefWidth="367.0" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                                  <font>
@@ -317,7 +285,6 @@
                            </children>
                            <styleClass>
                               <String fx:value="forground_colour" />
-                              <String fx:value="platinum-color-background" />
                               <String fx:value="border" />
                            </styleClass>
                         </AnchorPane>
@@ -326,10 +293,6 @@
                </children>
             </AnchorPane>
          </right>
-         <styleClass>
-            <String fx:value="background_colour" />
-            <String fx:value="platinum-color-background" />
-         </styleClass>
       </BorderPane>
    </children>
    <stylesheets>
