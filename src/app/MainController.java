@@ -437,6 +437,7 @@ public class MainController implements Initializable {
     }
 
     public void loadPreviousPurchaseDates() {
+        orders.clear();
         for (Order order : db.getOrders()) {
             orders.add(new IMatCategoryElement(this, order.getDate().toString()));
 
