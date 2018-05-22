@@ -531,7 +531,7 @@ public class MainController implements Initializable {
             button.setStyle("-fx-background-color: #FDC377");
         }
 
-        pressedButton.setStyle("-fx-background-color: #e3a452 ; -fx-font-weight: bold");
+        pressedButton.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
 
     }
 

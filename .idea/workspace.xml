@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/main_style.css" afterPath="$PROJECT_DIR$/src/app/fxml/main_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/previousCartsElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/previousCartsElement.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +16,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9774">
-              <caret line="391" column="90" lean-forward="false" selection-start-line="391" selection-start-column="90" selection-end-line="391" selection-end-column="90" />
+            <state relative-caret-position="246">
+              <caret line="533" column="61" lean-forward="false" selection-start-line="533" selection-start-column="61" selection-end-line="533" selection-end-column="61" />
               <folding>
-                <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
+                <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="1053">
               <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding />
             </state>
@@ -86,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
         <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" />
-        <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/main_style.css" />
+        <option value="$PROJECT_DIR$/src/app/MainController.java" />
       </list>
     </option>
   </component>
@@ -396,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526993657141</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed previous cartelements">
+      <created>1526995678086</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1526995678086</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -419,7 +425,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -456,7 +462,8 @@
     <MESSAGE value="Color change button fixed 2" />
     <MESSAGE value="Fixed pictures in design" />
     <MESSAGE value="Frgot the picture of wallet in gåToKassa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frgot the picture of wallet in gåToKassa" />
+    <MESSAGE value="Fixed previous cartelements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed previous cartelements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,7 +544,7 @@
         <state relative-caret-position="-291">
           <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
           <folding>
-            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
+            <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -577,7 +584,7 @@
         <state relative-caret-position="415">
           <caret line="472" column="20" lean-forward="true" selection-start-line="472" selection-start-column="20" selection-end-line="472" selection-end-column="20" />
           <folding>
-            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
+            <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -625,7 +632,7 @@
         <state relative-caret-position="7128">
           <caret line="396" column="9" lean-forward="true" selection-start-line="396" selection-start-column="9" selection-end-line="396" selection-end-column="9" />
           <folding>
-            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
+            <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -642,7 +649,7 @@
         <state relative-caret-position="5472">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
           <folding>
-            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
+            <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -683,7 +690,7 @@
         <state relative-caret-position="5355">
           <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
           <folding>
-            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
+            <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -801,21 +808,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9774">
-          <caret line="391" column="90" lean-forward="false" selection-start-line="391" selection-start-column="90" selection-end-line="391" selection-end-column="90" />
-          <folding>
-            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
-          </folding>
+        <state relative-caret-position="1053">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="246">
+          <caret line="533" column="61" lean-forward="false" selection-start-line="533" selection-start-column="61" selection-end-line="533" selection-end-column="61" />
+          <folding>
+            <marker date="1526996258364" expanded="true" signature="17624:17630" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
