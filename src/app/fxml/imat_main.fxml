@@ -56,12 +56,12 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </Label>
-                        <Button layoutX="781.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#shopButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Handla" AnchorPane.rightAnchor="548.6" AnchorPane.topAnchor="15.0">
+                        <Button fx:id="shopButton" layoutX="781.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#shopButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Handla" AnchorPane.rightAnchor="548.6" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
                         </Button>
-                        <Button layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#myInfoButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
+                        <Button fx:id="myInfoButton" layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#myInfoButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
