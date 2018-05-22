@@ -7,13 +7,13 @@
     -fx-border-width: 0.3px;
 }
 .button:hover{
-    -fx-background-color: E5E5E5;
+    -fx-background-color: ffd196;
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
     -fx-font-size:19;
 }
 .button:pressed {
-    -fx-background-color: #D5D5D5;
+    -fx-background-color: #eab46e;
     -fx-font-size: 17;
 }
 .button_Red {
