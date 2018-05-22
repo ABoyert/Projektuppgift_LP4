@@ -1,7 +1,7 @@
 /* ---Buttons and pliancy--------------*/
 .button{
     -fx-background-color: #FDC377;
-    -fx-font-size: 20;
+    -fx-font-size: 19;
     -fx-border-radius: 0 0 0 0;
     -fx-border-color: #050505;
     -fx-border-width: 0.3px;
@@ -10,7 +10,6 @@
     -fx-background-color: ffd196;
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
-    -fx-font-size:19;
 }
 .button:pressed {
     -fx-background-color: #eab46e;
