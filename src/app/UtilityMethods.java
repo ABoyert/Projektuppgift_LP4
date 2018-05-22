@@ -104,18 +104,42 @@ public class UtilityMethods
 
     public static void takeLettersOnly(TextArea textArea){
         textArea.textProperty().addListener((observable, oldValue, newValue) -> {
-            if (!newValue.matches("\\sa-zA-Z*")) {
-                textArea.setText(newValue.replaceAll("[^\\sa-zA-Z]", ""));
+            if (!isAlpha(newValue)) {
+                textArea.setText(oldValue);
             }
         });
     }
 
     public static void takeLettersOnlyField(TextField textArea){
         textArea.textProperty().addListener((observable, oldValue, newValue) -> {
-            if (!newValue.matches("\\sa-zA-Z*")) {
-                textArea.setText(newValue.replaceAll("[^\\sa-zA-Z]", ""));
+            if (!isAlpha(newValue)) {
+                textArea.setText(oldValue);
             }
         });
+    }
+
+    public static boolean isNumber(String s) {
+        char[] chars = s.toCharArray();
+
+        for (char c : chars) {
+            if (!Character.isDigit(c)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean isAlpha(String s) {
+        char[] chars = s.toCharArray();
+
+        for (char c : chars) {
+            if (!Character.isLetter(c)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
 

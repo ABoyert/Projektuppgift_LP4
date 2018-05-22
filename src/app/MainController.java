@@ -1,6 +1,5 @@
 package app;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -61,7 +60,7 @@ public class MainController implements Initializable {
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart, helpButton, goToKassa, prevPurchasesButton, shopButton, myInfoButton;
+    Button emptyCart, helpButton, goToKassa, sortAlphaButton, prevPurchasesButton, shopButton, myInfoButton;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
@@ -92,7 +91,7 @@ public class MainController implements Initializable {
         infoPage = new MyInfoPage(this);
         prevPage = new PreviousPurchasesPage();
         checkoutOverview = new CheckoutOverview(this);
-        updateProducts(db.getProducts(), Sort.NONE); //Show all products on start
+        updateProducts(db.getProducts(), Sort.ALPHABETICAL); //Show all products on start
         cc = new CheckoutCost();
         System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
@@ -222,8 +221,10 @@ public class MainController implements Initializable {
         for (int i = (productArray.length - 1); i >= 0; i--) {
             for (int j = 1; j <= i; j++) {
                 if (!sortAlphaPressed) {
+                    sortAlphaButton.setText("A - Ö");
                     buttonStatus = (productArray[j - 1].getName().charAt(0) > productArray[j].getName().charAt(0));
                 } else {
+                    sortAlphaButton.setText("Ö - A");
                     buttonStatus = (productArray[j - 1].getName().charAt(0) < productArray[j].getName().charAt(0));
                 }
                 if (buttonStatus) {
@@ -300,6 +301,8 @@ public class MainController implements Initializable {
         middleStack.getChildren().clear();
         hideCost();
         setLeftLabelMyInformation();
+
+        infoPage = new MyInfoPage(this);
 
         if (middleStack.getChildren().contains(infoPage)) {
             infoPage.toFront();
@@ -426,6 +429,7 @@ public class MainController implements Initializable {
         for (Order order : db.getOrders()) {
             orders.add(new IMatCategoryElement(this, order.getDate().toString()));
 
+            leftPane.getChildren().add(ce);
         }
         leftPane.getChildren().addAll(orders);
     }
