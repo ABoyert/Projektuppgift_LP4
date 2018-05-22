@@ -2,7 +2,7 @@
 .button{
     -fx-background-color: #FDC377;
     -fx-font-size: 19;
-    -fx-border-radius: 0 0 0 0;
+    -fx-border-radius: 1px 1px 1px 1px;
     -fx-border-color: #050505;
     -fx-border-width: 0.3px;
 }
@@ -10,6 +10,7 @@
     -fx-background-color: ffd196;
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
+    -fx-border-radius: 1px 1px 1px 1px;
 }
 .button:pressed {
     -fx-background-color: #eab46e;
@@ -26,6 +27,7 @@
     -fx-background-color: c15e4c;
     -fx-font-weight: bold;
     -fx-border-width: 0.8px;
+    -fx-border-radius: 1px 1px 1px 1px;
     -fx-font-size:19;
 }
 .button_Red:pressed {
@@ -35,7 +37,7 @@
 .button_Green {
     -fx-background-color: #7aba7a;
     -fx-font-size: 20;
-    -fx-border-radius: 0 0 0 0;
+    -fx-border-radius: 1px 1px 1px 1px;
     -fx-border-color: #050505;
     -fx-border-width: 0.3px;
 }
