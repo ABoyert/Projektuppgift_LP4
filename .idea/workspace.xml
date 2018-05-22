@@ -4,8 +4,6 @@
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/main_style.css" afterPath="$PROJECT_DIR$/src/app/fxml/main_style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +18,10 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="281" column="82" lean-forward="false" selection-start-line="281" selection-start-column="82" selection-end-line="281" selection-end-column="82" />
+            <state relative-caret-position="432">
+              <caret line="391" column="90" lean-forward="false" selection-start-line="391" selection-start-column="90" selection-end-line="391" selection-end-column="90" />
               <folding>
-                <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+                <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -375,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526989614595</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed pictures in design">
+      <created>1526993503462</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1526993503463</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -453,7 +458,8 @@
     <MESSAGE value="Only integers or letters, checkout included" />
     <MESSAGE value="Color change button fixed" />
     <MESSAGE value="Color change button fixed 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color change button fixed 2" />
+    <MESSAGE value="Fixed pictures in design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed pictures in design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,7 +540,7 @@
         <state relative-caret-position="-291">
           <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
           <folding>
-            <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -574,7 +580,7 @@
         <state relative-caret-position="415">
           <caret line="472" column="20" lean-forward="true" selection-start-line="472" selection-start-column="20" selection-end-line="472" selection-end-column="20" />
           <folding>
-            <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -622,7 +628,7 @@
         <state relative-caret-position="7128">
           <caret line="396" column="9" lean-forward="true" selection-start-line="396" selection-start-column="9" selection-end-line="396" selection-end-column="9" />
           <folding>
-            <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -639,7 +645,7 @@
         <state relative-caret-position="5472">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
           <folding>
-            <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -680,7 +686,7 @@
         <state relative-caret-position="5355">
           <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
           <folding>
-            <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -809,10 +815,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="281" column="82" lean-forward="false" selection-start-line="281" selection-start-column="82" selection-end-line="281" selection-end-column="82" />
+        <state relative-caret-position="432">
+          <caret line="391" column="90" lean-forward="false" selection-start-line="391" selection-start-column="90" selection-end-line="391" selection-end-column="90" />
           <folding>
-            <marker date="1526993150621" expanded="true" signature="17505:17511" ph="{...}" />
+            <marker date="1526993597413" expanded="true" signature="17601:17607" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -389,6 +389,7 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(new CheckoutOverview(this));
             showPaymentSteps();
             showCost();
+            Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
         }
     }
 
