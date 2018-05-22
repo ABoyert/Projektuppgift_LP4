@@ -519,11 +519,10 @@ public class MainController implements Initializable {
     public void topMenuButtonPressed(Button pressedButton){
         for (Button button: topMenuButtons
              ) {
-            System.out.println("SHiiiet");
+
             button.setStyle("-fx-background-color: #FDC377");
         }
 
-        System.out.println("Shiiiet 2");
         pressedButton.setStyle("-fx-background-color: #E5E5E5");
 
 
