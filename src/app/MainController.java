@@ -279,6 +279,8 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(prevPage);
         }
         topMenuButtonPressed(prevPurchasesButton);
+        Left_panel_picture.setImage(getSquareImage(new Image("resources/book_1.png")));
+
     }
 
     @FXML
@@ -295,6 +297,9 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(helpPage);
         }
         topMenuButtonPressed(helpButton);
+        Left_panel_picture.setImage(getSquareImage(new Image("resources/questionMarkIcon.png")));
+
+
     }
 
     @FXML
@@ -312,6 +317,7 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(infoPage);
         }
         topMenuButtonPressed(myInfoButton);
+        Left_panel_picture.setImage(getSquareImage(new Image("resources/noteBook_1.png")));
     }
 
     @FXML
@@ -325,6 +331,8 @@ public class MainController implements Initializable {
         shopPage.toFront();
         loadCategories();
         topMenuButtonPressed(shopButton);
+        Left_panel_picture.setImage(getSquareImage(new Image("resources/shoppingBag.png")));
+
     }
 
     public void createCategoryList() {
@@ -381,6 +389,7 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(new CheckoutOverview(this));
             showPaymentSteps();
             showCost();
+            Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
         }
     }
 
@@ -519,12 +528,10 @@ public class MainController implements Initializable {
     public void topMenuButtonPressed(Button pressedButton){
         for (Button button: topMenuButtons
              ) {
-
             button.setStyle("-fx-background-color: #FDC377");
         }
 
-        pressedButton.setStyle("-fx-background-color: #E5E5E5");
-
+        pressedButton.setStyle("-fx-background-color: #e3a452 ; -fx-font-weight: bold");
 
     }
 
