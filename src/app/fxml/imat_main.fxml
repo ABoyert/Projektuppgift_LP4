@@ -25,7 +25,7 @@
                <children>
                   <ImageView fitHeight="400.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../resources/Introd_video.png" />
+                        <Image url="@../../resources/Video.png" />
                      </image>
                   </ImageView>
                </children>

@@ -279,7 +279,7 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(prevPage);
         }
         topMenuButtonPressed(prevPurchasesButton);
-        Left_panel_picture.setImage(getSquareImage(new Image("resources/book_1.png")));
+        Left_panel_picture.setImage(getSquareImage(new Image("resources/noteBook_1.png")));
 
     }
 
@@ -317,7 +317,7 @@ public class MainController implements Initializable {
             middleStack.getChildren().add(infoPage);
         }
         topMenuButtonPressed(myInfoButton);
-        Left_panel_picture.setImage(getSquareImage(new Image("resources/noteBook_1.png")));
+        Left_panel_picture.setImage(getSquareImage(new Image("resources/profileIcon.png")));
     }
 
     @FXML

@@ -47,8 +47,6 @@ public class MyInfoPage extends AnchorPane {
         UtilityMethods.takeLettersOnly(myDetailsFirstName);
         UtilityMethods.takeLettersOnly(myDetailsLastName);
         UtilityMethods.takeLettersOnly(myDetailsCity);
-        UtilityMethods.takeIntegersOnly(mySocialSecurityNumber);
-
 
 
     }

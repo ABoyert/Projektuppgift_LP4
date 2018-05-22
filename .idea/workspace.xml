@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpPageElement.fxml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MyInfoPage.java" afterPath="$PROJECT_DIR$/src/app/MyInfoPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_tidigare_kop_middle.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_tidigare_kop_middle.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,23 +25,13 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="534" column="61" lean-forward="false" selection-start-line="534" selection-start-column="61" selection-end-line="534" selection-end-column="61" />
+            <state relative-caret-position="449">
+              <caret line="281" column="86" lean-forward="false" selection-start-line="281" selection-start-column="86" selection-end-line="281" selection-end-column="86" />
               <folding>
-                <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-                <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-                <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
+                <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+                <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+                <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMatProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/IMatProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -83,11 +79,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/app/PreviousCartElement.java" />
         <option value="$PROJECT_DIR$/src/app/PreviousPurchasesPage.java" />
-        <option value="$PROJECT_DIR$/src/app/MyInfoPage.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
         <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" />
         <option value="$PROJECT_DIR$/src/app/fxml/main_style.css" />
+        <option value="$PROJECT_DIR$/src/app/MyInfoPage.java" />
         <option value="$PROJECT_DIR$/src/app/MainController.java" />
       </list>
     </option>
@@ -494,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526989614595</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed cartproducts so they fits in cart">
+      <created>1526998662291</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1526998662291</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -571,7 +574,8 @@
     <MESSAGE value="Only integers or letters, checkout included" />
     <MESSAGE value="Color change button fixed" />
     <MESSAGE value="Color change button fixed 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color change button fixed 2" />
+    <MESSAGE value="Fixed cartproducts so they fits in cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed cartproducts so they fits in cart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -580,13 +584,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="49" column="74" lean-forward="false" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -652,9 +649,9 @@
         <state relative-caret-position="-291">
           <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
           <folding>
-            <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-            <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-            <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
+            <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+            <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+            <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -694,9 +691,9 @@
         <state relative-caret-position="415">
           <caret line="472" column="20" lean-forward="true" selection-start-line="472" selection-start-column="20" selection-end-line="472" selection-end-column="20" />
           <folding>
-            <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-            <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-            <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
+            <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+            <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+            <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -744,9 +741,9 @@
         <state relative-caret-position="7128">
           <caret line="396" column="9" lean-forward="true" selection-start-line="396" selection-start-column="9" selection-end-line="396" selection-end-column="9" />
           <folding>
-            <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-            <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-            <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
+            <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+            <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+            <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -763,9 +760,9 @@
         <state relative-caret-position="5472">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
           <folding>
-            <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-            <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-            <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
+            <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+            <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+            <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -806,9 +803,9 @@
         <state relative-caret-position="5355">
           <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
           <folding>
-            <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-            <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-            <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
+            <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+            <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+            <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -903,33 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="49" column="64" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="49" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="534" column="61" lean-forward="false" selection-start-line="534" selection-start-column="61" selection-end-line="534" selection-end-column="61" />
-          <folding>
-            <marker date="1526997029194" expanded="false" signature="16033:16044" ph=" { " />
-            <marker date="1526997029194" expanded="false" signature="16074:16080" ph=" }" />
-            <marker date="1526997029194" expanded="true" signature="17648:17654" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fxml/colorscheme_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -941,6 +911,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1053">
           <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="48" column="54" lean-forward="false" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="281" column="86" lean-forward="false" selection-start-line="281" selection-start-column="86" selection-end-line="281" selection-end-column="86" />
+          <folding>
+            <marker date="1527001439920" expanded="false" signature="16038:16049" ph=" { " />
+            <marker date="1527001439920" expanded="false" signature="16079:16085" ph=" }" />
+            <marker date="1527001439920" expanded="true" signature="17653:17659" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/IMatProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
