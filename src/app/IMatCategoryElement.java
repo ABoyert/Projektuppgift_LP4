@@ -62,6 +62,14 @@ public class IMatCategoryElement extends AnchorPane {
 
         return s;
     }
+
+    public Label getTextLabelCategory() {
+        return textLabelCategory;
+    }
+
+    public String getCategory() {
+        return category;
+    }
 }
 
 

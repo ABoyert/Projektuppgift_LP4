@@ -56,25 +56,41 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </Label>
-                        <Button layoutX="781.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#shopButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Handla" AnchorPane.rightAnchor="548.6" AnchorPane.topAnchor="15.0">
+                        <Button fx:id="shopButton" layoutX="781.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#shopButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Handla" AnchorPane.rightAnchor="548.6" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
+                           <styleClass>
+                              <String fx:value="general-button-style" />
+                              <String fx:value="orange-color-background" />
+                           </styleClass>
                         </Button>
-                        <Button layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#myInfoButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
+                        <Button fx:id="myInfoButton" layoutX="959.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#myInfoButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Mina Uppgifter" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="370.5999999999999" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
+                           <styleClass>
+                              <String fx:value="general-button-style" />
+                              <String fx:value="orange-color-background" />
+                           </styleClass>
                         </Button>
                         <Button fx:id="helpButton" layoutX="1136.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#helpButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Hjälp" AnchorPane.rightAnchor="193.5999999999999" AnchorPane.topAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
+                           <styleClass>
+                              <String fx:value="general-button-style" />
+                              <String fx:value="orange-color-background" />
+                           </styleClass>
                         </Button>
                         <Button fx:id="prevPurchasesButton" layoutX="895.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#previousPurchasesButtonPressed" prefHeight="50.0" prefWidth="170.0" text="Tidigare Köp" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="14.600000000000023" AnchorPane.topAnchor="15.0">
                            <font>
                               <Font size="20.0" />
                            </font>
+                           <styleClass>
+                              <String fx:value="general-button-style" />
+                              <String fx:value="orange-color-background" />
+                           </styleClass>
                         </Button>
                      </children>
                      <styleClass>
@@ -126,11 +142,19 @@
                                                    <font>
                                                       <Font size="20.0" />
                                                    </font>
+                                                   <styleClass>
+                                                      <String fx:value="general-button-style" />
+                                                      <String fx:value="platinum-color-background" />
+                                                   </styleClass>
                                                 </Button>
                                                 <Button layoutY="4.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#sortPricePressed" prefHeight="50.0" prefWidth="170.0" text="Pris" AnchorPane.bottomAnchor="4.800000000000004" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="4.0">
                                                    <font>
                                                       <Font size="20.0" />
                                                    </font>
+                                                   <styleClass>
+                                                      <String fx:value="general-button-style" />
+                                                      <String fx:value="platinum-color-background" />
+                                                   </styleClass>
                                                 </Button>
                                              </children>
                                           </AnchorPane>
@@ -195,6 +219,7 @@
                            </children>
                            <styleClass>
                               <String fx:value="forground_colour" />
+                              <String fx:value="platinum-color-background" />
                               <String fx:value="border" />
                            </styleClass>
                         </AnchorPane>
@@ -255,10 +280,15 @@
                                        </children>
                                        <styleClass>
                                           <String fx:value="forground_colour" />
+                                          <String fx:value="grey-color-background" />
                                           <String fx:value="border" />
                                        </styleClass>
                                     </AnchorPane>
                                  </children>
+                                 <styleClass>
+                                    <String fx:value="borderBottom" />
+                                    <String fx:value="grey-color-background" />
+                                 </styleClass>
                               </AnchorPane>
                               <AnchorPane layoutY="146.3" prefHeight="495.0" prefWidth="367.0" styleClass="border" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
                                  <children>
@@ -272,6 +302,10 @@
                                        </content>
                                     </ScrollPane>
                                  </children>
+                                 <styleClass>
+                                    <String fx:value="border" />
+                                    <String fx:value="platinum-color-background" />
+                                 </styleClass>
                               </AnchorPane>
                               <Button fx:id="goToKassa" layoutX="49.0" layoutY="651.0" mnemonicParsing="false" onMouseClicked="#goToKassaPressed" prefHeight="60.0" prefWidth="367.0" text="Gå Till Kassa" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                                  <font>
@@ -285,6 +319,7 @@
                            </children>
                            <styleClass>
                               <String fx:value="forground_colour" />
+                              <String fx:value="platinum-color-background" />
                               <String fx:value="border" />
                            </styleClass>
                         </AnchorPane>

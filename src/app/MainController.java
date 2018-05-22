@@ -1,5 +1,6 @@
 package app;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
 import javafx.fxml.Initializable;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -44,6 +45,7 @@ public class MainController implements Initializable {
     List<IMatCategoryElement> categoryElements = new ArrayList<>();
     List<IMatCategoryElement> paymentSteps = new ArrayList<>();
     List<IMatCategoryElement> orders = new ArrayList<>();
+    List<Button> topMenuButtons = new ArrayList<>();
 
     int git_suger = 0;
 
@@ -59,7 +61,7 @@ public class MainController implements Initializable {
     @FXML
     TextField searchBar;
     @FXML
-    Button emptyCart, helpButton, goToKassa;
+    Button emptyCart, helpButton, goToKassa, prevPurchasesButton, shopButton, myInfoButton;
     @FXML
     Label cartTotal, cartProducts, Left_panel_label;
     @FXML
@@ -97,6 +99,11 @@ public class MainController implements Initializable {
         createPaymentSteps();
         cc.toBack();
         UtilityMethods.takeLettersOnlyField(searchBar);
+
+        topMenuButtons.add(shopButton);
+        topMenuButtons.add(myInfoButton);
+        topMenuButtons.add(helpButton);
+        topMenuButtons.add(prevPurchasesButton);
 
         createCategoryList();
         loadCategories();
@@ -268,6 +275,7 @@ public class MainController implements Initializable {
         } else {
             middleStack.getChildren().add(prevPage);
         }
+        topMenuButtonPressed(prevPurchasesButton);
     }
 
     @FXML
@@ -283,6 +291,7 @@ public class MainController implements Initializable {
         } else {
             middleStack.getChildren().add(helpPage);
         }
+        topMenuButtonPressed(helpButton);
     }
 
     @FXML
@@ -297,6 +306,7 @@ public class MainController implements Initializable {
         } else {
             middleStack.getChildren().add(infoPage);
         }
+        topMenuButtonPressed(myInfoButton);
     }
 
     @FXML
@@ -309,6 +319,7 @@ public class MainController implements Initializable {
         categoryTab.toFront();
         shopPage.toFront();
         loadCategories();
+        topMenuButtonPressed(shopButton);
     }
 
     public void createCategoryList() {
@@ -413,10 +424,10 @@ public class MainController implements Initializable {
 
     public void loadPreviousPurchaseDates() {
         for (Order order : db.getOrders()) {
-            IMatCategoryElement ce = new IMatCategoryElement(this, order.getDate().toString());
+            orders.add(new IMatCategoryElement(this, order.getDate().toString()));
 
-            leftPane.getChildren().add(ce);
         }
+        leftPane.getChildren().addAll(orders);
     }
 
     public void categoryPressed(String label){
@@ -455,7 +466,9 @@ public class MainController implements Initializable {
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.DRYCKER), Sort.NONE);
                     break;
             }
+            categorySetColor(label, categoryElements);
         }
+
         else {
             switch (label){
                 case "Betala":
@@ -468,6 +481,7 @@ public class MainController implements Initializable {
         if(middleStack.getChildren().contains(prevPage)){
             System.out.println("Contains prev page");
             linkOrderToButton(label);
+            categorySetColor(label, orders);
         }
 
 
@@ -494,6 +508,39 @@ public class MainController implements Initializable {
                 }
             }
         }
+    }
+
+    public void topMenuButtonPressed(Button pressedButton){
+        for (Button button: topMenuButtons
+             ) {
+            System.out.println("SHiiiet");
+            button.setStyle("-fx-background-color: #FDC377");
+        }
+
+        System.out.println("Shiiiet 2");
+        pressedButton.setStyle("-fx-background-color: #E5E5E5");
+
+
+    }
+
+    public void categorySetColor(String label, List<IMatCategoryElement> list){
+        for (IMatCategoryElement listItem: list
+             ) {
+
+            listItem.setStyle("-fx-background-color: #FDFDFD");
+            System.out.println(label);
+            //System.out.println(category.getTextLabelCategory());
+            System.out.println(listItem.getCategory());
+
+            if(label.equals("   " + listItem.getCategory())){
+                listItem.setStyle("-fx-background-color: #E5E5E5");
+            }
+
+
+        }
+
+
+
     }
 
 

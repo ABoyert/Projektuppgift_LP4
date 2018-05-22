@@ -7,15 +7,15 @@
 }
 
 .platinum-color-background{
-    -fx-background-color: #E8E9EA;
+    -fx-background-color: #ffffff;
 }
 
 .grey-color-background{
-    -fx-background-color: #E0DFD5;
+    -fx-background-color: #f5f5f5;
 }
 
 .black-color-background{
-    -fx-background-color: #313638;
+    -fx-background-color: #a40930;
 }
 
 .general-button-style{
@@ -25,7 +25,16 @@
 
 }
 
+.categoryColorGreen{
+    -fx-background-color: rgba(	125, 221, 119, 1);
+
+}
+
+.categoryFont{
+    -fx-font-size: 30;
+}
+
 .general-button-style:hover{
-    -fx-opacity: 0.6;
+    -fx-opacity: 0.7;
 }
 
