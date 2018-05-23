@@ -18,7 +18,7 @@
                             <Label fx:id="recentCartLabel" styleClass="font_14" stylesheets="@main_style.css" text="Kundvagn: XX" />
                             <AnchorPane>
                                 <children>
-                                    <Button fx:id="addRecentToCart" layoutX="-72.0" layoutY="7.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="195.0" stylesheets="@colorscheme_style.css" text="Lägg till i varukorg" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="7.0">
+                                    <Button fx:id="addRecentToCart" layoutX="-72.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#addPrevCart" prefHeight="44.0" prefWidth="195.0" stylesheets="@colorscheme_style.css" text="Lägg till i varukorg" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="7.0">
                               <styleClass>
                                  <String fx:value="general-button-style" />
                                  <String fx:value="orange-color-background" />

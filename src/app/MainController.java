@@ -89,7 +89,7 @@ public class MainController implements Initializable {
         updateCart();
         helpPage = new HelpPage();
         infoPage = new MyInfoPage(this);
-        prevPage = new PreviousPurchasesPage();
+        prevPage = new PreviousPurchasesPage(this);
         checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.ALPHABETICAL); //Show all products on start
         cc = new CheckoutCost();

@@ -7,6 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import se.chalmers.cse.dat216.project.ShoppingItem;
+import sun.applet.Main;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,11 +21,15 @@ public class PreviousPurchasesPage extends AnchorPane {
     FlowPane recentFlowPane;
     @FXML
     Label recentCartLabel;
+
     List<PreviousCartElement> previousCartElements;
+
     @FXML
     Button addRecentToCart;
 
-    public PreviousPurchasesPage() {
+    private MainController parentController;
+
+    public PreviousPurchasesPage(MainController parentController) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_tidigare_kop_middle.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
@@ -34,6 +39,8 @@ public class PreviousPurchasesPage extends AnchorPane {
         } catch (IOException exception) {
             throw new RuntimeException(exception);
         }
+
+        this.parentController = parentController;
     }
 
     public FlowPane getRecentFlowPane(){
@@ -52,11 +59,11 @@ public class PreviousPurchasesPage extends AnchorPane {
         recentCartLabel.setText(dateLabel);
     }
 
+    @FXML
     public void addPrevCart(){
         for (PreviousCartElement cartElement: getPreviousCartElements()
              ) {
-            cartElement.getShoppingItem();
-
+            parentController.shoppingCart.addItem(cartElement.getShoppingItem());
         }
     }
 }
