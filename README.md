@@ -18,7 +18,6 @@ TODO:
 - NÄSTA-knappen ska göra så att man går till nästa steg under betalning
 - Göra så att man bara kan använda kort och ta bort direktbetalningsknappen eller lägga till funktionalitet för direktbetalningsknappen i betala
 - Highlighta i panelen till vänster vilket steg man är på under betalningen
-- Översätta datum på tidigare köp
 - Skalning på betalningsstegen
 - Klar-sidan designas om lite? Mer info, lägg till fake ordernummer? Knapp för att ta sig tillbaka till butiken.
 - Spara-knapp under fälten också på mina uppgifter
