@@ -446,7 +446,7 @@ public class MainController implements Initializable {
     public void loadPreviousPurchaseDates() {
         orders.clear();
         for (Order order : db.getOrders()) {
-            orders.add(new IMatCategoryElement(this, order.getDate().toString()));
+            orders.add(new IMatCategoryElement(this, replaceDateString(order.getDate().toString())));
 
 
         }
@@ -563,29 +563,35 @@ public class MainController implements Initializable {
 
     }
 
-    public String replaceDateString(String s){
+    public String replaceDateString(String sTemp){
+        String s = sTemp.substring(0,16);
 
-        if (s.contains("THU")) {
-            s.replaceAll("(?i)THU", "TOR");
+        if (s.contains("Thu")) {
+
+            s = s.replaceAll("\\bThu\\b", "TOR");
         }
-        if (s.contains("FRI")) {
-            s.replaceAll("(?i)FRI", "FRE");
+        if (s.contains("Fri")) {
+            System.out.println("INNEHÅLLER FRI");
+            s = s.replaceAll("\\bFri\\b", "FRE");
         }
-        if (s.contains("SAT")) {
-            s.replaceAll("(?i)SAT", "LÖR");
+        if (s.contains("Sat")) {
+            s = s.replaceAll("(?i)\\bSat\\b", "LÖR");
         }
-        if (s.contains("MON")) {
-            s.replaceAll("(?i)MON", "MÅN");
+        if (s.contains("Mon")) {
+            s = s.replaceAll("(?i)\\bMon\\b", "MÅN");
         }
-        if (s.contains("TUE")) {
-            s.replaceAll("(?i)TUE", "TIS");
+        if (s.contains("Tue")) {
+            s = s.replaceAll("(?i)\\bTue\\b", "TIS");
         }
-        if (s.contains("WED")) {
-            s.replaceAll("(?i)WED", "ONS");
+        if (s.contains("Wed")) {
+            System.out.println("INNEHÅLLER WED");
+            s = s.replaceAll("(?i)\\bWed\\b", "ONS");
         }
-        if (s.contains("MAY")) {
-            s.replaceAll("(?i)MAY", "MAJ");
+        if (s.contains("May")) {
+            s = s.replaceAll("(?i)\\bMay\\b", "MAJ");
         }
+
+        System.out.println(s);
 
         s.replaceAll("THU", "TOR");
         s.replaceAll("FRI", "FRE");
@@ -594,8 +600,10 @@ public class MainController implements Initializable {
         s.replaceAll("SUN","SÖN");
         s.replaceAll("WED", "ONS");
         s.replaceAll("MAY", "MAJ");
-        s = s.substring(0, s.length()-10);
+        //s = s.substring(0, s.length()-10);
         System.out.println(s);
+
+
 
         return s;
     }
