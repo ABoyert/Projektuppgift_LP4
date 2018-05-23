@@ -284,6 +284,7 @@ public class MainController implements Initializable {
         } else {
             middleStack.getChildren().add(prevPage);
         }
+
         topMenuButtonPressed(prevPurchasesButton);
         Left_panel_picture.setImage(getSquareImage(new Image("resources/noteBook_1.png")));
 
@@ -560,6 +561,43 @@ public class MainController implements Initializable {
 
 
 
+    }
+
+    public String replaceDateString(String s){
+
+        if (s.contains("THU")) {
+            s.replaceAll("(?i)THU", "TOR");
+        }
+        if (s.contains("FRI")) {
+            s.replaceAll("(?i)FRI", "FRE");
+        }
+        if (s.contains("SAT")) {
+            s.replaceAll("(?i)SAT", "LÖR");
+        }
+        if (s.contains("MON")) {
+            s.replaceAll("(?i)MON", "MÅN");
+        }
+        if (s.contains("TUE")) {
+            s.replaceAll("(?i)TUE", "TIS");
+        }
+        if (s.contains("WED")) {
+            s.replaceAll("(?i)WED", "ONS");
+        }
+        if (s.contains("MAY")) {
+            s.replaceAll("(?i)MAY", "MAJ");
+        }
+
+        s.replaceAll("THU", "TOR");
+        s.replaceAll("FRI", "FRE");
+        s.replaceAll("TUE", "TIS");
+        s.replaceAll("SAT", "LÖR");
+        s.replaceAll("SUN","SÖN");
+        s.replaceAll("WED", "ONS");
+        s.replaceAll("MAY", "MAJ");
+        s = s.substring(0, s.length()-10);
+        System.out.println(s);
+
+        return s;
     }
 
 
