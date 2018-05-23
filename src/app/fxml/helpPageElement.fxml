@@ -3,15 +3,16 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="496.0" prefWidth="778.0" styleClass="background_colour" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="778.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <AnchorPane layoutY="25.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <AnchorPane layoutY="25.0" prefHeight="59.0" styleClass="special_color" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
                <Label layoutX="14.0" layoutY="2.0" prefHeight="44.0" prefWidth="314.0" styleClass="font_28" stylesheets="@main_style.css" text="Hjälp">
                   <font>
@@ -20,18 +21,25 @@
                </Label>
             </children>
          </AnchorPane>
-         <AnchorPane layoutY="87.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <AnchorPane layoutY="87.0" prefHeight="410.0" prefWidth="778.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="85.0">
             <children>
-               <TextArea fx:id="helpPageVidoeDescription" layoutX="457.0" layoutY="14.0" prefHeight="244.0" prefWidth="314.0" AnchorPane.rightAnchor="10.0" />
-               <ImageView fx:id="helpPageImageView" fitHeight="244.0" fitWidth="440.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+               <TextArea fx:id="helpPageVidoeDescription" layoutX="453.0" layoutY="4.0" prefHeight="244.0" prefWidth="314.0" AnchorPane.rightAnchor="10.600000000000023" AnchorPane.topAnchor="4.0" />
+               <ImageView fx:id="helpPageImageView" fitHeight="257.0" fitWidth="406.0" layoutX="14.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="1.0">
+                  <image>
+                     <Image url="@../../resources/Video.png" />
+                  </image></ImageView>
                <Label layoutX="14.0" layoutY="266.0" prefHeight="59.0" prefWidth="251.0" styleClass="front_24" stylesheets="@main_style.css" text="Vanliga frågor:">
                   <font>
                      <Font size="23.0" />
                   </font>
                </Label>
-               <ScrollPane fx:id="helpPageQuestionsScrollPane" layoutX="14.0" layoutY="316.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+               <ScrollPane fx:id="helpPageQuestionsScrollPane" layoutX="14.0" layoutY="316.0" prefHeight="90.0" prefWidth="758.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="320.0">
                   <content>
-                     <FlowPane fx:id="helpPageQuestionsFlowPane" prefWidth="755.0" />
+                     <AnchorPane prefHeight="83.0" prefWidth="755.0">
+                        <children>
+                           <FlowPane fx:id="helpPageQuestionsFlowPane" prefWidth="755.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        </children>
+                     </AnchorPane>
                   </content>
                </ScrollPane>
             </children>

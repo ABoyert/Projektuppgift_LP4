@@ -111,6 +111,7 @@ public class CheckoutPayment extends AnchorPane {
             CheckoutDone cd = new CheckoutDone();
             parentController.middleStack.getChildren().add(cd);
             cd.toFront();
+            parentController.db.placeOrder(true);
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }

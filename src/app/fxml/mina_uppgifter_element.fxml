@@ -9,7 +9,7 @@
 <fx:root stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <AnchorPane layoutY="25.0" prefHeight="59.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <AnchorPane layoutY="25.0" prefHeight="59.0" styleClass="special_color" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
                <Label layoutY="6.0" prefHeight="46.0" prefWidth="241.0" styleClass="front_24" stylesheets="@main_style.css" text="Mina Uppgifter" AnchorPane.leftAnchor="30.0">
                   <font>
@@ -34,8 +34,6 @@
                <Label layoutX="30.0" layoutY="421.0" styleClass="front_20" stylesheets="@main_style.css" text="Adress: " AnchorPane.leftAnchor="30.0" />
                <Label layoutX="30.0" layoutY="506.0" styleClass="front_20" stylesheets="@main_style.css" text="Postnummer: " AnchorPane.leftAnchor="30.0" />
                <Label layoutX="28.0" layoutY="589.0" styleClass="front_20" stylesheets="@main_style.css" text="Postort: " AnchorPane.leftAnchor="28.0" />
-               <TextArea fx:id="mySocialSecurityNumber" layoutX="30.0" layoutY="213.0" prefHeight="0.0" />
-               <Label layoutX="30.0" layoutY="174.0" styleClass="front_20" stylesheets="@main_style.css" text="Personnummer (DDMMYY-XXXX): " />
                <TextArea fx:id="myDetailsCity" layoutX="30.0" layoutY="627.0" prefHeight="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="150.0" />
             </children>
          </AnchorPane>
