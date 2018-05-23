@@ -17,15 +17,15 @@ public class UtilityMethods
     static IMatDataHandler db = IMatDataHandler.getInstance();
 
     enum Categories {
-        FRUKT_GRONT,
-        BROD,
-        DRYCKER,
         MJOLKPRODUKTER,
-        FISK,
-        SKAFFERI,
-        KOTT,
         PASTA,
         POTATIS_RIS,
+        KOTT,
+        FISK,
+        BROD,
+        SKAFFERI,
+        FRUKT_GRONT,
+        DRYCKER,
         SOTSAKER
     }
 
