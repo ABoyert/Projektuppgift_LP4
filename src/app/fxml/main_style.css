@@ -108,6 +108,10 @@
     -fx-border-width:0.3px;
     -fx-border-style:solid;
 }
+.border_leftNbottom{
+    -fx-border-style:solid Solid solid solid;
+    -fx-border-width:0 0 0 2px;
+}
 .borderBottom {
     -fx-border-style:none none solid none;
     -fx-border-width:0 0 0.3px 0;
