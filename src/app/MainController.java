@@ -415,6 +415,7 @@ public class MainController implements Initializable {
         cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
         double total = shoppingCart.getTotal() + 50;
         cc.getTotalCostLabel().setText("" + total);
+        cc.nextButton.setText("Nästa");
     }
 
 
