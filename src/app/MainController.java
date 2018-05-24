@@ -102,7 +102,6 @@ public class MainController implements Initializable {
         checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.ALPHABETICAL); //Show all products on start
         cc = new CheckoutCost(this);
-        cc.nextButton.setText("Nästa");
         System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
         createPaymentSteps();
@@ -407,11 +406,15 @@ public class MainController implements Initializable {
             showPaymentSteps();
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
-            cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
-            double total = shoppingCart.getTotal() + 50;
-            cc.getTotalCostLabel().setText("" + total);
+            updateCC();
             checkoutState = CheckoutState.OVERVIEW;
         }
+    }
+
+    public void updateCC(){
+        cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
+        double total = shoppingCart.getTotal() + 50;
+        cc.getTotalCostLabel().setText("" + total);
     }
 
 

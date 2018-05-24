@@ -39,8 +39,8 @@
                </font>
             </Label>
             <Label fx:id="productCost" layoutY="27.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
-            <Label fx:id="discountLabel" layoutY="61.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
-            <Label fx:id="shippingFeeLabel" layoutY="96.0" styleClass="font_18" stylesheets="@main_style.css" text="50kr" AnchorPane.rightAnchor="70.0" />
+            <Label fx:id="discountLabel" layoutY="61.0" styleClass="font_18" stylesheets="@main_style.css" text="0 kr" AnchorPane.rightAnchor="70.0" />
+            <Label fx:id="shippingFeeLabel" layoutY="96.0" styleClass="font_18" stylesheets="@main_style.css" text="50 kr" AnchorPane.rightAnchor="70.0" />
             <Label fx:id="totalCostLabel" layoutY="133.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
          </children>
       </AnchorPane>
