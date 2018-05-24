@@ -51,7 +51,7 @@ public class MainController implements Initializable {
 
     List<String> categoryStringList = new ArrayList<String>();
     List<IMatCategoryElement> categoryElements = new ArrayList<>();
-    List<IMatCategoryElement> paymentSteps = new ArrayList<>();
+    public List<IMatCategoryElement> paymentSteps = new ArrayList<>();
     List<IMatCategoryElement> orders = new ArrayList<>();
     List<Button> topMenuButtons = new ArrayList<>();
 
@@ -411,6 +411,7 @@ public class MainController implements Initializable {
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
             updateCC();
+            paymentSteps.get(0).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             checkoutState = CheckoutState.OVERVIEW;
         }
     }
