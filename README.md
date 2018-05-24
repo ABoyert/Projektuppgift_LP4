@@ -17,6 +17,5 @@ TODO:
 - Göra så att man bara kan använda kort och ta bort direktbetalningsknappen eller lägga till funktionalitet för direktbetalningsknappen i betala
 - Highlighta i panelen till vänster vilket steg man är på under betalningen
 - Skalning på betalningsstegen
-- Klar-sidan designas om lite? Knapp för att ta sig tillbaka till butiken.
 - Spara-knapp under fälten också på mina uppgifter
 - Alltid använda två decimaler? (LÅG PRIO)
