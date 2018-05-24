@@ -55,13 +55,20 @@ public class OverviewCartProduct extends AnchorPane {
     @FXML
     private void removeItem() {
         if (shoppingItem.getAmount() == 1) {
+            parentController.checkoutOverview.getChildren().remove(this);
             parentController.shoppingCart.removeItem(shoppingItem);
+            parentController.checkoutOverview.getChildren().remove(this);
+            parentController.checkoutOverview.overviewCheckOutFlowPane.getChildren().remove(this);
+
             parentController.callCheckoutOverviewUpdate();
         } else if (shoppingItem.getAmount() != 1) {
             shoppingItem.setAmount(shoppingItem.getAmount() - 1);
             cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
             parentController.updateCart();
             cartElementTotalPrice.setText("Totalt: " + (double) Math.round(shoppingItem.getTotal() * 100) / 100 + " kr");
+            if(shoppingItem.getAmount() == 0){
+                parentController.checkoutOverview.getChildren().remove(this);
+            }
         }
         parentController.updateCC();
     }

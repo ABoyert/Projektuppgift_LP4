@@ -386,6 +386,10 @@ public class MainController implements Initializable {
         this.categoryElements = categoryElements;
     }
 
+    public void clearOverview(){
+        checkoutOverview.overviewCheckOutFlowPane.getChildren().clear();
+    }
+
     @FXML
     public void goToKassaPressed() {
         if (shoppingCart.getTotal() != 0) {
@@ -532,7 +536,7 @@ public class MainController implements Initializable {
                 for (ShoppingItem item : tmpItems
                         ) {
 
-                    prevPage.setRecentCartLabel(order.getDate().toString());
+                    prevPage.setRecentCartLabel(replaceDateString(order.getDate().toString()));
                     prevPage.getRecentFlowPane().getChildren().add(new PreviousCartElement(item, this));
                     prevPage.previousCartElements.add(new PreviousCartElement(item, this));
 
