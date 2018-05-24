@@ -10,6 +10,7 @@ import se.chalmers.cse.dat216.project.ShoppingItem;
 import sun.applet.Main;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PreviousPurchasesPage extends AnchorPane {
@@ -22,7 +23,7 @@ public class PreviousPurchasesPage extends AnchorPane {
     @FXML
     Label recentCartLabel;
 
-    List<PreviousCartElement> previousCartElements;
+    List<PreviousCartElement> previousCartElements = new ArrayList<>();
 
     @FXML
     Button addRecentToCart;
@@ -61,9 +62,10 @@ public class PreviousPurchasesPage extends AnchorPane {
 
     @FXML
     public void addPrevCart(){
-        for (PreviousCartElement cartElement: getPreviousCartElements()
-             ) {
-            parentController.shoppingCart.addItem(cartElement.getShoppingItem());
-        }
+
+            parentController.addToCartFromPrevious();
+
     }
+
+
 }

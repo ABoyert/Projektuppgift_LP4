@@ -37,6 +37,6 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Label fx:id="nmbrs_Of_Elements" layoutX="432.0" layoutY="34.0" prefHeight="60.0" prefWidth="206.0" styleClass="font_28" text="Antal: X" AnchorPane.leftAnchor="432.0" />
+      <Label fx:id="previousCartsTotalProduct" layoutX="432.0" layoutY="34.0" prefHeight="60.0" prefWidth="206.0" styleClass="font_28" text="Antal: X" AnchorPane.leftAnchor="432.0" />
    </children>
 </fx:root>
