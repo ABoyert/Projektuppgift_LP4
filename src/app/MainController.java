@@ -212,8 +212,10 @@ public class MainController implements Initializable {
             for (int j = 1; j <= i; j++) {
                 if (!sortPricePressed) {
                     buttonStatus = (productArray[j - 1].getPrice() > productArray[j].getPrice());
+                    sortPriceButton.setText("Billigast först");
                 } else {
                     buttonStatus = (productArray[j - 1].getPrice() < productArray[j].getPrice());
+                    sortPriceButton.setText("Dyrast först");
                 }
                 if (buttonStatus) {
                     Product temp = productArray[j - 1];
@@ -233,6 +235,7 @@ public class MainController implements Initializable {
         boolean buttonStatus;
 
         sortPriceButton.setStyle("");
+        sortPriceButton.setText("Pris");
         sortAlphaButton.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
 
         for (int i = (productArray.length - 1); i >= 0; i--) {

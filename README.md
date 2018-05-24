@@ -11,7 +11,6 @@ Mån 28/5 - Onsdag 30/5: Demo och redovisning av projekt
 TODO:
 - Kunna lägga till gamla köp i varukorgen
 - Info i hjälp (inte tom)
-- Pil på sortera efter pris-knappen som visar åt vilket håll den sorterar
 - Mer info-sidan: skalning, lite design och styling?
 - Skalning på betalningsstegen
 - Spara-knapp under fälten också på mina uppgifter
