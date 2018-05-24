@@ -223,7 +223,7 @@ public class MainController implements Initializable {
         productArray = productList.toArray(productArray);
         boolean buttonStatus;
 
-        sortPriceButton.setStyle("");
+        //sortPriceButton.setStyle("");
         sortAlphaButton.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
 
         for (int i = (productArray.length - 1); i >= 0; i--) {
@@ -397,10 +397,14 @@ public class MainController implements Initializable {
             showPaymentSteps();
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
-            cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
-            double total = shoppingCart.getTotal() + 50;
-            cc.getTotalCostLabel().setText("" + total);
+            updateCC();
         }
+    }
+
+    public void updateCC(){
+        cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
+        double total = shoppingCart.getTotal() + 50;
+        cc.getTotalCostLabel().setText("" + total);
     }
 
 
