@@ -42,6 +42,12 @@ public class CheckoutPayment extends AnchorPane {
         cardNumber.setText(parentController.creditCard.getCardNumber());
         cardCVC.setText(String.valueOf(parentController.creditCard.getVerificationCode()));
 
+        UtilityMethods.takeIntegersOnly(cardCVC);
+        UtilityMethods.takeIntegersOnly(cardNumber);
+        UtilityMethods.takeIntegersOnly(cardMonth);
+        UtilityMethods.takeIntegersOnly(cardYear);
+        UtilityMethods.takeLettersOnly(cardName);
+
         fillTextAreaList();
     }
 

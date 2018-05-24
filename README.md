@@ -14,7 +14,6 @@ TODO:
 - Pil på sortera efter pris-knappen som visar åt vilket håll den sorterar
 - Mer info-knappen fungerande eller ta bort den???
 - Större + och - knappar på produkt
-- Inte tillåta felaktiga tecken under betalningssteget (t.ex. bokstäver i kortnummer)
 - NÄSTA-knappen ska göra så att man går till nästa steg under betalning
 - Göra så att man bara kan använda kort och ta bort direktbetalningsknappen eller lägga till funktionalitet för direktbetalningsknappen i betala
 - Highlighta i panelen till vänster vilket steg man är på under betalningen
