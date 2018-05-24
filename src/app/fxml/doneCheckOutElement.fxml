@@ -24,7 +24,7 @@
                      <Font size="18.0" />
                   </font>
                </Label>
-               <Label fx:id="doneCheckOutOrderID" layoutX="14.0" layoutY="53.0" prefHeight="39.0" prefWidth="306.0" styleClass="font_18" stylesheets="@main_style.css" text="Order id: :X:X:X:X:X:X:X:X:X:X:X" />
+               <Label fx:id="orderID" layoutX="14.0" layoutY="53.0" prefHeight="39.0" prefWidth="306.0" styleClass="font_18" stylesheets="@main_style.css" text="Order id: :X:X:X:X:X:X:X:X:X:X:X" />
                <TextArea fx:id="doneCheckOutTextArea" layoutX="14.0" layoutY="112.0" prefHeight="406.0" promptText="Kvitto bla bla bla bla bla " stylesheets="@main_style.css" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
             </children>
          </AnchorPane>
@@ -32,4 +32,3 @@
    </AnchorPane>
 
 </fx:root>
-
