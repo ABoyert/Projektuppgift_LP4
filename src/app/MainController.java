@@ -92,7 +92,7 @@ public class MainController implements Initializable {
         prevPage = new PreviousPurchasesPage(this);
         checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.ALPHABETICAL); //Show all products on start
-        cc = new CheckoutCost();
+        cc = new CheckoutCost(this);
         System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
         createPaymentSteps();
@@ -397,6 +397,9 @@ public class MainController implements Initializable {
             showPaymentSteps();
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
+            cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
+            double total = shoppingCart.getTotal() + 50;
+            cc.getTotalCostLabel().setText("" + total);
         }
     }
 
@@ -614,9 +617,33 @@ public class MainController implements Initializable {
         System.out.println("Inne i add to cart");
         for (PreviousCartElement element: prevPage.getPreviousCartElements()
              ) {
-            shoppingCart.addItem(element.getShoppingItem());
+            isInCart(element.getShoppingItem());
+
 
         }
+    }
+
+    private void isInCart(ShoppingItem item) {
+        for(ShoppingItem cartItem : shoppingCart.getItems()) {
+            if(cartItem.getProduct().equals(item.getProduct())) {
+
+                int itemAmount = (int)(cartItem.getAmount() + item.getAmount());
+                cartItem.setAmount(itemAmount);
+
+                break;
+            }
+            else{
+                shoppingCart.addItem(item);
+
+                break;
+            }
+
+        }
+        if(shoppingCart.getTotal() == 0)
+            shoppingCart.addItem(item);
+        updateCart();
+
+
     }
 
 
