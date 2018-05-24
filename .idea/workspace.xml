@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutDone.java" afterPath="$PROJECT_DIR$/src/app/CheckoutDone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutPayment.java" afterPath="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/doneCheckOutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/doneCheckOutElement.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +21,7 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="-3724">
               <caret line="91" column="49" lean-forward="false" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
               <folding>
                 <marker date="1527154680800" expanded="true" signature="19513:19519" ph="{...}" />
@@ -76,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <first_editor relative-caret-position="323">
+                <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -85,12 +87,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutDone.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckoutDone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/CheckoutDone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="714">
+              <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+              <folding>
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutPayment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutPayment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/CheckoutPayment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="544">
+              <caret line="116" column="63" lean-forward="false" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
               <folding>
                 <element signature="method#verifyInfo#0;class#CheckoutPayment#0" expanded="false" />
               </folding>
@@ -174,12 +179,12 @@
         <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
         <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/PreviousPurchasesPage.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/singleProductElement.fxml" />
         <option value="$PROJECT_DIR$/src/app/IMatProduct.java" />
         <option value="$PROJECT_DIR$/src/app/ProductInfo.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/app/CheckoutDone.java" />
+        <option value="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
       </list>
     </option>
   </component>
@@ -387,7 +392,7 @@
       <workItem from="1526890324399" duration="7311000" />
       <workItem from="1526989643835" duration="3794000" />
       <workItem from="1527066051001" duration="5937000" />
-      <workItem from="1527150872852" duration="5611000" />
+      <workItem from="1527150872852" duration="6023000" />
     </task>
     <task id="LOCAL-00001" summary="checkout showing products from cart">
       <created>1526393280309</created>
@@ -529,11 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527155415870</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="order ID">
+      <created>1527156511205</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1527156511205</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36959000" />
+    <option name="totallyTimeSpent" value="37371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -623,7 +635,8 @@
     <MESSAGE value="checkout payment not allowing illegal characters" />
     <MESSAGE value="more info working" />
     <MESSAGE value="bigger + and -" />
-    <option name="LAST_COMMIT_MESSAGE" value="bigger + and -" />
+    <MESSAGE value="order ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="order ID" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,16 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-          <folding>
-            <element signature="method#verifyInfo#0;class#CheckoutPayment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/HelpPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -995,16 +998,6 @@
         <state relative-caret-position="425">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="91" column="49" lean-forward="false" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
-          <folding>
-            <marker date="1527154680800" expanded="true" signature="19513:19519" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,19 +1039,42 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3724">
+          <caret line="91" column="49" lean-forward="false" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+          <folding>
+            <marker date="1527154680800" expanded="true" signature="19513:19519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutDone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="714">
+          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="116" column="63" lean-forward="false" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
+          <folding>
+            <element signature="method#verifyInfo#0;class#CheckoutPayment#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
