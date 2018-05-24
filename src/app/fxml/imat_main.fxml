@@ -136,7 +136,7 @@
                                           </AnchorPane>
                                       </buttons>
                                     </ButtonBar>
-                                    <Label prefHeight="59.0" prefWidth="192.0" text="Varukategori" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="0.0">
+                                    <Label onMouseClicked="#clearHistory" prefHeight="59.0" prefWidth="192.0" text="Varukategori" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="0.0">
                                        <font>
                                           <Font size="30.0" />
                                        </font>
