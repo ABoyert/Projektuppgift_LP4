@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root prefHeight="400.0" prefWidth="250.0" styleClass="special_color" stylesheets="@main_style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="1000.0" stylesheets="@main_style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane layoutY="5.0" prefHeight="53.0" prefWidth="302.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutY="5.0" prefHeight="59.0" prefWidth="302.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label layoutX="105.0" layoutY="9.0" styleClass="front_24" stylesheets="@main_style.css" text="Kostnad" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="9.0">
                <font>
@@ -15,33 +16,41 @@
                </font>
             </Label>
          </children>
+         <styleClass>
+            <String fx:value="special_color" />
+            <String fx:value="borderBottom" />
+         </styleClass>
       </AnchorPane>
-      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+      <AnchorPane layoutY="65.0" styleClass="special_color" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="69.0">
          <children>
-            <Label layoutY="23.0" styleClass="font_18" stylesheets="@main_style.css" text="Varukostnad:" AnchorPane.leftAnchor="60.0">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label layoutY="56.0" styleClass="font_18" stylesheets="@main_style.css" text="Rabbatt:" AnchorPane.leftAnchor="60.0">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label layoutY="92.0" styleClass="font_18" stylesheets="@main_style.css" text="Frakt:" AnchorPane.leftAnchor="60.0">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label layoutY="129.0" styleClass="font_18" stylesheets="@main_style.css" text="Totalt:" AnchorPane.leftAnchor="60.0">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label fx:id="productCost" layoutY="27.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
-            <Label fx:id="discountLabel" layoutY="61.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
-            <Label fx:id="shippingFeeLabel" layoutY="96.0" styleClass="font_18" stylesheets="@main_style.css" text="50kr" AnchorPane.rightAnchor="70.0" />
-            <Label fx:id="totalCostLabel" layoutY="133.0" styleClass="font_18" stylesheets="@main_style.css" text="X" AnchorPane.rightAnchor="70.0" />
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" styleClass="background_colour" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutY="23.0" styleClass="font_28" stylesheets="@main_style.css" text="Varukostnad:" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="25.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="135.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Rabbatt:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="135.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="78.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Frakttillägg:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="78.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="199.0" styleClass="font_34" stylesheets="@main_style.css" text="Totalt:" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="40.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="productCost" layoutX="185.0" layoutY="25.0" prefHeight="40.0" prefWidth="97.0" styleClass="font_28" stylesheets="@main_style.css" text="X" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="25.0" />
+                  <Label fx:id="discountLabel" layoutX="185.0" layoutY="135.0" prefHeight="40.0" prefWidth="97.0" styleClass="font_28" stylesheets="@main_style.css" text="X" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="135.0" />
+                  <Label fx:id="shippingFeeLabel" layoutX="195.0" layoutY="78.0" prefHeight="40.0" prefWidth="98.0" styleClass="font_28" stylesheets="@main_style.css" text="50kr" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="78.0" />
+                  <Label fx:id="totalCostLabel" layoutX="197.0" layoutY="199.0" prefHeight="51.0" prefWidth="134.0" styleClass="font_34" stylesheets="@main_style.css" text="X" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="10.0" />
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
       <AnchorPane layoutY="232.0" prefHeight="62.0" stylesheets="@main_style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
@@ -50,4 +59,8 @@
          </children>
       </AnchorPane>
    </children>
+   <styleClass>
+      <String fx:value="background_colour" />
+      <String fx:value="border" />
+   </styleClass>
 </fx:root>

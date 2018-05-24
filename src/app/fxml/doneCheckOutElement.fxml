@@ -5,10 +5,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="524.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root styleClass="background_colour" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="524.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <AnchorPane layoutY="38.0" prefHeight="51.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <AnchorPane layoutY="38.0" prefHeight="59.0" styleClass="special_color" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
                <Label layoutX="5.0" layoutY="6.0" prefHeight="39.0" prefWidth="178.0" styleClass="font_28" stylesheets="@main_style.css" text="Klar!">
                   <font>
@@ -17,20 +17,24 @@
                </Label>
             </children>
          </AnchorPane>
-         <AnchorPane layoutY="79.0" prefHeight="642.0" style="-fx-background-color: #E7E0DD;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <AnchorPane layoutY="79.0" styleClass="special_color" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
             <children>
-               <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="306.0" styleClass="front_24" stylesheets="@main_style.css" text="Tack för ditt köp!">
-                  <font>
-                     <Font size="18.0" />
-                  </font>
-               </Label>
-               <Label fx:id="orderID" layoutX="14.0" layoutY="53.0" prefHeight="39.0" prefWidth="306.0" styleClass="font_18" stylesheets="@main_style.css" text="Order id: :X:X:X:X:X:X:X:X:X:X:X" />
-               <Button layoutX="96.0" layoutY="540.0" mnemonicParsing="false" onMouseClicked="#goToStart" prefHeight="61.0" prefWidth="334.0" text="Tillbaka till butiken" />
-               <Label alignment="CENTER" layoutX="62.0" layoutY="121.0" prefHeight="159.0" prefWidth="401.0" text="Du kan hitta dina genomförda köp genom att klicka på &quot;TIDIGARE KÖP&quot; uppe till höger." textAlignment="CENTER" wrapText="true">
-                  <font>
-                     <Font size="20.0" />
-                  </font>
-               </Label>
+               <AnchorPane prefHeight="642.0" styleClass="background_colour" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                  <children>
+                     <Label layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="306.0" styleClass="front_24" stylesheets="@main_style.css" text="Tack för ditt köp!">
+                        <font>
+                           <Font size="18.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="orderID" layoutX="14.0" layoutY="53.0" prefHeight="39.0" prefWidth="306.0" styleClass="font_18" stylesheets="@main_style.css" text="Order id: :X:X:X:X:X:X:X:X:X:X:X" />
+                     <Button layoutX="77.0" layoutY="532.0" mnemonicParsing="false" onMouseClicked="#goToStart" prefHeight="61.0" prefWidth="350.0" text="Tillbaka till butiken" AnchorPane.bottomAnchor="48.799999999999955" />
+                     <Label alignment="CENTER" layoutX="62.0" layoutY="121.0" prefHeight="159.0" prefWidth="401.0" text="Du kan hitta dina genomförda köp genom att klicka på &quot;TIDIGARE KÖP&quot; uppe till höger." textAlignment="CENTER" wrapText="true">
+                        <font>
+                           <Font size="20.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </AnchorPane>
             </children>
          </AnchorPane>
       </children>
