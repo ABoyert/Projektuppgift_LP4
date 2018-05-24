@@ -37,7 +37,7 @@
                   <content>
                      <AnchorPane prefHeight="83.0" prefWidth="755.0">
                         <children>
-                           <FlowPane fx:id="helpPageQuestionsFlowPane" prefWidth="755.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           <FlowPane fx:id="helpFlowPane" prefWidth="755.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                         </children>
                      </AnchorPane>
                   </content>

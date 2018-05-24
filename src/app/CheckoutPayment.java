@@ -124,7 +124,15 @@ public class CheckoutPayment extends AnchorPane {
 
     @FXML
     public void directPay() {
+        clearFocus();
+        parentController.paymentSteps.get(3).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
         finishCheckout();
+    }
+
+    private void clearFocus() {
+        for (IMatCategoryElement c : parentController.paymentSteps) {
+            c.setStyle("");
+        }
     }
 
     private void finishCheckout() {
