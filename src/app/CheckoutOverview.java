@@ -33,13 +33,6 @@ public class CheckoutOverview extends AnchorPane {
 
     @FXML
     public void placeOrder() {
-        if(!overviewCheckOutFlowPane.getChildren().isEmpty()){
-            CheckoutInfo infoPage = new CheckoutInfo(parentController);
-            parentController.middleStack.getChildren().add(infoPage);
-            infoPage.toFront();
-        }
-
-
         infoPage = new CheckoutInfo(parentController);
         parentController.middleStack.getChildren().add(infoPage);
         infoPage.toFront();
