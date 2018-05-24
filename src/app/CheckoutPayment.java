@@ -14,6 +14,7 @@ import java.util.List;
 public class CheckoutPayment extends AnchorPane {
     MainController parentController;
     MyInfoPage infoPage;
+    CheckoutDone cd;
 
     @FXML
     TextArea cardNumber, cardName, cardCVC, cardMonth, cardYear;
@@ -114,10 +115,11 @@ public class CheckoutPayment extends AnchorPane {
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
             System.out.println("GO TO LAST STEP!");
-            CheckoutDone cd = new CheckoutDone(parentController);
+            cd = new CheckoutDone(parentController);
             parentController.middleStack.getChildren().add(cd);
             cd.toFront();
             parentController.db.placeOrder(true);
+            parentController.checkoutState = MainController.CheckoutState.DONE;
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }

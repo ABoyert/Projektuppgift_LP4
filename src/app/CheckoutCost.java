@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
@@ -11,6 +12,8 @@ import java.io.IOException;
 public class CheckoutCost extends AnchorPane {
 
     @FXML Label productCost, totalCostLabel;
+    @FXML
+    Button nextButton;
 
     MainController parentController;
 
@@ -45,5 +48,28 @@ public class CheckoutCost extends AnchorPane {
 
     public void setTotalCostLabel(Label totalCostLabel) {
         this.totalCostLabel = totalCostLabel;
+    }
+
+    @FXML
+    public void goToNext() {
+        if (parentController.checkoutState.equals(MainController.CheckoutState.OVERVIEW)) {
+            parentController.checkoutOverview.placeOrder();
+            System.out.println("TO STEP TWO");
+        } else if (parentController.checkoutState.equals(MainController.CheckoutState.INFO)) {
+            parentController.checkoutOverview.infoPage.saveInfo();
+            System.out.println("TO STEP 3");
+        } else if (parentController.checkoutState.equals(MainController.CheckoutState.PAYMENT)) {
+            parentController.checkoutOverview.infoPage.cp.saveInfo();
+            System.out.println("TO STEP 4");
+            nextButton.setText("Tillbaka till butiken");
+        } else if (parentController.checkoutState.equals(MainController.CheckoutState.DONE)) {
+            parentController.shopButtonPressed();
+            parentController.checkoutState = MainController.CheckoutState.OVERVIEW;
+            nextButton.setText("Nästa");
+        }
+
+        else {
+            System.out.println("FAIL");
+        }
     }
 }

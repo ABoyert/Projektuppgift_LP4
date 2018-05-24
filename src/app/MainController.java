@@ -36,6 +36,15 @@ public class MainController implements Initializable {
         NONE
     }
 
+    public enum CheckoutState {
+        OVERVIEW,
+        INFO,
+        PAYMENT,
+        DONE
+    }
+
+    CheckoutState checkoutState;
+
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
@@ -223,7 +232,7 @@ public class MainController implements Initializable {
         productArray = productList.toArray(productArray);
         boolean buttonStatus;
 
-        //sortPriceButton.setStyle("");
+        sortPriceButton.setStyle("");
         sortAlphaButton.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
 
         for (int i = (productArray.length - 1); i >= 0; i--) {
@@ -402,6 +411,7 @@ public class MainController implements Initializable {
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
             updateCC();
+            checkoutState = CheckoutState.OVERVIEW;
         }
     }
 
@@ -409,6 +419,7 @@ public class MainController implements Initializable {
         cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
         double total = shoppingCart.getTotal() + 50;
         cc.getTotalCostLabel().setText("" + total);
+        cc.nextButton.setText("Nästa");
     }
 
 
@@ -652,6 +663,11 @@ public class MainController implements Initializable {
         updateCart();
 
 
+    }
+
+    @FXML
+    public void clearHistory() {
+        db.reset();
     }
 
 

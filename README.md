@@ -13,7 +13,6 @@ TODO:
 - Info i hjälp (inte tom)
 - Pil på sortera efter pris-knappen som visar åt vilket håll den sorterar
 - Mer info-sidan: skalning, lite design och styling?
-- NÄSTA-knappen ska göra så att man går till nästa steg under betalning
 - Göra så att man bara kan använda kort och ta bort direktbetalningsknappen eller lägga till funktionalitet för direktbetalningsknappen i betala
 - Highlighta i panelen till vänster vilket steg man är på under betalningen
 - Skalning på betalningsstegen

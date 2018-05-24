@@ -13,6 +13,7 @@ public class CheckoutOverview extends AnchorPane {
     FlowPane overviewCheckOutFlowPane;
 
     MainController parentController;
+    CheckoutInfo infoPage;
 
     public CheckoutOverview(MainController parentController) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/overviewCheckoutElement.fxml"));
@@ -39,6 +40,10 @@ public class CheckoutOverview extends AnchorPane {
         }
 
 
+        infoPage = new CheckoutInfo(parentController);
+        parentController.middleStack.getChildren().add(infoPage);
+        infoPage.toFront();
+        parentController.checkoutState = MainController.CheckoutState.INFO;
     }
 
     /*@FXML

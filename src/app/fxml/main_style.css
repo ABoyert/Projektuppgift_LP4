@@ -105,7 +105,7 @@
 }
 /*-----------Borders---------------*/
 .border {
-    -fx-border-width:0.3px;
+    -fx-border-width:0.5px;
     -fx-border-style:solid;
 }
 .border_leftNbottom{
