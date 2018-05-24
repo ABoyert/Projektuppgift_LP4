@@ -35,7 +35,7 @@ public class PreviousCartElement extends AnchorPane {
 
         previousCartsWeight.setText(item.getProduct().getPrice() + " " + item.getProduct().getUnit());
         previousCartsName.setText(item.getProduct().getName());
-        //previousCartsTotalProduct.setText(item.getAmount() + " st");
+        previousCartsTotalProduct.setText(item.getAmount() + " st");
         previousCartsPrice.setText("Totalt: " + (double) Math.round(item.getTotal() * 100) / 100 + " kr");
         previousCartsImage.setImage(controller.getSquareImage(controller.db.getFXImage(item.getProduct())));
         this.shoppingItem = item;
