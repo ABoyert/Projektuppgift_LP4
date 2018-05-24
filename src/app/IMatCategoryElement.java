@@ -38,6 +38,8 @@ public class IMatCategoryElement extends AnchorPane {
 
     private String toBetterText(String s) {
         switch (s) {
+            case "ERBJUDANDEN":
+                return "Erbjudanden!";
             case "FRUKT_GRONT":
                 return "Frukt och grönt";
             case "BROD":

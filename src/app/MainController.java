@@ -483,6 +483,10 @@ public class MainController implements Initializable {
 
         if(middleStack.getChildren().contains(shopPage)){
             switch (label){
+                case "   ERBJUDANDEN":
+                    System.out.println("Erbjudanden!");
+                    mainPane.getChildren().clear();
+                    break;
                 case "   KOTT":
                     System.out.println("Kött borde visas");
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.KOTT), Sort.NONE);
