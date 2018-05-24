@@ -29,7 +29,7 @@
                      <Font size="20.0" />
                   </font>
                   <graphic>
-                     <Label text="+" textFill="#07e100">
+                     <Label text="+" textFill="#81da7e">
                         <font>
                            <Font size="59.0" />
                         </font>
@@ -43,7 +43,7 @@
                      <Font name="System Bold" size="20.0" />
                   </font>
                   <graphic>
-                     <Label prefHeight="81.0" prefWidth="38.0" text="-" textFill="RED">
+                     <Label prefHeight="81.0" prefWidth="38.0" text="-" textFill="#e26262">
                         <font>
                            <Font size="96.0" />
                         </font>
