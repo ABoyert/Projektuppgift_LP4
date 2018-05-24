@@ -10,8 +10,9 @@ Mån 28/5 - Onsdag 30/5: Demo och redovisning av projekt
 
 TODO:
 - Kunna lägga till gamla köp i varukorgen
-- Info i hjälp (inte tom)
 - Mer info-sidan: skalning, lite design och styling?
-- Skalning på betalningsstegen
+- Skalning på betalningsstegen?
 - Spara-knapp under fälten också på mina uppgifter
 - Alltid använda två decimaler? (LÅG PRIO)
+- Få tillbaka knapparna i kassan att fungera
+- Lägga till pil eller något mot nästa-knappen, lite otydligt att det är där man ska klicka

@@ -93,7 +93,6 @@
                      </StackPane>
                   </children>
                </AnchorPane>
-               <Button layoutX="314.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#saveInfo" prefHeight="51.0" prefWidth="172.0" text="NEXT" />
             </children>
          </AnchorPane>
       </children>

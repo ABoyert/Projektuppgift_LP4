@@ -35,7 +35,6 @@
                <Label layoutX="15.0" layoutY="378.0" styleClass="front_20" stylesheets="@main_style.css" text="Adress: " AnchorPane.leftAnchor="15.0" />
                <Label layoutX="15.0" layoutY="448.0" styleClass="front_20" stylesheets="@main_style.css" text="Postnummer: " AnchorPane.leftAnchor="15.0" />
                <Label layoutX="13.0" layoutY="525.0" styleClass="front_20" stylesheets="@main_style.css" text="Postort: " AnchorPane.leftAnchor="15.0" />
-               <Button fx:id="myInformationCheckOutButton" layoutX="389.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#saveInfo" prefHeight="38.0" prefWidth="123.0" stylesheets="@main_style.css" text="Spara" AnchorPane.rightAnchor="15.0" />
             </children>
          </AnchorPane>
       </children>
