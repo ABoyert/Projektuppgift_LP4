@@ -17,7 +17,7 @@
                </Label>
             </children>
          </AnchorPane>
-         <AnchorPane layoutY="79.0" styleClass="special_color" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <AnchorPane layoutY="79.0" styleClass="special_color" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="69.0">
             <children>
                <AnchorPane prefHeight="642.0" styleClass="background_colour" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
                   <children>
