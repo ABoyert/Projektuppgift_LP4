@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root prefHeight="165.0" prefWidth="1000.0" styleClass="border" stylesheets="@main_style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="165.0" prefWidth="1150.0" styleClass="border" stylesheets="@main_style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="previousCartsImage" fitHeight="170.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0">
          <image>
