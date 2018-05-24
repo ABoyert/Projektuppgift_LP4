@@ -36,6 +36,15 @@ public class MainController implements Initializable {
         NONE
     }
 
+    public enum CheckoutState {
+        OVERVIEW,
+        INFO,
+        PAYMENT,
+        DONE
+    }
+
+    CheckoutState checkoutState;
+
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
@@ -397,10 +406,16 @@ public class MainController implements Initializable {
             showPaymentSteps();
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
-            cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
-            double total = shoppingCart.getTotal() + 50;
-            cc.getTotalCostLabel().setText("" + total);
+            updateCC();
+            checkoutState = CheckoutState.OVERVIEW;
         }
+    }
+
+    public void updateCC(){
+        cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
+        double total = shoppingCart.getTotal() + 50;
+        cc.getTotalCostLabel().setText("" + total);
+        cc.nextButton.setText("Nästa");
     }
 
 

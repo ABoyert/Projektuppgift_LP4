@@ -14,6 +14,7 @@ public class CheckoutInfo extends AnchorPane {
 
     private MainController parentController;
     private MyInfoPage infoPage;
+    CheckoutPayment cp;
 
     @FXML
     TextArea myDetailsFirstName, myDetailsLastName, myDetailsPhoneNumber, myDetailsEmail, myDetailsAddress,
@@ -60,9 +61,10 @@ public class CheckoutInfo extends AnchorPane {
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
             System.out.println("GO TO PAYMENT!");
-            CheckoutPayment cp = new CheckoutPayment(parentController);
+            cp = new CheckoutPayment(parentController);
             parentController.middleStack.getChildren().add(cp);
             cp.toFront();
+            parentController.checkoutState = MainController.CheckoutState.PAYMENT;
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }

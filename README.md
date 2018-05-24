@@ -19,3 +19,4 @@ TODO:
 - Skalning på betalningsstegen
 - Spara-knapp under fälten också på mina uppgifter
 - Alltid använda två decimaler? (LÅG PRIO)
+- Knapp för att återställa programmet?
