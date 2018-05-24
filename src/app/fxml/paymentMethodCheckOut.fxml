@@ -29,8 +29,8 @@
                      <Font size="16.0" />
                   </font>
                </Label>
-               <Button fx:id="paymentMethodCheckOutCardButton" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="172.0" stylesheets="@main_style.css" text="Kort" />
-               <Button fx:id="paymentMethodCheckOutDirectPay" layoutX="14.0" layoutY="90.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="172.0" stylesheets="@main_style.css" text="Direktbetalning" />
+               <Button fx:id="cardPay" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="172.0" stylesheets="@main_style.css" text="Kort" />
+               <Button fx:id="paymentMethodCheckOutDirectPay" layoutX="14.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#directPay" prefHeight="44.0" prefWidth="172.0" stylesheets="@main_style.css" text="Direktbetalning" />
                <AnchorPane layoutX="14.0" layoutY="174.0" prefHeight="392.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="15.600000000000023">
                   <children>
                      <StackPane fx:id="paymentMethodCheckOutStackPane" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">

@@ -19,7 +19,7 @@ public class CheckoutPayment extends AnchorPane {
     @FXML
     TextArea cardNumber, cardName, cardCVC, cardMonth, cardYear;
     @FXML
-    Button cardVisa, cardMastercard;
+    Button cardVisa, cardMastercard, cardPay;
 
     List<TextArea> textAreaList = new ArrayList<TextArea>();
 
@@ -36,6 +36,8 @@ public class CheckoutPayment extends AnchorPane {
 
         this.parentController = parentController;
         this.infoPage = new MyInfoPage(parentController);
+
+        cardPay.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
 
         cardName.setText(parentController.creditCard.getHoldersName());
         cardMonth.setText(String.valueOf(parentController.creditCard.getValidMonth()));
@@ -114,15 +116,24 @@ public class CheckoutPayment extends AnchorPane {
         verifyInfo();
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
-            System.out.println("GO TO LAST STEP!");
-            cd = new CheckoutDone(parentController);
-            parentController.middleStack.getChildren().add(cd);
-            cd.toFront();
-            parentController.db.placeOrder(true);
-            parentController.checkoutState = MainController.CheckoutState.DONE;
+            finishCheckout();
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }
+    }
+
+    @FXML
+    public void directPay() {
+        finishCheckout();
+    }
+
+    private void finishCheckout() {
+        System.out.println("GO TO LAST STEP!");
+        cd = new CheckoutDone(parentController);
+        parentController.middleStack.getChildren().add(cd);
+        cd.toFront();
+        parentController.db.placeOrder(true);
+        parentController.checkoutState = MainController.CheckoutState.DONE;
     }
 
     private void fillTextAreaList() {
