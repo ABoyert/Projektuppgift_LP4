@@ -517,15 +517,17 @@ public class MainController implements Initializable {
 
     public void linkOrderToButton(String label){
         for (Order order : db.getOrders()) {
-            String orderLabel = "   " + order.getDate().toString();
+            String orderLabel = "   " + replaceDateString(order.getDate().toString());
             if(label.equals(orderLabel) ){
                 prevPage.getRecentFlowPane().getChildren().clear();
                 List<ShoppingItem> tmpItems = order.getItems();
+                prevPage.previousCartElements.clear();
                 for (ShoppingItem item : tmpItems
                         ) {
-                    System.out.println("Adding recent item to flowpane");
+
                     prevPage.setRecentCartLabel(order.getDate().toString());
                     prevPage.getRecentFlowPane().getChildren().add(new PreviousCartElement(item, this));
+                    prevPage.previousCartElements.add(new PreviousCartElement(item, this));
 
 
                 }
@@ -571,7 +573,7 @@ public class MainController implements Initializable {
             s = s.replaceAll("\\bThu\\b", "TOR");
         }
         if (s.contains("Fri")) {
-            System.out.println("INNEHÅLLER FRI");
+
             s = s.replaceAll("\\bFri\\b", "FRE");
         }
         if (s.contains("Sat")) {
@@ -584,7 +586,7 @@ public class MainController implements Initializable {
             s = s.replaceAll("(?i)\\bTue\\b", "TIS");
         }
         if (s.contains("Wed")) {
-            System.out.println("INNEHÅLLER WED");
+
             s = s.replaceAll("(?i)\\bWed\\b", "ONS");
         }
         if (s.contains("May")) {
@@ -606,6 +608,15 @@ public class MainController implements Initializable {
 
 
         return s;
+    }
+
+    public void addToCartFromPrevious(){
+        System.out.println("Inne i add to cart");
+        for (PreviousCartElement element: prevPage.getPreviousCartElements()
+             ) {
+            shoppingCart.addItem(element.getShoppingItem());
+
+        }
     }
 
 
