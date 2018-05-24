@@ -21,8 +21,9 @@ public class IMatProduct extends AnchorPane {
 
     private UtilityMethods um = new UtilityMethods();
     private MainController parentController;
-    private Product product;
-    private int amount = 1;
+    public Product product;
+    public int amount = 1;
+    private ProductInfo pi;
 
     public IMatProduct(Product product, MainController mainController) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/imat_product.fxml"));
@@ -46,7 +47,7 @@ public class IMatProduct extends AnchorPane {
     }
 
     @FXML
-    private void addToCart() {
+    public void addToCart() {
         if (!isInCart(product)) {
             ShoppingItem shopItem = new ShoppingItem(product);
             shopItem.setAmount(amount);
@@ -62,13 +63,13 @@ public class IMatProduct extends AnchorPane {
     }
 
     @FXML
-    private void addItem() {
+    public void addItem() {
         this.amount++;
         numberProduct.setText(amount + " st");
     }
 
     @FXML
-    private void removeItem() {
+    public void removeItem() {
         if (amount != 1) {
             this.amount--;
             numberProduct.setText(amount + " st");
@@ -102,4 +103,13 @@ public class IMatProduct extends AnchorPane {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    @FXML
+    public void showMoreInfo() {
+        pi = new ProductInfo(parentController, this);
+        parentController.middleStack.getChildren().add(pi);
+        pi.toFront();
+    }
+
+
 }

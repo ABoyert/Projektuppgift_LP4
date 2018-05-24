@@ -12,7 +12,7 @@ TODO:
 - Kunna lägga till gamla köp i varukorgen
 - Info i hjälp (inte tom)
 - Pil på sortera efter pris-knappen som visar åt vilket håll den sorterar
-- Mer info-knappen fungerande eller ta bort den???
+- Mer info-sidan: skalning, lite design och styling?
 - Större + och - knappar på produkt
 - NÄSTA-knappen ska göra så att man går till nästa steg under betalning
 - Göra så att man bara kan använda kort och ta bort direktbetalningsknappen eller lägga till funktionalitet för direktbetalningsknappen i betala
