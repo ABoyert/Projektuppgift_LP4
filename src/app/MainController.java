@@ -36,6 +36,15 @@ public class MainController implements Initializable {
         NONE
     }
 
+    public enum CheckoutState {
+        OVERVIEW,
+        INFO,
+        PAYMENT,
+        DONE
+    }
+
+    CheckoutState checkoutState;
+
     boolean sortPricePressed = false;
     boolean sortAlphaPressed = false;
     // Sätta programmet i olika states beroende på vilken kategori man är i?
@@ -93,6 +102,7 @@ public class MainController implements Initializable {
         checkoutOverview = new CheckoutOverview(this);
         updateProducts(db.getProducts(), Sort.ALPHABETICAL); //Show all products on start
         cc = new CheckoutCost(this);
+        cc.nextButton.setText("Nästa");
         System.out.println(cc.toString());
         rightStack.getChildren().add(cc);
         createPaymentSteps();
@@ -400,6 +410,7 @@ public class MainController implements Initializable {
             cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
             double total = shoppingCart.getTotal() + 50;
             cc.getTotalCostLabel().setText("" + total);
+            checkoutState = CheckoutState.OVERVIEW;
         }
     }
 
