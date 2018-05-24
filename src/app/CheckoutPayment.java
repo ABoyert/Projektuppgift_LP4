@@ -114,7 +114,7 @@ public class CheckoutPayment extends AnchorPane {
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
             System.out.println("GO TO LAST STEP!");
-            CheckoutDone cd = new CheckoutDone();
+            CheckoutDone cd = new CheckoutDone(parentController);
             parentController.middleStack.getChildren().add(cd);
             cd.toFront();
             parentController.db.placeOrder(true);
