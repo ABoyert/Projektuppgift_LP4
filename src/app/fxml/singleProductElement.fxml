@@ -7,27 +7,27 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <AnchorPane minHeight="-Infinity" minWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.5" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="498.0" prefWidth="767.0" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane layoutX="1.5" layoutY="1.5" prefHeight="503.0" prefWidth="766.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <ImageView fx:id="productImage" fitHeight="240.0" fitWidth="240.0" layoutX="7.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" />
-         <Label fx:id="productName" layoutX="271.0" layoutY="51.0" prefHeight="54.0" prefWidth="314.0" styleClass="font_28" stylesheets="@main_style.css" text="Name Name Name Name" wrapText="true">
+         <Button layoutX="7.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#closeMoreInfo" prefHeight="44.0" prefWidth="128.0" stylesheets="@main_style.css" text="Tillbaka" />
+         <ImageView fx:id="productImage" fitHeight="270.0" fitWidth="270.0" layoutX="7.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" />
+         <Label fx:id="productName" layoutX="304.0" layoutY="50.0" prefHeight="54.0" prefWidth="410.0" styleClass="font_28" stylesheets="@main_style.css" text="Name Name Name Name" wrapText="true">
             <font>
                <Font size="16.0" />
             </font>
          </Label>
-         <Label fx:id="productInfo" layoutX="271.0" layoutY="115.0" prefHeight="178.0" prefWidth="240.0" styleClass="font_14" stylesheets="@main_style.css" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
-         <Button layoutX="14.0" layoutY="372.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="-" />
-         <Button layoutX="174.0" layoutY="372.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="+" />
-         <Label fx:id="productAmount" alignment="CENTER" layoutX="109.0" layoutY="372.0" prefHeight="54.0" prefWidth="65.0" styleClass="border" stylesheets="@main_style.css" text="99 st" />
-         <Button layoutX="267.0" layoutY="372.0" mnemonicParsing="false" onMouseClicked="#addToCart" prefHeight="54.0" prefWidth="240.0" styleClass="border" stylesheets="@main_style.css" text="Lägg till i kundvagn" />
-         <Label fx:id="productPrice" layoutX="14.0" layoutY="309.0" prefHeight="54.0" prefWidth="280.0" styleClass="front_24" text="Label">
+         <Label fx:id="productInfo" layoutX="304.0" layoutY="116.0" prefHeight="178.0" prefWidth="410.0" styleClass="font_14" stylesheets="@main_style.css" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
+         <Button layoutX="14.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="-" />
+         <Button layoutX="174.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="+" />
+         <Label fx:id="productAmount" alignment="CENTER" layoutX="109.0" layoutY="405.0" prefHeight="54.0" prefWidth="65.0" styleClass="border" stylesheets="@main_style.css" text="99 st" />
+         <Button layoutX="266.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#addToCart" prefHeight="54.0" prefWidth="294.0" styleClass="border" stylesheets="@main_style.css" text="Lägg till i kundvagn" />
+         <Label fx:id="productPrice" layoutX="20.0" layoutY="339.0" prefHeight="63.0" prefWidth="402.0" styleClass="font_34" text="Label">
             <font>
                <Font size="20.0" />
             </font></Label>
       </children>
    </AnchorPane>
-   <Button layoutX="639.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#closeMoreInfo" prefHeight="44.0" prefWidth="128.0" stylesheets="@main_style.css" text="Tillbaka" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="12.0" />
    <styleClass>
       <String fx:value="background_colour" />
       <String fx:value="border" />
