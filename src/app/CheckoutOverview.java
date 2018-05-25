@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import se.chalmers.cse.dat216.project.ShoppingItem;
@@ -33,10 +34,16 @@ public class CheckoutOverview extends AnchorPane {
 
     @FXML
     public void placeOrder() {
-        infoPage = new CheckoutInfo(parentController);
-        parentController.middleStack.getChildren().add(infoPage);
-        infoPage.toFront();
-        parentController.checkoutState = MainController.CheckoutState.INFO;
+        if (parentController.shoppingCart.getTotal() != 0) {
+            infoPage = new CheckoutInfo(parentController);
+            parentController.middleStack.getChildren().add(infoPage);
+            infoPage.toFront();
+            parentController.checkoutState = MainController.CheckoutState.INFO;
+            for (IMatCategoryElement c : parentController.paymentSteps) {
+                c.setStyle("");
+            }
+            parentController.paymentSteps.get(1).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+        }
     }
 
     /*@FXML
@@ -49,6 +56,8 @@ public class CheckoutOverview extends AnchorPane {
     }*/
 
     public void updateView() {
+
+        //parentController.goToKassaPressed();
 
         overviewCheckOutFlowPane.getChildren().clear();
 

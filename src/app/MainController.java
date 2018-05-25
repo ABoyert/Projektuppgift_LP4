@@ -418,6 +418,11 @@ public class MainController implements Initializable {
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
             updateCC();
+
+            for (IMatCategoryElement c : paymentSteps) {
+                c.setStyle("");
+            }
+
             paymentSteps.get(0).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             checkoutState = CheckoutState.OVERVIEW;
         }
