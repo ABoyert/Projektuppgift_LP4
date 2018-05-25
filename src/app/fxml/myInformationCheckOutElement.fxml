@@ -21,13 +21,34 @@
          </AnchorPane>
          <AnchorPane layoutY="79.0" prefHeight="642.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
             <children>
-               <TextArea fx:id="myDetailsFirstName" layoutX="15.0" layoutY="38.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-               <TextArea fx:id="myDetailsZIPCode" layoutX="15.0" layoutY="479.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-               <TextArea fx:id="myDetailsAddress" layoutX="15.0" layoutY="405.0" prefHeight="38.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-               <TextArea fx:id="myDetailsEmail" layoutX="15.0" layoutY="330.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-               <TextArea fx:id="myDetailsPhoneNumber" layoutX="15.0" layoutY="256.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-               <TextArea fx:id="myDetailsCity" layoutX="15.0" layoutY="556.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-               <TextArea fx:id="myDetailsLastName" layoutX="15.0" layoutY="110.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+               <TextArea fx:id="myDetailsFirstName" layoutX="15.0" layoutY="38.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
+               <TextArea fx:id="myDetailsZIPCode" layoutX="15.0" layoutY="479.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
+               <TextArea fx:id="myDetailsAddress" layoutX="15.0" layoutY="405.0" prefHeight="38.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
+               <TextArea fx:id="myDetailsEmail" layoutX="15.0" layoutY="330.0" prefHeight="24.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
+               <TextArea fx:id="myDetailsPhoneNumber" layoutX="15.0" layoutY="256.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
+               <TextArea fx:id="myDetailsCity" layoutX="15.0" layoutY="556.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
+               <TextArea fx:id="myDetailsLastName" layoutX="15.0" layoutY="110.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></TextArea>
                <Label layoutX="15.0" layoutY="7.0" styleClass="front_20" stylesheets="@main_style.css" text="Förnamn: " AnchorPane.leftAnchor="15.0" />
                <Label layoutX="12.0" layoutY="79.0" styleClass="front_20" stylesheets="@main_style.css" text="Efternamn:" AnchorPane.leftAnchor="12.0" />
                <Label layoutX="15.0" layoutY="229.0" styleClass="front_20" stylesheets="@main_style.css" text="Telefonnummer: " AnchorPane.leftAnchor="15.0" />

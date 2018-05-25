@@ -57,11 +57,26 @@
                                  </Label>
                                  <Button fx:id="cardVisa" layoutX="84.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#setCardVisa" prefHeight="26.0" prefWidth="90.0" stylesheets="@main_style.css" text="Visa" />
                                  <Button fx:id="cardMastercard" layoutX="195.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#setCardMastercard" prefHeight="26.0" prefWidth="136.0" stylesheets="@main_style.css" text="Mastercard" />
-                                 <TextArea fx:id="cardNumber" layoutX="104.0" layoutY="76.0" prefHeight="7.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" />
-                                 <TextArea fx:id="cardName" layoutX="104.0" layoutY="128.0" prefHeight="14.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" />
-                                 <TextArea fx:id="cardCVC" layoutX="104.0" layoutY="183.0" prefHeight="38.0" prefWidth="60.0" />
-                                 <TextArea fx:id="cardMonth" layoutX="292.0" layoutY="182.0" prefHeight="39.0" prefWidth="38.0" />
-                                 <TextArea fx:id="cardYear" layoutX="354.0" layoutY="183.0" prefHeight="38.0" prefWidth="41.0" />
+                                 <TextArea fx:id="cardNumber" layoutX="104.0" layoutY="76.0" prefHeight="7.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font></TextArea>
+                                 <TextArea fx:id="cardName" layoutX="104.0" layoutY="128.0" prefHeight="14.0" prefWidth="376.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font></TextArea>
+                                 <TextArea fx:id="cardCVC" layoutX="104.0" layoutY="183.0" prefHeight="38.0" prefWidth="60.0">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font></TextArea>
+                                 <TextArea fx:id="cardMonth" layoutX="292.0" layoutY="182.0" prefHeight="39.0" prefWidth="38.0">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font></TextArea>
+                                 <TextArea fx:id="cardYear" layoutX="354.0" layoutY="183.0" prefHeight="38.0" prefWidth="41.0">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font></TextArea>
                                  <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="82.0" prefHeight="26.0" prefWidth="90.0" styleClass="font_14" stylesheets="@main_style.css" text="Kortnummer: ">
                                     <font>
                                        <Font size="14.0" />

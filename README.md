@@ -12,6 +12,5 @@ TODO:
 - Mer info-sidan: skalning, lite design och styling?
 - Lägga till pil eller något mot nästa-knappen, lite otydligt att det är där man ska klicka
 - Lösa att scrollen är för lång
-- Större font i mina uppgifter fälten (Vid kortuppgifter också?)
 - Kunna tabba mellan fält när man fyller i uppgifter
 - Introvideo vid start
