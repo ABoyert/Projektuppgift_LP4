@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutCost.java" afterPath="$PROJECT_DIR$/src/app/CheckoutCost.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutInfo.java" afterPath="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutOverview.java" afterPath="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/CheckoutPayment.java" afterPath="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckoutCost.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutCost.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -41,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -175,11 +171,11 @@
         <option value="$PROJECT_DIR$/src/app/iMat.java" />
         <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutCost.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/app/CheckoutCost.java" />
       </list>
     </option>
   </component>
@@ -505,7 +501,7 @@
       <workItem from="1527150872852" duration="12873000" />
       <workItem from="1527164890514" duration="5275000" />
       <workItem from="1527170492482" duration="1479000" />
-      <workItem from="1527236943157" duration="5762000" />
+      <workItem from="1527236943157" duration="5955000" />
     </task>
     <task id="LOCAL-00001" summary="checkout showing products from cart">
       <created>1526393280309</created>
@@ -766,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527241713088</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="highlight i kassa fixed">
+      <created>1527248236883</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1527248236884</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56737000" />
+    <option name="totallyTimeSpent" value="56930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -844,7 +847,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sort button changed" />
     <MESSAGE value="åäö working" />
     <MESSAGE value="category order changed" />
     <MESSAGE value="pliancy on sort buttons" />
@@ -869,7 +871,8 @@
     <MESSAGE value="can now click on picture" />
     <MESSAGE value="highlight i kassa" />
     <MESSAGE value="försvinner från översikt" />
-    <option name="LAST_COMMIT_MESSAGE" value="försvinner från översikt" />
+    <MESSAGE value="highlight i kassa fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="highlight i kassa fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1275,14 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1291,6 +1286,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

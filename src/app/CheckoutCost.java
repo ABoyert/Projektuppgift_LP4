@@ -61,6 +61,7 @@ public class CheckoutCost extends AnchorPane {
             parentController.checkoutOverview.infoPage.saveInfo();
             //clearFocus();
             //parentController.paymentSteps.get(2).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+            nextButton.setText("Betala");
             System.out.println("TO STEP 3");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.PAYMENT)) {
             parentController.checkoutOverview.infoPage.cp.saveInfo();
