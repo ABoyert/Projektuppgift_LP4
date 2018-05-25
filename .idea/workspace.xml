@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/IMatCategoryElement.java" afterPath="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/paymentMethodCheckOut.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/paymentMethodCheckOut.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -513,14 +510,7 @@
       <workItem from="1527150872852" duration="12873000" />
       <workItem from="1527164890514" duration="5275000" />
       <workItem from="1527170492482" duration="1479000" />
-      <workItem from="1527236943157" duration="14245000" />
-    </task>
-    <task id="LOCAL-00002" summary="round numbers">
-      <created>1526476909349</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1526476909349</updated>
+      <workItem from="1527236943157" duration="14362000" />
     </task>
     <task id="LOCAL-00003" summary="cart overview fixed">
       <created>1526479977367</created>
@@ -858,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527256291870</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fixfix">
+      <created>1527257325115</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1527257325115</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65220000" />
+    <option name="totallyTimeSpent" value="65337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -936,7 +933,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done page looks better" />
     <MESSAGE value="done page better looking" />
     <MESSAGE value="nästa-button working" />
     <MESSAGE value="can reset program" />
@@ -961,7 +957,8 @@
     <MESSAGE value="tillbaka working" />
     <MESSAGE value="readme  update" />
     <MESSAGE value="design" />
-    <option name="LAST_COMMIT_MESSAGE" value="design" />
+    <MESSAGE value="fixfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixfix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
