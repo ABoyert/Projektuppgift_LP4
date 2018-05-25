@@ -30,7 +30,7 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="135.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Rabatt:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="135.0">
+                  <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="135.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Rabatt:" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="135.0">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -46,8 +46,8 @@
                      </font>
                   </Label>
                   <Label fx:id="productCost" layoutX="185.0" layoutY="25.0" prefHeight="40.0" prefWidth="97.0" styleClass="font_28" stylesheets="@main_style.css" text="X" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="25.0" />
-                  <Label fx:id="discountLabel" layoutX="185.0" layoutY="135.0" prefHeight="40.0" prefWidth="97.0" styleClass="font_28" stylesheets="@main_style.css" text="X" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="135.0" />
-                  <Label fx:id="shippingFeeLabel" layoutX="195.0" layoutY="78.0" prefHeight="40.0" prefWidth="98.0" styleClass="font_28" stylesheets="@main_style.css" text="50kr" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="78.0" />
+                  <Label fx:id="discountLabel" layoutX="185.0" layoutY="135.0" prefHeight="40.0" prefWidth="97.0" styleClass="font_28" stylesheets="@main_style.css" text="0 kr" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="135.0" />
+                  <Label fx:id="shippingFeeLabel" layoutX="195.0" layoutY="78.0" prefHeight="40.0" prefWidth="98.0" styleClass="font_28" stylesheets="@main_style.css" text="50 kr" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="78.0" />
                   <Label fx:id="totalCostLabel" layoutX="197.0" layoutY="199.0" prefHeight="51.0" prefWidth="134.0" styleClass="font_34" stylesheets="@main_style.css" text="X" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="10.0" />
                </children>
             </AnchorPane>
