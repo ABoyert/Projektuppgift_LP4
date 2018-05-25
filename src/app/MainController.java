@@ -681,11 +681,13 @@ public class MainController implements Initializable {
 
         for (ShoppingItem prevItem: prevPage.getRecentShoppingItems()
                 ) {
-            if(!shoppingCart.getItems().contains(prevItem)){
+            if(!shoppingCart.getItems().contains(prevItem.getProduct().toString())){
                 System.out.println("Adding new item :D");
                 shoppingCart.addItem(prevItem);
             }
         }
+
+
 
         /*
         int i = 0;

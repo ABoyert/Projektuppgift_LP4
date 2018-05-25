@@ -105,7 +105,7 @@ public class UtilityMethods
 
     public static void takeLettersOnly(TextArea textArea){
         textArea.textProperty().addListener((observable, oldValue, newValue) -> {
-            if (!isAlpha(newValue)) {
+            if (!(isAlpha(newValue))) {
                 textArea.setText(oldValue);
             }
         });
@@ -116,6 +116,7 @@ public class UtilityMethods
             if (!isAlpha(newValue)) {
                 textArea.setText(oldValue);
             }
+
         });
     }
 
@@ -135,7 +136,7 @@ public class UtilityMethods
         char[] chars = s.toCharArray();
 
         for (char c : chars) {
-            if (!Character.isLetter(c)) {
+            if (!Character.isLetter(c) && !Character.isSpaceChar(c)) {
                 return false;
             }
         }
