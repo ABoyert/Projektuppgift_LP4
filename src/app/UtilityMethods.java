@@ -17,6 +17,7 @@ public class UtilityMethods
     static IMatDataHandler db = IMatDataHandler.getInstance();
 
     enum Categories {
+        ERBJUDANDEN,
         MJOLKPRODUKTER,
         PASTA,
         POTATIS_RIS,

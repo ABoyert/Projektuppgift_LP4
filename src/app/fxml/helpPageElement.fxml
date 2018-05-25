@@ -33,11 +33,11 @@
                      <Font size="23.0" />
                   </font>
                </Label>
-               <ScrollPane fx:id="helpPageQuestionsScrollPane" layoutX="14.0" layoutY="316.0" prefHeight="90.0" prefWidth="758.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="320.0">
+               <ScrollPane fx:id="helpPageQuestionsScrollPane" hbarPolicy="NEVER" layoutX="14.0" layoutY="316.0" prefHeight="90.0" prefWidth="758.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="320.0">
                   <content>
                      <AnchorPane prefHeight="83.0" prefWidth="755.0">
                         <children>
-                           <FlowPane fx:id="helpPageQuestionsFlowPane" prefWidth="755.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           <FlowPane fx:id="helpFlowPane" prefWidth="755.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                         </children>
                      </AnchorPane>
                   </content>

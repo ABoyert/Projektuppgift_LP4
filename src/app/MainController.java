@@ -51,7 +51,7 @@ public class MainController implements Initializable {
 
     List<String> categoryStringList = new ArrayList<String>();
     List<IMatCategoryElement> categoryElements = new ArrayList<>();
-    List<IMatCategoryElement> paymentSteps = new ArrayList<>();
+    public List<IMatCategoryElement> paymentSteps = new ArrayList<>();
     List<IMatCategoryElement> orders = new ArrayList<>();
     List<Button> topMenuButtons = new ArrayList<>();
 
@@ -216,8 +216,10 @@ public class MainController implements Initializable {
             for (int j = 1; j <= i; j++) {
                 if (!sortPricePressed) {
                     buttonStatus = (productArray[j - 1].getPrice() > productArray[j].getPrice());
+                    sortPriceButton.setText("Billigast först");
                 } else {
                     buttonStatus = (productArray[j - 1].getPrice() < productArray[j].getPrice());
+                    sortPriceButton.setText("Dyrast först");
                 }
                 if (buttonStatus) {
                     Product temp = productArray[j - 1];
@@ -237,6 +239,7 @@ public class MainController implements Initializable {
         boolean buttonStatus;
 
         sortPriceButton.setStyle("");
+        sortPriceButton.setText("Pris");
         sortAlphaButton.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
 
         for (int i = (productArray.length - 1); i >= 0; i--) {
@@ -415,6 +418,7 @@ public class MainController implements Initializable {
             showCost();
             Left_panel_picture.setImage(getSquareImage(new Image("resources/walletIcon.png")));
             updateCC();
+            paymentSteps.get(0).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             checkoutState = CheckoutState.OVERVIEW;
         }
     }
@@ -485,6 +489,10 @@ public class MainController implements Initializable {
 
         if(middleStack.getChildren().contains(shopPage)){
             switch (label){
+                case "   ERBJUDANDEN":
+                    System.out.println("Erbjudanden!");
+                    mainPane.getChildren().clear();
+                    break;
                 case "   KOTT":
                     System.out.println("Kött borde visas");
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.KOTT), Sort.NONE);

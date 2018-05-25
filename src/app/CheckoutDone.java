@@ -47,6 +47,9 @@ public class CheckoutDone extends AnchorPane {
 
     @FXML
     public void goToStart() {
+            for (IMatCategoryElement c : parentController.paymentSteps) {
+                c.setStyle("");
+            }
         parentController.shopButtonPressed();
     }
 }
