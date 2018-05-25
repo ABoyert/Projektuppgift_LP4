@@ -52,6 +52,16 @@ public class PreviousPurchasesPage extends AnchorPane {
         return previousCartElements;
     }
 
+    public List<ShoppingItem> getRecentShoppingItems(){
+        List<ShoppingItem> items = new ArrayList<>();
+        for (PreviousCartElement element: previousCartElements
+             ) {
+            items.add(element.getShoppingItem());
+
+        }
+        return items;
+    }
+
     public void addPreviousCartElements(PreviousCartElement previousCartElement) {
         previousCartElements.add(previousCartElement);
     }

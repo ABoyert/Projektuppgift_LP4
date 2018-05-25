@@ -92,11 +92,11 @@
                      <children>
                         <AnchorPane fx:id="shopPage" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="554.0">
                            <children>
-                              <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutX="7.0" layoutY="74.0" prefHeight="628.0" prefWidth="554.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
+                              <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="ALWAYS" prefWidth="554.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0">
                                  <content>
-                                    <AnchorPane prefHeight="621.0" prefWidth="553.0">
+                                    <AnchorPane prefWidth="553.0">
                                        <children>
-                                          <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" minWidth="-Infinity" prefHeight="520.0" prefWidth="302.0" styleClass="background_colour" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                                          <FlowPane fx:id="mainPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" minWidth="-Infinity" prefWidth="302.0" styleClass="background_colour" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                                        </children>
                                        <styleClass>
                                           <String fx:value="forground_colour" />
@@ -181,7 +181,7 @@
                               </AnchorPane>
                               <AnchorPane layoutY="80.80000305175781" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="81.0">
                                  <children>
-                                    <ScrollPane hbarPolicy="NEVER" layoutY="0.600006103515625" prefHeight="621.0" prefWidth="334.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <ScrollPane hbarPolicy="NEVER" layoutY="0.600006103515625" prefHeight="621.0" prefWidth="334.0" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <content>
                                           <AnchorPane prefHeight="619.0" prefWidth="346.0">
                                              <children>

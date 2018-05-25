@@ -146,6 +146,10 @@ public class MainController implements Initializable {
     public void updateCart() {
         cartPane.getChildren().clear();
 
+
+
+
+
         cartTotal.setText("Totalt: " + (double) Math.round(shoppingCart.getTotal() * 100) / 100 + " kr");
         cartProducts.setText("Antal varor: " + countCartProducts() + " st");
 
@@ -475,6 +479,8 @@ public class MainController implements Initializable {
         leftPane.getChildren().addAll(orders);
     }
 
+
+
     public void categoryPressed(String label){
 
         if(middleStack.getChildren().contains(shopPage)){
@@ -572,9 +578,6 @@ public class MainController implements Initializable {
              ) {
 
             listItem.setStyle("-fx-background-color: #FDFDFD");
-            System.out.println(label);
-            //System.out.println(category.getTextLabelCategory());
-            System.out.println(listItem.getCategory());
 
             if(label.equals("   " + listItem.getCategory())){
                 listItem.setStyle("-fx-background-color: #E5E5E5");
@@ -625,7 +628,7 @@ public class MainController implements Initializable {
         s.replaceAll("WED", "ONS");
         s.replaceAll("MAY", "MAJ");
         //s = s.substring(0, s.length()-10);
-        System.out.println(s);
+        //System.out.println(s);
 
 
 
@@ -634,36 +637,80 @@ public class MainController implements Initializable {
 
     public void addToCartFromPrevious(){
         System.out.println("Inne i add to cart");
-        for (PreviousCartElement element: prevPage.getPreviousCartElements()
+        List<ShoppingItem> changeLater = new ArrayList<>();
+        List<ShoppingItem> increaseWith = new ArrayList<>();
+        List<ShoppingItem> addLater = new ArrayList<>();
+        changeLater.clear();
+        increaseWith.clear();
+        addLater.clear();
+
+
+        /*
+        for (ShoppingItem item: shoppingCart.getItems()
              ) {
-            isInCart(element.getShoppingItem());
-
-
-        }
-    }
-
-    private void isInCart(ShoppingItem item) {
-        for(ShoppingItem cartItem : shoppingCart.getItems()) {
-            if(cartItem.getProduct().equals(item.getProduct())) {
-
-                int itemAmount = (int)(cartItem.getAmount() + item.getAmount());
-                cartItem.setAmount(itemAmount);
-
-                break;
+            System.out.println("Getting shopping cart items");
+            for (ShoppingItem item2: prevPage.getRecentShoppingItems()
+                 ) {
+                System.out.println("Getting prevPage items");
+                if(item.getProduct().equals(item2.getProduct())){
+                    System.out.println("Identical items");
+                    changeLater.add(item);
+                    increaseWith.add(item2);
+                    System.out.println("PREVIOUS AMOUNT" + item2.getProduct().toString() + item2.getAmount());
+                    item2.getAmount();
+                    item2.getAmount();
+                    //item.setAmount(item.getAmount()+item2.getAmount());
+                }
+                else{
+                    System.out.println("Added new item");
+                    addLater.add(item2);
+                    //shoppingCart.addItem(item2);
+                }
             }
-            else{
-                shoppingCart.addItem(item);
 
-                break;
+
+        }*/
+
+        for (ShoppingItem prevItem: prevPage.getRecentShoppingItems()
+                ) {
+            if(!shoppingCart.getItems().contains(prevItem)){
+                System.out.println("Adding new item :D");
+                shoppingCart.addItem(prevItem);
             }
-
         }
-        if(shoppingCart.getTotal() == 0)
-            shoppingCart.addItem(item);
+
+        /*
+        int i = 0;
+        double tempAmount = 0;
+        for (ShoppingItem item: changeLater
+             ) {
+            if(item.getProduct().equals(increaseWith.get(i).getProduct()))
+                tempAmount = increaseWith.get(i).getAmount();
+                item.setAmount((item.getAmount()) + (tempAmount));
+            System.out.println("PREVIOUS AMOUNT" + increaseWith.get(i).getProduct().toString() + increaseWith.get(i).getAmount());
+            i++;
+        }*/
+
+        /*if(shoppingCart.getItems().isEmpty()){
+            System.out.println("Added new items!");
+            shoppingCart.getItems().addAll(prevPage.getRecentShoppingItems());
+        }*/
+
         updateCart();
 
 
+
+
+
+
+
     }
+
+
+
+
+
+
 
     @FXML
     public void clearHistory() {
