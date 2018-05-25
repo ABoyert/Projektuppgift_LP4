@@ -143,6 +143,7 @@ public class CheckoutInfo extends AnchorPane {
 
     @FXML
     public void backToStore() {
-        parentController.shopButtonPressed();
+        //parentController.shopButtonPressed();
+        parentController.goToKassaPressed();
     }
 }

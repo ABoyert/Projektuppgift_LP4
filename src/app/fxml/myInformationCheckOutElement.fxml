@@ -16,7 +16,7 @@
                      <Font size="27.0" />
                   </font>
                </Label>
-               <Button fx:id="myInformationBackButton" layoutX="387.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#backToStore" prefHeight="44.0" prefWidth="123.0" stylesheets="@main_style.css" text="Avbryt" AnchorPane.rightAnchor="14.599999999999966" />
+               <Button fx:id="myInformationBackButton" layoutX="314.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#backToStore" prefHeight="44.0" prefWidth="200.0" stylesheets="@main_style.css" text="Tillbaka till Översikt" AnchorPane.rightAnchor="10.0" />
             </children>
          </AnchorPane>
          <AnchorPane layoutY="79.0" prefHeight="642.0" styleClass="forground_colour" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
