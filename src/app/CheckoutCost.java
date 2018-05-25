@@ -29,6 +29,7 @@ public class CheckoutCost extends AnchorPane {
         }
 
         this.parentController = parentController;
+        nextButton.setText("Nästa");
         //productCost = parentController.cartTotal;
 
 
@@ -57,6 +58,7 @@ public class CheckoutCost extends AnchorPane {
             //clearFocus();
             //parentController.paymentSteps.get(1).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             System.out.println("TO STEP TWO");
+            nextButton.setText("Nästa");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.INFO)) {
             parentController.checkoutOverview.infoPage.saveInfo();
             //clearFocus();
