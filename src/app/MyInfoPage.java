@@ -7,9 +7,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MyInfoPage extends AnchorPane {
     @FXML
@@ -19,6 +22,7 @@ public class MyInfoPage extends AnchorPane {
             myDetailsZIPCode, myDetailsCity, mySocialSecurityNumber;
 
     MainController parentController;
+    List<TextArea> fieldList;
 
     public MyInfoPage(MainController parentController) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("fxml/mina_uppgifter_element.fxml"));
@@ -47,6 +51,8 @@ public class MyInfoPage extends AnchorPane {
         UtilityMethods.takeLettersOnly(myDetailsFirstName);
         UtilityMethods.takeLettersOnly(myDetailsLastName);
         UtilityMethods.takeLettersOnly(myDetailsCity);
+
+        fillList();
 
 
     }
@@ -94,8 +100,17 @@ public class MyInfoPage extends AnchorPane {
         else {
             myDetailsCity.setText("OGILTIG INFORMATION!");
             showErrorPopup("Stad får bara innehålla bokstäver!");
-
         }
+
+        if (isAllInfoEntered()) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Klart!");
+            alert.setHeaderText(null);
+            alert.setContentText("Din information är nu sparad!");
+            alert.showAndWait();
+            parentController.shopButtonPressed();
+        }
+
     }
 
     public boolean isNumber(String s) {
@@ -129,5 +144,30 @@ public class MyInfoPage extends AnchorPane {
         alert.setContentText(s);
 
         alert.showAndWait();
+    }
+
+    //myDetailsFirstName, myDetailsLastName, myDetailsPhoneNumber, myDetailsEmail, myDetailsAddress,
+    //myDetailsZIPCode, myDetailsCity
+
+    private void fillList() {
+        fieldList = new ArrayList<TextArea>();
+
+        fieldList.add(myDetailsFirstName);
+        fieldList.add(myDetailsLastName);
+        fieldList.add(myDetailsPhoneNumber);
+        fieldList.add(myDetailsEmail);
+        fieldList.add(myDetailsAddress);
+        fieldList.add(myDetailsZIPCode);
+        fieldList.add(myDetailsCity);
+    }
+
+    private boolean isAllInfoEntered() {
+        for (TextArea ta : fieldList) {
+            if (ta.getText().equals("")) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
