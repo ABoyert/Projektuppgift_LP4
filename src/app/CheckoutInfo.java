@@ -65,6 +65,10 @@ public class CheckoutInfo extends AnchorPane {
             parentController.middleStack.getChildren().add(cp);
             cp.toFront();
             parentController.checkoutState = MainController.CheckoutState.PAYMENT;
+            for (IMatCategoryElement c : parentController.paymentSteps) {
+                c.setStyle("");
+            }
+            parentController.paymentSteps.get(2).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }

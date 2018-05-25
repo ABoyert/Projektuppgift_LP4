@@ -54,18 +54,18 @@ public class CheckoutCost extends AnchorPane {
     public void goToNext() {
         if (parentController.checkoutState.equals(MainController.CheckoutState.OVERVIEW)) {
             parentController.checkoutOverview.placeOrder();
-            clearFocus();
-            parentController.paymentSteps.get(1).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+            //clearFocus();
+            //parentController.paymentSteps.get(1).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             System.out.println("TO STEP TWO");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.INFO)) {
             parentController.checkoutOverview.infoPage.saveInfo();
-            clearFocus();
-            parentController.paymentSteps.get(2).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+            //clearFocus();
+            //parentController.paymentSteps.get(2).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             System.out.println("TO STEP 3");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.PAYMENT)) {
             parentController.checkoutOverview.infoPage.cp.saveInfo();
-            clearFocus();
-            parentController.paymentSteps.get(3).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+            //clearFocus();
+            //parentController.paymentSteps.get(3).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             System.out.println("TO STEP 4");
             nextButton.setText("Tillbaka till butiken");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.DONE)) {

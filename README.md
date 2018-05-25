@@ -21,4 +21,3 @@ TODO:
 - Kunna tabba mellan fält när man fyller i uppgifter
 - Centrera klar-steget i kassan
 - Introvideo vid start
-- Highlightar nästa steg i kassa när man får upp error popup

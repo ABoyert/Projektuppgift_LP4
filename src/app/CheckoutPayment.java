@@ -142,6 +142,10 @@ public class CheckoutPayment extends AnchorPane {
         cd.toFront();
         parentController.db.placeOrder(true);
         parentController.checkoutState = MainController.CheckoutState.DONE;
+        for (IMatCategoryElement c : parentController.paymentSteps) {
+            c.setStyle("");
+        }
+        parentController.paymentSteps.get(3).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
     }
 
     private void fillTextAreaList() {

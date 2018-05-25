@@ -39,6 +39,10 @@ public class CheckoutOverview extends AnchorPane {
             parentController.middleStack.getChildren().add(infoPage);
             infoPage.toFront();
             parentController.checkoutState = MainController.CheckoutState.INFO;
+            for (IMatCategoryElement c : parentController.paymentSteps) {
+                c.setStyle("");
+            }
+            parentController.paymentSteps.get(1).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
         }
     }
 
