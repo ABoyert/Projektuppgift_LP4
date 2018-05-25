@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.String?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextArea?>
@@ -28,7 +29,10 @@
                   <styleClass>
                      <String fx:value="background_colour" />
                      <String fx:value="border" />
-                  </styleClass></TextArea>
+                  </styleClass>
+                  <cursor>
+                     <Cursor fx:constant="DEFAULT" />
+                  </cursor></TextArea>
                <ImageView fx:id="helpPageImageView" fitHeight="257.0" fitWidth="406.0" layoutX="14.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="1.0">
                   <image>
                      <Image url="@../../resources/Video.png" />

@@ -1090,13 +1090,6 @@
       <workItem from="1527170492482" duration="1479000" />
       <workItem from="1527236943157" duration="14362000" />
     </task>
-    <task id="LOCAL-00003" summary="cart overview fixed">
-      <created>1526479977367</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1526479977367</updated>
-    </task>
     <task id="LOCAL-00004" summary="category button pressed method">
       <created>1526480394130</created>
       <option name="number" value="00004" />
@@ -1433,7 +1426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527257325115</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Fixed helped to look better">
+      <created>1527257670859</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1527257670860</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1530,7 +1530,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done page better looking" />
     <MESSAGE value="nästa-button working" />
     <MESSAGE value="can reset program" />
     <MESSAGE value="fixed?" />
@@ -1555,7 +1554,8 @@
     <MESSAGE value="readme  update" />
     <MESSAGE value="design" />
     <MESSAGE value="fixfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixfix" />
+    <MESSAGE value="Fixed helped to look better" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed helped to look better" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
