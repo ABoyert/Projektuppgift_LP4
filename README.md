@@ -18,4 +18,4 @@ TODO:
 - Kunna tabba mellan fält när man fyller i uppgifter
 - Centrera klar-steget i kassan
 - Introvideo vid start
-- Flytta på tillbaka knappar annan design?
+- Flytta på tillbaka knappar? Annan design?
