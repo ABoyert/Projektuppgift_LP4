@@ -108,7 +108,7 @@
                      </StackPane>
                   </children>
                </AnchorPane>
-               <Button layoutX="308.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#goBack" text="Tillbaka till Uppgifter" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="8.0" />
+               <Button layoutX="308.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#goBack" prefHeight="42.0" prefWidth="224.0" text="Tillbaka till Uppgifter" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="8.0" />
             </children>
          </AnchorPane>
       </children>

@@ -531,6 +531,7 @@ public class MainController implements Initializable {
                     updateProducts(UtilityMethods.getCategory(UtilityMethods.Categories.DRYCKER), Sort.NONE);
                     break;
             }
+            shopButtonPressed();
             categorySetColor(label, categoryElements);
         }
 

@@ -4,8 +4,8 @@
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/mina_uppgifter_element.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/IMatCategoryElement.java" afterPath="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/paymentMethodCheckOut.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/paymentMethodCheckOut.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -102,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMatProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/IMatProduct.java">
+      <file leaf-file-name="IMatCategoryElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="510">
+              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -122,14 +122,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="494">
+              <caret line="533" column="32" lean-forward="true" selection-start-line="533" selection-start-column="32" selection-end-line="533" selection-end-column="32" />
               <folding>
-                <element signature="e#22740#22741#0" expanded="true" />
-                <element signature="e#22766#22767#0" expanded="true" />
+                <element signature="e#22773#22774#0" expanded="true" />
+                <element signature="e#22799#22800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,12 +148,12 @@
     <findStrings>
       <find>updateC</find>
       <find>my</find>
-      <find>categoryP</find>
       <find>goT</find>
       <find>1.</find>
       <find>sort</find>
       <find>goToKassa</find>
       <find>info</find>
+      <find>categoryP</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,16 +178,16 @@
         <option value="$PROJECT_DIR$/src/app/HelpPage.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml" />
         <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
-        <option value="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
         <option value="$PROJECT_DIR$/src/app/iMat.java" />
         <option value="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
         <option value="$PROJECT_DIR$/src/app/MyInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutCost.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
+        <option value="$PROJECT_DIR$/src/app/MainController.java" />
       </list>
     </option>
   </component>
@@ -513,14 +513,7 @@
       <workItem from="1527150872852" duration="12873000" />
       <workItem from="1527164890514" duration="5275000" />
       <workItem from="1527170492482" duration="1479000" />
-      <workItem from="1527236943157" duration="13222000" />
-    </task>
-    <task id="LOCAL-00001" summary="checkout showing products from cart">
-      <created>1526393280309</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1526393280309</updated>
+      <workItem from="1527236943157" duration="14245000" />
     </task>
     <task id="LOCAL-00002" summary="round numbers">
       <created>1526476909349</created>
@@ -858,11 +851,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527255182788</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="design">
+      <created>1527256291869</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1527256291870</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64197000" />
+    <option name="totallyTimeSpent" value="65220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -983,8 +983,8 @@
         <state relative-caret-position="7089">
           <caret line="417" column="24" lean-forward="true" selection-start-line="417" selection-start-column="24" selection-end-line="417" selection-end-column="24" />
           <folding>
-            <element signature="e#22740#22741#0" expanded="true" />
-            <element signature="e#22766#22767#0" expanded="true" />
+            <element signature="e#22773#22774#0" expanded="true" />
+            <element signature="e#22799#22800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1103,8 +1103,8 @@
         <state relative-caret-position="1768">
           <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding>
-            <element signature="e#22740#22741#0" expanded="true" />
-            <element signature="e#22766#22767#0" expanded="true" />
+            <element signature="e#22773#22774#0" expanded="true" />
+            <element signature="e#22799#22800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1122,8 +1122,8 @@
         <state relative-caret-position="5627">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
           <folding>
-            <element signature="e#22740#22741#0" expanded="true" />
-            <element signature="e#22766#22767#0" expanded="true" />
+            <element signature="e#22773#22774#0" expanded="true" />
+            <element signature="e#22799#22800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1169,8 +1169,8 @@
         <state relative-caret-position="5355">
           <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
           <folding>
-            <element signature="e#22740#22741#0" expanded="true" />
-            <element signature="e#22766#22767#0" expanded="true" />
+            <element signature="e#22773#22774#0" expanded="true" />
+            <element signature="e#22799#22800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1213,7 +1213,7 @@
         <state relative-caret-position="578">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1527255138708" expanded="true" signature="2896:2908" ph="..." />
+            <marker date="1527256301428" expanded="true" signature="2956:2968" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1283,14 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1338,17 +1330,6 @@
         <state relative-caret-position="459">
           <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#22740#22741#0" expanded="true" />
-            <element signature="e#22766#22767#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,6 +1382,25 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="533" column="32" lean-forward="true" selection-start-line="533" selection-start-column="32" selection-end-line="533" selection-end-column="32" />
+          <folding>
+            <element signature="e#22773#22774#0" expanded="true" />
+            <element signature="e#22799#22800#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
