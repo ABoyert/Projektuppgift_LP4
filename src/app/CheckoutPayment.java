@@ -104,11 +104,15 @@ public class CheckoutPayment extends AnchorPane {
     @FXML
     public void setCardVisa() {
         parentController.creditCard.setCardType("Visa");
+        cardMastercard.setStyle("");
+        cardVisa.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
     }
 
     @FXML
     public void setCardMastercard() {
         parentController.creditCard.setCardType("Mastercard");
+        cardVisa.setStyle("");
+        cardMastercard.setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
     }
 
     @FXML
