@@ -21,4 +21,4 @@ TODO:
 - Kunna tabba mellan fält när man fyller i uppgifter
 - Centrera klar-steget i kassan
 - Introvideo vid start
-- Varor försvinner inte i kassa overview då man klickar minus då antalet är 1
+- Highlightar nästa steg i kassa när man får upp error popup

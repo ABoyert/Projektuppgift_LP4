@@ -55,12 +55,19 @@ public class OverviewCartProduct extends AnchorPane {
     @FXML
     private void removeItem() {
         if (shoppingItem.getAmount() == 1) {
-            parentController.checkoutOverview.getChildren().remove(this);
-            parentController.shoppingCart.removeItem(shoppingItem);
-            parentController.checkoutOverview.getChildren().remove(this);
-            parentController.checkoutOverview.overviewCheckOutFlowPane.getChildren().remove(this);
-
-            parentController.callCheckoutOverviewUpdate();
+            if (isLastElement()) {
+                parentController.shoppingCart.removeItem(shoppingItem);
+                parentController.shopButtonPressed();
+            } else {
+                parentController.checkoutOverview.getChildren().remove(this);
+                parentController.shoppingCart.removeItem(shoppingItem);
+                parentController.checkoutOverview.getChildren().remove(this);
+                parentController.checkoutOverview.overviewCheckOutFlowPane.getChildren().remove(this);
+                parentController.callCheckoutOverviewUpdate();
+                parentController.checkoutOverview.updateView();
+                parentController.goToKassaPressed();
+                System.out.println("DELETE!");
+            }
         } else if (shoppingItem.getAmount() != 1) {
             shoppingItem.setAmount(shoppingItem.getAmount() - 1);
             cartElementTotalProduct.setText(shoppingItem.getAmount() + " st");
@@ -71,6 +78,14 @@ public class OverviewCartProduct extends AnchorPane {
             }
         }
         parentController.updateCC();
+    }
+
+    private boolean isLastElement() {
+        if (parentController.shoppingCart.getItems().size() == 1) {
+            return true;
+        }
+
+        return false;
     }
 
     @FXML
