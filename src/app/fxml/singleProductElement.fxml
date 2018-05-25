@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root prefHeight="460.0" prefWidth="778.0" stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root stylesheets="@main_style.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane minHeight="-Infinity" minWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.5" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <Button layoutX="7.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#closeMoreInfo" prefHeight="44.0" prefWidth="128.0" stylesheets="@main_style.css" text="Tillbaka" />
          <ImageView fx:id="productImage" fitHeight="240.0" fitWidth="240.0" layoutX="7.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" />
          <Label fx:id="productName" layoutX="271.0" layoutY="51.0" prefHeight="54.0" prefWidth="314.0" styleClass="font_28" stylesheets="@main_style.css" text="Name Name Name Name" wrapText="true">
             <font>
@@ -28,6 +27,7 @@
             </font></Label>
       </children>
    </AnchorPane>
+   <Button layoutX="639.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#closeMoreInfo" prefHeight="44.0" prefWidth="128.0" stylesheets="@main_style.css" text="Tillbaka" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="12.0" />
    <styleClass>
       <String fx:value="background_colour" />
       <String fx:value="border" />
