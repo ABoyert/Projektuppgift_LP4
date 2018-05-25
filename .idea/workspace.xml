@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,32 +15,479 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutCost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7830">
-              <caret line="305" column="86" lean-forward="false" selection-start-line="305" selection-start-column="86" selection-end-line="305" selection-end-column="86" />
+            <state relative-caret-position="169">
+              <caret line="432" column="73" lean-forward="false" selection-start-line="432" selection-start-column="73" selection-end-line="432" selection-end-column="73" />
+              <folding>
+                <element signature="e#22845#22846#0" expanded="true" />
+                <element signature="e#22871#22872#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imat_cart_product.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMatCartProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="37" column="107" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iMat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
+      <file leaf-file-name="OverviewCartProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+              <folding>
+                <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
-              <folding />
+      <file leaf-file-name="JAVA/app" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/app">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>app</OriginalElement>
+              <nodes>
+                <node x="2246.1373005255614" y="2312.5">app.IMatCartProduct</node>
+                <node x="1293.62755414875" y="3008.0">app.MainController</node>
+                <node x="2846.1373005255614" y="2434.5">app.MainController.Sort</node>
+                <node x="2600.6373005255614" y="1893.5">app.HelpQuestion</node>
+                <node x="1167.5507437490048" y="762.0">app.MainController.CheckoutState</node>
+                <node x="433.7330175983434" y="1794.0">app.OverviewCartProduct</node>
+                <node x="398.8319186972444" y="0.0">app.UtilityMethods.Categories</node>
+                <node x="3012.1373005255614" y="0.0">app.iMat</node>
+                <node x="1461.1661283643896" y="2389.0">app.CheckoutCost</node>
+                <node x="1417.12755414875" y="4849.0">app.MainController.States</node>
+                <node x="807.7330175983434" y="1761.0">app.CheckoutInfo</node>
+                <node x="2596.1373005255614" y="2422.5">app.HelpPage</node>
+                <node x="913.0901604554863" y="2389.5">app.CheckoutOverview</node>
+                <node x="1222.705545070871" y="1154.0">app.CheckoutPayment</node>
+                <node x="85.44455605988173" y="1783.0">app.ProductInfo</node>
+                <node x="648.6269067526672" y="607.0">app.MyInfoPage</node>
+                <node x="1508.8614516642776" y="342.0">app.IMatCategoryElement</node>
+                <node x="3226.1373005255614" y="0.0">app.fxml</node>
+                <node x="1750.396897595159" y="2345.0">app.PreviousPurchasesPage</node>
+                <node x="400.0819186972444" y="321.0">app.UtilityMethods</node>
+                <node x="1874.1373005255614" y="1827.0">app.PreviousCartElement</node>
+                <node x="1402.9161283643896" y="739.0">app.CheckoutDone</node>
+                <node x="10.5" y="2246.0">app.IMatProduct</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="app.MainController" target="app.PreviousPurchasesPage">
+                  <point x="76.73076923076923" y="-895.5" />
+                  <point x="1560.3583233795193" y="2838.0" />
+                  <point x="1880.896897595159" y="2838.0" />
+                  <point x="-43.5" y="137.0" />
+                </edge>
+                <edge source="app.UtilityMethods.Categories" target="app.UtilityMethods">
+                  <point x="47.0" y="135.5" />
+                  <point x="516.3319186972444" y="296.0" />
+                  <point x="607.8319186972444" y="296.0" />
+                  <point x="69.25" y="-103.0" />
+                </edge>
+                <edge source="app.PreviousPurchasesPage" target="app.MainController">
+                  <point x="43.5" y="137.0" />
+                  <point x="1967.896897595159" y="2848.0" />
+                  <point x="1567.6660156872117" y="2848.0" />
+                  <point x="84.03846153846155" y="-895.5" />
+                </edge>
+                <edge source="app.MainController" target="app.MainController.Sort">
+                  <point x="179.03846153846155" y="-895.5" />
+                  <point x="1662.6660156872117" y="2978.0" />
+                  <point x="2876.3873005255614" y="2978.0" />
+                  <point x="-30.25" y="47.5" />
+                </edge>
+                <edge source="app.MainController" target="app.IMatCartProduct">
+                  <point x="135.19230769230768" y="-895.5" />
+                  <point x="1618.8198618410577" y="2918.0" />
+                  <point x="2369.5123005255614" y="2918.0" />
+                  <point x="-41.125" y="169.5" />
+                </edge>
+                <edge source="app.CheckoutPayment" target="app.IMatCategoryElement">
+                  <point x="36.85714285714289" y="-268.5" />
+                  <point x="1388.562687928014" y="1134.0" />
+                  <point x="1392.4161283643896" y="1134.0" />
+                  <point x="1392.4161283643896" y="577.0" />
+                  <point x="1586.8614516642776" y="577.0" />
+                  <point x="-78.0" y="82.0" />
+                </edge>
+                <edge source="app.IMatCategoryElement" target="app.MainController">
+                  <point x="109.19999999999987" y="82.0" />
+                  <point x="1774.0614516642775" y="587.0" />
+                  <point x="2235.6373005255614" y="587.0" />
+                  <point x="2235.6373005255614" y="2898.0" />
+                  <point x="1604.2044772256731" y="2898.0" />
+                  <point x="120.5769230769231" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutCost" target="app.IMatCategoryElement">
+                  <point x="59.75" y="-93.0" />
+                  <point x="1640.4161283643896" y="2226.0" />
+                  <point x="1652.4161283643896" y="2226.0" />
+                  <point x="1652.4161283643896" y="587.0" />
+                  <point x="1649.2614516642777" y="587.0" />
+                  <point x="-15.599999999999909" y="82.0" />
+                </edge>
+                <edge source="app.CheckoutInfo" target="app.CheckoutPayment">
+                  <point x="70.85714285714289" y="-202.5" />
+                  <point x="1002.5901604554863" y="1731.0" />
+                  <point x="1254.955545070871" y="1731.0" />
+                  <point x="-96.75" y="268.5" />
+                </edge>
+                <edge source="app.MainController" target="app.UtilityMethods">
+                  <point x="-127.8846153846157" y="-895.5" />
+                  <point x="1355.7429387641344" y="2908.0" />
+                  <point x="394.002248367574" y="2908.0" />
+                  <point x="394.002248367574" y="587.0" />
+                  <point x="515.498585363911" y="587.0" />
+                  <point x="-23.08333333333337" y="103.0" />
+                </edge>
+                <edge source="app.CheckoutDone" target="app.IMatCategoryElement">
+                  <point x="0.0" y="-81.5" />
+                  <point x="1522.4161283643896" y="587.0" />
+                  <point x="1618.0614516642775" y="587.0" />
+                  <point x="-46.80000000000018" y="82.0" />
+                </edge>
+                <edge source="app.UtilityMethods" target="app.UtilityMethods.Categories">
+                  <point x="-69.25" y="-103.0" />
+                  <point x="0.0" y="135.5" />
+                </edge>
+                <edge source="app.IMatProduct" target="app.MainController">
+                  <point x="134.4000000000001" y="236.0" />
+                  <point x="312.9000000000001" y="2938.0" />
+                  <point x="1333.8198618410574" y="2938.0" />
+                  <point x="-149.80769230769266" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutPayment" target="app.CheckoutDone">
+                  <point x="73.71428571428567" y="-268.5" />
+                  <point x="1425.4198307851566" y="1134.0" />
+                  <point x="1432.7911283643896" y="1134.0" />
+                  <point x="-89.625" y="81.5" />
+                </edge>
+                <edge source="app.CheckoutPayment" target="app.MyInfoPage">
+                  <point x="-73.71428571428578" y="-268.5" />
+                  <point x="1277.9912593565853" y="1074.0" />
+                  <point x="884.8769067526672" y="1074.0" />
+                  <point x="110.25" y="213.5" />
+                </edge>
+                <edge source="app.CheckoutPayment" target="app.MainController.CheckoutState">
+                  <point x="-36.85714285714289" y="-268.5" />
+                  <point x="1314.8484022137281" y="1064.0" />
+                  <point x="1265.7650294632906" y="1064.0" />
+                  <point x="35.71428571428572" y="58.5" />
+                </edge>
+                <edge source="app.CheckoutInfo" target="app.MainController.CheckoutState">
+                  <point x="35.42857142857156" y="-202.5" />
+                  <point x="967.161589026915" y="1721.0" />
+                  <point x="1053.8026915113871" y="1721.0" />
+                  <point x="1053.8026915113871" y="1094.0" />
+                  <point x="1176.4793151775764" y="1094.0" />
+                  <point x="-53.571428571428555" y="58.5" />
+                </edge>
+                <edge source="app.MainController.CheckoutState" target="app.MainController">
+                  <point x="17.85714285714289" y="58.5" />
+                  <point x="1247.9078866061477" y="1134.0" />
+                  <point x="1212.205545070871" y="1134.0" />
+                  <point x="1212.205545070871" y="2758.0" />
+                  <point x="1465.358323379519" y="2758.0" />
+                  <point x="-18.269230769230887" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutOverview" target="app.MainController.CheckoutState">
+                  <point x="114.16666666666652" y="-92.5" />
+                  <point x="1164.2568271221528" y="2226.0" />
+                  <point x="1146.9234937888195" y="2226.0" />
+                  <point x="1146.9234937888195" y="1104.0" />
+                  <point x="1194.3364580347193" y="1104.0" />
+                  <point x="-35.71428571428572" y="58.5" />
+                </edge>
+                <edge source="app.IMatCartProduct" target="app.MainController">
+                  <point x="41.125" y="169.5" />
+                  <point x="2451.7623005255614" y="2928.0" />
+                  <point x="1626.12755414875" y="2928.0" />
+                  <point x="142.5" y="-895.5" />
+                </edge>
+                <edge source="app.ProductInfo" target="app.IMatProduct">
+                  <point x="-24.583333333333485" y="180.5" />
+                  <point x="208.36122272654825" y="2216.0" />
+                  <point x="262.5" y="2216.0" />
+                  <point x="84.0" y="-236.0" />
+                </edge>
+                <edge source="app.HelpPage" target="app.HelpQuestion">
+                  <point x="76.66666666666663" y="-59.5" />
+                  <point x="2787.803967192228" y="2226.0" />
+                  <point x="2784.803967192228" y="2226.0" />
+                  <point x="73.66666666666669" y="70.0" />
+                </edge>
+                <edge source="app.MainController.Sort" target="app.MainController">
+                  <point x="30.25" y="47.5" />
+                  <point x="2936.8873005255614" y="2988.0" />
+                  <point x="1669.9737079949039" y="2988.0" />
+                  <point x="186.3461538461538" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutDone" target="app.MainController">
+                  <point x="29.875" y="81.5" />
+                  <point x="1552.2911283643896" y="1134.0" />
+                  <point x="1710.6661283643896" y="1134.0" />
+                  <point x="1710.6661283643896" y="2778.0" />
+                  <point x="1516.5121695333655" y="2778.0" />
+                  <point x="32.88461538461536" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutPayment" target="app.MainController">
+                  <point x="96.75" y="268.5" />
+                  <point x="1448.455545070871" y="1741.0" />
+                  <point x="1411.8326055104314" y="1741.0" />
+                  <point x="1411.8326055104314" y="2738.0" />
+                  <point x="1479.9737079949039" y="2738.0" />
+                  <point x="-3.6538461538462457" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutCost" target="app.MainController.CheckoutState">
+                  <point x="-59.75" y="-93.0" />
+                  <point x="1520.9161283643896" y="1054.0" />
+                  <point x="1283.6221723204335" y="1054.0" />
+                  <point x="53.571428571428555" y="58.5" />
+                </edge>
+                <edge source="app.CheckoutInfo" target="app.MyInfoPage">
+                  <point x="-70.85714285714289" y="-202.5" />
+                  <point x="860.8758747412005" y="1731.0" />
+                  <point x="800.6269067526672" y="1731.0" />
+                  <point x="800.6269067526672" y="1134.0" />
+                  <point x="790.3769067526672" y="1134.0" />
+                  <point x="15.75" y="213.5" />
+                </edge>
+                <edge source="app.MyInfoPage" target="app.MainController">
+                  <point x="-78.75" y="213.5" />
+                  <point x="695.8769067526672" y="1114.0" />
+                  <point x="408.61763298295864" y="1114.0" />
+                  <point x="408.61763298295864" y="2888.0" />
+                  <point x="1370.3583233795189" y="2888.0" />
+                  <point x="-113.26923076923106" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutPayment" target="app.UtilityMethods">
+                  <point x="0.0" y="-268.5" />
+                  <point x="1351.705545070871" y="1134.0" />
+                  <point x="1381.4161283643896" y="1134.0" />
+                  <point x="1381.4161283643896" y="547.0" />
+                  <point x="653.998585363911" y="547.0" />
+                  <point x="115.41666666666663" y="103.0" />
+                </edge>
+                <edge source="app.MainController.States" target="app.MainController">
+                  <point x="0.0" y="-58.5" />
+                  <point x="0.0" y="895.5" />
+                </edge>
+                <edge source="app.MainController" target="app.IMatCategoryElement">
+                  <point x="157.11538461538464" y="-895.5" />
+                  <point x="1640.7429387641346" y="2948.0" />
+                  <point x="2585.6373005255614" y="2948.0" />
+                  <point x="2585.6373005255614" y="577.0" />
+                  <point x="1805.2614516642777" y="577.0" />
+                  <point x="140.40000000000015" y="82.0" />
+                </edge>
+                <edge source="app.OverviewCartProduct" target="app.MainController">
+                  <point x="-132.75" y="169.5" />
+                  <point x="477.9830175983434" y="2226.0" />
+                  <point x="526.354928730689" y="2226.0" />
+                  <point x="526.354928730689" y="2858.0" />
+                  <point x="1392.281400302596" y="2858.0" />
+                  <point x="-91.3461538461541" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutCost" target="app.MainController">
+                  <point x="29.875" y="93.0" />
+                  <point x="1610.5411283643896" y="2758.0" />
+                  <point x="1501.8967849179808" y="2758.0" />
+                  <point x="18.269230769230717" y="-895.5" />
+                </edge>
+                <edge source="app.CheckoutOverview" target="app.OverviewCartProduct">
+                  <point x="-114.16666666666652" y="-92.5" />
+                  <point x="935.9234937888198" y="2216.0" />
+                  <point x="654.9830175983434" y="2216.0" />
+                  <point x="44.25" y="169.5" />
+                </edge>
+                <edge source="app.CheckoutOverview" target="app.MainController">
+                  <point x="34.25" y="92.5" />
+                  <point x="1084.3401604554863" y="2798.0" />
+                  <point x="1436.1275541487498" y="2798.0" />
+                  <point x="-47.50000000000017" y="-895.5" />
+                </edge>
+                <edge source="app.PreviousPurchasesPage" target="app.PreviousCartElement">
+                  <point x="87.0" y="-137.0" />
+                  <point x="2011.396897595159" y="2226.0" />
+                  <point x="1979.437300525561" y="2226.0" />
+                  <point x="-70.20000000000005" y="136.5" />
+                </edge>
+                <edge source="app.MainController" target="app.UtilityMethods.Categories">
+                  <point x="-186.34615384615427" y="-895.5" />
+                  <point x="1297.2814003025958" y="2988.0" />
+                  <point x="0.0" y="2988.0" />
+                  <point x="0.0" y="296.0" />
+                  <point x="422.3319186972444" y="296.0" />
+                  <point x="-47.0" y="135.5" />
+                </edge>
+                <edge source="app.IMatProduct" target="app.UtilityMethods">
+                  <point x="-140.0" y="-236.0" />
+                  <point x="38.5" y="2226.0" />
+                  <point x="63.944556059881506" y="2226.0" />
+                  <point x="63.944556059881506" y="567.0" />
+                  <point x="423.1652520305778" y="567.0" />
+                  <point x="-115.41666666666663" y="103.0" />
+                </edge>
+                <edge source="app.CheckoutInfo" target="app.UtilityMethods">
+                  <point x="-106.28571428571422" y="-202.5" />
+                  <point x="825.4473033126292" y="1741.0" />
+                  <point x="638.1269067526672" y="1741.0" />
+                  <point x="638.1269067526672" y="587.0" />
+                  <point x="561.6652520305777" y="587.0" />
+                  <point x="23.083333333333258" y="103.0" />
+                </edge>
+                <edge source="app.CheckoutOverview" target="app.CheckoutInfo">
+                  <point x="22.833333333333258" y="-92.5" />
+                  <point x="1072.9234937888195" y="2186.0" />
+                  <point x="1024.7330175983434" y="2186.0" />
+                  <point x="93.0" y="202.5" />
+                </edge>
+                <edge source="app.CheckoutInfo" target="app.MainController">
+                  <point x="-31.0" y="202.5" />
+                  <point x="900.7330175983434" y="2828.0" />
+                  <point x="1414.204477225673" y="2828.0" />
+                  <point x="-69.42307692307713" y="-895.5" />
+                </edge>
+                <edge source="app.MainController" target="app.MainController.CheckoutState">
+                  <point x="-32.88461538461553" y="-895.5" />
+                  <point x="1450.7429387641346" y="2778.0" />
+                  <point x="1197.5901604554863" y="2778.0" />
+                  <point x="1197.5901604554863" y="1114.0" />
+                  <point x="1212.193600891862" y="1114.0" />
+                  <point x="-17.857142857142833" y="58.5" />
+                </edge>
+                <edge source="app.MyInfoPage" target="app.UtilityMethods">
+                  <point x="0.0" y="-213.5" />
+                  <point x="774.6269067526672" y="577.0" />
+                  <point x="607.8319186972444" y="577.0" />
+                  <point x="69.25" y="103.0" />
+                </edge>
+                <edge source="app.CheckoutOverview" target="app.IMatCategoryElement">
+                  <point x="68.5" y="-92.5" />
+                  <point x="1118.5901604554863" y="2226.0" />
+                  <point x="1125.2440066093325" y="2226.0" />
+                  <point x="1125.2440066093325" y="567.0" />
+                  <point x="1555.6614516642778" y="567.0" />
+                  <point x="-109.19999999999982" y="82.0" />
+                </edge>
+                <edge source="app.IMatProduct" target="app.ProductInfo">
+                  <point x="-28.0" y="-236.0" />
+                  <point x="150.5" y="2226.0" />
+                  <point x="110.02788939321522" y="2226.0" />
+                  <point x="-122.91666666666652" y="180.5" />
+                </edge>
+                <edge source="app.MainController" target="app.PreviousCartElement">
+                  <point x="98.65384615384619" y="-895.5" />
+                  <point x="1582.2814003025962" y="2868.0" />
+                  <point x="2108.8968975951593" y="2868.0" />
+                  <point x="2108.8968975951593" y="2226.0" />
+                  <point x="2049.6373005255614" y="2226.0" />
+                  <point x="0.0" y="136.5" />
+                </edge>
+                <edge source="app.PreviousCartElement" target="app.MainController">
+                  <point x="70.20000000000005" y="136.5" />
+                  <point x="2119.837300525561" y="2226.0" />
+                  <point x="2143.8246695333655" y="2226.0" />
+                  <point x="2143.8246695333655" y="2878.0" />
+                  <point x="1589.5890926102884" y="2878.0" />
+                  <point x="105.96153846153845" y="-895.5" />
+                </edge>
+                <edge source="app.MainController" target="app.CheckoutOverview">
+                  <point x="-54.80769230769249" y="-895.5" />
+                  <point x="1428.8198618410574" y="2808.0" />
+                  <point x="1015.8401604554863" y="2808.0" />
+                  <point x="-34.25" y="92.5" />
+                </edge>
+                <edge source="app.MainController" target="app.HelpPage">
+                  <point x="171.73076923076923" y="-895.5" />
+                  <point x="1655.3583233795193" y="2968.0" />
+                  <point x="2768.6373005255614" y="2968.0" />
+                  <point x="57.5" y="59.5" />
+                </edge>
+                <edge source="app.ProductInfo" target="app.MainController">
+                  <point x="73.75" y="180.5" />
+                  <point x="306.69455605988173" y="2196.0" />
+                  <point x="379.38686375218936" y="2196.0" />
+                  <point x="379.38686375218936" y="2928.0" />
+                  <point x="1341.1275541487498" y="2928.0" />
+                  <point x="-142.50000000000034" y="-895.5" />
+                </edge>
+                <edge source="app.MainController" target="app.IMatProduct">
+                  <point x="-179.03846153846195" y="-895.5" />
+                  <point x="1304.5890926102882" y="2978.0" />
+                  <point x="44.09999999999991" y="2978.0" />
+                  <point x="-134.4000000000001" y="236.0" />
+                </edge>
+                <edge source="app.MainController" target="app.CheckoutCost">
+                  <point x="10.961538461538396" y="-895.5" />
+                  <point x="1494.5890926102884" y="2748.0" />
+                  <point x="1550.7911283643896" y="2748.0" />
+                  <point x="-29.875" y="93.0" />
+                </edge>
+                <edge source="app.CheckoutInfo" target="app.IMatCategoryElement">
+                  <point x="0.0" y="-202.5" />
+                  <point x="931.7330175983434" y="1711.0" />
+                  <point x="976.6826871317083" y="1711.0" />
+                  <point x="976.6826871317083" y="557.0" />
+                  <point x="1524.4614516642775" y="557.0" />
+                  <point x="-140.4000000000001" y="82.0" />
+                </edge>
+                <edge source="app.MainController" target="app.MyInfoPage">
+                  <point x="-120.57692307692338" y="-895.5" />
+                  <point x="1363.0506310718267" y="2898.0" />
+                  <point x="401.3099406752664" y="2898.0" />
+                  <point x="401.3099406752664" y="1104.0" />
+                  <point x="664.3769067526672" y="1104.0" />
+                  <point x="-110.25" y="213.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="426.9999999999999" y="1905.0" />
+              <SelectedNodes>
+                <node>app.IMatCartProduct</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -64,6 +511,7 @@
       <find>goToKassa</find>
       <find>info</find>
       <find>categoryP</find>
+      <find>tot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,6 +575,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,9 +606,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,213 +629,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/MainController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/PreviousPurchasesPage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/fxml/imat_main.fxml</PATH>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -395,49 +638,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/fxml/LeftPreviousPane.fxml</PATH>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -445,41 +645,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -487,41 +652,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="RESTORED" />
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" />
-            <option name="myStatusName" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" />
-          </FILE-GROUP>
         </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
@@ -530,41 +660,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MODIFIED" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Skipped" />
@@ -572,41 +667,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="SKIPPED" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged with conflicts" />
@@ -614,41 +674,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged with tree conflicts" />
@@ -656,41 +681,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged with property conflicts" />
@@ -698,41 +688,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged" />
@@ -740,41 +695,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Not in repository" />
@@ -782,41 +702,6 @@
         <option name="mySupportsDeletion" value="true" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="UNKNOWN" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Locally added" />
@@ -824,41 +709,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="LOCALLY_ADDED" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Locally removed" />
@@ -866,41 +716,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="LOCALLY_REMOVED" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Switched" />
@@ -908,41 +723,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="SWITCHED" />
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" />
-          <option name="myStatusName" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" />
-        </FILE-GROUP>
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
@@ -1088,7 +868,14 @@
       <workItem from="1527150872852" duration="12873000" />
       <workItem from="1527164890514" duration="5275000" />
       <workItem from="1527170492482" duration="1479000" />
-      <workItem from="1527236943157" duration="14362000" />
+      <workItem from="1527236943157" duration="16215000" />
+    </task>
+    <task id="LOCAL-00004" summary="category button pressed method">
+      <created>1526480394130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526480394130</updated>
     </task>
     <task id="LOCAL-00005" summary="category button pressed method">
       <created>1526632924742</created>
@@ -1419,28 +1206,22 @@
       <option name="project" value="LOCAL" />
       <updated>1527257325115</updated>
     </task>
-    <task id="LOCAL-00052" summary="Fixed helped to look better">
-      <created>1527257670859</created>
+    <task id="LOCAL-00052" summary="helpp text">
+      <created>1527257438443</created>
       <option name="number" value="00052" />
       <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1527257670860</updated>
+      <updated>1527257438443</updated>
     </task>
-    <task id="LOCAL-00053" summary="Fixed helped to look better">
-      <created>1527257731307</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1527257731308</updated>
-    </task>
-    <option name="localTasksCounter" value="54" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65337000" />
+    <option name="totallyTimeSpent" value="67190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1450,12 +1231,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33072627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33163783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1463,34 +1246,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33163783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1554,8 +1315,8 @@
     <MESSAGE value="readme  update" />
     <MESSAGE value="design" />
     <MESSAGE value="fixfix" />
-    <MESSAGE value="Fixed helped to look better" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed helped to look better" />
+    <MESSAGE value="helpp text" />
+    <option name="LAST_COMMIT_MESSAGE" value="helpp text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1564,37 +1325,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7089">
-          <caret line="417" column="24" lean-forward="true" selection-start-line="417" selection-start-column="24" selection-end-line="417" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,7 +1369,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="60" column="78" lean-forward="false" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
-          <folding />
+          <folding>
+            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1642,7 +1379,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
-          <folding />
+          <folding>
+            <element signature="method#saveInfo#0;class#MyInfoPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1658,10 +1397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1685,7 +1421,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="55" column="78" lean-forward="true" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
-          <folding />
+          <folding>
+            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1693,7 +1431,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#22845#22846#0" expanded="true" />
+            <element signature="e#22871#22872#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,7 +1450,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5627">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
-          <folding />
+          <folding>
+            <element signature="e#22845#22846#0" expanded="true" />
+            <element signature="e#22871#22872#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1717,10 +1461,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1738,7 +1479,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
+          <folding>
+            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1754,7 +1497,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5355">
           <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#22845#22846#0" expanded="true" />
+            <element signature="e#22871#22872#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1771,6 +1517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1782,23 +1529,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fxml/singleProductElement.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1527256301428" expanded="true" signature="2956:2968" ph="..." />
+          </folding>
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/ProductInfo.java">
@@ -1832,25 +1573,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="220" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1527252994511" expanded="true" signature="2043:2055" ph="..." />
+          </folding>
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
@@ -1863,8 +1606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="153">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1881,14 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -1942,15 +1677,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="69" column="67" lean-forward="false" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1959,11 +1696,498 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">app</node>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">resources</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">se</node>
+            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">javafx</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="186.0" y="199.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/app">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>app</OriginalElement>
+          <nodes>
+            <node x="2246.1373005255614" y="2312.5">app.IMatCartProduct</node>
+            <node x="1293.62755414875" y="3008.0">app.MainController</node>
+            <node x="2846.1373005255614" y="2434.5">app.MainController.Sort</node>
+            <node x="2600.6373005255614" y="1893.5">app.HelpQuestion</node>
+            <node x="1167.5507437490048" y="762.0">app.MainController.CheckoutState</node>
+            <node x="433.7330175983434" y="1794.0">app.OverviewCartProduct</node>
+            <node x="398.8319186972444" y="0.0">app.UtilityMethods.Categories</node>
+            <node x="3012.1373005255614" y="0.0">app.iMat</node>
+            <node x="1461.1661283643896" y="2389.0">app.CheckoutCost</node>
+            <node x="1417.12755414875" y="4849.0">app.MainController.States</node>
+            <node x="807.7330175983434" y="1761.0">app.CheckoutInfo</node>
+            <node x="2596.1373005255614" y="2422.5">app.HelpPage</node>
+            <node x="913.0901604554863" y="2389.5">app.CheckoutOverview</node>
+            <node x="1222.705545070871" y="1154.0">app.CheckoutPayment</node>
+            <node x="85.44455605988173" y="1783.0">app.ProductInfo</node>
+            <node x="648.6269067526672" y="607.0">app.MyInfoPage</node>
+            <node x="1508.8614516642776" y="342.0">app.IMatCategoryElement</node>
+            <node x="3226.1373005255614" y="0.0">app.fxml</node>
+            <node x="1750.396897595159" y="2345.0">app.PreviousPurchasesPage</node>
+            <node x="400.0819186972444" y="321.0">app.UtilityMethods</node>
+            <node x="1874.1373005255614" y="1827.0">app.PreviousCartElement</node>
+            <node x="1402.9161283643896" y="739.0">app.CheckoutDone</node>
+            <node x="10.5" y="2246.0">app.IMatProduct</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="app.MainController" target="app.PreviousPurchasesPage">
+              <point x="76.73076923076923" y="-895.5" />
+              <point x="1560.3583233795193" y="2838.0" />
+              <point x="1880.896897595159" y="2838.0" />
+              <point x="-43.5" y="137.0" />
+            </edge>
+            <edge source="app.UtilityMethods.Categories" target="app.UtilityMethods">
+              <point x="47.0" y="135.5" />
+              <point x="516.3319186972444" y="296.0" />
+              <point x="607.8319186972444" y="296.0" />
+              <point x="69.25" y="-103.0" />
+            </edge>
+            <edge source="app.PreviousPurchasesPage" target="app.MainController">
+              <point x="43.5" y="137.0" />
+              <point x="1967.896897595159" y="2848.0" />
+              <point x="1567.6660156872117" y="2848.0" />
+              <point x="84.03846153846155" y="-895.5" />
+            </edge>
+            <edge source="app.MainController" target="app.MainController.Sort">
+              <point x="179.03846153846155" y="-895.5" />
+              <point x="1662.6660156872117" y="2978.0" />
+              <point x="2876.3873005255614" y="2978.0" />
+              <point x="-30.25" y="47.5" />
+            </edge>
+            <edge source="app.MainController" target="app.IMatCartProduct">
+              <point x="135.19230769230768" y="-895.5" />
+              <point x="1618.8198618410577" y="2918.0" />
+              <point x="2369.5123005255614" y="2918.0" />
+              <point x="-41.125" y="169.5" />
+            </edge>
+            <edge source="app.CheckoutPayment" target="app.IMatCategoryElement">
+              <point x="36.85714285714289" y="-268.5" />
+              <point x="1388.562687928014" y="1134.0" />
+              <point x="1392.4161283643896" y="1134.0" />
+              <point x="1392.4161283643896" y="577.0" />
+              <point x="1586.8614516642776" y="577.0" />
+              <point x="-78.0" y="82.0" />
+            </edge>
+            <edge source="app.IMatCategoryElement" target="app.MainController">
+              <point x="109.19999999999987" y="82.0" />
+              <point x="1774.0614516642775" y="587.0" />
+              <point x="2235.6373005255614" y="587.0" />
+              <point x="2235.6373005255614" y="2898.0" />
+              <point x="1604.2044772256731" y="2898.0" />
+              <point x="120.5769230769231" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutCost" target="app.IMatCategoryElement">
+              <point x="59.75" y="-93.0" />
+              <point x="1640.4161283643896" y="2226.0" />
+              <point x="1652.4161283643896" y="2226.0" />
+              <point x="1652.4161283643896" y="587.0" />
+              <point x="1649.2614516642777" y="587.0" />
+              <point x="-15.599999999999909" y="82.0" />
+            </edge>
+            <edge source="app.CheckoutInfo" target="app.CheckoutPayment">
+              <point x="70.85714285714289" y="-202.5" />
+              <point x="1002.5901604554863" y="1731.0" />
+              <point x="1254.955545070871" y="1731.0" />
+              <point x="-96.75" y="268.5" />
+            </edge>
+            <edge source="app.MainController" target="app.UtilityMethods">
+              <point x="-127.8846153846157" y="-895.5" />
+              <point x="1355.7429387641344" y="2908.0" />
+              <point x="394.002248367574" y="2908.0" />
+              <point x="394.002248367574" y="587.0" />
+              <point x="515.498585363911" y="587.0" />
+              <point x="-23.08333333333337" y="103.0" />
+            </edge>
+            <edge source="app.CheckoutDone" target="app.IMatCategoryElement">
+              <point x="0.0" y="-81.5" />
+              <point x="1522.4161283643896" y="587.0" />
+              <point x="1618.0614516642775" y="587.0" />
+              <point x="-46.80000000000018" y="82.0" />
+            </edge>
+            <edge source="app.UtilityMethods" target="app.UtilityMethods.Categories">
+              <point x="-69.25" y="-103.0" />
+              <point x="0.0" y="135.5" />
+            </edge>
+            <edge source="app.IMatProduct" target="app.MainController">
+              <point x="134.4000000000001" y="236.0" />
+              <point x="312.9000000000001" y="2938.0" />
+              <point x="1333.8198618410574" y="2938.0" />
+              <point x="-149.80769230769266" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutPayment" target="app.CheckoutDone">
+              <point x="73.71428571428567" y="-268.5" />
+              <point x="1425.4198307851566" y="1134.0" />
+              <point x="1432.7911283643896" y="1134.0" />
+              <point x="-89.625" y="81.5" />
+            </edge>
+            <edge source="app.CheckoutPayment" target="app.MyInfoPage">
+              <point x="-73.71428571428578" y="-268.5" />
+              <point x="1277.9912593565853" y="1074.0" />
+              <point x="884.8769067526672" y="1074.0" />
+              <point x="110.25" y="213.5" />
+            </edge>
+            <edge source="app.CheckoutPayment" target="app.MainController.CheckoutState">
+              <point x="-36.85714285714289" y="-268.5" />
+              <point x="1314.8484022137281" y="1064.0" />
+              <point x="1265.7650294632906" y="1064.0" />
+              <point x="35.71428571428572" y="58.5" />
+            </edge>
+            <edge source="app.CheckoutInfo" target="app.MainController.CheckoutState">
+              <point x="35.42857142857156" y="-202.5" />
+              <point x="967.161589026915" y="1721.0" />
+              <point x="1053.8026915113871" y="1721.0" />
+              <point x="1053.8026915113871" y="1094.0" />
+              <point x="1176.4793151775764" y="1094.0" />
+              <point x="-53.571428571428555" y="58.5" />
+            </edge>
+            <edge source="app.MainController.CheckoutState" target="app.MainController">
+              <point x="17.85714285714289" y="58.5" />
+              <point x="1247.9078866061477" y="1134.0" />
+              <point x="1212.205545070871" y="1134.0" />
+              <point x="1212.205545070871" y="2758.0" />
+              <point x="1465.358323379519" y="2758.0" />
+              <point x="-18.269230769230887" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutOverview" target="app.MainController.CheckoutState">
+              <point x="114.16666666666652" y="-92.5" />
+              <point x="1164.2568271221528" y="2226.0" />
+              <point x="1146.9234937888195" y="2226.0" />
+              <point x="1146.9234937888195" y="1104.0" />
+              <point x="1194.3364580347193" y="1104.0" />
+              <point x="-35.71428571428572" y="58.5" />
+            </edge>
+            <edge source="app.IMatCartProduct" target="app.MainController">
+              <point x="41.125" y="169.5" />
+              <point x="2451.7623005255614" y="2928.0" />
+              <point x="1626.12755414875" y="2928.0" />
+              <point x="142.5" y="-895.5" />
+            </edge>
+            <edge source="app.ProductInfo" target="app.IMatProduct">
+              <point x="-24.583333333333485" y="180.5" />
+              <point x="208.36122272654825" y="2216.0" />
+              <point x="262.5" y="2216.0" />
+              <point x="84.0" y="-236.0" />
+            </edge>
+            <edge source="app.HelpPage" target="app.HelpQuestion">
+              <point x="76.66666666666663" y="-59.5" />
+              <point x="2787.803967192228" y="2226.0" />
+              <point x="2784.803967192228" y="2226.0" />
+              <point x="73.66666666666669" y="70.0" />
+            </edge>
+            <edge source="app.MainController.Sort" target="app.MainController">
+              <point x="30.25" y="47.5" />
+              <point x="2936.8873005255614" y="2988.0" />
+              <point x="1669.9737079949039" y="2988.0" />
+              <point x="186.3461538461538" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutDone" target="app.MainController">
+              <point x="29.875" y="81.5" />
+              <point x="1552.2911283643896" y="1134.0" />
+              <point x="1710.6661283643896" y="1134.0" />
+              <point x="1710.6661283643896" y="2778.0" />
+              <point x="1516.5121695333655" y="2778.0" />
+              <point x="32.88461538461536" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutPayment" target="app.MainController">
+              <point x="96.75" y="268.5" />
+              <point x="1448.455545070871" y="1741.0" />
+              <point x="1411.8326055104314" y="1741.0" />
+              <point x="1411.8326055104314" y="2738.0" />
+              <point x="1479.9737079949039" y="2738.0" />
+              <point x="-3.6538461538462457" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutCost" target="app.MainController.CheckoutState">
+              <point x="-59.75" y="-93.0" />
+              <point x="1520.9161283643896" y="1054.0" />
+              <point x="1283.6221723204335" y="1054.0" />
+              <point x="53.571428571428555" y="58.5" />
+            </edge>
+            <edge source="app.CheckoutInfo" target="app.MyInfoPage">
+              <point x="-70.85714285714289" y="-202.5" />
+              <point x="860.8758747412005" y="1731.0" />
+              <point x="800.6269067526672" y="1731.0" />
+              <point x="800.6269067526672" y="1134.0" />
+              <point x="790.3769067526672" y="1134.0" />
+              <point x="15.75" y="213.5" />
+            </edge>
+            <edge source="app.MyInfoPage" target="app.MainController">
+              <point x="-78.75" y="213.5" />
+              <point x="695.8769067526672" y="1114.0" />
+              <point x="408.61763298295864" y="1114.0" />
+              <point x="408.61763298295864" y="2888.0" />
+              <point x="1370.3583233795189" y="2888.0" />
+              <point x="-113.26923076923106" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutPayment" target="app.UtilityMethods">
+              <point x="0.0" y="-268.5" />
+              <point x="1351.705545070871" y="1134.0" />
+              <point x="1381.4161283643896" y="1134.0" />
+              <point x="1381.4161283643896" y="547.0" />
+              <point x="653.998585363911" y="547.0" />
+              <point x="115.41666666666663" y="103.0" />
+            </edge>
+            <edge source="app.MainController.States" target="app.MainController">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="895.5" />
+            </edge>
+            <edge source="app.MainController" target="app.IMatCategoryElement">
+              <point x="157.11538461538464" y="-895.5" />
+              <point x="1640.7429387641346" y="2948.0" />
+              <point x="2585.6373005255614" y="2948.0" />
+              <point x="2585.6373005255614" y="577.0" />
+              <point x="1805.2614516642777" y="577.0" />
+              <point x="140.40000000000015" y="82.0" />
+            </edge>
+            <edge source="app.OverviewCartProduct" target="app.MainController">
+              <point x="-132.75" y="169.5" />
+              <point x="477.9830175983434" y="2226.0" />
+              <point x="526.354928730689" y="2226.0" />
+              <point x="526.354928730689" y="2858.0" />
+              <point x="1392.281400302596" y="2858.0" />
+              <point x="-91.3461538461541" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutCost" target="app.MainController">
+              <point x="29.875" y="93.0" />
+              <point x="1610.5411283643896" y="2758.0" />
+              <point x="1501.8967849179808" y="2758.0" />
+              <point x="18.269230769230717" y="-895.5" />
+            </edge>
+            <edge source="app.CheckoutOverview" target="app.OverviewCartProduct">
+              <point x="-114.16666666666652" y="-92.5" />
+              <point x="935.9234937888198" y="2216.0" />
+              <point x="654.9830175983434" y="2216.0" />
+              <point x="44.25" y="169.5" />
+            </edge>
+            <edge source="app.CheckoutOverview" target="app.MainController">
+              <point x="34.25" y="92.5" />
+              <point x="1084.3401604554863" y="2798.0" />
+              <point x="1436.1275541487498" y="2798.0" />
+              <point x="-47.50000000000017" y="-895.5" />
+            </edge>
+            <edge source="app.PreviousPurchasesPage" target="app.PreviousCartElement">
+              <point x="87.0" y="-137.0" />
+              <point x="2011.396897595159" y="2226.0" />
+              <point x="1979.437300525561" y="2226.0" />
+              <point x="-70.20000000000005" y="136.5" />
+            </edge>
+            <edge source="app.MainController" target="app.UtilityMethods.Categories">
+              <point x="-186.34615384615427" y="-895.5" />
+              <point x="1297.2814003025958" y="2988.0" />
+              <point x="0.0" y="2988.0" />
+              <point x="0.0" y="296.0" />
+              <point x="422.3319186972444" y="296.0" />
+              <point x="-47.0" y="135.5" />
+            </edge>
+            <edge source="app.IMatProduct" target="app.UtilityMethods">
+              <point x="-140.0" y="-236.0" />
+              <point x="38.5" y="2226.0" />
+              <point x="63.944556059881506" y="2226.0" />
+              <point x="63.944556059881506" y="567.0" />
+              <point x="423.1652520305778" y="567.0" />
+              <point x="-115.41666666666663" y="103.0" />
+            </edge>
+            <edge source="app.CheckoutInfo" target="app.UtilityMethods">
+              <point x="-106.28571428571422" y="-202.5" />
+              <point x="825.4473033126292" y="1741.0" />
+              <point x="638.1269067526672" y="1741.0" />
+              <point x="638.1269067526672" y="587.0" />
+              <point x="561.6652520305777" y="587.0" />
+              <point x="23.083333333333258" y="103.0" />
+            </edge>
+            <edge source="app.CheckoutOverview" target="app.CheckoutInfo">
+              <point x="22.833333333333258" y="-92.5" />
+              <point x="1072.9234937888195" y="2186.0" />
+              <point x="1024.7330175983434" y="2186.0" />
+              <point x="93.0" y="202.5" />
+            </edge>
+            <edge source="app.CheckoutInfo" target="app.MainController">
+              <point x="-31.0" y="202.5" />
+              <point x="900.7330175983434" y="2828.0" />
+              <point x="1414.204477225673" y="2828.0" />
+              <point x="-69.42307692307713" y="-895.5" />
+            </edge>
+            <edge source="app.MainController" target="app.MainController.CheckoutState">
+              <point x="-32.88461538461553" y="-895.5" />
+              <point x="1450.7429387641346" y="2778.0" />
+              <point x="1197.5901604554863" y="2778.0" />
+              <point x="1197.5901604554863" y="1114.0" />
+              <point x="1212.193600891862" y="1114.0" />
+              <point x="-17.857142857142833" y="58.5" />
+            </edge>
+            <edge source="app.MyInfoPage" target="app.UtilityMethods">
+              <point x="0.0" y="-213.5" />
+              <point x="774.6269067526672" y="577.0" />
+              <point x="607.8319186972444" y="577.0" />
+              <point x="69.25" y="103.0" />
+            </edge>
+            <edge source="app.CheckoutOverview" target="app.IMatCategoryElement">
+              <point x="68.5" y="-92.5" />
+              <point x="1118.5901604554863" y="2226.0" />
+              <point x="1125.2440066093325" y="2226.0" />
+              <point x="1125.2440066093325" y="567.0" />
+              <point x="1555.6614516642778" y="567.0" />
+              <point x="-109.19999999999982" y="82.0" />
+            </edge>
+            <edge source="app.IMatProduct" target="app.ProductInfo">
+              <point x="-28.0" y="-236.0" />
+              <point x="150.5" y="2226.0" />
+              <point x="110.02788939321522" y="2226.0" />
+              <point x="-122.91666666666652" y="180.5" />
+            </edge>
+            <edge source="app.MainController" target="app.PreviousCartElement">
+              <point x="98.65384615384619" y="-895.5" />
+              <point x="1582.2814003025962" y="2868.0" />
+              <point x="2108.8968975951593" y="2868.0" />
+              <point x="2108.8968975951593" y="2226.0" />
+              <point x="2049.6373005255614" y="2226.0" />
+              <point x="0.0" y="136.5" />
+            </edge>
+            <edge source="app.PreviousCartElement" target="app.MainController">
+              <point x="70.20000000000005" y="136.5" />
+              <point x="2119.837300525561" y="2226.0" />
+              <point x="2143.8246695333655" y="2226.0" />
+              <point x="2143.8246695333655" y="2878.0" />
+              <point x="1589.5890926102884" y="2878.0" />
+              <point x="105.96153846153845" y="-895.5" />
+            </edge>
+            <edge source="app.MainController" target="app.CheckoutOverview">
+              <point x="-54.80769230769249" y="-895.5" />
+              <point x="1428.8198618410574" y="2808.0" />
+              <point x="1015.8401604554863" y="2808.0" />
+              <point x="-34.25" y="92.5" />
+            </edge>
+            <edge source="app.MainController" target="app.HelpPage">
+              <point x="171.73076923076923" y="-895.5" />
+              <point x="1655.3583233795193" y="2968.0" />
+              <point x="2768.6373005255614" y="2968.0" />
+              <point x="57.5" y="59.5" />
+            </edge>
+            <edge source="app.ProductInfo" target="app.MainController">
+              <point x="73.75" y="180.5" />
+              <point x="306.69455605988173" y="2196.0" />
+              <point x="379.38686375218936" y="2196.0" />
+              <point x="379.38686375218936" y="2928.0" />
+              <point x="1341.1275541487498" y="2928.0" />
+              <point x="-142.50000000000034" y="-895.5" />
+            </edge>
+            <edge source="app.MainController" target="app.IMatProduct">
+              <point x="-179.03846153846195" y="-895.5" />
+              <point x="1304.5890926102882" y="2978.0" />
+              <point x="44.09999999999991" y="2978.0" />
+              <point x="-134.4000000000001" y="236.0" />
+            </edge>
+            <edge source="app.MainController" target="app.CheckoutCost">
+              <point x="10.961538461538396" y="-895.5" />
+              <point x="1494.5890926102884" y="2748.0" />
+              <point x="1550.7911283643896" y="2748.0" />
+              <point x="-29.875" y="93.0" />
+            </edge>
+            <edge source="app.CheckoutInfo" target="app.IMatCategoryElement">
+              <point x="0.0" y="-202.5" />
+              <point x="931.7330175983434" y="1711.0" />
+              <point x="976.6826871317083" y="1711.0" />
+              <point x="976.6826871317083" y="557.0" />
+              <point x="1524.4614516642775" y="557.0" />
+              <point x="-140.4000000000001" y="82.0" />
+            </edge>
+            <edge source="app.MainController" target="app.MyInfoPage">
+              <point x="-120.57692307692338" y="-895.5" />
+              <point x="1363.0506310718267" y="2898.0" />
+              <point x="401.3099406752664" y="2898.0" />
+              <point x="401.3099406752664" y="1104.0" />
+              <point x="664.3769067526672" y="1104.0" />
+              <point x="-110.25" y="213.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="426.9999999999999" y="1905.0" />
+          <SelectedNodes>
+            <node>app.IMatCartProduct</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+          <folding>
+            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="107" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7830">
-          <caret line="305" column="86" lean-forward="false" selection-start-line="305" selection-start-column="86" selection-end-line="305" selection-end-column="86" />
-          <folding />
+        <state relative-caret-position="169">
+          <caret line="432" column="73" lean-forward="false" selection-start-line="432" selection-start-column="73" selection-end-line="432" selection-end-column="73" />
+          <folding>
+            <element signature="e#22845#22846#0" expanded="true" />
+            <element signature="e#22871#22872#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

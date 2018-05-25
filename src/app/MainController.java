@@ -430,9 +430,9 @@ public class MainController implements Initializable {
     }
 
     public void updateCC(){
-        cc.getProductCostLabel().setText("" + shoppingCart.getTotal());
+        cc.getProductCostLabel().setText((double) Math.round(shoppingCart.getTotal() * 100) / 100 + " kr");
         double total = shoppingCart.getTotal() + 50;
-        cc.getTotalCostLabel().setText("" + total);
+        cc.getTotalCostLabel().setText((double) Math.round(total * 100) / 100 + " kr");
         cc.nextButton.setText("Nästa");
     }
 
