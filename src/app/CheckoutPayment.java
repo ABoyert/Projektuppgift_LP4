@@ -160,4 +160,9 @@ public class CheckoutPayment extends AnchorPane {
         textAreaList.add(cardYear);
         textAreaList.add(cardNumber);
     }
+
+    @FXML
+    public void goBack() {
+        parentController.checkoutOverview.placeOrder();
+    }
 }

@@ -30,12 +30,12 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="135.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Rabbatt:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="135.0">
+                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="135.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Rabatt:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="135.0">
                      <font>
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="78.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Frakttillägg:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="78.0">
+                  <Label alignment="CENTER_RIGHT" layoutX="19.0" layoutY="78.0" prefHeight="40.0" prefWidth="162.0" styleClass="font_28" stylesheets="@main_style.css" text="Frakt:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="78.0">
                      <font>
                         <Font size="16.0" />
                      </font>
