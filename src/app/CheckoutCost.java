@@ -30,6 +30,7 @@ public class CheckoutCost extends AnchorPane {
 
         this.parentController = parentController;
         nextButton.setText("Nästa");
+        parentController.nextButton = nextButton;
         //productCost = parentController.cartTotal;
 
 
@@ -60,17 +61,17 @@ public class CheckoutCost extends AnchorPane {
             System.out.println("TO STEP TWO");
             nextButton.setText("Nästa");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.INFO)) {
-            parentController.checkoutOverview.infoPage.saveInfo();
+            parentController.checkoutOverview.infoPage.saveInfo(nextButton);
             //clearFocus();
             //parentController.paymentSteps.get(2).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
-            nextButton.setText("Betala");
+            //nextButton.setText("Betala");
             System.out.println("TO STEP 3");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.PAYMENT)) {
             parentController.checkoutOverview.infoPage.cp.saveInfo();
             //clearFocus();
             //parentController.paymentSteps.get(3).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
             System.out.println("TO STEP 4");
-            nextButton.setText("Tillbaka till butiken");
+            //nextButton.setText("Tillbaka till butiken");
         } else if (parentController.checkoutState.equals(MainController.CheckoutState.DONE)) {
             parentController.shopButtonPressed();
             clearFocus();

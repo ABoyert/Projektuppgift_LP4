@@ -25,6 +25,7 @@ public class MainController implements Initializable {
     MyInfoPage infoPage;
     CheckoutOverview checkoutOverview;
     PreviousPurchasesPage prevPage;
+    Button nextButton;
 
     private Map<String, IMatProduct> productItemMap = new HashMap<String, IMatProduct>();
     List<Product> currentProducts;

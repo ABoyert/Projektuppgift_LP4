@@ -150,6 +150,7 @@ public class CheckoutPayment extends AnchorPane {
             c.setStyle("");
         }
         parentController.paymentSteps.get(3).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+        parentController.nextButton.setText("Tillbaka till butiken");
     }
 
     private void fillTextAreaList() {

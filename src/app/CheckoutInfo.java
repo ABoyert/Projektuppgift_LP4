@@ -2,6 +2,7 @@ package app;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.AnchorPane;
 import sun.applet.Main;
@@ -56,7 +57,7 @@ public class CheckoutInfo extends AnchorPane {
     }
 
     @FXML
-    public void saveInfo() {
+    public void saveInfo(Button b) {
         verifyInfo();
 
         if (isAllInfoEntered("") && isAllInfoEntered("OGILTIG INFORMATION!")) {
@@ -69,6 +70,7 @@ public class CheckoutInfo extends AnchorPane {
                 c.setStyle("");
             }
             parentController.paymentSteps.get(2).setStyle("-fx-background-color: #e3a24c ; -fx-border-width: 2px ;-fx-font-weight: bold");
+            b.setText("Betala");
         } else if (!isAllInfoEntered("")){
             infoPage.showErrorPopup("Kontrollera så att alla fälten innehåller korrekt information!");
         }
