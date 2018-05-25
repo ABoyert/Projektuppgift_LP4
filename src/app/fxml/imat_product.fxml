@@ -13,7 +13,7 @@
 
     <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="265.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
         <children>
-            <ImageView fx:id="productImage" fitHeight="145.0" fitWidth="145.0" pickOnBounds="true" AnchorPane.bottomAnchor="232.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="0.0">
+            <ImageView fx:id="productImage" fitHeight="145.0" fitWidth="145.0" onMouseClicked="#showMoreInfo" pickOnBounds="true" AnchorPane.bottomAnchor="232.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="0.0">
                 <image>
                     <Image url="@../../../Chalmers/Design%20och%20konstruktion/Lab%203/Lab2/RecipeSearch/src/recipesearch/resources/icon_close_hover.png" />
                 </image>

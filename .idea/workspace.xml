@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/myInformationCheckOutElement.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/overviewCheckoutElement.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/overviewCheckoutElement.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/paymentMethodCheckOut.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/paymentMethodCheckOut.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fxml/imat_product.fxml" afterPath="$PROJECT_DIR$/src/app/fxml/imat_product.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +30,20 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="289">
-                <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+                <caret line="17" column="91" lean-forward="true" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilityMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,9 +63,11 @@
       <file leaf-file-name="helpPageSingleQuestionElement.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1527171026857" expanded="true" signature="2041:2053" ph="..." />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
@@ -99,14 +108,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutPayment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/CheckoutPayment.java">
+      <file leaf-file-name="IMatCategoryElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="131" column="4" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
-              <folding>
-                <element signature="method#verifyInfo#0;class#CheckoutPayment#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,21 +121,13 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3638">
-              <caret line="237" column="37" lean-forward="false" selection-start-line="237" selection-start-column="37" selection-end-line="237" selection-end-column="37" />
+            <state relative-caret-position="7480">
+              <caret line="489" column="22" lean-forward="false" selection-start-line="489" selection-start-column="22" selection-end-line="489" selection-end-column="22" />
               <folding>
-                <marker date="1527168760832" expanded="true" signature="20963:20969" ph="{...}" />
+                <element signature="e#11850#11851#0" expanded="true" />
+                <element signature="e#11891#11892#0" expanded="true" />
+                <marker date="1527171626066" expanded="true" signature="21137:21143" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMatCategoryElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -167,9 +166,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/app/cartOverviewElement.fxml" />
         <option value="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
-        <option value="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
         <option value="$PROJECT_DIR$/src/app/MyInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
         <option value="$PROJECT_DIR$/src/app/PreviousPurchasesPage.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/singleProductElement.fxml" />
         <option value="$PROJECT_DIR$/src/app/IMatProduct.java" />
@@ -177,13 +174,15 @@
         <option value="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutCost.java" />
-        <option value="$PROJECT_DIR$/src/app/MainController.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutDone.java" />
         <option value="$PROJECT_DIR$/src/app/HelpQuestion.java" />
         <option value="$PROJECT_DIR$/src/app/HelpPage.java" />
         <option value="$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
+        <option value="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
+        <option value="$PROJECT_DIR$/src/app/MainController.java" />
       </list>
     </option>
   </component>
@@ -214,9 +213,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +242,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +393,8 @@
       <workItem from="1527066051001" duration="5937000" />
       <workItem from="1527150872852" duration="12873000" />
       <workItem from="1527164890514" duration="5275000" />
-      <workItem from="1527170492482" duration="507000" />
+      <workItem from="1527170492482" duration="1479000" />
+      <workItem from="1527236943157" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="checkout showing products from cart">
       <created>1526393280309</created>
@@ -620,11 +620,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527170212610</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="removed buttons">
+      <created>1527171017133</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1527171017133</updated>
+    </task>
+    <task id="LOCAL-00034" summary="empty sales category added">
+      <created>1527171669632</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1527171669632</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50003000" />
+    <option name="totallyTimeSpent" value="51135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -644,14 +658,14 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -698,8 +712,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cart overview fixed" />
-    <MESSAGE value="category button pressed method" />
     <MESSAGE value="fixed names" />
     <MESSAGE value="removed second imat fxml" />
     <MESSAGE value="fixed error handling my info" />
@@ -723,7 +735,9 @@
     <MESSAGE value="direktbetalning fixad" />
     <MESSAGE value="sorterta efter pris bättre feedback" />
     <MESSAGE value="questions added on help" />
-    <option name="LAST_COMMIT_MESSAGE" value="questions added on help" />
+    <MESSAGE value="removed buttons" />
+    <MESSAGE value="empty sales category added" />
+    <option name="LAST_COMMIT_MESSAGE" value="empty sales category added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,7 +759,9 @@
         <state relative-caret-position="7089">
           <caret line="417" column="24" lean-forward="true" selection-start-line="417" selection-start-column="24" selection-end-line="417" selection-end-column="24" />
           <folding>
-            <marker date="1527168760832" expanded="true" signature="20963:20969" ph="{...}" />
+            <element signature="e#11850#11851#0" expanded="true" />
+            <element signature="e#11891#11892#0" expanded="true" />
+            <marker date="1527171626066" expanded="true" signature="21137:21143" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -866,7 +882,9 @@
         <state relative-caret-position="1768">
           <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding>
-            <marker date="1527168760832" expanded="true" signature="20963:20969" ph="{...}" />
+            <element signature="e#11850#11851#0" expanded="true" />
+            <element signature="e#11891#11892#0" expanded="true" />
+            <marker date="1527171626066" expanded="true" signature="21137:21143" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -884,7 +902,9 @@
         <state relative-caret-position="5627">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
           <folding>
-            <marker date="1527168760832" expanded="true" signature="20963:20969" ph="{...}" />
+            <element signature="e#11850#11851#0" expanded="true" />
+            <element signature="e#11891#11892#0" expanded="true" />
+            <marker date="1527171626066" expanded="true" signature="21137:21143" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -931,7 +951,9 @@
         <state relative-caret-position="5355">
           <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
           <folding>
-            <marker date="1527168760832" expanded="true" signature="20963:20969" ph="{...}" />
+            <element signature="e#11850#11851#0" expanded="true" />
+            <element signature="e#11891#11892#0" expanded="true" />
+            <marker date="1527171626066" expanded="true" signature="21137:21143" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -977,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,14 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1064,24 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3638">
-          <caret line="237" column="37" lean-forward="false" selection-start-line="237" selection-start-column="37" selection-end-line="237" selection-end-column="37" />
-          <folding>
-            <marker date="1527168760832" expanded="true" signature="20963:20969" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutPayment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
@@ -1139,20 +1134,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1527171026857" expanded="true" signature="2041:2053" ph="..." />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7480">
+          <caret line="489" column="22" lean-forward="false" selection-start-line="489" selection-start-column="22" selection-end-line="489" selection-end-column="22" />
+          <folding>
+            <element signature="e#11850#11851#0" expanded="true" />
+            <element signature="e#11891#11892#0" expanded="true" />
+            <marker date="1527171626066" expanded="true" signature="21137:21143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="289">
-            <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+            <caret line="17" column="91" lean-forward="true" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
             <folding />
           </first_editor>
           <second_editor />
