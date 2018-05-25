@@ -68,4 +68,9 @@ public class CheckoutOverview extends AnchorPane {
             }
         }
     }
+
+    @FXML
+    public void backToStore() {
+        parentController.shopButtonPressed();
+    }
 }

@@ -140,4 +140,9 @@ public class CheckoutInfo extends AnchorPane {
         textAreaList.add(myDetailsZIPCode);
         textAreaList.add(myDetailsCity);
     }
+
+    @FXML
+    public void backToStore() {
+        parentController.shopButtonPressed();
+    }
 }
