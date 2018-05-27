@@ -632,6 +632,9 @@ public class MainController implements Initializable {
         if (s.contains("May")) {
             s = s.replaceAll("(?i)\\bMay\\b", "MAJ");
         }
+        if (s.contains("Sun")) {
+            s = s.replaceAll("(?i)\\bSun\\b", "SÖN");
+        }
 
         System.out.println(s);
 

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c82feb-4ee6-4f6b-9e11-15b28ec7a880" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MainController.java" afterPath="$PROJECT_DIR$/src/app/MainController.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/fxml/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/fxml/main_style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,480 +16,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckoutCost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="432" column="73" lean-forward="false" selection-start-line="432" selection-start-column="73" selection-end-line="432" selection-end-column="73" />
-              <folding>
-                <element signature="e#22845#22846#0" expanded="true" />
-                <element signature="e#22871#22872#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="327">
+              <caret line="635" column="53" lean-forward="true" selection-start-line="635" selection-start-column="53" selection-end-line="635" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imat_cart_product.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml">
+      <file leaf-file-name="MyInfoPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="629">
+              <caret line="49" column="58" selection-start-line="44" selection-start-column="8" selection-end-line="49" selection-end-column="58" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="UtilityMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckoutInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/CheckoutInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1819">
+              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colorscheme_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/fxml/colorscheme_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviousCartElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/PreviousCartElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1711#1712#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="IMatCartProduct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="37" column="107" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OverviewCartProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+            <state relative-caret-position="544">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="47" />
               <folding>
-                <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+                <element signature="e#2337#2338#0" expanded="true" />
+                <element signature="e#2407#2408#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/app" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/app">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>app</OriginalElement>
-              <nodes>
-                <node x="2246.1373005255614" y="2312.5">app.IMatCartProduct</node>
-                <node x="1293.62755414875" y="3008.0">app.MainController</node>
-                <node x="2846.1373005255614" y="2434.5">app.MainController.Sort</node>
-                <node x="2600.6373005255614" y="1893.5">app.HelpQuestion</node>
-                <node x="1167.5507437490048" y="762.0">app.MainController.CheckoutState</node>
-                <node x="433.7330175983434" y="1794.0">app.OverviewCartProduct</node>
-                <node x="398.8319186972444" y="0.0">app.UtilityMethods.Categories</node>
-                <node x="3012.1373005255614" y="0.0">app.iMat</node>
-                <node x="1461.1661283643896" y="2389.0">app.CheckoutCost</node>
-                <node x="1417.12755414875" y="4849.0">app.MainController.States</node>
-                <node x="807.7330175983434" y="1761.0">app.CheckoutInfo</node>
-                <node x="2596.1373005255614" y="2422.5">app.HelpPage</node>
-                <node x="913.0901604554863" y="2389.5">app.CheckoutOverview</node>
-                <node x="1222.705545070871" y="1154.0">app.CheckoutPayment</node>
-                <node x="85.44455605988173" y="1783.0">app.ProductInfo</node>
-                <node x="648.6269067526672" y="607.0">app.MyInfoPage</node>
-                <node x="1508.8614516642776" y="342.0">app.IMatCategoryElement</node>
-                <node x="3226.1373005255614" y="0.0">app.fxml</node>
-                <node x="1750.396897595159" y="2345.0">app.PreviousPurchasesPage</node>
-                <node x="400.0819186972444" y="321.0">app.UtilityMethods</node>
-                <node x="1874.1373005255614" y="1827.0">app.PreviousCartElement</node>
-                <node x="1402.9161283643896" y="739.0">app.CheckoutDone</node>
-                <node x="10.5" y="2246.0">app.IMatProduct</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="app.MainController" target="app.PreviousPurchasesPage">
-                  <point x="76.73076923076923" y="-895.5" />
-                  <point x="1560.3583233795193" y="2838.0" />
-                  <point x="1880.896897595159" y="2838.0" />
-                  <point x="-43.5" y="137.0" />
-                </edge>
-                <edge source="app.UtilityMethods.Categories" target="app.UtilityMethods">
-                  <point x="47.0" y="135.5" />
-                  <point x="516.3319186972444" y="296.0" />
-                  <point x="607.8319186972444" y="296.0" />
-                  <point x="69.25" y="-103.0" />
-                </edge>
-                <edge source="app.PreviousPurchasesPage" target="app.MainController">
-                  <point x="43.5" y="137.0" />
-                  <point x="1967.896897595159" y="2848.0" />
-                  <point x="1567.6660156872117" y="2848.0" />
-                  <point x="84.03846153846155" y="-895.5" />
-                </edge>
-                <edge source="app.MainController" target="app.MainController.Sort">
-                  <point x="179.03846153846155" y="-895.5" />
-                  <point x="1662.6660156872117" y="2978.0" />
-                  <point x="2876.3873005255614" y="2978.0" />
-                  <point x="-30.25" y="47.5" />
-                </edge>
-                <edge source="app.MainController" target="app.IMatCartProduct">
-                  <point x="135.19230769230768" y="-895.5" />
-                  <point x="1618.8198618410577" y="2918.0" />
-                  <point x="2369.5123005255614" y="2918.0" />
-                  <point x="-41.125" y="169.5" />
-                </edge>
-                <edge source="app.CheckoutPayment" target="app.IMatCategoryElement">
-                  <point x="36.85714285714289" y="-268.5" />
-                  <point x="1388.562687928014" y="1134.0" />
-                  <point x="1392.4161283643896" y="1134.0" />
-                  <point x="1392.4161283643896" y="577.0" />
-                  <point x="1586.8614516642776" y="577.0" />
-                  <point x="-78.0" y="82.0" />
-                </edge>
-                <edge source="app.IMatCategoryElement" target="app.MainController">
-                  <point x="109.19999999999987" y="82.0" />
-                  <point x="1774.0614516642775" y="587.0" />
-                  <point x="2235.6373005255614" y="587.0" />
-                  <point x="2235.6373005255614" y="2898.0" />
-                  <point x="1604.2044772256731" y="2898.0" />
-                  <point x="120.5769230769231" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutCost" target="app.IMatCategoryElement">
-                  <point x="59.75" y="-93.0" />
-                  <point x="1640.4161283643896" y="2226.0" />
-                  <point x="1652.4161283643896" y="2226.0" />
-                  <point x="1652.4161283643896" y="587.0" />
-                  <point x="1649.2614516642777" y="587.0" />
-                  <point x="-15.599999999999909" y="82.0" />
-                </edge>
-                <edge source="app.CheckoutInfo" target="app.CheckoutPayment">
-                  <point x="70.85714285714289" y="-202.5" />
-                  <point x="1002.5901604554863" y="1731.0" />
-                  <point x="1254.955545070871" y="1731.0" />
-                  <point x="-96.75" y="268.5" />
-                </edge>
-                <edge source="app.MainController" target="app.UtilityMethods">
-                  <point x="-127.8846153846157" y="-895.5" />
-                  <point x="1355.7429387641344" y="2908.0" />
-                  <point x="394.002248367574" y="2908.0" />
-                  <point x="394.002248367574" y="587.0" />
-                  <point x="515.498585363911" y="587.0" />
-                  <point x="-23.08333333333337" y="103.0" />
-                </edge>
-                <edge source="app.CheckoutDone" target="app.IMatCategoryElement">
-                  <point x="0.0" y="-81.5" />
-                  <point x="1522.4161283643896" y="587.0" />
-                  <point x="1618.0614516642775" y="587.0" />
-                  <point x="-46.80000000000018" y="82.0" />
-                </edge>
-                <edge source="app.UtilityMethods" target="app.UtilityMethods.Categories">
-                  <point x="-69.25" y="-103.0" />
-                  <point x="0.0" y="135.5" />
-                </edge>
-                <edge source="app.IMatProduct" target="app.MainController">
-                  <point x="134.4000000000001" y="236.0" />
-                  <point x="312.9000000000001" y="2938.0" />
-                  <point x="1333.8198618410574" y="2938.0" />
-                  <point x="-149.80769230769266" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutPayment" target="app.CheckoutDone">
-                  <point x="73.71428571428567" y="-268.5" />
-                  <point x="1425.4198307851566" y="1134.0" />
-                  <point x="1432.7911283643896" y="1134.0" />
-                  <point x="-89.625" y="81.5" />
-                </edge>
-                <edge source="app.CheckoutPayment" target="app.MyInfoPage">
-                  <point x="-73.71428571428578" y="-268.5" />
-                  <point x="1277.9912593565853" y="1074.0" />
-                  <point x="884.8769067526672" y="1074.0" />
-                  <point x="110.25" y="213.5" />
-                </edge>
-                <edge source="app.CheckoutPayment" target="app.MainController.CheckoutState">
-                  <point x="-36.85714285714289" y="-268.5" />
-                  <point x="1314.8484022137281" y="1064.0" />
-                  <point x="1265.7650294632906" y="1064.0" />
-                  <point x="35.71428571428572" y="58.5" />
-                </edge>
-                <edge source="app.CheckoutInfo" target="app.MainController.CheckoutState">
-                  <point x="35.42857142857156" y="-202.5" />
-                  <point x="967.161589026915" y="1721.0" />
-                  <point x="1053.8026915113871" y="1721.0" />
-                  <point x="1053.8026915113871" y="1094.0" />
-                  <point x="1176.4793151775764" y="1094.0" />
-                  <point x="-53.571428571428555" y="58.5" />
-                </edge>
-                <edge source="app.MainController.CheckoutState" target="app.MainController">
-                  <point x="17.85714285714289" y="58.5" />
-                  <point x="1247.9078866061477" y="1134.0" />
-                  <point x="1212.205545070871" y="1134.0" />
-                  <point x="1212.205545070871" y="2758.0" />
-                  <point x="1465.358323379519" y="2758.0" />
-                  <point x="-18.269230769230887" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutOverview" target="app.MainController.CheckoutState">
-                  <point x="114.16666666666652" y="-92.5" />
-                  <point x="1164.2568271221528" y="2226.0" />
-                  <point x="1146.9234937888195" y="2226.0" />
-                  <point x="1146.9234937888195" y="1104.0" />
-                  <point x="1194.3364580347193" y="1104.0" />
-                  <point x="-35.71428571428572" y="58.5" />
-                </edge>
-                <edge source="app.IMatCartProduct" target="app.MainController">
-                  <point x="41.125" y="169.5" />
-                  <point x="2451.7623005255614" y="2928.0" />
-                  <point x="1626.12755414875" y="2928.0" />
-                  <point x="142.5" y="-895.5" />
-                </edge>
-                <edge source="app.ProductInfo" target="app.IMatProduct">
-                  <point x="-24.583333333333485" y="180.5" />
-                  <point x="208.36122272654825" y="2216.0" />
-                  <point x="262.5" y="2216.0" />
-                  <point x="84.0" y="-236.0" />
-                </edge>
-                <edge source="app.HelpPage" target="app.HelpQuestion">
-                  <point x="76.66666666666663" y="-59.5" />
-                  <point x="2787.803967192228" y="2226.0" />
-                  <point x="2784.803967192228" y="2226.0" />
-                  <point x="73.66666666666669" y="70.0" />
-                </edge>
-                <edge source="app.MainController.Sort" target="app.MainController">
-                  <point x="30.25" y="47.5" />
-                  <point x="2936.8873005255614" y="2988.0" />
-                  <point x="1669.9737079949039" y="2988.0" />
-                  <point x="186.3461538461538" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutDone" target="app.MainController">
-                  <point x="29.875" y="81.5" />
-                  <point x="1552.2911283643896" y="1134.0" />
-                  <point x="1710.6661283643896" y="1134.0" />
-                  <point x="1710.6661283643896" y="2778.0" />
-                  <point x="1516.5121695333655" y="2778.0" />
-                  <point x="32.88461538461536" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutPayment" target="app.MainController">
-                  <point x="96.75" y="268.5" />
-                  <point x="1448.455545070871" y="1741.0" />
-                  <point x="1411.8326055104314" y="1741.0" />
-                  <point x="1411.8326055104314" y="2738.0" />
-                  <point x="1479.9737079949039" y="2738.0" />
-                  <point x="-3.6538461538462457" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutCost" target="app.MainController.CheckoutState">
-                  <point x="-59.75" y="-93.0" />
-                  <point x="1520.9161283643896" y="1054.0" />
-                  <point x="1283.6221723204335" y="1054.0" />
-                  <point x="53.571428571428555" y="58.5" />
-                </edge>
-                <edge source="app.CheckoutInfo" target="app.MyInfoPage">
-                  <point x="-70.85714285714289" y="-202.5" />
-                  <point x="860.8758747412005" y="1731.0" />
-                  <point x="800.6269067526672" y="1731.0" />
-                  <point x="800.6269067526672" y="1134.0" />
-                  <point x="790.3769067526672" y="1134.0" />
-                  <point x="15.75" y="213.5" />
-                </edge>
-                <edge source="app.MyInfoPage" target="app.MainController">
-                  <point x="-78.75" y="213.5" />
-                  <point x="695.8769067526672" y="1114.0" />
-                  <point x="408.61763298295864" y="1114.0" />
-                  <point x="408.61763298295864" y="2888.0" />
-                  <point x="1370.3583233795189" y="2888.0" />
-                  <point x="-113.26923076923106" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutPayment" target="app.UtilityMethods">
-                  <point x="0.0" y="-268.5" />
-                  <point x="1351.705545070871" y="1134.0" />
-                  <point x="1381.4161283643896" y="1134.0" />
-                  <point x="1381.4161283643896" y="547.0" />
-                  <point x="653.998585363911" y="547.0" />
-                  <point x="115.41666666666663" y="103.0" />
-                </edge>
-                <edge source="app.MainController.States" target="app.MainController">
-                  <point x="0.0" y="-58.5" />
-                  <point x="0.0" y="895.5" />
-                </edge>
-                <edge source="app.MainController" target="app.IMatCategoryElement">
-                  <point x="157.11538461538464" y="-895.5" />
-                  <point x="1640.7429387641346" y="2948.0" />
-                  <point x="2585.6373005255614" y="2948.0" />
-                  <point x="2585.6373005255614" y="577.0" />
-                  <point x="1805.2614516642777" y="577.0" />
-                  <point x="140.40000000000015" y="82.0" />
-                </edge>
-                <edge source="app.OverviewCartProduct" target="app.MainController">
-                  <point x="-132.75" y="169.5" />
-                  <point x="477.9830175983434" y="2226.0" />
-                  <point x="526.354928730689" y="2226.0" />
-                  <point x="526.354928730689" y="2858.0" />
-                  <point x="1392.281400302596" y="2858.0" />
-                  <point x="-91.3461538461541" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutCost" target="app.MainController">
-                  <point x="29.875" y="93.0" />
-                  <point x="1610.5411283643896" y="2758.0" />
-                  <point x="1501.8967849179808" y="2758.0" />
-                  <point x="18.269230769230717" y="-895.5" />
-                </edge>
-                <edge source="app.CheckoutOverview" target="app.OverviewCartProduct">
-                  <point x="-114.16666666666652" y="-92.5" />
-                  <point x="935.9234937888198" y="2216.0" />
-                  <point x="654.9830175983434" y="2216.0" />
-                  <point x="44.25" y="169.5" />
-                </edge>
-                <edge source="app.CheckoutOverview" target="app.MainController">
-                  <point x="34.25" y="92.5" />
-                  <point x="1084.3401604554863" y="2798.0" />
-                  <point x="1436.1275541487498" y="2798.0" />
-                  <point x="-47.50000000000017" y="-895.5" />
-                </edge>
-                <edge source="app.PreviousPurchasesPage" target="app.PreviousCartElement">
-                  <point x="87.0" y="-137.0" />
-                  <point x="2011.396897595159" y="2226.0" />
-                  <point x="1979.437300525561" y="2226.0" />
-                  <point x="-70.20000000000005" y="136.5" />
-                </edge>
-                <edge source="app.MainController" target="app.UtilityMethods.Categories">
-                  <point x="-186.34615384615427" y="-895.5" />
-                  <point x="1297.2814003025958" y="2988.0" />
-                  <point x="0.0" y="2988.0" />
-                  <point x="0.0" y="296.0" />
-                  <point x="422.3319186972444" y="296.0" />
-                  <point x="-47.0" y="135.5" />
-                </edge>
-                <edge source="app.IMatProduct" target="app.UtilityMethods">
-                  <point x="-140.0" y="-236.0" />
-                  <point x="38.5" y="2226.0" />
-                  <point x="63.944556059881506" y="2226.0" />
-                  <point x="63.944556059881506" y="567.0" />
-                  <point x="423.1652520305778" y="567.0" />
-                  <point x="-115.41666666666663" y="103.0" />
-                </edge>
-                <edge source="app.CheckoutInfo" target="app.UtilityMethods">
-                  <point x="-106.28571428571422" y="-202.5" />
-                  <point x="825.4473033126292" y="1741.0" />
-                  <point x="638.1269067526672" y="1741.0" />
-                  <point x="638.1269067526672" y="587.0" />
-                  <point x="561.6652520305777" y="587.0" />
-                  <point x="23.083333333333258" y="103.0" />
-                </edge>
-                <edge source="app.CheckoutOverview" target="app.CheckoutInfo">
-                  <point x="22.833333333333258" y="-92.5" />
-                  <point x="1072.9234937888195" y="2186.0" />
-                  <point x="1024.7330175983434" y="2186.0" />
-                  <point x="93.0" y="202.5" />
-                </edge>
-                <edge source="app.CheckoutInfo" target="app.MainController">
-                  <point x="-31.0" y="202.5" />
-                  <point x="900.7330175983434" y="2828.0" />
-                  <point x="1414.204477225673" y="2828.0" />
-                  <point x="-69.42307692307713" y="-895.5" />
-                </edge>
-                <edge source="app.MainController" target="app.MainController.CheckoutState">
-                  <point x="-32.88461538461553" y="-895.5" />
-                  <point x="1450.7429387641346" y="2778.0" />
-                  <point x="1197.5901604554863" y="2778.0" />
-                  <point x="1197.5901604554863" y="1114.0" />
-                  <point x="1212.193600891862" y="1114.0" />
-                  <point x="-17.857142857142833" y="58.5" />
-                </edge>
-                <edge source="app.MyInfoPage" target="app.UtilityMethods">
-                  <point x="0.0" y="-213.5" />
-                  <point x="774.6269067526672" y="577.0" />
-                  <point x="607.8319186972444" y="577.0" />
-                  <point x="69.25" y="103.0" />
-                </edge>
-                <edge source="app.CheckoutOverview" target="app.IMatCategoryElement">
-                  <point x="68.5" y="-92.5" />
-                  <point x="1118.5901604554863" y="2226.0" />
-                  <point x="1125.2440066093325" y="2226.0" />
-                  <point x="1125.2440066093325" y="567.0" />
-                  <point x="1555.6614516642778" y="567.0" />
-                  <point x="-109.19999999999982" y="82.0" />
-                </edge>
-                <edge source="app.IMatProduct" target="app.ProductInfo">
-                  <point x="-28.0" y="-236.0" />
-                  <point x="150.5" y="2226.0" />
-                  <point x="110.02788939321522" y="2226.0" />
-                  <point x="-122.91666666666652" y="180.5" />
-                </edge>
-                <edge source="app.MainController" target="app.PreviousCartElement">
-                  <point x="98.65384615384619" y="-895.5" />
-                  <point x="1582.2814003025962" y="2868.0" />
-                  <point x="2108.8968975951593" y="2868.0" />
-                  <point x="2108.8968975951593" y="2226.0" />
-                  <point x="2049.6373005255614" y="2226.0" />
-                  <point x="0.0" y="136.5" />
-                </edge>
-                <edge source="app.PreviousCartElement" target="app.MainController">
-                  <point x="70.20000000000005" y="136.5" />
-                  <point x="2119.837300525561" y="2226.0" />
-                  <point x="2143.8246695333655" y="2226.0" />
-                  <point x="2143.8246695333655" y="2878.0" />
-                  <point x="1589.5890926102884" y="2878.0" />
-                  <point x="105.96153846153845" y="-895.5" />
-                </edge>
-                <edge source="app.MainController" target="app.CheckoutOverview">
-                  <point x="-54.80769230769249" y="-895.5" />
-                  <point x="1428.8198618410574" y="2808.0" />
-                  <point x="1015.8401604554863" y="2808.0" />
-                  <point x="-34.25" y="92.5" />
-                </edge>
-                <edge source="app.MainController" target="app.HelpPage">
-                  <point x="171.73076923076923" y="-895.5" />
-                  <point x="1655.3583233795193" y="2968.0" />
-                  <point x="2768.6373005255614" y="2968.0" />
-                  <point x="57.5" y="59.5" />
-                </edge>
-                <edge source="app.ProductInfo" target="app.MainController">
-                  <point x="73.75" y="180.5" />
-                  <point x="306.69455605988173" y="2196.0" />
-                  <point x="379.38686375218936" y="2196.0" />
-                  <point x="379.38686375218936" y="2928.0" />
-                  <point x="1341.1275541487498" y="2928.0" />
-                  <point x="-142.50000000000034" y="-895.5" />
-                </edge>
-                <edge source="app.MainController" target="app.IMatProduct">
-                  <point x="-179.03846153846195" y="-895.5" />
-                  <point x="1304.5890926102882" y="2978.0" />
-                  <point x="44.09999999999991" y="2978.0" />
-                  <point x="-134.4000000000001" y="236.0" />
-                </edge>
-                <edge source="app.MainController" target="app.CheckoutCost">
-                  <point x="10.961538461538396" y="-895.5" />
-                  <point x="1494.5890926102884" y="2748.0" />
-                  <point x="1550.7911283643896" y="2748.0" />
-                  <point x="-29.875" y="93.0" />
-                </edge>
-                <edge source="app.CheckoutInfo" target="app.IMatCategoryElement">
-                  <point x="0.0" y="-202.5" />
-                  <point x="931.7330175983434" y="1711.0" />
-                  <point x="976.6826871317083" y="1711.0" />
-                  <point x="976.6826871317083" y="557.0" />
-                  <point x="1524.4614516642775" y="557.0" />
-                  <point x="-140.4000000000001" y="82.0" />
-                </edge>
-                <edge source="app.MainController" target="app.MyInfoPage">
-                  <point x="-120.57692307692338" y="-895.5" />
-                  <point x="1363.0506310718267" y="2898.0" />
-                  <point x="401.3099406752664" y="2898.0" />
-                  <point x="401.3099406752664" y="1104.0" />
-                  <point x="664.3769067526672" y="1104.0" />
-                  <point x="-110.25" y="213.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="426.9999999999999" y="1905.0" />
-              <SelectedNodes>
-                <node>app.IMatCartProduct</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="PreviousPurchasesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMatCategoryElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -497,54 +120,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>updateC</find>
-      <find>my</find>
-      <find>goT</find>
-      <find>1.</find>
-      <find>sort</find>
-      <find>goToKassa</find>
-      <find>info</find>
-      <find>categoryP</find>
-      <find>tot</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/cartOverviewElement.fxml" />
+        <option value="$PROJECT_DIR$/src/app/PreviousCartElement.java" />
         <option value="$PROJECT_DIR$/src/app/PreviousPurchasesPage.java" />
-        <option value="$PROJECT_DIR$/src/app/fxml/singleProductElement.fxml" />
-        <option value="$PROJECT_DIR$/src/app/IMatProduct.java" />
-        <option value="$PROJECT_DIR$/src/app/ProductInfo.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutDone.java" />
-        <option value="$PROJECT_DIR$/src/app/HelpQuestion.java" />
-        <option value="$PROJECT_DIR$/src/app/HelpPage.java" />
-        <option value="$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml" />
-        <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
-        <option value="$PROJECT_DIR$/src/app/iMat.java" />
-        <option value="$PROJECT_DIR$/src/app/OverviewCartProduct.java" />
         <option value="$PROJECT_DIR$/src/app/MyInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutCost.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutOverview.java" />
         <option value="$PROJECT_DIR$/src/app/CheckoutInfo.java" />
-        <option value="$PROJECT_DIR$/src/app/CheckoutPayment.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/app/IMatCategoryElement.java" />
+        <option value="$PROJECT_DIR$/src/app/UtilityMethods.java" />
+        <option value="$PROJECT_DIR$/src/app/fxml/main_style.css" />
+        <option value="$PROJECT_DIR$/src/app/fxml/colorscheme_style.css" />
         <option value="$PROJECT_DIR$/src/app/MainController.java" />
       </list>
     </option>
@@ -555,27 +148,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -605,126 +192,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pontus\IdeaProjects\Projektuppgift_LP4\src\app\fxml" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -738,31 +219,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.iMat">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+    </configuration>
+    <configuration name="iMat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.iMat" />
+      <module name="Projektuppgift_LP4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -772,30 +244,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -808,45 +263,20 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration name="iMat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="app.iMat" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Projektuppgift_LP4" />
-      <envs />
-    </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.iMat" />
+      <list>
+        <item itemvalue="Application.iMat" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -859,430 +289,129 @@
       <option name="presentableId" value="Default" />
       <updated>1526389767609</updated>
       <workItem from="1526389769468" duration="513000" />
-      <workItem from="1526390367984" duration="2941000" />
-      <workItem from="1526469538113" duration="7636000" />
-      <workItem from="1526631501592" duration="3216000" />
-      <workItem from="1526890324399" duration="7311000" />
-      <workItem from="1526989643835" duration="3794000" />
-      <workItem from="1527066051001" duration="5937000" />
-      <workItem from="1527150872852" duration="12873000" />
-      <workItem from="1527164890514" duration="5275000" />
-      <workItem from="1527170492482" duration="1479000" />
-      <workItem from="1527236943157" duration="16215000" />
+      <workItem from="1526390367984" duration="2354000" />
+      <workItem from="1526459267981" duration="6121000" />
+      <workItem from="1526553679687" duration="3465000" />
+      <workItem from="1526593284379" duration="8667000" />
+      <workItem from="1527421896159" duration="1266000" />
     </task>
-    <task id="LOCAL-00004" summary="category button pressed method">
-      <created>1526480394130</created>
+    <task id="LOCAL-00001" summary="added fxml files into separate directory">
+      <created>1526459810844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526459810844</updated>
+    </task>
+    <task id="LOCAL-00002" summary="buy in checkout">
+      <created>1526512243669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526512243669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="saving info working">
+      <created>1526556108331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526556108331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tidigare Köp...">
+      <created>1526590680913</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1526480394130</updated>
+      <updated>1526590680913</updated>
     </task>
-    <task id="LOCAL-00005" summary="category button pressed method">
-      <created>1526632924742</created>
+    <task id="LOCAL-00005" summary="Tidigare Köp...">
+      <created>1526634610703</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1526632924742</updated>
+      <updated>1526634610703</updated>
     </task>
-    <task id="LOCAL-00006" summary="fixed names">
-      <created>1526633075504</created>
+    <task id="LOCAL-00006" summary="Tidigare Köp Element">
+      <created>1526639776666</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1526633075504</updated>
+      <updated>1526639776666</updated>
     </task>
-    <task id="LOCAL-00007" summary="removed second imat fxml">
-      <created>1526633555518</created>
+    <task id="LOCAL-00007" summary="Tidigare Köp Element Recent fixad">
+      <created>1526640227813</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1526633555518</updated>
+      <updated>1526640227813</updated>
     </task>
-    <task id="LOCAL-00008" summary="fixed error handling my info">
-      <created>1526634612382</created>
+    <task id="LOCAL-00008" summary="Tidigare Köp Element Recent fixad fixad igen">
+      <created>1526640334054</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1526634612382</updated>
+      <updated>1526640334054</updated>
     </task>
-    <task id="LOCAL-00009" summary="sort button changed">
-      <created>1526981345188</created>
+    <task id="LOCAL-00009" summary="Only integers or letters">
+      <created>1526824169321</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1526981345188</updated>
+      <updated>1526824169321</updated>
     </task>
-    <task id="LOCAL-00010" summary="sort button changed">
-      <created>1526981853442</created>
+    <task id="LOCAL-00010" summary="Only integers or letters, checkout included">
+      <created>1526825803734</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1526981853442</updated>
+      <updated>1526825803734</updated>
     </task>
-    <task id="LOCAL-00011" summary="åäö working">
-      <created>1526988820972</created>
+    <task id="LOCAL-00011" summary="Only integers or letters, checkout included">
+      <created>1526843338593</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1526988820972</updated>
+      <updated>1526843338593</updated>
     </task>
-    <task id="LOCAL-00012" summary="category order changed">
-      <created>1527080027378</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1527080027378</updated>
-    </task>
-    <task id="LOCAL-00013" summary="pliancy on sort buttons">
-      <created>1527080496012</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1527080496012</updated>
-    </task>
-    <task id="LOCAL-00014" summary="can place order">
-      <created>1527081199529</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1527081199529</updated>
-    </task>
-    <task id="LOCAL-00015" summary="???">
-      <created>1527081845158</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1527081845158</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ADDED TODO">
-      <created>1527083468123</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1527083468123</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ADDED TODO">
-      <created>1527083775461</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1527083775461</updated>
-    </task>
-    <task id="LOCAL-00018" summary="checkout payment not allowing illegal characters">
-      <created>1527151290613</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1527151290613</updated>
-    </task>
-    <task id="LOCAL-00019" summary="more info working">
-      <created>1527154669212</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1527154669212</updated>
-    </task>
-    <task id="LOCAL-00020" summary="bigger + and -">
-      <created>1527155415870</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1527155415870</updated>
-    </task>
-    <task id="LOCAL-00021" summary="order ID">
-      <created>1527156511205</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1527156511205</updated>
-    </task>
-    <task id="LOCAL-00022" summary="done page looks better">
-      <created>1527156922738</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1527156922738</updated>
-    </task>
-    <task id="LOCAL-00023" summary="done page better looking">
-      <created>1527160057804</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1527160057804</updated>
-    </task>
-    <task id="LOCAL-00024" summary="nästa-button working">
-      <created>1527163244673</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1527163244673</updated>
-    </task>
-    <task id="LOCAL-00025" summary="nästa-button working">
-      <created>1527163492464</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1527163492464</updated>
-    </task>
-    <task id="LOCAL-00026" summary="can reset program">
-      <created>1527164225695</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1527164225695</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fixed?">
-      <created>1527165283024</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1527165283025</updated>
-    </task>
-    <task id="LOCAL-00028" summary="fixed?">
-      <created>1527165852400</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1527165852400</updated>
-    </task>
-    <task id="LOCAL-00029" summary="highlights steps in checkout">
-      <created>1527167883308</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1527167883308</updated>
-    </task>
-    <task id="LOCAL-00030" summary="direktbetalning fixad">
-      <created>1527168235582</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1527168235582</updated>
-    </task>
-    <task id="LOCAL-00031" summary="sorterta efter pris bättre feedback">
-      <created>1527168860181</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1527168860181</updated>
-    </task>
-    <task id="LOCAL-00032" summary="questions added on help">
-      <created>1527170212610</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1527170212610</updated>
-    </task>
-    <task id="LOCAL-00033" summary="removed buttons">
-      <created>1527171017133</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1527171017133</updated>
-    </task>
-    <task id="LOCAL-00034" summary="empty sales category added">
-      <created>1527171669632</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1527171669632</updated>
-    </task>
-    <task id="LOCAL-00035" summary="can now click on picture">
-      <created>1527237144646</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1527237144646</updated>
-    </task>
-    <task id="LOCAL-00036" summary="highlight i kassa">
-      <created>1527240043306</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1527240043306</updated>
-    </task>
-    <task id="LOCAL-00037" summary="försvinner från översikt">
-      <created>1527241713088</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1527241713088</updated>
-    </task>
-    <task id="LOCAL-00038" summary="highlight i kassa fixed">
-      <created>1527248236883</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1527248236884</updated>
-    </task>
-    <task id="LOCAL-00039" summary="nästa knappen visar betala i betala-steget">
-      <created>1527248431859</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1527248431859</updated>
-    </task>
-    <task id="LOCAL-00040" summary="confirmation on save info">
-      <created>1527249374578</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1527249374578</updated>
-    </task>
-    <task id="LOCAL-00041" summary="nästa button">
-      <created>1527249665675</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1527249665675</updated>
-    </task>
-    <task id="LOCAL-00042" summary="pliancy on visa and mastercard">
-      <created>1527249894687</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1527249894687</updated>
-    </task>
-    <task id="LOCAL-00043" summary="text on next button fixed">
-      <created>1527250777069</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1527250777069</updated>
-    </task>
-    <task id="LOCAL-00044" summary="tillbaka-knappar fixade">
-      <created>1527251287616</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1527251287616</updated>
-    </task>
-    <task id="LOCAL-00045" summary="info tillbaka fungerar">
-      <created>1527251822836</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1527251822836</updated>
-    </task>
-    <task id="LOCAL-00046" summary="tillbaka working">
-      <created>1527252389953</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1527252389953</updated>
-    </task>
-    <task id="LOCAL-00047" summary="readme  update">
-      <created>1527252972917</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1527252972917</updated>
-    </task>
-    <task id="LOCAL-00048" summary="design">
-      <created>1527254382499</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1527254382499</updated>
-    </task>
-    <task id="LOCAL-00049" summary="design">
-      <created>1527255182788</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1527255182788</updated>
-    </task>
-    <task id="LOCAL-00050" summary="design">
-      <created>1527256291869</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1527256291870</updated>
-    </task>
-    <task id="LOCAL-00051" summary="fixfix">
-      <created>1527257325115</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1527257325115</updated>
-    </task>
-    <task id="LOCAL-00052" summary="helpp text">
-      <created>1527257438443</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1527257438443</updated>
-    </task>
-    <option name="localTasksCounter" value="53" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67190000" />
+    <option name="totallyTimeSpent" value="27294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33163783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026042" side_tool="true" visible="true" weight="0.32946146" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49739584" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1390625" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="simpleUML" order="2" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1291,196 +420,220 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nästa-button working" />
-    <MESSAGE value="can reset program" />
-    <MESSAGE value="fixed?" />
-    <MESSAGE value="highlights steps in checkout" />
-    <MESSAGE value="direktbetalning fixad" />
-    <MESSAGE value="sorterta efter pris bättre feedback" />
-    <MESSAGE value="questions added on help" />
-    <MESSAGE value="removed buttons" />
-    <MESSAGE value="empty sales category added" />
-    <MESSAGE value="can now click on picture" />
-    <MESSAGE value="highlight i kassa" />
-    <MESSAGE value="försvinner från översikt" />
-    <MESSAGE value="highlight i kassa fixed" />
-    <MESSAGE value="nästa knappen visar betala i betala-steget" />
-    <MESSAGE value="confirmation on save info" />
-    <MESSAGE value="nästa button" />
-    <MESSAGE value="pliancy on visa and mastercard" />
-    <MESSAGE value="text on next button fixed" />
-    <MESSAGE value="tillbaka-knappar fixade" />
-    <MESSAGE value="info tillbaka fungerar" />
-    <MESSAGE value="tillbaka working" />
-    <MESSAGE value="readme  update" />
-    <MESSAGE value="design" />
-    <MESSAGE value="fixfix" />
-    <MESSAGE value="helpp text" />
-    <option name="LAST_COMMIT_MESSAGE" value="helpp text" />
+    <MESSAGE value="added fxml files into separate directory" />
+    <MESSAGE value="buy in checkout" />
+    <MESSAGE value="saving info working" />
+    <MESSAGE value="Tidigare Köp..." />
+    <MESSAGE value="Tidigare Köp Element" />
+    <MESSAGE value="Tidigare Köp Element Recent fixad" />
+    <MESSAGE value="Tidigare Köp Element Recent fixad fixad igen" />
+    <MESSAGE value="Only integers or letters" />
+    <MESSAGE value="Only integers or letters, checkout included" />
+    <option name="LAST_COMMIT_MESSAGE" value="Only integers or letters, checkout included" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="7" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
+    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="774">
+          <caret line="49" column="74" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding />
+        <state>
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/projectbackend.jar!/se/chalmers/cse/dat216/project/IMatDataHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/projectbackend.jar!/se/chalmers/cse/dat216/project/Order.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/stage/Window.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/beans/property/DoublePropertyBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="159">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/javafx-src.zip!/javafx/stage/Window.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/projectbackend.jar!/se/chalmers/cse/dat216/project/ShoppingItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="60" column="78" lean-forward="false" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
-          <folding>
-            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
-          <folding>
-            <element signature="method#saveInfo#0;class#MyInfoPage#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="415">
+          <caret line="472" column="20" lean-forward="true" selection-start-line="472" selection-start-column="20" selection-end-line="472" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="1116">
+          <caret line="62" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="55" column="78" lean-forward="true" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+        <state relative-caret-position="234">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
-            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-          <folding>
-            <element signature="e#22845#22846#0" expanded="true" />
-            <element signature="e#22871#22872#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="7128">
+          <caret line="396" column="9" lean-forward="true" selection-start-line="396" selection-start-column="9" selection-end-line="396" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5627">
+        <state relative-caret-position="5472">
           <caret line="331" column="70" lean-forward="true" selection-start-line="331" selection-start-column="70" selection-end-line="331" selection-end-column="70" />
-          <folding>
-            <element signature="e#22845#22846#0" expanded="true" />
-            <element signature="e#22871#22872#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/cartOverviewElement.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/app/helpPageElement.fxml" />
     <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="936">
           <caret line="63" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
-            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -1489,705 +642,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5355">
-          <caret line="342" column="8" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
-          <folding>
-            <element signature="e#22845#22846#0" expanded="true" />
-            <element signature="e#22871#22872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/helpPageElement.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/app/cartOverviewElement.fxml" />
-    <entry file="jar://$PROJECT_DIR$/lib/projectbackend.jar!/se/chalmers/cse/dat216/project/ShoppingCart.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/colorscheme_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/PreviousCartElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/singleProductElement.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1527256301428" expanded="true" signature="2956:2968" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ProductInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1558#1559#0" expanded="false" />
-            <element signature="e#1629#1630#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/HelpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/HelpQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageElement.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="220" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/helpPageSingleQuestionElement.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1527252994511" expanded="true" signature="2043:2055" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutDone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-          <folding>
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="146" column="44" lean-forward="false" selection-start-line="146" selection-start-column="44" selection-end-line="146" selection-end-column="44" />
-          <folding>
-            <element signature="method#verifyInfo#0;class#CheckoutInfo#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CheckoutPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="165" column="55" lean-forward="false" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
-          <folding>
-            <element signature="method#verifyInfo#0;class#CheckoutPayment#0" expanded="false" />
-            <element signature="e#5847#5848#0" expanded="true" />
-            <element signature="e#5909#5910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">app</node>
-            <node x="" y="">com</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">org</node>
-            <node x="" y="">resources</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">se</node>
-            <node x="" y="">java</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">javafx</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="186.0" y="199.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/app">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>app</OriginalElement>
-          <nodes>
-            <node x="2246.1373005255614" y="2312.5">app.IMatCartProduct</node>
-            <node x="1293.62755414875" y="3008.0">app.MainController</node>
-            <node x="2846.1373005255614" y="2434.5">app.MainController.Sort</node>
-            <node x="2600.6373005255614" y="1893.5">app.HelpQuestion</node>
-            <node x="1167.5507437490048" y="762.0">app.MainController.CheckoutState</node>
-            <node x="433.7330175983434" y="1794.0">app.OverviewCartProduct</node>
-            <node x="398.8319186972444" y="0.0">app.UtilityMethods.Categories</node>
-            <node x="3012.1373005255614" y="0.0">app.iMat</node>
-            <node x="1461.1661283643896" y="2389.0">app.CheckoutCost</node>
-            <node x="1417.12755414875" y="4849.0">app.MainController.States</node>
-            <node x="807.7330175983434" y="1761.0">app.CheckoutInfo</node>
-            <node x="2596.1373005255614" y="2422.5">app.HelpPage</node>
-            <node x="913.0901604554863" y="2389.5">app.CheckoutOverview</node>
-            <node x="1222.705545070871" y="1154.0">app.CheckoutPayment</node>
-            <node x="85.44455605988173" y="1783.0">app.ProductInfo</node>
-            <node x="648.6269067526672" y="607.0">app.MyInfoPage</node>
-            <node x="1508.8614516642776" y="342.0">app.IMatCategoryElement</node>
-            <node x="3226.1373005255614" y="0.0">app.fxml</node>
-            <node x="1750.396897595159" y="2345.0">app.PreviousPurchasesPage</node>
-            <node x="400.0819186972444" y="321.0">app.UtilityMethods</node>
-            <node x="1874.1373005255614" y="1827.0">app.PreviousCartElement</node>
-            <node x="1402.9161283643896" y="739.0">app.CheckoutDone</node>
-            <node x="10.5" y="2246.0">app.IMatProduct</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="app.MainController" target="app.PreviousPurchasesPage">
-              <point x="76.73076923076923" y="-895.5" />
-              <point x="1560.3583233795193" y="2838.0" />
-              <point x="1880.896897595159" y="2838.0" />
-              <point x="-43.5" y="137.0" />
-            </edge>
-            <edge source="app.UtilityMethods.Categories" target="app.UtilityMethods">
-              <point x="47.0" y="135.5" />
-              <point x="516.3319186972444" y="296.0" />
-              <point x="607.8319186972444" y="296.0" />
-              <point x="69.25" y="-103.0" />
-            </edge>
-            <edge source="app.PreviousPurchasesPage" target="app.MainController">
-              <point x="43.5" y="137.0" />
-              <point x="1967.896897595159" y="2848.0" />
-              <point x="1567.6660156872117" y="2848.0" />
-              <point x="84.03846153846155" y="-895.5" />
-            </edge>
-            <edge source="app.MainController" target="app.MainController.Sort">
-              <point x="179.03846153846155" y="-895.5" />
-              <point x="1662.6660156872117" y="2978.0" />
-              <point x="2876.3873005255614" y="2978.0" />
-              <point x="-30.25" y="47.5" />
-            </edge>
-            <edge source="app.MainController" target="app.IMatCartProduct">
-              <point x="135.19230769230768" y="-895.5" />
-              <point x="1618.8198618410577" y="2918.0" />
-              <point x="2369.5123005255614" y="2918.0" />
-              <point x="-41.125" y="169.5" />
-            </edge>
-            <edge source="app.CheckoutPayment" target="app.IMatCategoryElement">
-              <point x="36.85714285714289" y="-268.5" />
-              <point x="1388.562687928014" y="1134.0" />
-              <point x="1392.4161283643896" y="1134.0" />
-              <point x="1392.4161283643896" y="577.0" />
-              <point x="1586.8614516642776" y="577.0" />
-              <point x="-78.0" y="82.0" />
-            </edge>
-            <edge source="app.IMatCategoryElement" target="app.MainController">
-              <point x="109.19999999999987" y="82.0" />
-              <point x="1774.0614516642775" y="587.0" />
-              <point x="2235.6373005255614" y="587.0" />
-              <point x="2235.6373005255614" y="2898.0" />
-              <point x="1604.2044772256731" y="2898.0" />
-              <point x="120.5769230769231" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutCost" target="app.IMatCategoryElement">
-              <point x="59.75" y="-93.0" />
-              <point x="1640.4161283643896" y="2226.0" />
-              <point x="1652.4161283643896" y="2226.0" />
-              <point x="1652.4161283643896" y="587.0" />
-              <point x="1649.2614516642777" y="587.0" />
-              <point x="-15.599999999999909" y="82.0" />
-            </edge>
-            <edge source="app.CheckoutInfo" target="app.CheckoutPayment">
-              <point x="70.85714285714289" y="-202.5" />
-              <point x="1002.5901604554863" y="1731.0" />
-              <point x="1254.955545070871" y="1731.0" />
-              <point x="-96.75" y="268.5" />
-            </edge>
-            <edge source="app.MainController" target="app.UtilityMethods">
-              <point x="-127.8846153846157" y="-895.5" />
-              <point x="1355.7429387641344" y="2908.0" />
-              <point x="394.002248367574" y="2908.0" />
-              <point x="394.002248367574" y="587.0" />
-              <point x="515.498585363911" y="587.0" />
-              <point x="-23.08333333333337" y="103.0" />
-            </edge>
-            <edge source="app.CheckoutDone" target="app.IMatCategoryElement">
-              <point x="0.0" y="-81.5" />
-              <point x="1522.4161283643896" y="587.0" />
-              <point x="1618.0614516642775" y="587.0" />
-              <point x="-46.80000000000018" y="82.0" />
-            </edge>
-            <edge source="app.UtilityMethods" target="app.UtilityMethods.Categories">
-              <point x="-69.25" y="-103.0" />
-              <point x="0.0" y="135.5" />
-            </edge>
-            <edge source="app.IMatProduct" target="app.MainController">
-              <point x="134.4000000000001" y="236.0" />
-              <point x="312.9000000000001" y="2938.0" />
-              <point x="1333.8198618410574" y="2938.0" />
-              <point x="-149.80769230769266" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutPayment" target="app.CheckoutDone">
-              <point x="73.71428571428567" y="-268.5" />
-              <point x="1425.4198307851566" y="1134.0" />
-              <point x="1432.7911283643896" y="1134.0" />
-              <point x="-89.625" y="81.5" />
-            </edge>
-            <edge source="app.CheckoutPayment" target="app.MyInfoPage">
-              <point x="-73.71428571428578" y="-268.5" />
-              <point x="1277.9912593565853" y="1074.0" />
-              <point x="884.8769067526672" y="1074.0" />
-              <point x="110.25" y="213.5" />
-            </edge>
-            <edge source="app.CheckoutPayment" target="app.MainController.CheckoutState">
-              <point x="-36.85714285714289" y="-268.5" />
-              <point x="1314.8484022137281" y="1064.0" />
-              <point x="1265.7650294632906" y="1064.0" />
-              <point x="35.71428571428572" y="58.5" />
-            </edge>
-            <edge source="app.CheckoutInfo" target="app.MainController.CheckoutState">
-              <point x="35.42857142857156" y="-202.5" />
-              <point x="967.161589026915" y="1721.0" />
-              <point x="1053.8026915113871" y="1721.0" />
-              <point x="1053.8026915113871" y="1094.0" />
-              <point x="1176.4793151775764" y="1094.0" />
-              <point x="-53.571428571428555" y="58.5" />
-            </edge>
-            <edge source="app.MainController.CheckoutState" target="app.MainController">
-              <point x="17.85714285714289" y="58.5" />
-              <point x="1247.9078866061477" y="1134.0" />
-              <point x="1212.205545070871" y="1134.0" />
-              <point x="1212.205545070871" y="2758.0" />
-              <point x="1465.358323379519" y="2758.0" />
-              <point x="-18.269230769230887" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutOverview" target="app.MainController.CheckoutState">
-              <point x="114.16666666666652" y="-92.5" />
-              <point x="1164.2568271221528" y="2226.0" />
-              <point x="1146.9234937888195" y="2226.0" />
-              <point x="1146.9234937888195" y="1104.0" />
-              <point x="1194.3364580347193" y="1104.0" />
-              <point x="-35.71428571428572" y="58.5" />
-            </edge>
-            <edge source="app.IMatCartProduct" target="app.MainController">
-              <point x="41.125" y="169.5" />
-              <point x="2451.7623005255614" y="2928.0" />
-              <point x="1626.12755414875" y="2928.0" />
-              <point x="142.5" y="-895.5" />
-            </edge>
-            <edge source="app.ProductInfo" target="app.IMatProduct">
-              <point x="-24.583333333333485" y="180.5" />
-              <point x="208.36122272654825" y="2216.0" />
-              <point x="262.5" y="2216.0" />
-              <point x="84.0" y="-236.0" />
-            </edge>
-            <edge source="app.HelpPage" target="app.HelpQuestion">
-              <point x="76.66666666666663" y="-59.5" />
-              <point x="2787.803967192228" y="2226.0" />
-              <point x="2784.803967192228" y="2226.0" />
-              <point x="73.66666666666669" y="70.0" />
-            </edge>
-            <edge source="app.MainController.Sort" target="app.MainController">
-              <point x="30.25" y="47.5" />
-              <point x="2936.8873005255614" y="2988.0" />
-              <point x="1669.9737079949039" y="2988.0" />
-              <point x="186.3461538461538" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutDone" target="app.MainController">
-              <point x="29.875" y="81.5" />
-              <point x="1552.2911283643896" y="1134.0" />
-              <point x="1710.6661283643896" y="1134.0" />
-              <point x="1710.6661283643896" y="2778.0" />
-              <point x="1516.5121695333655" y="2778.0" />
-              <point x="32.88461538461536" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutPayment" target="app.MainController">
-              <point x="96.75" y="268.5" />
-              <point x="1448.455545070871" y="1741.0" />
-              <point x="1411.8326055104314" y="1741.0" />
-              <point x="1411.8326055104314" y="2738.0" />
-              <point x="1479.9737079949039" y="2738.0" />
-              <point x="-3.6538461538462457" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutCost" target="app.MainController.CheckoutState">
-              <point x="-59.75" y="-93.0" />
-              <point x="1520.9161283643896" y="1054.0" />
-              <point x="1283.6221723204335" y="1054.0" />
-              <point x="53.571428571428555" y="58.5" />
-            </edge>
-            <edge source="app.CheckoutInfo" target="app.MyInfoPage">
-              <point x="-70.85714285714289" y="-202.5" />
-              <point x="860.8758747412005" y="1731.0" />
-              <point x="800.6269067526672" y="1731.0" />
-              <point x="800.6269067526672" y="1134.0" />
-              <point x="790.3769067526672" y="1134.0" />
-              <point x="15.75" y="213.5" />
-            </edge>
-            <edge source="app.MyInfoPage" target="app.MainController">
-              <point x="-78.75" y="213.5" />
-              <point x="695.8769067526672" y="1114.0" />
-              <point x="408.61763298295864" y="1114.0" />
-              <point x="408.61763298295864" y="2888.0" />
-              <point x="1370.3583233795189" y="2888.0" />
-              <point x="-113.26923076923106" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutPayment" target="app.UtilityMethods">
-              <point x="0.0" y="-268.5" />
-              <point x="1351.705545070871" y="1134.0" />
-              <point x="1381.4161283643896" y="1134.0" />
-              <point x="1381.4161283643896" y="547.0" />
-              <point x="653.998585363911" y="547.0" />
-              <point x="115.41666666666663" y="103.0" />
-            </edge>
-            <edge source="app.MainController.States" target="app.MainController">
-              <point x="0.0" y="-58.5" />
-              <point x="0.0" y="895.5" />
-            </edge>
-            <edge source="app.MainController" target="app.IMatCategoryElement">
-              <point x="157.11538461538464" y="-895.5" />
-              <point x="1640.7429387641346" y="2948.0" />
-              <point x="2585.6373005255614" y="2948.0" />
-              <point x="2585.6373005255614" y="577.0" />
-              <point x="1805.2614516642777" y="577.0" />
-              <point x="140.40000000000015" y="82.0" />
-            </edge>
-            <edge source="app.OverviewCartProduct" target="app.MainController">
-              <point x="-132.75" y="169.5" />
-              <point x="477.9830175983434" y="2226.0" />
-              <point x="526.354928730689" y="2226.0" />
-              <point x="526.354928730689" y="2858.0" />
-              <point x="1392.281400302596" y="2858.0" />
-              <point x="-91.3461538461541" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutCost" target="app.MainController">
-              <point x="29.875" y="93.0" />
-              <point x="1610.5411283643896" y="2758.0" />
-              <point x="1501.8967849179808" y="2758.0" />
-              <point x="18.269230769230717" y="-895.5" />
-            </edge>
-            <edge source="app.CheckoutOverview" target="app.OverviewCartProduct">
-              <point x="-114.16666666666652" y="-92.5" />
-              <point x="935.9234937888198" y="2216.0" />
-              <point x="654.9830175983434" y="2216.0" />
-              <point x="44.25" y="169.5" />
-            </edge>
-            <edge source="app.CheckoutOverview" target="app.MainController">
-              <point x="34.25" y="92.5" />
-              <point x="1084.3401604554863" y="2798.0" />
-              <point x="1436.1275541487498" y="2798.0" />
-              <point x="-47.50000000000017" y="-895.5" />
-            </edge>
-            <edge source="app.PreviousPurchasesPage" target="app.PreviousCartElement">
-              <point x="87.0" y="-137.0" />
-              <point x="2011.396897595159" y="2226.0" />
-              <point x="1979.437300525561" y="2226.0" />
-              <point x="-70.20000000000005" y="136.5" />
-            </edge>
-            <edge source="app.MainController" target="app.UtilityMethods.Categories">
-              <point x="-186.34615384615427" y="-895.5" />
-              <point x="1297.2814003025958" y="2988.0" />
-              <point x="0.0" y="2988.0" />
-              <point x="0.0" y="296.0" />
-              <point x="422.3319186972444" y="296.0" />
-              <point x="-47.0" y="135.5" />
-            </edge>
-            <edge source="app.IMatProduct" target="app.UtilityMethods">
-              <point x="-140.0" y="-236.0" />
-              <point x="38.5" y="2226.0" />
-              <point x="63.944556059881506" y="2226.0" />
-              <point x="63.944556059881506" y="567.0" />
-              <point x="423.1652520305778" y="567.0" />
-              <point x="-115.41666666666663" y="103.0" />
-            </edge>
-            <edge source="app.CheckoutInfo" target="app.UtilityMethods">
-              <point x="-106.28571428571422" y="-202.5" />
-              <point x="825.4473033126292" y="1741.0" />
-              <point x="638.1269067526672" y="1741.0" />
-              <point x="638.1269067526672" y="587.0" />
-              <point x="561.6652520305777" y="587.0" />
-              <point x="23.083333333333258" y="103.0" />
-            </edge>
-            <edge source="app.CheckoutOverview" target="app.CheckoutInfo">
-              <point x="22.833333333333258" y="-92.5" />
-              <point x="1072.9234937888195" y="2186.0" />
-              <point x="1024.7330175983434" y="2186.0" />
-              <point x="93.0" y="202.5" />
-            </edge>
-            <edge source="app.CheckoutInfo" target="app.MainController">
-              <point x="-31.0" y="202.5" />
-              <point x="900.7330175983434" y="2828.0" />
-              <point x="1414.204477225673" y="2828.0" />
-              <point x="-69.42307692307713" y="-895.5" />
-            </edge>
-            <edge source="app.MainController" target="app.MainController.CheckoutState">
-              <point x="-32.88461538461553" y="-895.5" />
-              <point x="1450.7429387641346" y="2778.0" />
-              <point x="1197.5901604554863" y="2778.0" />
-              <point x="1197.5901604554863" y="1114.0" />
-              <point x="1212.193600891862" y="1114.0" />
-              <point x="-17.857142857142833" y="58.5" />
-            </edge>
-            <edge source="app.MyInfoPage" target="app.UtilityMethods">
-              <point x="0.0" y="-213.5" />
-              <point x="774.6269067526672" y="577.0" />
-              <point x="607.8319186972444" y="577.0" />
-              <point x="69.25" y="103.0" />
-            </edge>
-            <edge source="app.CheckoutOverview" target="app.IMatCategoryElement">
-              <point x="68.5" y="-92.5" />
-              <point x="1118.5901604554863" y="2226.0" />
-              <point x="1125.2440066093325" y="2226.0" />
-              <point x="1125.2440066093325" y="567.0" />
-              <point x="1555.6614516642778" y="567.0" />
-              <point x="-109.19999999999982" y="82.0" />
-            </edge>
-            <edge source="app.IMatProduct" target="app.ProductInfo">
-              <point x="-28.0" y="-236.0" />
-              <point x="150.5" y="2226.0" />
-              <point x="110.02788939321522" y="2226.0" />
-              <point x="-122.91666666666652" y="180.5" />
-            </edge>
-            <edge source="app.MainController" target="app.PreviousCartElement">
-              <point x="98.65384615384619" y="-895.5" />
-              <point x="1582.2814003025962" y="2868.0" />
-              <point x="2108.8968975951593" y="2868.0" />
-              <point x="2108.8968975951593" y="2226.0" />
-              <point x="2049.6373005255614" y="2226.0" />
-              <point x="0.0" y="136.5" />
-            </edge>
-            <edge source="app.PreviousCartElement" target="app.MainController">
-              <point x="70.20000000000005" y="136.5" />
-              <point x="2119.837300525561" y="2226.0" />
-              <point x="2143.8246695333655" y="2226.0" />
-              <point x="2143.8246695333655" y="2878.0" />
-              <point x="1589.5890926102884" y="2878.0" />
-              <point x="105.96153846153845" y="-895.5" />
-            </edge>
-            <edge source="app.MainController" target="app.CheckoutOverview">
-              <point x="-54.80769230769249" y="-895.5" />
-              <point x="1428.8198618410574" y="2808.0" />
-              <point x="1015.8401604554863" y="2808.0" />
-              <point x="-34.25" y="92.5" />
-            </edge>
-            <edge source="app.MainController" target="app.HelpPage">
-              <point x="171.73076923076923" y="-895.5" />
-              <point x="1655.3583233795193" y="2968.0" />
-              <point x="2768.6373005255614" y="2968.0" />
-              <point x="57.5" y="59.5" />
-            </edge>
-            <edge source="app.ProductInfo" target="app.MainController">
-              <point x="73.75" y="180.5" />
-              <point x="306.69455605988173" y="2196.0" />
-              <point x="379.38686375218936" y="2196.0" />
-              <point x="379.38686375218936" y="2928.0" />
-              <point x="1341.1275541487498" y="2928.0" />
-              <point x="-142.50000000000034" y="-895.5" />
-            </edge>
-            <edge source="app.MainController" target="app.IMatProduct">
-              <point x="-179.03846153846195" y="-895.5" />
-              <point x="1304.5890926102882" y="2978.0" />
-              <point x="44.09999999999991" y="2978.0" />
-              <point x="-134.4000000000001" y="236.0" />
-            </edge>
-            <edge source="app.MainController" target="app.CheckoutCost">
-              <point x="10.961538461538396" y="-895.5" />
-              <point x="1494.5890926102884" y="2748.0" />
-              <point x="1550.7911283643896" y="2748.0" />
-              <point x="-29.875" y="93.0" />
-            </edge>
-            <edge source="app.CheckoutInfo" target="app.IMatCategoryElement">
-              <point x="0.0" y="-202.5" />
-              <point x="931.7330175983434" y="1711.0" />
-              <point x="976.6826871317083" y="1711.0" />
-              <point x="976.6826871317083" y="557.0" />
-              <point x="1524.4614516642775" y="557.0" />
-              <point x="-140.4000000000001" y="82.0" />
-            </edge>
-            <edge source="app.MainController" target="app.MyInfoPage">
-              <point x="-120.57692307692338" y="-895.5" />
-              <point x="1363.0506310718267" y="2898.0" />
-              <point x="401.3099406752664" y="2898.0" />
-              <point x="401.3099406752664" y="1104.0" />
-              <point x="664.3769067526672" y="1104.0" />
-              <point x="-110.25" y="213.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="426.9999999999999" y="1905.0" />
-          <SelectedNodes>
-            <node>app.IMatCartProduct</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
-          <folding>
-            <marker date="1527241604227" expanded="true" signature="3422:3428" ph="{...}" />
-          </folding>
+          <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/CheckoutCost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
+        <state>
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/fxml/imat_cart_product.fxml">
+    <entry file="file://$PROJECT_DIR$/src/app/iMat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state>
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutOverview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/OverviewCartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/projectbackend.jar!/se/chalmers/cse/dat216/project/IMatDataHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/projectbackend.jar!/se/chalmers/cse/dat216/project/Order.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/stage/Window.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/beans/property/DoublePropertyBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/app/IMatCategoryElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/IMatCartProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="107" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="107" />
-          <folding />
+        <state relative-caret-position="544">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2407#2408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/PreviousCartElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/PreviousPurchasesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CheckoutInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MyInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="49" column="58" selection-start-line="44" selection-start-column="8" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/UtilityMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fxml/main_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/fxml/colorscheme_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="432" column="73" lean-forward="false" selection-start-line="432" selection-start-column="73" selection-end-line="432" selection-end-column="73" />
-          <folding>
-            <element signature="e#22845#22846#0" expanded="true" />
-            <element signature="e#22871#22872#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="327">
+          <caret line="635" column="53" lean-forward="true" selection-start-line="635" selection-start-column="53" selection-end-line="635" selection-end-column="53" />
         </state>
       </provider>
     </entry>

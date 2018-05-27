@@ -38,3 +38,8 @@
     -fx-opacity: 0.7;
 }
 
+.clicked-category{
+    -fx-background-color: #F9AF4D;
+    -fx-opacity: 0.7 ;
+}
+

@@ -91,6 +91,12 @@
     -fx-background-color: #C5C5C5;
     -fx-font-size: 27px;
 }
+
+.category:focused{
+    -fx-background-color: #7aba7a;
+    -fx-font-size: 29;
+    -fx-font-weight: bold;
+}
 /*----------Lightbox---------------------*/
 .video_LighBox{
     -fx-background-color: rgba(0, 0, 0, 0.85)
