@@ -126,6 +126,8 @@ public class MyInfoPage extends AnchorPane {
     }
 
     public boolean isAlpha(String s) {
+        s = s.replace(" ", "");
+
         char[] chars = s.toCharArray();
 
         for (char c : chars) {
