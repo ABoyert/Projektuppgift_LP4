@@ -17,10 +17,14 @@
                <Font size="16.0" />
             </font>
          </Label>
-         <Label fx:id="productInfo" layoutX="304.0" layoutY="116.0" prefHeight="178.0" prefWidth="410.0" styleClass="font_14" stylesheets="@main_style.css" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
+         <Label fx:id="productInfo" layoutX="304.0" layoutY="116.0" prefHeight="178.0" prefWidth="410.0" styleClass="font_18" stylesheets="@main_style.css" text="Info Info Info Info Info Info Info Info Info Info Info InfoInfo Info Info InfoInfo Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info Info" wrapText="true" />
          <Button layoutX="14.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#removeItem" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="-" />
          <Button layoutX="174.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#addItem" prefHeight="54.0" prefWidth="94.0" styleClass="border" stylesheets="@main_style.css" text="+" />
-         <Label fx:id="productAmount" alignment="CENTER" layoutX="109.0" layoutY="405.0" prefHeight="54.0" prefWidth="65.0" styleClass="border" stylesheets="@main_style.css" text="99 st" />
+         <Label fx:id="productAmount" alignment="CENTER" layoutX="109.0" layoutY="405.0" prefHeight="54.0" prefWidth="65.0" stylesheets="@main_style.css" text="99 st">
+            <styleClass>
+               <String fx:value="border" />
+               <String fx:value="font_18" />
+            </styleClass></Label>
          <Button layoutX="266.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#addToCart" prefHeight="54.0" prefWidth="294.0" styleClass="border" stylesheets="@main_style.css" text="Lägg till i kundvagn" />
          <Label fx:id="productPrice" layoutX="20.0" layoutY="339.0" prefHeight="63.0" prefWidth="402.0" styleClass="font_34" text="Label">
             <font>
